@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 25
-// Last updated: 2026-08-15 23:29:42
+// Total modules: 26
+// Last updated: 2026-08-15 23:29:45
 
 module.exports = [
   {
@@ -325,6 +325,19 @@ module.exports = [
       "static-analysis",
       "typescript",
       "format"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Prettier",
+    "description": "An opinionated code formatter that supports JavaScript, TypeScript, CSS, and many other languages",
+    "usage": "npx prettier --write .",
+    "tags": [
+      "format",
+      "prettify",
+      "code-style",
+      "opinionated",
+      "automation"
     ],
     "category": "Dev Tool"
   }

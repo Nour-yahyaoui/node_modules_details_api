@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 25 |
+| Total Libraries | 26 |
 | Categories | Database, Dev Tool, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -51,6 +51,7 @@ This repository contains a growing collection of **Node.js library documentation
 | PDFKit | Utility | A PDF generation library for Node.js that supports text, ima... |
 | Pg | Database | A PostgreSQL client for Node.js with connection pooling, pre... |
 | Playwright | Testing/Tool | A browser automation library that supports Chromium, Firefox... |
+| Prettier | Dev Tool | An opinionated code formatter that supports JavaScript, Type... |
 | Prisma | ORM/Database | A next-generation ORM with type-safe queries, migrations, an... |
 | Puppeteer | Testing/Tool | A headless Chrome browser automation library that allows con... |
 | Redis | Database | A complete Redis client for Node.js with clustering, Lua scr... |
