@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 26 |
-| Categories | CLI/Tool, Database, Dev Tool, ORM/Database, Testing/Tool, Utility, Web Framework |
+| Total Libraries | 27 |
+| Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -41,6 +41,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | PDFKit | Utility | PDF generation library with support for text, images, vector... |
 | PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
+| Pino | Logging | Fast and low-overhead JSON logging with log rotation and nat... |
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
