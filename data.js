@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 12
-// Last updated: 2026-08-16 00:30:18
+// Total modules: 13
+// Last updated: 2026-08-16 00:30:23
 
 module.exports = [
   {
@@ -144,6 +144,18 @@ module.exports = [
       "browser",
       "headless",
       "testing"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Playwright",
+    "description": "Browser automation supporting Chromium, Firefox, and WebKit with auto-waiting and modern testing features",
+    "usage": "const { chromium } = require('playwright'); const browser = await chromium.launch(); const page = await browser.newPage();",
+    "tags": [
+      "automation",
+      "browser",
+      "testing",
+      "cross-browser"
     ],
     "category": "Testing/Tool"
   }
