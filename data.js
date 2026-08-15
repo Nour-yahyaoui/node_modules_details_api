@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 15
-// Last updated: 2026-08-15 23:29:08
+// Total modules: 16
+// Last updated: 2026-08-15 23:29:11
 
 module.exports = [
   {
@@ -195,6 +195,19 @@ module.exports = [
       "resize",
       "filter",
       "editing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Sharp",
+    "description": "A high-performance image processing library for Node.js that supports resizing, cropping, and format conversion",
+    "usage": "const sharp = require('sharp'); await sharp('input.jpg').resize(300, 300).toFile('output.jpg');",
+    "tags": [
+      "image",
+      "processing",
+      "high-performance",
+      "resize",
+      "conversion"
     ],
     "category": "Utility"
   }
