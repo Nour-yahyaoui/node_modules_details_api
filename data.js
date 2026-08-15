@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 10
-// Last updated: 2026-08-15 23:28:49
+// Total modules: 11
+// Last updated: 2026-08-15 23:28:53
 
 module.exports = [
   {
@@ -130,6 +130,19 @@ module.exports = [
       "embedded",
       "driver",
       "persistent"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Pg",
+    "description": "A PostgreSQL client for Node.js with connection pooling, prepared statements, and binary parsing",
+    "usage": "const { Client } = require('pg'); const client = new Client({ user: 'user', host: 'localhost', database: 'mydb', password: 'pass', port: 5432 }); await client.connect(); const res = await client.query('SELECT * FROM users');",
+    "tags": [
+      "postgresql",
+      "database",
+      "driver",
+      "pool",
+      "sql"
     ],
     "category": "Database"
   }
