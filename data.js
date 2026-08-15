@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 12
-// Last updated: 2026-08-15 23:01:15
+// Total modules: 13
+// Last updated: 2026-08-15 23:01:18
 
 module.exports = [
   {
@@ -158,5 +158,18 @@ module.exports = [
       "debug"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Helmet",
+    "description": "A security middleware that sets various HTTP headers to protect Express applications from well-known web vulnerabilities",
+    "usage": "const helmet = require('helmet'); app.use(helmet());",
+    "tags": [
+      "security",
+      "headers",
+      "middleware",
+      "protection",
+      "helmet"
+    ],
+    "category": "Security"
   }
 ];
