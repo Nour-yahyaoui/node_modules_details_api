@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 14
-// Last updated: 2026-08-15 23:01:21
+// Total modules: 15
+// Last updated: 2026-08-15 23:01:24
 
 module.exports = [
   {
@@ -184,5 +184,18 @@ module.exports = [
       "bandwidth"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Body-parser",
+    "description": "A middleware that parses incoming request bodies in a middleware before handlers, available under the req.body property",
+    "usage": "const bodyParser = require('body-parser'); app.use(bodyParser.json()); app.use(bodyParser.urlencoded({ extended: true }));",
+    "tags": [
+      "parse",
+      "body",
+      "json",
+      "urlencoded",
+      "middleware"
+    ],
+    "category": "Utility"
   }
 ];
