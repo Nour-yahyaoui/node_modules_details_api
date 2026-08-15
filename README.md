@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 13 |
+| Total Libraries | 14 |
 | Categories | Database, Dev Tool, ORM/Database, Testing/Tool, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -27,6 +27,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
+| Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
