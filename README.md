@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 3 |
+| Total Libraries | 4 |
 | Categories | Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -37,3 +37,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify | Web Framework | A fast and low-overhead web framework for Node.js with built... |
 | Hapi | Web Framework | A rich framework for building applications and services with... |
 | Koa | Web Framework | A modern web framework designed by the team behind Express w... |
+| NestJS | Web Framework | A progressive Node.js framework for building efficient, reli... |

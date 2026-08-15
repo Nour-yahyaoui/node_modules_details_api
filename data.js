@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 3
-// Last updated: 2026-08-15 23:28:19
+// Total modules: 4
+// Last updated: 2026-08-15 23:28:22
 
 module.exports = [
   {
@@ -39,6 +39,19 @@ module.exports = [
       "configuration",
       "enterprise",
       "http"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "NestJS",
+    "description": "A progressive Node.js framework for building efficient, reliable, and scalable server-side applications using TypeScript",
+    "usage": "import { Controller, Get } from '@nestjs/common'; @Controller() export class AppController { @Get() getHello(): string { return 'Hello World'; } }",
+    "tags": [
+      "typescript",
+      "framework",
+      "enterprise",
+      "decorators",
+      "modular"
     ],
     "category": "Web Framework"
   }
