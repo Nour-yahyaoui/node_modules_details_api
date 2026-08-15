@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 28 |
+| Total Libraries | 29 |
 | Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -47,6 +47,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
+| Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
