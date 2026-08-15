@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 30 |
-| Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Testing/Tool, Utility, Web Framework |
+| Total Libraries | 1 |
+| Categories | HTTP Client |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -26,33 +26,4 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Library | Category | Description |
 |---------|----------|-------------|
-| Chai | Testing/Tool | BDD assertion library with expect, should, and assert interf... |
-| Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
-| ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
-| ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
-| Hapi | Web Framework | Rich framework for building applications with configuration-... |
-| Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
-| Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
-| Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
-| Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
-| Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
-| MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
-| MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
-| NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
-| Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
-| PDFKit | Utility | PDF generation library with support for text, images, vector... |
-| PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
-| Pino | Logging | Fast and low-overhead JSON logging with log rotation and nat... |
-| Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
-| Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
-| Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
-| Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
-| Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
-| Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
-| Sharp | Utility | High-performance image processing with resizing, cropping, f... |
-| Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
-| SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
-| TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
-| UUID | Utility | RFC-compliant UUID generation with support for v1, v3, v4, a... |
-| Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
-| Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
+| Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
