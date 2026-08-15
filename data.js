@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 18
-// Last updated: 2026-08-15 23:29:19
+// Total modules: 19
+// Last updated: 2026-08-15 23:29:23
 
 module.exports = [
   {
@@ -236,5 +236,18 @@ module.exports = [
       "report"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Puppeteer",
+    "description": "A headless Chrome browser automation library that allows controlling Chrome/Chromium programmatically",
+    "usage": "const puppeteer = require('puppeteer'); const browser = await puppeteer.launch(); const page = await browser.newPage(); await page.goto('https://example.com'); const title = await page.title(); await browser.close();",
+    "tags": [
+      "automation",
+      "browser",
+      "headless",
+      "testing",
+      "scraping"
+    ],
+    "category": "Testing/Tool"
   }
 ];
