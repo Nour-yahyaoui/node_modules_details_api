@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 2
-// Last updated: 2026-08-15 23:00:33
+// Total modules: 3
+// Last updated: 2026-08-15 23:00:37
 
 module.exports = [
   {
@@ -26,6 +26,19 @@ module.exports = [
       "middleware",
       "headers",
       "browser"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Bcrypt",
+    "description": "A library to help hash passwords using the bcrypt algorithm with salt generation and secure password comparison functions",
+    "usage": "const bcrypt = require('bcrypt'); const hash = await bcrypt.hash('password123', 10); const match = await bcrypt.compare('password123', hash);",
+    "tags": [
+      "security",
+      "password",
+      "hashing",
+      "encryption",
+      "authentication"
     ],
     "category": "Security"
   }
