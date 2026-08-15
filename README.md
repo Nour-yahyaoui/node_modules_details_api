@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 6 |
-| Categories | Dev Tool, ORM/Database, Web Framework |
+| Total Libraries | 7 |
+| Categories | Database, Dev Tool, ORM/Database, Web Framework |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -27,6 +27,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
+| MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
