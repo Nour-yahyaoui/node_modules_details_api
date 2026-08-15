@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 3 |
+| Total Libraries | 4 |
 | Categories | Dev Tool, ORM/Database, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -28,4 +28,5 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
+| Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
