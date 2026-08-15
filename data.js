@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 23
-// Last updated: 2026-08-15 23:03:00
+// Total modules: 24
+// Last updated: 2026-08-15 23:03:04
 
 module.exports = [
   {
@@ -299,6 +299,19 @@ module.exports = [
       "rm",
       "files",
       "directory"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fs-extra",
+    "description": "An extended file system module that adds promise support and additional methods not included in the native Node.js fs module",
+    "usage": "const fs = require('fs-extra'); await fs.copy('src', 'dist'); await fs.ensureDir('data');",
+    "tags": [
+      "fs",
+      "file",
+      "directory",
+      "copy",
+      "promise"
     ],
     "category": "Utility"
   }
