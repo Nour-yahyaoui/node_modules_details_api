@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 24
-// Last updated: 2026-08-15 23:03:04
+// Total modules: 25
+// Last updated: 2026-08-15 23:03:08
 
 module.exports = [
   {
@@ -314,5 +314,18 @@ module.exports = [
       "promise"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Pino",
+    "description": "A fast and low-overhead logging library with native JSON output and log rotation capabilities for high-performance applications",
+    "usage": "const pino = require('pino'); const logger = pino({ level: 'info' }); logger.info('Server started');",
+    "tags": [
+      "logging",
+      "performance",
+      "json",
+      "fast",
+      "log"
+    ],
+    "category": "Logging"
   }
 ];
