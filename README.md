@@ -22,8 +22,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 14 |
-| Categories | Database, ORM/Database, Web Framework |
+| Total Libraries | 15 |
+| Categories | Database, ORM/Database, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -37,6 +37,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Drizzle ORM | ORM/Database | A lightweight and performant SQL ORM with zero dependencies ... |
 | Fastify | Web Framework | A fast and low-overhead web framework for Node.js with built... |
 | Hapi | Web Framework | A rich framework for building applications and services with... |
+| Jimp | Utility | A pure JavaScript image processing library for Node.js that ... |
 | Knex.js | ORM/Database | A SQL query builder for Node.js with support for PostgreSQL,... |
 | Koa | Web Framework | A modern web framework designed by the team behind Express w... |
 | MongoDB | Database | The official MongoDB driver for Node.js with connection pool... |

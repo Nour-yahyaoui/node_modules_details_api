@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 14
-// Last updated: 2026-08-15 23:29:04
+// Total modules: 15
+// Last updated: 2026-08-15 23:29:08
 
 module.exports = [
   {
@@ -184,5 +184,18 @@ module.exports = [
       "aggregation"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Jimp",
+    "description": "A pure JavaScript image processing library for Node.js that supports resizing, cropping, and applying filters",
+    "usage": "const Jimp = require('jimp'); const image = await Jimp.read('input.jpg'); await image.resize(300, 300).greyscale().writeAsync('output.jpg');",
+    "tags": [
+      "image",
+      "processing",
+      "resize",
+      "filter",
+      "editing"
+    ],
+    "category": "Utility"
   }
 ];
