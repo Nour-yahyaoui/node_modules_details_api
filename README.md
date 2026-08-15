@@ -34,5 +34,5 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Library | Category | Description |
 |---------|----------|-------------|
-| Cors | Security | A middleware package that enables Cross-Origin Resource Shar... |
+| Bcrypt | Security | A library to help hash passwords using the bcrypt algorithm ... |
 | Dotenv | Utility | A zero-dependency module that loads environment variables fr... |

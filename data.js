@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 2
-// Last updated: 2026-08-15 23:40:07
+// Last updated: 2026-08-15 23:42:38
 
 module.exports = [
   {
@@ -17,15 +17,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Cors",
-    "description": "A middleware package that enables Cross-Origin Resource Sharing (CORS) with various options for configuring allowed origins and methods",
-    "usage": "const cors = require('cors'); app.use(cors({ origin: 'https://example.com' }));",
+    "title": "Bcrypt",
+    "description": "A library to help hash passwords using the bcrypt algorithm with salt generation and secure password comparison functions",
+    "usage": "const bcrypt = require('bcrypt'); const hash = await bcrypt.hash('password123', 10); const match = await bcrypt.compare('password123', hash);",
     "tags": [
-      "cors",
       "security",
-      "middleware",
-      "headers",
-      "browser"
+      "password",
+      "hashing",
+      "encryption",
+      "authentication"
     ],
     "category": "Security"
   }
