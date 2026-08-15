@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 20 |
-| Categories | Database, Dev Tool, ORM/Database, Testing/Tool, Web Framework |
+| Total Libraries | 21 |
+| Categories | CLI/Tool, Database, Dev Tool, ORM/Database, Testing/Tool, Web Framework |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -29,6 +29,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Chai | Testing/Tool | BDD assertion library with expect, should, and assert interf... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
+| Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
 | Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
