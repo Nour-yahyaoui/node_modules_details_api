@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 16 |
+| Total Libraries | 17 |
 | Categories | Database, ORM/Database, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -43,6 +43,7 @@ This repository contains a growing collection of **Node.js library documentation
 | MongoDB | Database | The official MongoDB driver for Node.js with connection pool... |
 | MySQL2 | Database | A fast MySQL client with prepared statements, connection poo... |
 | NestJS | Web Framework | A progressive Node.js framework for building efficient, reli... |
+| PDFKit | Utility | A PDF generation library for Node.js that supports text, ima... |
 | Pg | Database | A PostgreSQL client for Node.js with connection pooling, pre... |
 | Prisma | ORM/Database | A next-generation ORM with type-safe queries, migrations, an... |
 | Redis | Database | A complete Redis client for Node.js with clustering, Lua scr... |
