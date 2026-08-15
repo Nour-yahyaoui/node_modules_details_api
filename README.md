@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 2 |
+| Total Libraries | 3 |
 | Categories | Security, Utility |
 | Last Updated | 2026-08-15 |
 
@@ -36,3 +36,4 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | Bcrypt | Security | A library to help hash passwords using the bcrypt algorithm ... |
 | Dotenv | Utility | A zero-dependency module that loads environment variables fr... |
+| Jsonwebtoken | Security | An implementation of JSON Web Tokens (JWT) for creating and ... |

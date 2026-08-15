@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 2
-// Last updated: 2026-08-15 23:42:38
+// Total modules: 3
+// Last updated: 2026-08-15 23:42:41
 
 module.exports = [
   {
@@ -26,6 +26,19 @@ module.exports = [
       "hashing",
       "encryption",
       "authentication"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Jsonwebtoken",
+    "description": "An implementation of JSON Web Tokens (JWT) for creating and verifying authentication tokens with HMAC, RSA, and ECDSA algorithms",
+    "usage": "const jwt = require('jsonwebtoken'); const token = jwt.sign({ userId: 123 }, 'secret'); jwt.verify(token, 'secret');",
+    "tags": [
+      "jwt",
+      "authentication",
+      "security",
+      "tokens",
+      "session"
     ],
     "category": "Security"
   }
