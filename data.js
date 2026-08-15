@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 6
-// Last updated: 2026-08-15 23:00:53
+// Total modules: 7
+// Last updated: 2026-08-15 23:00:57
 
 module.exports = [
   {
@@ -80,5 +80,18 @@ module.exports = [
       "form"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Socket.io",
+    "description": "A library that enables real-time bidirectional event-based communication between web clients and servers using WebSockets",
+    "usage": "const io = require('socket.io')(server); io.on('connection', socket => { socket.emit('message', 'Hello'); });",
+    "tags": [
+      "websocket",
+      "realtime",
+      "communication",
+      "events",
+      "broadcast"
+    ],
+    "category": "Real-time"
   }
 ];
