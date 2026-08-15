@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 10 |
+| Total Libraries | 11 |
 | Categories | Database, Dev Tool, ORM/Database, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -35,4 +35,5 @@ This repository contains a growing collection of **Node.js library documentation
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
+| SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
