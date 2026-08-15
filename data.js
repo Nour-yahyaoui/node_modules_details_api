@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 5
-// Last updated: 2026-08-15 23:00:50
+// Total modules: 6
+// Last updated: 2026-08-15 23:00:53
 
 module.exports = [
   {
@@ -65,6 +65,19 @@ module.exports = [
       "notifications",
       "mail",
       "attachments"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Multer",
+    "description": "A middleware for handling multipart/form-data, primarily used for uploading files in Node.js applications with memory or disk storage",
+    "usage": "const multer = require('multer'); const upload = multer({ dest: 'uploads/' }); app.post('/upload', upload.single('file'), (req, res) => { });",
+    "tags": [
+      "file",
+      "upload",
+      "middleware",
+      "multipart",
+      "form"
     ],
     "category": "Utility"
   }
