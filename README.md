@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 17 |
+| Total Libraries | 18 |
 | Categories | Database, Dev Tool, ORM/Database, Testing/Tool, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -43,3 +43,4 @@ This repository contains a growing collection of **Node.js library documentation
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
+| Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
