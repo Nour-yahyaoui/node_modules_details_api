@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 20
-// Last updated: 2026-08-15 23:29:26
+// Total modules: 21
+// Last updated: 2026-08-15 23:29:30
 
 module.exports = [
   {
@@ -260,6 +260,19 @@ module.exports = [
       "testing",
       "scraping",
       "cross-browser"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Jest",
+    "description": "A delightful JavaScript testing framework with built-in assertions, mocking, and test coverage reporting",
+    "usage": "test('adds 1 + 2 to equal 3', () => { expect(1 + 2).toBe(3); });",
+    "tags": [
+      "testing",
+      "unit-test",
+      "assertions",
+      "mock",
+      "coverage"
     ],
     "category": "Testing/Tool"
   }

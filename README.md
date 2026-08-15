@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 20 |
+| Total Libraries | 21 |
 | Categories | Database, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -38,6 +38,7 @@ This repository contains a growing collection of **Node.js library documentation
 | ExcelJS | Utility | A library for reading, writing, and manipulating Excel files... |
 | Fastify | Web Framework | A fast and low-overhead web framework for Node.js with built... |
 | Hapi | Web Framework | A rich framework for building applications and services with... |
+| Jest | Testing/Tool | A delightful JavaScript testing framework with built-in asse... |
 | Jimp | Utility | A pure JavaScript image processing library for Node.js that ... |
 | Knex.js | ORM/Database | A SQL query builder for Node.js with support for PostgreSQL,... |
 | Koa | Web Framework | A modern web framework designed by the team behind Express w... |
