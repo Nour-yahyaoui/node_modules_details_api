@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 27 |
+| Total Libraries | 28 |
 | Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -27,6 +27,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Chai | Testing/Tool | BDD assertion library with expect, should, and assert interf... |
+| Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
