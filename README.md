@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 1 |
-| Categories | Dev Tool |
+| Total Libraries | 2 |
+| Categories | Dev Tool, Web Framework |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -26,4 +26,5 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Library | Category | Description |
 |---------|----------|-------------|
+| NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
