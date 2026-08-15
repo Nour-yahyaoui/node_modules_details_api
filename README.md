@@ -22,8 +22,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 1 |
-| Categories | Utility |
+| Total Libraries | 2 |
+| Categories | Security, Utility |
 | Last Updated | 2026-08-15 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -34,4 +34,5 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Library | Category | Description |
 |---------|----------|-------------|
+| Cors | Security | A middleware package that enables Cross-Origin Resource Shar... |
 | Dotenv | Utility | A zero-dependency module that loads environment variables fr... |
