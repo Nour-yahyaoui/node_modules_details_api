@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 17
-// Last updated: 2026-08-15 23:02:22
+// Total modules: 18
+// Last updated: 2026-08-15 23:02:25
 
 module.exports = [
   {
@@ -223,5 +223,18 @@ module.exports = [
       "session"
     ],
     "category": "Security"
+  },
+  {
+    "title": "UUID",
+    "description": "A simple and fast library for generating RFC-compliant Universally Unique Identifiers (UUIDs) in Node.js applications",
+    "usage": "const { v4: uuidv4 } = require('uuid'); const id = uuidv4();",
+    "tags": [
+      "uuid",
+      "identifier",
+      "unique",
+      "id",
+      "generator"
+    ],
+    "category": "Utility"
   }
 ];
