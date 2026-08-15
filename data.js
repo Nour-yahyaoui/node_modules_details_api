@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 53
-// Last updated: 2026-08-16 00:40:52
+// Last updated: 2026-08-16 00:41:31
 
 module.exports = [
   {
@@ -629,14 +629,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Sharp",
-    "description": "High-performance image processing with resizing, cropping, format conversion, and image optimization",
-    "usage": "const sharp = require('sharp'); await sharp('input.jpg').resize(300, 300).toFile('output.jpg');",
+    "title": "PDFKit",
+    "description": "PDF generation library with support for text, images, vector graphics, and tables in Node.js",
+    "usage": "const PDFDocument = require('pdfkit'); const doc = new PDFDocument(); doc.text('Hello World'); doc.pipe(fs.createWriteStream('output.pdf')); doc.end();",
     "tags": [
-      "image",
-      "processing",
-      "resize",
-      "conversion"
+      "pdf",
+      "generation",
+      "documents",
+      "report"
     ],
     "category": "Utility"
   }
