@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 13
-// Last updated: 2026-08-15 23:01:18
+// Total modules: 14
+// Last updated: 2026-08-15 23:01:21
 
 module.exports = [
   {
@@ -171,5 +171,18 @@ module.exports = [
       "helmet"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Compression",
+    "description": "A middleware for compressing response bodies using gzip or deflate to reduce bandwidth usage and speed up page load times",
+    "usage": "const compression = require('compression'); app.use(compression());",
+    "tags": [
+      "compression",
+      "gzip",
+      "performance",
+      "middleware",
+      "bandwidth"
+    ],
+    "category": "Performance"
   }
 ];
