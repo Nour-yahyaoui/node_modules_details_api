@@ -1,71 +1,18 @@
 // Node.js Library Documentation
-// Total modules: 5
-// Last updated: 2026-08-15 23:43:27
+// Total modules: 1
+// Last updated: 2026-08-16 00:18:29
 
 module.exports = [
   {
-    "title": "Dotenv",
-    "description": "A zero-dependency module that loads environment variables from a .env file into process.env for secure configuration management",
-    "usage": "require('dotenv').config(); const dbPassword = process.env.DB_PASSWORD;",
+    "title": "Axios",
+    "description": "Promise-based HTTP client for Node.js and browsers with automatic JSON transformation and request/response interception",
+    "usage": "const axios = require('axios'); const response = await axios.get('https://api.github.com/users/nour-yahyaoui');",
     "tags": [
-      "env",
-      "configuration",
-      "security",
-      "secrets",
-      "variables"
+      "http",
+      "api",
+      "promises",
+      "interceptor"
     ],
-    "category": "Utility"
-  },
-  {
-    "title": "Bcrypt",
-    "description": "A library to help hash passwords using the bcrypt algorithm with salt generation and secure password comparison functions",
-    "usage": "const bcrypt = require('bcrypt'); const hash = await bcrypt.hash('password123', 10); const match = await bcrypt.compare('password123', hash);",
-    "tags": [
-      "security",
-      "password",
-      "hashing",
-      "encryption",
-      "authentication"
-    ],
-    "category": "Security"
-  },
-  {
-    "title": "Jsonwebtoken",
-    "description": "An implementation of JSON Web Tokens (JWT) for creating and verifying authentication tokens with HMAC, RSA, and ECDSA algorithms",
-    "usage": "const jwt = require('jsonwebtoken'); const token = jwt.sign({ userId: 123 }, 'secret'); jwt.verify(token, 'secret');",
-    "tags": [
-      "jwt",
-      "authentication",
-      "security",
-      "tokens",
-      "session"
-    ],
-    "category": "Security"
-  },
-  {
-    "title": "Nodemailer",
-    "description": "A module that makes sending emails from Node.js applications easy with support for SMTP, attachments, and HTML content",
-    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: 'user@gmail.com', pass: 'pass' } });",
-    "tags": [
-      "email",
-      "smtp",
-      "notifications",
-      "mail",
-      "attachments"
-    ],
-    "category": "Utility"
-  },
-  {
-    "title": "Multer",
-    "description": "A middleware for handling multipart/form-data, primarily used for uploading files in Node.js applications with memory or disk storage",
-    "usage": "const multer = require('multer'); const upload = multer({ dest: 'uploads/' }); app.post('/upload', upload.single('file'), (req, res) => { });",
-    "tags": [
-      "file",
-      "upload",
-      "middleware",
-      "multipart",
-      "form"
-    ],
-    "category": "Utility"
+    "category": "HTTP Client"
   }
 ];
