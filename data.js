@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 7
-// Last updated: 2026-08-15 23:00:57
+// Total modules: 8
+// Last updated: 2026-08-15 23:00:59
 
 module.exports = [
   {
@@ -93,5 +93,18 @@ module.exports = [
       "broadcast"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Chalk",
+    "description": "A package that adds color and styling to terminal output with support for 256 colors, RGB, and hex codes for better visual output",
+    "usage": "const chalk = require('chalk'); console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));",
+    "tags": [
+      "terminal",
+      "colors",
+      "cli",
+      "console",
+      "styling"
+    ],
+    "category": "CLI/Tool"
   }
 ];
