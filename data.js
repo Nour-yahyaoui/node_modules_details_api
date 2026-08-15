@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 23
-// Last updated: 2026-08-15 23:29:36
+// Total modules: 24
+// Last updated: 2026-08-15 23:29:39
 
 module.exports = [
   {
@@ -299,6 +299,19 @@ module.exports = [
       "bdd",
       "chai",
       "expect"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Sinon",
+    "description": "A test spy, stub, and mock library for Node.js that helps test components in isolation",
+    "usage": "const sinon = require('sinon'); const callback = sinon.spy(); callback(); sinon.assert.calledOnce(callback);",
+    "tags": [
+      "testing",
+      "mock",
+      "spy",
+      "stub",
+      "isolation"
     ],
     "category": "Testing/Tool"
   }

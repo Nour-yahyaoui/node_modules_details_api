@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 23 |
+| Total Libraries | 24 |
 | Categories | Database, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -55,5 +55,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Redis | Database | A complete Redis client for Node.js with clustering, Lua scr... |
 | Sequelize | ORM/Database | A promise-based ORM for Node.js and io.js that supports Post... |
 | Sharp | Utility | A high-performance image processing library for Node.js that... |
+| Sinon | Testing/Tool | A test spy, stub, and mock library for Node.js that helps te... |
 | SQLite3 | Database | A powerful SQLite3 driver for Node.js that provides a low-le... |
 | TypeORM | ORM/Database | An ORM that supports Active Record and Data Mapper patterns ... |
