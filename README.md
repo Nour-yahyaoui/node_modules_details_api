@@ -22,8 +22,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 24 |
-| Categories | Database, ORM/Database, Testing/Tool, Utility, Web Framework |
+| Total Libraries | 25 |
+| Categories | Database, Dev Tool, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -36,6 +36,7 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | Chai | Testing/Tool | A BDD assertion library for Node.js and browsers with expect... |
 | Drizzle ORM | ORM/Database | A lightweight and performant SQL ORM with zero dependencies ... |
+| ESLint | Dev Tool | A static code analysis tool for identifying and fixing probl... |
 | ExcelJS | Utility | A library for reading, writing, and manipulating Excel files... |
 | Fastify | Web Framework | A fast and low-overhead web framework for Node.js with built... |
 | Hapi | Web Framework | A rich framework for building applications and services with... |
