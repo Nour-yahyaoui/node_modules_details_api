@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 28
-// Last updated: 2026-08-15 23:29:52
+// Total modules: 29
+// Last updated: 2026-08-15 23:29:55
 
 module.exports = [
   {
@@ -364,6 +364,19 @@ module.exports = [
       "dev-server",
       "hmr",
       "vite"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Webpack",
+    "description": "A powerful module bundler that transforms JavaScript, assets, and CSS into optimized bundles",
+    "usage": "webpack --config webpack.config.js",
+    "tags": [
+      "bundler",
+      "build",
+      "assets",
+      "loader",
+      "plugins"
     ],
     "category": "Dev Tool"
   }
