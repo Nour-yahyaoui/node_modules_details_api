@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 2
-// Last updated: 2026-08-15 23:28:16
+// Total modules: 3
+// Last updated: 2026-08-15 23:28:19
 
 module.exports = [
   {
@@ -25,6 +25,19 @@ module.exports = [
       "framework",
       "async",
       "modern",
+      "http"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Hapi",
+    "description": "A rich framework for building applications and services with configuration-based routing and built-in validation",
+    "usage": "const Hapi = require('@hapi/hapi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: (request, h) => 'Hello World' }); await server.start();",
+    "tags": [
+      "web",
+      "framework",
+      "configuration",
+      "enterprise",
       "http"
     ],
     "category": "Web Framework"
