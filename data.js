@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 13
-// Last updated: 2026-08-15 23:29:02
+// Total modules: 14
+// Last updated: 2026-08-15 23:29:04
 
 module.exports = [
   {
@@ -169,6 +169,19 @@ module.exports = [
       "database",
       "in-memory",
       "key-value"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MongoDB",
+    "description": "The official MongoDB driver for Node.js with connection pooling, change streams, and aggregation pipeline support",
+    "usage": "const { MongoClient } = require('mongodb'); const client = new MongoClient('mongodb://localhost:27017'); await client.connect(); const db = client.db('test'); const collection = db.collection('users');",
+    "tags": [
+      "mongodb",
+      "database",
+      "driver",
+      "nosql",
+      "aggregation"
     ],
     "category": "Database"
   }

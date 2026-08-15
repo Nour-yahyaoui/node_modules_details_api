@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 13 |
+| Total Libraries | 14 |
 | Categories | Database, ORM/Database, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -39,6 +39,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Hapi | Web Framework | A rich framework for building applications and services with... |
 | Knex.js | ORM/Database | A SQL query builder for Node.js with support for PostgreSQL,... |
 | Koa | Web Framework | A modern web framework designed by the team behind Express w... |
+| MongoDB | Database | The official MongoDB driver for Node.js with connection pool... |
 | MySQL2 | Database | A fast MySQL client with prepared statements, connection poo... |
 | NestJS | Web Framework | A progressive Node.js framework for building efficient, reli... |
 | Pg | Database | A PostgreSQL client for Node.js with connection pooling, pre... |
