@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 9
-// Last updated: 2026-08-16 00:30:06
+// Total modules: 10
+// Last updated: 2026-08-16 00:30:09
 
 module.exports = [
   {
@@ -108,6 +108,18 @@ module.exports = [
       "database",
       "driver",
       "sql"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MySQL2",
+    "description": "Fast MySQL client with prepared statements, connection pooling, and promise support for Node.js",
+    "usage": "const mysql = require('mysql2/promise'); const connection = await mysql.createConnection({ host: 'localhost', user: 'root' });",
+    "tags": [
+      "mysql",
+      "database",
+      "driver",
+      "pool"
     ],
     "category": "Database"
   }
