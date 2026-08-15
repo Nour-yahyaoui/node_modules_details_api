@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 9
-// Last updated: 2026-08-15 23:28:45
+// Total modules: 10
+// Last updated: 2026-08-15 23:28:49
 
 module.exports = [
   {
@@ -119,5 +119,18 @@ module.exports = [
       "sql"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "SQLite3",
+    "description": "A powerful SQLite3 driver for Node.js that provides a low-level interface to SQLite databases",
+    "usage": "const sqlite3 = require('sqlite3').verbose(); const db = new sqlite3.Database(':memory:'); db.run('CREATE TABLE users (id INT, name TEXT)');",
+    "tags": [
+      "database",
+      "sqlite",
+      "embedded",
+      "driver",
+      "persistent"
+    ],
+    "category": "Database"
   }
 ];
