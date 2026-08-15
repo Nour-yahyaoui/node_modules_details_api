@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 21 |
+| Total Libraries | 22 |
 | Categories | Database, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -42,6 +42,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Jimp | Utility | A pure JavaScript image processing library for Node.js that ... |
 | Knex.js | ORM/Database | A SQL query builder for Node.js with support for PostgreSQL,... |
 | Koa | Web Framework | A modern web framework designed by the team behind Express w... |
+| Mocha | Testing/Tool | A feature-rich JavaScript test framework running on Node.js ... |
 | MongoDB | Database | The official MongoDB driver for Node.js with connection pool... |
 | MySQL2 | Database | A fast MySQL client with prepared statements, connection poo... |
 | NestJS | Web Framework | A progressive Node.js framework for building efficient, reli... |
