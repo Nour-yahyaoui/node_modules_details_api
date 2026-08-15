@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 50
-// Last updated: 2026-08-16 00:40:42
+// Total modules: 51
+// Last updated: 2026-08-16 00:40:45
 
 module.exports = [
   {
@@ -603,5 +603,17 @@ module.exports = [
       "enterprise"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Inquirer",
+    "description": "Collection of interactive CLI prompts for input, selection, and confirmation in terminal applications",
+    "usage": "const inquirer = require('inquirer'); const answers = await inquirer.prompt([{ type: 'input', name: 'name', message: 'Enter name' }]);",
+    "tags": [
+      "cli",
+      "prompts",
+      "terminal",
+      "interactive"
+    ],
+    "category": "CLI/Tool"
   }
 ];
