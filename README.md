@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 8 |
+| Total Libraries | 9 |
 | Categories | Database, Dev Tool, ORM/Database, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -30,6 +30,7 @@ This repository contains a growing collection of **Node.js library documentation
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
+| PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
