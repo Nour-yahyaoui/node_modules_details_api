@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 15
-// Last updated: 2026-08-15 23:01:24
+// Total modules: 16
+// Last updated: 2026-08-15 23:02:19
 
 module.exports = [
   {
@@ -194,6 +194,19 @@ module.exports = [
       "body",
       "json",
       "urlencoded",
+      "middleware"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Cookie-parser",
+    "description": "A middleware for parsing Cookie header and populating req.cookies with an object keyed by the cookie names",
+    "usage": "const cookieParser = require('cookie-parser'); app.use(cookieParser('secret'));",
+    "tags": [
+      "cookie",
+      "session",
+      "parse",
+      "headers",
       "middleware"
     ],
     "category": "Utility"
