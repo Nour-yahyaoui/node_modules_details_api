@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 23 |
+| Total Libraries | 24 |
 | Categories | CLI/Tool, Database, Dev Tool, ORM/Database, Testing/Tool, Utility, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -37,6 +37,7 @@ This repository contains a growing collection of **Node.js library documentation
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
+| PDFKit | Utility | PDF generation library with support for text, images, vector... |
 | PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
