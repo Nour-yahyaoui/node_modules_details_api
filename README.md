@@ -22,7 +22,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 17 |
+| Total Libraries | 18 |
 | Categories | Database, ORM/Database, Utility, Web Framework |
 | Last Updated | 2026-08-15 |
 
@@ -35,6 +35,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Drizzle ORM | ORM/Database | A lightweight and performant SQL ORM with zero dependencies ... |
+| ExcelJS | Utility | A library for reading, writing, and manipulating Excel files... |
 | Fastify | Web Framework | A fast and low-overhead web framework for Node.js with built... |
 | Hapi | Web Framework | A rich framework for building applications and services with... |
 | Jimp | Utility | A pure JavaScript image processing library for Node.js that ... |
