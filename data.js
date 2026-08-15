@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 5
-// Last updated: 2026-08-15 23:28:26
+// Total modules: 6
+// Last updated: 2026-08-15 23:28:31
 
 module.exports = [
   {
@@ -65,6 +65,19 @@ module.exports = [
       "typescript",
       "sql",
       "entities"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Knex.js",
+    "description": "A SQL query builder for Node.js with support for PostgreSQL, MySQL, SQLite, and many other databases",
+    "usage": "const knex = require('knex')({ client: 'sqlite3', connection: { filename: './data.db' } }); const users = await knex('users').where('age', '>', 18);",
+    "tags": [
+      "sql",
+      "query",
+      "database",
+      "builder",
+      "migrations"
     ],
     "category": "ORM/Database"
   }
