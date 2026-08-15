@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 4
-// Last updated: 2026-08-15 23:00:47
+// Total modules: 5
+// Last updated: 2026-08-15 23:00:50
 
 module.exports = [
   {
@@ -54,5 +54,18 @@ module.exports = [
       "session"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Nodemailer",
+    "description": "A module that makes sending emails from Node.js applications easy with support for SMTP, attachments, and HTML content",
+    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: 'user@gmail.com', pass: 'pass' } });",
+    "tags": [
+      "email",
+      "smtp",
+      "notifications",
+      "mail",
+      "attachments"
+    ],
+    "category": "Utility"
   }
 ];
