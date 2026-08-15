@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 57 |
+| Total Libraries | 58 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -79,6 +79,7 @@ This repository contains a growing collection of **Node.js library documentation
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
+| UUID | Utility | RFC-compliant UUID generation with support for v1, v3, v4, a... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
 | Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
 | Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
