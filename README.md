@@ -40,6 +40,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
+| ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
@@ -62,7 +63,6 @@ This repository contains a growing collection of **Node.js library documentation
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
-| PDFKit | Utility | PDF generation library with support for text, images, vector... |
 | PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
