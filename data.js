@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 230
-// Last updated: 2026-08-17 01:40:02
+// Total modules: 231
+// Last updated: 2026-08-17 01:40:08
 
 module.exports = [
   {
@@ -2763,5 +2763,17 @@ module.exports = [
       "configuration"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Hapi Joi",
+    "description": "Joi validation plugin for Hapi with built-in input validation and error handling",
+    "usage": "const Hapi = require('@hapi/hapi'); const Joi = require('joi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', options: { validate: { query: Joi.object({ name: Joi.string() }) } } });",
+    "tags": [
+      "hapi",
+      "validation",
+      "joi",
+      "input"
+    ],
+    "category": "Validation"
   }
 ];
