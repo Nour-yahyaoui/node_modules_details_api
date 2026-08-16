@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 141
-// Last updated: 2026-08-16 05:26:48
+// Total modules: 142
+// Last updated: 2026-08-16 05:26:54
 
 module.exports = [
   {
@@ -1695,5 +1695,17 @@ module.exports = [
       "child"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Yargs",
+    "description": "Sophisticated CLI argument parser with command handling, help generation, and validation",
+    "usage": "const yargs = require('yargs'); const argv = yargs.option('port', { alias: 'p', type: 'number', default: 3000 }).argv;",
+    "tags": [
+      "cli",
+      "arguments",
+      "parsing",
+      "commands"
+    ],
+    "category": "CLI/Tool"
   }
 ];
