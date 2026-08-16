@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 149
-// Last updated: 2026-08-17 01:30:21
+// Total modules: 150
+// Last updated: 2026-08-17 01:30:27
 
 module.exports = [
   {
@@ -1789,6 +1789,18 @@ module.exports = [
       "archive",
       "compression",
       "tar"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Extract-zip",
+    "description": "Extract ZIP archives with progress reporting, file filtering, and directory structure preservation",
+    "usage": "const extract = require('extract-zip'); await extract('archive.zip', { dir: 'output' });",
+    "tags": [
+      "zip",
+      "archive",
+      "extract",
+      "compression"
     ],
     "category": "Utility"
   }
