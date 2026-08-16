@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 239
-// Last updated: 2026-08-17 01:40:53
+// Last updated: 2026-08-17 01:57:53
 
 module.exports = [
   {
@@ -2861,15 +2861,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "NestJS Config",
-    "description": "Configuration module for NestJS with env files, validation, and defaults",
-    "usage": "import { Module } from '@nestjs/common'; import { ConfigModule } from '@nestjs/config'; @Module({ imports: [ConfigModule.forRoot({ envFilePath: '.env' })] }) export class AppModule {}",
+    "title": "NestJS Cache",
+    "description": "Cache module for NestJS with in-memory and Redis storage options",
+    "usage": "import { Module } from '@nestjs/common'; import { CacheModule } from '@nestjs/cache-manager'; @Module({ imports: [CacheModule.register({ ttl: 60 })] }) export class AppModule {}",
     "tags": [
       "nestjs",
-      "config",
-      "env",
-      "validation"
+      "cache",
+      "redis",
+      "performance"
     ],
-    "category": "Utility"
+    "category": "Performance"
   }
 ];
