@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 102
-// Last updated: 2026-08-16 05:22:47
+// Total modules: 103
+// Last updated: 2026-08-16 05:22:52
 
 module.exports = [
   {
@@ -1225,6 +1225,18 @@ module.exports = [
       "identifier",
       "unique",
       "secure"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Shortid",
+    "description": "Short, non-sequential, URL-friendly unique ID generator with optional customization",
+    "usage": "const shortid = require('shortid'); const id = shortid.generate();",
+    "tags": [
+      "uuid",
+      "identifier",
+      "unique",
+      "short"
     ],
     "category": "Utility"
   }
