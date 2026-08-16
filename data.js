@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 184
-// Last updated: 2026-08-16 05:33:20
+// Total modules: 185
+// Last updated: 2026-08-16 05:33:31
 
 module.exports = [
   {
@@ -2211,5 +2211,17 @@ module.exports = [
       "blog"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Shopify API",
+    "description": "Shopify API client for storefront and admin operations with GraphQL and REST support",
+    "usage": "const Shopify = require('shopify-api-node'); const shopify = new Shopify({ shopName: 'myshop', apiKey: 'key', password: 'pass' }); const products = await shopify.product.list();",
+    "tags": [
+      "shopify",
+      "ecommerce",
+      "api",
+      "graphql"
+    ],
+    "category": "Payment"
   }
 ];
