@@ -56,7 +56,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Chokidar | Utility | File watching library with cross-platform support, event han... |
 | Class-validator | Validation | Validation using decorators for TypeScript classes with supp... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
-| Commerce.js | Payment | Commerce.js SDK for Chec API with cart, checkout, and produc... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
 | Contentful | Utility | Contentful content management client with entry management, ... |
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
@@ -178,6 +177,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Roarr | Logging | JSON logger with built-in filtering, child loggers, and cont... |
 | Rollup | Dev Tool | Module bundler with tree-shaking, ESM support, and plugin ec... |
 | Sails.js | Web Framework | MVC framework for building custom, enterprise-grade Node.js ... |
+| Salesforce API | Cloud | Salesforce REST API client with CRUD operations, queries, an... |
 | SendGrid | Utility | Email delivery service client with support for transactional... |
 | Seneca | Web Framework | Microservices toolkit with pattern matching, transport plugi... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
