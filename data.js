@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 124
-// Last updated: 2026-08-16 05:25:03
+// Total modules: 125
+// Last updated: 2026-08-16 05:25:10
 
 module.exports = [
   {
@@ -1489,6 +1489,18 @@ module.exports = [
       "iot",
       "messaging",
       "pubsub"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Pusher",
+    "description": "Real-time messaging service with WebSockets, presence channels, and webhook events",
+    "usage": "const Pusher = require('pusher'); const pusher = new Pusher({ appId: 'id', key: 'key', secret: 'secret' }); pusher.trigger('channel', 'event', { message: 'Hello' });",
+    "tags": [
+      "websocket",
+      "realtime",
+      "pubsub",
+      "events"
     ],
     "category": "Real-time"
   }
