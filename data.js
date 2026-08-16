@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 210
-// Last updated: 2026-08-17 01:38:03
+// Total modules: 211
+// Last updated: 2026-08-17 01:38:08
 
 module.exports = [
   {
@@ -2521,6 +2521,18 @@ module.exports = [
       "interceptors",
       "retry",
       "cancellation"
+    ],
+    "category": "HTTP Client"
+  },
+  {
+    "title": "Ky",
+    "description": "Lightweight HTTP client with hooks, retries, and timeout support built on fetch",
+    "usage": "import ky from 'ky'; const json = await ky.get('https://api.example.com').json();",
+    "tags": [
+      "http",
+      "fetch",
+      "hooks",
+      "retry"
     ],
     "category": "HTTP Client"
   }
