@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 215
-// Last updated: 2026-08-17 01:38:36
+// Total modules: 216
+// Last updated: 2026-08-17 01:38:43
 
 module.exports = [
   {
@@ -2581,6 +2581,18 @@ module.exports = [
       "smtp",
       "attachments",
       "html"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Node-telegram-bot-api",
+    "description": "Telegram Bot API client with message, callback, and inline query handling",
+    "usage": "const TelegramBot = require('node-telegram-bot-api'); const bot = new TelegramBot('TOKEN', { polling: true }); bot.onText(//start/, (msg) => { bot.sendMessage(msg.chat.id, 'Hello'); });",
+    "tags": [
+      "telegram",
+      "bot",
+      "messaging",
+      "api"
     ],
     "category": "Utility"
   }
