@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 139
-// Last updated: 2026-08-17 01:29:09
+// Total modules: 140
+// Last updated: 2026-08-17 01:29:16
 
 module.exports = [
   {
@@ -1669,6 +1669,18 @@ module.exports = [
       "appenders",
       "categories",
       "configuration"
+    ],
+    "category": "Logging"
+  },
+  {
+    "title": "Roarr",
+    "description": "JSON logger with built-in filtering, child loggers, and context propagation",
+    "usage": "const ROARR = require('roarr'); const log = ROARR.child({ context: 'user-service' }); log.info({ user: 'john' }, 'User created');",
+    "tags": [
+      "logging",
+      "json",
+      "context",
+      "child"
     ],
     "category": "Logging"
   }
