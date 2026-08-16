@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 58
-// Last updated: 2026-08-16 05:17:41
+// Total modules: 59
+// Last updated: 2026-08-16 05:17:51
 
 module.exports = [
   {
@@ -699,5 +699,17 @@ module.exports = [
       "attachment"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Bull",
+    "description": "Redis-based job queue for handling background jobs, scheduling, and processing in Node.js applications",
+    "usage": "const Queue = require('bull'); const queue = new Queue('email'); queue.add({ email: 'test@example.com' }); queue.process(async (job) => { await sendEmail(job.data.email); });",
+    "tags": [
+      "queue",
+      "background",
+      "jobs",
+      "redis"
+    ],
+    "category": "Background Processing"
   }
 ];
