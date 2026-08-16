@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 194
-// Last updated: 2026-08-16 05:35:44
+// Total modules: 195
+// Last updated: 2026-08-16 05:35:50
 
 module.exports = [
   {
@@ -2327,6 +2327,18 @@ module.exports = [
     "tags": [
       "search",
       "meilisearch",
+      "full-text",
+      "typo-tolerance"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Typesense",
+    "description": "Fast search engine with typo tolerance, faceting, and geolocation search support",
+    "usage": "const Typesense = require('typesense'); const client = new Typesense.Client({ nodes: [{ host: 'localhost', port: '8108' }] }); const results = await client.collections('products').documents().search({ q: 'laptop', query_by: 'name' });",
+    "tags": [
+      "search",
+      "typesense",
       "full-text",
       "typo-tolerance"
     ],
