@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 193
-// Last updated: 2026-08-16 05:35:38
+// Total modules: 194
+// Last updated: 2026-08-16 05:35:44
 
 module.exports = [
   {
@@ -2317,6 +2317,18 @@ module.exports = [
       "elasticsearch",
       "analytics",
       "full-text"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Meilisearch",
+    "description": "Fast search engine with typo-tolerance, filtering, and instant search capabilities",
+    "usage": "const { MeiliSearch } = require('meilisearch'); const client = new MeiliSearch({ host: 'http://localhost:7700' }); const results = await client.index('movies').search('Batman');",
+    "tags": [
+      "search",
+      "meilisearch",
+      "full-text",
+      "typo-tolerance"
     ],
     "category": "Database"
   }
