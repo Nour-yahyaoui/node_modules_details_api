@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 209
-// Last updated: 2026-08-16 05:37:39
+// Total modules: 210
+// Last updated: 2026-08-16 05:37:44
 
 module.exports = [
   {
@@ -2511,5 +2511,17 @@ module.exports = [
       "styles"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Axios (Advanced)",
+    "description": "Advanced HTTP client with interceptors, retries, and cancellation support",
+    "usage": "const axios = require('axios'); const instance = axios.create({ baseURL: 'https://api.example.com' }); instance.interceptors.request.use(config => { console.log('Request sent'); return config; });",
+    "tags": [
+      "http",
+      "interceptors",
+      "retry",
+      "cancellation"
+    ],
+    "category": "HTTP Client"
   }
 ];
