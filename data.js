@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 58
-// Last updated: 2026-08-17 01:13:20
+// Last updated: 2026-08-17 01:14:34
 
 module.exports = [
   {
@@ -689,15 +689,15 @@ module.exports = [
     "category": "Logging"
   },
   {
-    "title": "Drizzle ORM",
-    "description": "Lightweight SQL ORM with zero dependencies and full TypeScript support for modern applications",
-    "usage": "import { drizzle } from 'drizzle-orm/better-sqlite3'; import Database from 'better-sqlite3'; const db = drizzle(new Database('sqlite.db'));",
+    "title": "Rimraf",
+    "description": "Deep deletion module providing rm -rf functionality for directories and files across platforms",
+    "usage": "const rimraf = require('rimraf'); rimraf.sync('dist');",
     "tags": [
-      "orm",
-      "database",
-      "typescript",
-      "lightweight"
+      "delete",
+      "clean",
+      "rm",
+      "files"
     ],
-    "category": "ORM/Database"
+    "category": "Utility"
   }
 ];
