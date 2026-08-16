@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 71
-// Last updated: 2026-08-17 01:20:25
+// Total modules: 72
+// Last updated: 2026-08-17 01:20:31
 
 module.exports = [
   {
@@ -853,6 +853,18 @@ module.exports = [
       "s3",
       "dynamodb",
       "lambda"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Google Cloud Client",
+    "description": "Official Google Cloud client for Node.js with support for Storage, Firestore, Pub/Sub, and other GCP services",
+    "usage": "const { Storage } = require('@google-cloud/storage'); const storage = new Storage(); const [buckets] = await storage.getBuckets();",
+    "tags": [
+      "google-cloud",
+      "gcp",
+      "storage",
+      "firestore"
     ],
     "category": "Cloud"
   }
