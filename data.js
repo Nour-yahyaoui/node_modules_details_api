@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 32
-// Last updated: 2026-08-16 05:15:07
+// Total modules: 33
+// Last updated: 2026-08-16 05:15:13
 
 module.exports = [
   {
@@ -385,6 +385,18 @@ module.exports = [
       "database",
       "typescript",
       "prisma"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize",
+    "description": "Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQLite, and MSSQL with model definitions and migrations",
+    "usage": "const { Sequelize, DataTypes } = require('sequelize'); const sequelize = new Sequelize('database', 'username', 'password', { dialect: 'mysql' });",
+    "tags": [
+      "orm",
+      "database",
+      "sql",
+      "models"
     ],
     "category": "ORM/Database"
   }
