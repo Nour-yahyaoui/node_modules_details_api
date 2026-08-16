@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 26
-// Last updated: 2026-08-16 05:14:34
+// Total modules: 27
+// Last updated: 2026-08-16 05:14:39
 
 module.exports = [
   {
@@ -315,5 +315,17 @@ module.exports = [
       "id"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Validator",
+    "description": "String validators and sanitizers for checking email, URL, and other input formats with extensive validation functions",
+    "usage": "const validator = require('validator'); const isValidEmail = validator.isEmail('test@example.com');",
+    "tags": [
+      "validation",
+      "sanitization",
+      "email",
+      "url"
+    ],
+    "category": "Validation"
   }
 ];
