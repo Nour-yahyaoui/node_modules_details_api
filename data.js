@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 161
-// Last updated: 2026-08-16 05:30:00
+// Total modules: 162
+// Last updated: 2026-08-16 05:30:06
 
 module.exports = [
   {
@@ -1933,6 +1933,18 @@ module.exports = [
       "esm",
       "fast",
       "hmr"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Docker Compose",
+    "description": "Define and run multi-container Docker applications with service configuration and networking",
+    "usage": "docker-compose up -d",
+    "tags": [
+      "docker",
+      "compose",
+      "orchestration",
+      "containers"
     ],
     "category": "Dev Tool"
   }
