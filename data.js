@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 142
-// Last updated: 2026-08-17 01:29:34
+// Total modules: 143
+// Last updated: 2026-08-17 01:29:40
 
 module.exports = [
   {
@@ -1705,6 +1705,18 @@ module.exports = [
       "spinner",
       "terminal",
       "progress"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Listr",
+    "description": "Task runner for CLI with interactive progress, subtasks, and error handling",
+    "usage": "const Listr = require('listr'); const tasks = new Listr([{ title: 'Task 1', task: () => Promise.resolve() }]); await tasks.run();",
+    "tags": [
+      "cli",
+      "tasks",
+      "progress",
+      "interactive"
     ],
     "category": "CLI/Tool"
   }
