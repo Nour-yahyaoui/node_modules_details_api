@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 220
-// Last updated: 2026-08-16 05:40:05
+// Total modules: 221
+// Last updated: 2026-08-16 05:40:11
 
 module.exports = [
   {
@@ -2643,5 +2643,17 @@ module.exports = [
       "authentication"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Plaid",
+    "description": "Plaid API client for banking, financial data, and payment processing integration",
+    "usage": "const { Configuration, PlaidApi } = require('@plaid/plaid-api'); const client = new PlaidApi(new Configuration({ basePath: 'https://sandbox.plaid.com', apiKey: 'key' })); const token = await client.linkTokenCreate({ client_name: 'App', language: 'en', country_codes: ['US'], user: { client_user_id: 'user' } });",
+    "tags": [
+      "plaid",
+      "banking",
+      "finance",
+      "payments"
+    ],
+    "category": "Payment"
   }
 ];
