@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 6 |
+| Total Libraries | 7 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Security, Utility |
 | Last Updated | 2026-08-16 |
 
@@ -32,3 +32,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Chalk | CLI/Tool | Terminal string styling with colors, RGB, and hex support fo... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
+| Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
