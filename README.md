@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 91 |
+| Total Libraries | 92 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -77,6 +77,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | Mongoose | ORM/Database | MongoDB object modeling with schema validation, query buildi... |
+| Mongoose (Advanced) | ORM/Database | MongoDB ODM with advanced schema features, validation, middl... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
