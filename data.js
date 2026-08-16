@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 218
-// Last updated: 2026-08-17 01:38:55
+// Total modules: 219
+// Last updated: 2026-08-17 01:39:00
 
 module.exports = [
   {
@@ -2617,6 +2617,18 @@ module.exports = [
       "messaging",
       "api",
       "collaboration"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Zoom API",
+    "description": "Zoom API client for managing meetings, webinars, users, and recordings",
+    "usage": "const ZoomAPI = require('zoomapi'); const zoom = new ZoomAPI({ jwt: 'token' }); const meetings = await zoom.meetings.list({ userId: 'me' });",
+    "tags": [
+      "zoom",
+      "video",
+      "api",
+      "meetings"
     ],
     "category": "Utility"
   }
