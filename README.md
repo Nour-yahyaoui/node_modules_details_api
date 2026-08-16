@@ -54,7 +54,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
 | Crypto-js | Security | Pure JavaScript cryptographic library with AES, SHA, HMAC, a... |
-| Cucumber | Testing/Tool | BDD testing with Gherkin syntax, step definitions, and hooks... |
 | Cypress | Testing/Tool | Modern end-to-end testing framework with automatic waiting, ... |
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
 | Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
@@ -148,6 +147,7 @@ This repository contains a growing collection of **Node.js library documentation
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
+| Supertest | Testing/Tool | HTTP assertion library for testing Express/Node.js applicati... |
 | Typegoose | ORM/Database | TypeScript-first Mongoose wrapper providing type-safe models... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
