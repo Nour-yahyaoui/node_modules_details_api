@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 227
-// Last updated: 2026-08-17 01:39:46
+// Total modules: 228
+// Last updated: 2026-08-17 01:39:51
 
 module.exports = [
   {
@@ -2727,5 +2727,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Session",
+    "description": "Session management plugin for Fastify with in-memory and Redis storage",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/session'), { secret: 'secret' });",
+    "tags": [
+      "fastify",
+      "session",
+      "store",
+      "middleware"
+    ],
+    "category": "Security"
   }
 ];
