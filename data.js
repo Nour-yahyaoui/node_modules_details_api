@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 247
-// Last updated: 2026-08-17 01:59:48
+// Total modules: 248
+// Last updated: 2026-08-17 01:59:54
 
 module.exports = [
   {
@@ -2967,5 +2967,17 @@ module.exports = [
       "typescript"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Drizzle Kit",
+    "description": "CLI tool for Drizzle ORM with migrations, introspection, and seed data",
+    "usage": "npx drizzle-kit generate && npx drizzle-kit migrate",
+    "tags": [
+      "drizzle",
+      "cli",
+      "migrations",
+      "introspection"
+    ],
+    "category": "Dev Tool"
   }
 ];
