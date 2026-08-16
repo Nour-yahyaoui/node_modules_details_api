@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 20
-// Last updated: 2026-08-16 05:14:00
+// Total modules: 21
+// Last updated: 2026-08-16 05:14:06
 
 module.exports = [
   {
@@ -243,5 +243,17 @@ module.exports = [
       "validation"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Morgan",
+    "description": "HTTP request logging middleware with customizable log formats for development and production",
+    "usage": "const morgan = require('morgan'); app.use(morgan('combined'));",
+    "tags": [
+      "logging",
+      "http",
+      "middleware",
+      "requests"
+    ],
+    "category": "Logging"
   }
 ];
