@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 165
-// Last updated: 2026-08-16 05:30:26
+// Total modules: 166
+// Last updated: 2026-08-16 05:31:11
 
 module.exports = [
   {
@@ -1981,6 +1981,18 @@ module.exports = [
       "pulumi",
       "cloud",
       "infrastructure"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Serverless",
+    "description": "Framework for building serverless applications with AWS Lambda, API Gateway, and other cloud services",
+    "usage": "serverless deploy",
+    "tags": [
+      "serverless",
+      "aws",
+      "lambda",
+      "cloud"
     ],
     "category": "Dev Tool"
   }
