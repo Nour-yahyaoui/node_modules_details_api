@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 24 |
-| Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, ORM/Database, Security, Testing/Tool, Utility, Validation, Web Framework |
+| Total Libraries | 25 |
+| Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, ORM/Database, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-16 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -50,3 +50,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
+| Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
