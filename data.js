@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 172
-// Last updated: 2026-08-16 05:31:53
+// Total modules: 173
+// Last updated: 2026-08-16 05:32:00
 
 module.exports = [
   {
@@ -2067,5 +2067,17 @@ module.exports = [
       "cli"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Supabase JS",
+    "description": "Supabase client with authentication, realtime subscriptions, and PostgreSQL database access",
+    "usage": "const { createClient } = require('@supabase/supabase-js'); const supabase = createClient(url, key); const { data } = await supabase.from('users').select('*');",
+    "tags": [
+      "supabase",
+      "database",
+      "authentication",
+      "realtime"
+    ],
+    "category": "Database"
   }
 ];
