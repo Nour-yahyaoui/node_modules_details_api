@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 182
-// Last updated: 2026-08-16 05:33:03
+// Total modules: 183
+// Last updated: 2026-08-16 05:33:10
 
 module.exports = [
   {
@@ -2187,5 +2187,17 @@ module.exports = [
       "rest-api"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Ghost Admin API",
+    "description": "Ghost CMS admin API client for managing posts, users, and settings programmatically",
+    "usage": "const GhostAdminAPI = require('@tryghost/admin-api'); const api = new GhostAdminAPI({ url: 'url', key: 'key' }); const posts = await api.posts.browse();",
+    "tags": [
+      "cms",
+      "ghost",
+      "blog",
+      "admin"
+    ],
+    "category": "Utility"
   }
 ];
