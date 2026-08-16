@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 229
-// Last updated: 2026-08-17 01:39:57
+// Total modules: 230
+// Last updated: 2026-08-17 01:40:02
 
 module.exports = [
   {
@@ -2749,6 +2749,18 @@ module.exports = [
       "graceful",
       "shutdown",
       "health"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Autoload",
+    "description": "Auto-load Fastify plugins from directories with configuration and ordering",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/autoload'), { dir: './plugins' });",
+    "tags": [
+      "fastify",
+      "plugins",
+      "autoload",
+      "configuration"
     ],
     "category": "Dev Tool"
   }
