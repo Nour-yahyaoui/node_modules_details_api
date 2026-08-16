@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 150
-// Last updated: 2026-08-17 01:30:27
+// Total modules: 151
+// Last updated: 2026-08-17 01:30:38
 
 module.exports = [
   {
@@ -1801,6 +1801,18 @@ module.exports = [
       "archive",
       "extract",
       "compression"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Node-pty",
+    "description": "Pseudo terminal (PTY) for Node.js with support for command execution and terminal emulation",
+    "usage": "const pty = require('node-pty'); const term = pty.spawn('bash', [], { name: 'xterm-color', cols: 80, rows: 30 }); term.on('data', data => process.stdout.write(data));",
+    "tags": [
+      "terminal",
+      "pty",
+      "shell",
+      "emulation"
     ],
     "category": "Utility"
   }
