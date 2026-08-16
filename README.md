@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 113 |
+| Total Libraries | 114 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -119,6 +119,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Puppeteer Extra | Testing/Tool | Enhanced Puppeteer with stealth plugin, ad blocker, and addi... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
+| Sails.js | Web Framework | MVC framework for building custom, enterprise-grade Node.js ... |
 | SendGrid | Utility | Email delivery service client with support for transactional... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
