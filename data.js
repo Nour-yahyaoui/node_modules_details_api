@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 64
-// Last updated: 2026-08-16 05:18:26
+// Total modules: 65
+// Last updated: 2026-08-16 05:18:33
 
 module.exports = [
   {
@@ -769,6 +769,18 @@ module.exports = [
       "views",
       "html",
       "embed"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Pug",
+    "description": "High-performance template engine with clean, whitespace-sensitive syntax and powerful inheritance features",
+    "usage": "const pug = require('pug'); const html = pug.render('h1 Hello World');",
+    "tags": [
+      "templating",
+      "views",
+      "html",
+      "syntax"
     ],
     "category": "Utility"
   }
