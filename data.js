@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 195
-// Last updated: 2026-08-17 01:36:34
+// Total modules: 196
+// Last updated: 2026-08-17 01:36:40
 
 module.exports = [
   {
@@ -2341,6 +2341,18 @@ module.exports = [
       "typesense",
       "full-text",
       "typo-tolerance"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Algolia",
+    "description": "Algolia search client with instant search, faceting, and AI-powered ranking",
+    "usage": "const algoliasearch = require('algoliasearch'); const client = algoliasearch('app-id', 'api-key'); const index = client.initIndex('products'); const results = await index.search('laptop');",
+    "tags": [
+      "search",
+      "algolia",
+      "full-text",
+      "ranking"
     ],
     "category": "Database"
   }
