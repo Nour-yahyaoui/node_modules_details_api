@@ -23,7 +23,6 @@ This repository contains a growing collection of **Node.js library documentation
 
 ## 🛠️ Libraries Included
 
-
 | Library | Category | Description |
 |---------|----------|-------------|
 | Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
