@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 146 |
+| Total Libraries | 147 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-16 |
 
@@ -74,6 +74,7 @@ This repository contains a growing collection of **Node.js library documentation
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Glob | Utility | Pattern matching for files using glob syntax with sync and a... |
 | Google Cloud Client | Cloud | Official Google Cloud client for Node.js with support for St... |
 | Got | HTTP Client | Human-friendly and powerful HTTP request library with advanc... |
 | GraphQL | API | GraphQL reference implementation with schema construction, q... |
