@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 130
-// Last updated: 2026-08-17 01:27:00
+// Total modules: 131
+// Last updated: 2026-08-17 01:27:07
 
 module.exports = [
   {
@@ -1561,6 +1561,18 @@ module.exports = [
       "e2e",
       "automation",
       "cypress"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Playwright Test",
+    "description": "Cross-browser E2E testing with auto-waiting, fixtures, and parallel test execution",
+    "usage": "import { test, expect } from '@playwright/test'; test('homepage loads', async ({ page }) => { await page.goto('/'); await expect(page).toHaveTitle('Home'); });",
+    "tags": [
+      "testing",
+      "e2e",
+      "playwright",
+      "automation"
     ],
     "category": "Testing/Tool"
   }
