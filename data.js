@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 178
-// Last updated: 2026-08-17 01:33:48
+// Last updated: 2026-08-17 01:34:43
 
 module.exports = [
   {
@@ -2129,14 +2129,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Strapi SDK",
-    "description": "Client for Strapi headless CMS with REST and GraphQL support and authentication",
-    "usage": "const { Strapi } = require('@strapi/strapi'); const strapi = new Strapi();",
+    "title": "Contentful",
+    "description": "Contentful content management client with entry management, delivery, and preview APIs",
+    "usage": "const contentful = require('contentful'); const client = contentful.createClient({ space: 'space', accessToken: 'token' }); const entries = await client.getEntries();",
     "tags": [
       "cms",
-      "headless",
-      "strapi",
-      "content"
+      "contentful",
+      "content",
+      "api"
     ],
     "category": "Utility"
   }
