@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 49
-// Last updated: 2026-08-16 05:16:47
+// Total modules: 50
+// Last updated: 2026-08-16 05:16:54
 
 module.exports = [
   {
@@ -591,5 +591,17 @@ module.exports = [
       "interactive"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Moment.js",
+    "description": "Comprehensive date library for parsing, validating, manipulating, and formatting dates with internationalization",
+    "usage": "const moment = require('moment'); const now = moment(); const formatted = now.format('YYYY-MM-DD');",
+    "tags": [
+      "date",
+      "time",
+      "datetime",
+      "formatting"
+    ],
+    "category": "Utility"
   }
 ];
