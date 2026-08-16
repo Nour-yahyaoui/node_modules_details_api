@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 149 |
+| Total Libraries | 150 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -68,6 +68,7 @@ This repository contains a growing collection of **Node.js library documentation
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Execa | Utility | Improved child_process with promises, buffer limits, and cro... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
+| Extract-zip | Utility | Extract ZIP archives with progress reporting, file filtering... |
 | Factory-girl | Testing/Tool | Factory library for creating test objects with default attri... |
 | Faker | Testing/Tool | Generate massive amounts of fake data including names, email... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
