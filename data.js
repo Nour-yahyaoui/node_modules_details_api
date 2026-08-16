@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 28
-// Last updated: 2026-08-16 05:14:45
+// Total modules: 29
+// Last updated: 2026-08-16 05:14:50
 
 module.exports = [
   {
@@ -339,5 +339,17 @@ module.exports = [
       "transports"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Nodemon",
+    "description": "Development tool that automatically restarts Node.js applications when file changes are detected in the directory",
+    "usage": "nodemon app.js",
+    "tags": [
+      "dev",
+      "auto-reload",
+      "watch",
+      "restart"
+    ],
+    "category": "Dev Tool"
   }
 ];
