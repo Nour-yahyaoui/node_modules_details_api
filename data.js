@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 216
-// Last updated: 2026-08-17 01:38:43
+// Total modules: 217
+// Last updated: 2026-08-17 01:38:49
 
 module.exports = [
   {
@@ -2593,6 +2593,18 @@ module.exports = [
       "bot",
       "messaging",
       "api"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Discord.js",
+    "description": "Discord API client with voice support, message handling, and command management",
+    "usage": "const { Client, GatewayIntentBits } = require('discord.js'); const client = new Client({ intents: [GatewayIntentBits.Guilds] }); client.on('messageCreate', msg => { msg.reply('Hello'); });",
+    "tags": [
+      "discord",
+      "bot",
+      "api",
+      "gaming"
     ],
     "category": "Utility"
   }
