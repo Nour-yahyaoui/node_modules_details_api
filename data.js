@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 6
-// Last updated: 2026-08-16 05:10:25
+// Last updated: 2026-08-16 05:11:30
 
 module.exports = [
   {
@@ -64,15 +64,15 @@ module.exports = [
     "category": "CLI/Tool"
   },
   {
-    "title": "Compression",
-    "description": "Response compression middleware using gzip or deflate to reduce bandwidth and improve page load times",
-    "usage": "const compression = require('compression'); app.use(compression());",
+    "title": "Concurrently",
+    "description": "Run multiple commands concurrently, useful for starting both backend and frontend servers simultaneously",
+    "usage": "concurrently \"npm run server\" \"npm run client\"",
     "tags": [
-      "compression",
-      "gzip",
-      "performance",
-      "middleware"
+      "concurrent",
+      "parallel",
+      "scripts",
+      "npm"
     ],
-    "category": "Performance"
+    "category": "Dev Tool"
   }
 ];
