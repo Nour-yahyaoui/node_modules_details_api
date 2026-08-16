@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 134
-// Last updated: 2026-08-16 05:26:04
+// Total modules: 135
+// Last updated: 2026-08-16 05:26:10
 
 module.exports = [
   {
@@ -1609,6 +1609,18 @@ module.exports = [
       "mock",
       "http",
       "interception"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Testcontainers",
+    "description": "Docker container management for tests with database, message broker, and service containers",
+    "usage": "const { GenericContainer } = require('testcontainers'); const container = await new GenericContainer('postgres:13').start();",
+    "tags": [
+      "testing",
+      "docker",
+      "containers",
+      "integration"
     ],
     "category": "Testing/Tool"
   }
