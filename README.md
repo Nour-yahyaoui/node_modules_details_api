@@ -57,6 +57,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
+| Contentful | Utility | Contentful content management client with entry management, ... |
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
@@ -183,7 +184,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Snowpack | Dev Tool | Build tool using native ESM with fast builds, Hot Module Rep... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
-| Strapi SDK | Utility | Client for Strapi headless CMS with REST and GraphQL support... |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Supabase JS | Database | Supabase client with authentication, realtime subscriptions,... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
