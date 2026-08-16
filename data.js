@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 90
-// Last updated: 2026-08-17 01:22:30
+// Total modules: 91
+// Last updated: 2026-08-17 01:22:35
 
 module.exports = [
   {
@@ -1081,6 +1081,18 @@ module.exports = [
       "database",
       "models",
       "adapters"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "MikroORM",
+    "description": "TypeScript ORM with unit of work, identity map, and support for MongoDB, SQL, and migrations",
+    "usage": "import { MikroORM } from '@mikro-orm/core'; const orm = await MikroORM.init({ entities: [User], dbName: 'db', type: 'postgresql' }); const users = await orm.em.find(User, {});",
+    "tags": [
+      "orm",
+      "typescript",
+      "unit-of-work",
+      "sql"
     ],
     "category": "ORM/Database"
   }
