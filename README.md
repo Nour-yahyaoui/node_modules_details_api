@@ -74,6 +74,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
 | Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
 | Directus | Utility | Headless CMS with REST and GraphQL APIs, authentication, and... |
+| Discord.js | Utility | Discord API client with voice support, message handling, and... |
 | Docker Compose | Dev Tool | Define and run multi-container Docker applications with serv... |
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
@@ -164,7 +165,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Node-pty | Utility | Pseudo terminal (PTY) for Node.js with support for command e... |
 | Node-resque | Background Processing | Job queue system using Redis with multiple queues, delayed j... |
 | Node-schedule | Background Processing | Flexible job scheduling library with cron-like syntax, date-... |
-| Node-telegram-bot-api | Utility | Telegram Bot API client with message, callback, and inline q... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemailer (Advanced) | Utility | Advanced email sending with attachments, HTML, and multiple ... |
