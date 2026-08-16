@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 225
-// Last updated: 2026-08-17 01:39:34
+// Total modules: 226
+// Last updated: 2026-08-17 01:39:40
 
 module.exports = [
   {
@@ -2701,6 +2701,18 @@ module.exports = [
       "utilities",
       "assert",
       "middleware"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Static",
+    "description": "Static file serving plugin for Fastify with caching and path options",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/static'), { root: './public' });",
+    "tags": [
+      "fastify",
+      "static",
+      "file",
+      "serve"
     ],
     "category": "Utility"
   }
