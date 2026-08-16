@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 42
-// Last updated: 2026-08-16 05:16:02
+// Total modules: 43
+// Last updated: 2026-08-16 05:16:07
 
 module.exports = [
   {
@@ -505,6 +505,18 @@ module.exports = [
       "unit-test",
       "async",
       "reporting"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Chai",
+    "description": "BDD assertion library with expect, should, and assert interfaces for Node.js and browsers",
+    "usage": "const expect = require('chai').expect; expect(2 + 2).to.equal(4);",
+    "tags": [
+      "testing",
+      "assertions",
+      "bdd",
+      "chai"
     ],
     "category": "Testing/Tool"
   }
