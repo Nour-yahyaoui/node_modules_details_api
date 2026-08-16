@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 20
-// Last updated: 2026-08-16 05:12:58
+// Last updated: 2026-08-16 05:14:00
 
 module.exports = [
   {
@@ -233,15 +233,15 @@ module.exports = [
     "category": "Web Framework"
   },
   {
-    "title": "Lodash",
-    "description": "Modern JavaScript utility library delivering modularity, performance, and extras for array and object manipulation",
-    "usage": "const _ = require('lodash'); const unique = _.uniq([1, 2, 2, 3]); const grouped = _.groupBy(users, 'age');",
+    "title": "Mongoose",
+    "description": "MongoDB object modeling with schema validation, query building, and middleware support",
+    "usage": "const mongoose = require('mongoose'); await mongoose.connect('mongodb://localhost:27017/test');",
     "tags": [
-      "utility",
-      "array",
-      "object",
-      "functional"
+      "mongodb",
+      "odm",
+      "schema",
+      "validation"
     ],
-    "category": "Utility"
+    "category": "ORM/Database"
   }
 ];
