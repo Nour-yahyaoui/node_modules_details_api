@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 68 |
+| Total Libraries | 69 |
 | Categories | API, Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -61,6 +61,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
 | Koa | Web Framework | Modern web framework designed by the Express team with async... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
+| Mercurius | API | GraphQL server and gateway for Fastify with schema stitching... |
 | Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
 | Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
