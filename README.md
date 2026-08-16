@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 192 |
+| Total Libraries | 193 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -72,6 +72,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
+| Elasticsearch | Database | Official Elasticsearch client with full-text search, aggrega... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
