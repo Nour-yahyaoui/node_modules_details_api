@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 242
-// Last updated: 2026-08-17 01:59:19
+// Total modules: 243
+// Last updated: 2026-08-17 01:59:25
 
 module.exports = [
   {
@@ -2907,5 +2907,17 @@ module.exports = [
       "tasks"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "NestJS Mail",
+    "description": "Email module for NestJS with Nodemailer integration and template support",
+    "usage": "import { Module } from '@nestjs/common'; import { MailerModule } from '@nestjs-modules/mailer'; @Module({ imports: [MailerModule.forRoot({ transport: 'smtps://user:pass@smtp.example.com' })] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "email",
+      "mailer",
+      "nodemailer"
+    ],
+    "category": "Utility"
   }
 ];
