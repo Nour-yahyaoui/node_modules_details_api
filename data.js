@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 237
-// Last updated: 2026-08-17 01:40:41
+// Total modules: 238
+// Last updated: 2026-08-17 01:40:47
 
 module.exports = [
   {
@@ -2844,6 +2844,18 @@ module.exports = [
       "nestjs",
       "mongodb",
       "mongoose",
+      "orm"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "NestJS TypeORM",
+    "description": "TypeORM integration for NestJS with entities, repositories, and migrations",
+    "usage": "import { Module } from '@nestjs/common'; import { TypeOrmModule } from '@nestjs/typeorm'; @Module({ imports: [TypeOrmModule.forRoot({ type: 'postgres', host: 'localhost', database: 'test' })] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "typeorm",
+      "database",
       "orm"
     ],
     "category": "ORM/Database"
