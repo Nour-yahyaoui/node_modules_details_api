@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 279
-// Last updated: 2026-08-17 02:03:23
+// Total modules: 280
+// Last updated: 2026-08-17 02:03:29
 
 module.exports = [
   {
@@ -3349,6 +3349,18 @@ module.exports = [
       "transactions",
       "acid",
       "session"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MongoDB Aggregation Expressions",
+    "description": "MongoDB aggregation with $addFields, $project, and conditional operators",
+    "usage": "const results = await db.collection('users').aggregate([ { $addFields: { fullName: { $concat: ['$firstName', ' ', '$lastName'] } } }, { $project: { name: '$fullName', age: 1 } } ]).toArray();",
+    "tags": [
+      "mongodb",
+      "aggregation",
+      "expressions",
+      "pipeline"
     ],
     "category": "Database"
   }
