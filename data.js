@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 292
-// Last updated: 2026-08-17 02:04:40
+// Total modules: 293
+// Last updated: 2026-08-17 02:04:48
 
 module.exports = [
   {
@@ -3507,5 +3507,17 @@ module.exports = [
       "build"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Brotli",
+    "description": "Brotli compression algorithm implementation for Node.js",
+    "usage": "const brotli = require('brotli'); const compressed = brotli.compress(Buffer.from('Hello World'));",
+    "tags": [
+      "compression",
+      "brotli",
+      "algorithm",
+      "performance"
+    ],
+    "category": "Performance"
   }
 ];
