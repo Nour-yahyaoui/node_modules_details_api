@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 297
-// Last updated: 2026-08-17 02:06:25
+// Total modules: 298
+// Last updated: 2026-08-17 02:06:32
 
 module.exports = [
   {
@@ -3565,6 +3565,18 @@ module.exports = [
       "transform",
       "modify",
       "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Stream Web",
+    "description": "Web Streams API implementation for Node.js with WritableStream and ReadableStream",
+    "usage": "const { ReadableStream, WritableStream } = require('stream/web'); const stream = new ReadableStream({ start(controller) { controller.enqueue('Hello'); controller.close(); } });",
+    "tags": [
+      "stream",
+      "web",
+      "api",
+      "readable"
     ],
     "category": "Utility"
   }
