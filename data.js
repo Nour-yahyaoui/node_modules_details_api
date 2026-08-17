@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 122
-// Last updated: 2026-08-18 01:52:19
+// Total modules: 123
+// Last updated: 2026-08-18 01:52:25
 
 module.exports = [
   {
@@ -1465,6 +1465,18 @@ module.exports = [
       "framework",
       "service-discovery",
       "load-balancing"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Seneca",
+    "description": "Microservices toolkit with pattern matching, transport plugins, and message-based architecture",
+    "usage": "const Seneca = require('seneca'); const seneca = Seneca(); seneca.add('role:math,cmd:add', (msg, reply) => { reply(null, { result: msg.a + msg.b }) });",
+    "tags": [
+      "microservices",
+      "patterns",
+      "transport",
+      "messages"
     ],
     "category": "Web Framework"
   }
