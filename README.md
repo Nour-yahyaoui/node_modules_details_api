@@ -294,6 +294,7 @@ This repository contains a growing collection of **Node.js library documentation
 | SWC | Dev Tool | Extremely fast Rust-based JavaScript/TypeScript compiler for... |
 | Terraform (CDKTF) | Dev Tool | Cloud Development Kit for Terraform with infrastructure as c... |
 | Testcontainers | Testing/Tool | Docker container management for tests with database, message... |
+| Transform Stream | Utility | Transform stream for data modification between read and writ... |
 | Twilio | Utility | Twilio API client for SMS, voice, video, and WhatsApp messag... |
 | Typegoose | ORM/Database | TypeScript-first Mongoose wrapper providing type-safe models... |
 | Typegoose Advanced | ORM/Database | Advanced Typegoose with decorators, hooks, and virtual prope... |
@@ -317,7 +318,6 @@ This repository contains a growing collection of **Node.js library documentation
 | WooCommerce API | Payment | WooCommerce REST API client with products, orders, customers... |
 | WordPress REST API | Utility | WordPress REST API client with posts, pages, users, and cust... |
 | Worker Threads | Performance | Node.js worker threads for CPU-intensive operations and para... |
-| Writable Stream | Utility | Custom writable stream with write and final methods |
 | Yargs | CLI/Tool | Sophisticated CLI argument parser with command handling, hel... |
 | Yup | Validation | Object schema validation with async support, conditional val... |
 | Zlib | Utility | Node.js native zlib library for gzip, deflate, and inflate |
