@@ -28,7 +28,6 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | Agenda | Background Processing | MongoDB-backed job scheduling library for creating and manag... |
 | Apollo Server | API | GraphQL server for Express, Fastify, and other frameworks wi... |
-| Argon2 | Security | Modern password hashing using Argon2 algorithm with configur... |
 | AWS SDK | Cloud | Official AWS SDK for Node.js with support for S3, DynamoDB, ... |
 | Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
 | Azure SDK | Cloud | Microsoft Azure SDK with support for Blob Storage, Queue, Se... |
@@ -46,6 +45,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
+| Crypto-js | Security | Pure JavaScript cryptographic library with AES, SHA, HMAC, a... |
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
