@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 311
-// Last updated: 2026-08-17 02:08:11
+// Total modules: 312
+// Last updated: 2026-08-17 02:08:17
 
 module.exports = [
   {
@@ -3733,6 +3733,18 @@ module.exports = [
       "security",
       "clickjacking",
       "headers"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Express Rate Limit",
+    "description": "Rate limiting middleware for Express with configurable limits and store",
+    "usage": "const rateLimit = require('express-rate-limit'); app.use(rateLimit({ windowMs: 60000, max: 100 }));",
+    "tags": [
+      "rate-limit",
+      "express",
+      "throttle",
+      "security"
     ],
     "category": "Security"
   }
