@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 289
-// Last updated: 2026-08-17 02:04:23
+// Total modules: 290
+// Last updated: 2026-08-17 02:04:28
 
 module.exports = [
   {
@@ -3468,6 +3468,18 @@ module.exports = [
       "worker-threads",
       "pool",
       "concurrency",
+      "performance"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Worker Threads",
+    "description": "Node.js worker threads for CPU-intensive operations and parallel processing",
+    "usage": "const { Worker } = require('worker_threads'); const worker = new Worker('./worker.js'); worker.postMessage('Hello');",
+    "tags": [
+      "worker-threads",
+      "parallel",
+      "cpu",
       "performance"
     ],
     "category": "Performance"
