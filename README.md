@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 324 |
+| Total Libraries | 325 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -108,6 +108,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Express Rate Limit | Security | Rate limiting middleware for Express with configurable limit... |
 | Express Session | Utility | Session middleware for Express with cookie and store options |
+| Express Timeout | Performance | Request timeout middleware for Express with callback |
 | Extract-zip | Utility | Extract ZIP archives with progress reporting, file filtering... |
 | Factory-girl | Testing/Tool | Factory library for creating test objects with default attri... |
 | Faker | Testing/Tool | Generate massive amounts of fake data including names, email... |
