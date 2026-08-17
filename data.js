@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 274
-// Last updated: 2026-08-17 02:02:51
+// Total modules: 275
+// Last updated: 2026-08-17 02:03:00
 
 module.exports = [
   {
@@ -3289,6 +3289,18 @@ module.exports = [
       "native",
       "driver",
       "performance"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MySQL2 Prepared Statements",
+    "description": "MySQL prepared statements with automatic escaping and query caching",
+    "usage": "const mysql = require('mysql2/promise'); const connection = await mysql.createConnection({ host: 'localhost', user: 'root' }); const [rows] = await connection.execute('SELECT * FROM users WHERE id = ?', [1]);",
+    "tags": [
+      "mysql",
+      "prepared",
+      "statements",
+      "driver"
     ],
     "category": "Database"
   }
