@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 310
-// Last updated: 2026-08-17 02:08:05
+// Total modules: 311
+// Last updated: 2026-08-17 02:08:11
 
 module.exports = [
   {
@@ -3720,6 +3720,18 @@ module.exports = [
       "hsts",
       "security",
       "ssl",
+      "headers"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "X-Frame-Options",
+    "description": "X-Frame-Options header middleware for clickjacking protection",
+    "usage": "const xframe = require('x-frame-options'); app.use(xframe('DENY'));",
+    "tags": [
+      "x-frame",
+      "security",
+      "clickjacking",
       "headers"
     ],
     "category": "Security"
