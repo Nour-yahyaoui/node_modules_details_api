@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 249
-// Last updated: 2026-08-17 01:59:59
+// Total modules: 250
+// Last updated: 2026-08-17 02:00:05
 
 module.exports = [
   {
@@ -2989,6 +2989,18 @@ module.exports = [
       "migrations",
       "sql",
       "database"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Knex Seed",
+    "description": "Database seeding for Knex with CSV, JSON, and JavaScript data sources",
+    "usage": "const knex = require('knex')({ client: 'pg' }); await knex('users').insert([{ name: 'John' }, { name: 'Jane' }]);",
+    "tags": [
+      "knex",
+      "seeding",
+      "database",
+      "data"
     ],
     "category": "ORM/Database"
   }
