@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 99
-// Last updated: 2026-08-18 01:49:53
+// Total modules: 100
+// Last updated: 2026-08-18 01:50:00
 
 module.exports = [
   {
@@ -1191,5 +1191,17 @@ module.exports = [
       "hash"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Node-cache",
+    "description": "Simple in-memory caching with TTL support, statistics, and key management for Node.js applications",
+    "usage": "const NodeCache = require('node-cache'); const cache = new NodeCache({ stdTTL: 60 }); cache.set('key', 'value'); const value = cache.get('key');",
+    "tags": [
+      "cache",
+      "memory",
+      "ttl",
+      "performance"
+    ],
+    "category": "Performance"
   }
 ];
