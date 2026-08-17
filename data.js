@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 331
-// Last updated: 2026-08-17 02:10:15
+// Total modules: 332
+// Last updated: 2026-08-17 02:10:21
 
 module.exports = [
   {
@@ -3975,5 +3975,17 @@ module.exports = [
       "ajv"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "JSON Ref",
+    "description": "JSON Reference and JSON Pointer implementation for JSON Schema",
+    "usage": "const jsonRef = require('json-refs'); const resolved = await jsonRef.resolveRefs(schema);",
+    "tags": [
+      "json-ref",
+      "pointer",
+      "schema",
+      "reference"
+    ],
+    "category": "Utility"
   }
 ];
