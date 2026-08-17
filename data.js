@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 261
-// Last updated: 2026-08-17 02:01:29
+// Total modules: 262
+// Last updated: 2026-08-17 02:01:37
 
 module.exports = [
   {
@@ -3133,6 +3133,18 @@ module.exports = [
       "hooks",
       "lifecycle",
       "middleware"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize Scopes",
+    "description": "Sequelize model scopes for reusable query conditions and associations",
+    "usage": "const User = sequelize.define('User', { name: DataTypes.STRING, age: DataTypes.INTEGER }, { scopes: { adult: { where: { age: { [Op.gte]: 18 } } } } }); const adults = await User.scope('adult').findAll();",
+    "tags": [
+      "sequelize",
+      "scopes",
+      "queries",
+      "models"
     ],
     "category": "ORM/Database"
   }
