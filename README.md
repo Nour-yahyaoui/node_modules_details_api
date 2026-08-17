@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 294 |
+| Total Libraries | 295 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-17 |
 
@@ -285,6 +285,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | Socks | Utility | SOCKS proxy client for creating connections through proxy se... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
+| Stream Pipes | Utility | Node.js stream pipeline with promise support and error handl... |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Supabase JS | Database | Supabase client with authentication, realtime subscriptions,... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
