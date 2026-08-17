@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 253
-// Last updated: 2026-08-17 02:00:25
+// Total modules: 254
+// Last updated: 2026-08-17 02:00:33
 
 module.exports = [
   {
@@ -3037,6 +3037,18 @@ module.exports = [
       "seeding",
       "factories",
       "data"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Mongoose Aggregation",
+    "description": "Mongoose aggregation pipeline builder with stage operators and projection",
+    "usage": "const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number })); const results = await User.aggregate([{ $match: { age: { $gt: 18 } } }, { $group: { _id: '$name', count: { $sum: 1 } } }]);",
+    "tags": [
+      "mongoose",
+      "mongodb",
+      "aggregation",
+      "pipeline"
     ],
     "category": "ORM/Database"
   }
