@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 301
-// Last updated: 2026-08-17 02:06:52
+// Total modules: 302
+// Last updated: 2026-08-17 02:06:58
 
 module.exports = [
   {
@@ -3613,6 +3613,18 @@ module.exports = [
       "hash",
       "encryption",
       "random"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Crypto Random",
+    "description": "Cryptographically secure random number generation",
+    "usage": "const crypto = require('crypto'); const random = crypto.randomBytes(16).toString('hex');",
+    "tags": [
+      "crypto",
+      "random",
+      "secure",
+      "bytes"
     ],
     "category": "Security"
   }
