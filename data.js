@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 338
-// Last updated: 2026-08-17 02:11:01
+// Total modules: 339
+// Last updated: 2026-08-17 02:11:07
 
 module.exports = [
   {
@@ -4057,6 +4057,18 @@ module.exports = [
       "equal",
       "compare",
       "assert"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Deep Merge",
+    "description": "Deep recursive merge of objects with array handling",
+    "usage": "const merge = require('deepmerge'); const merged = merge({ a: 1 }, { b: 2 });",
+    "tags": [
+      "deep",
+      "merge",
+      "objects",
+      "recursive"
     ],
     "category": "Utility"
   }
