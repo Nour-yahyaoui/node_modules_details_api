@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 156
-// Last updated: 2026-08-18 01:55:44
+// Total modules: 157
+// Last updated: 2026-08-18 01:55:50
 
 module.exports = [
   {
@@ -1873,6 +1873,18 @@ module.exports = [
       "build",
       "automation",
       "streams"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Grunt",
+    "description": "Task runner with extensive plugin ecosystem for build automation and workflow management",
+    "usage": "module.exports = function(grunt) { grunt.registerTask('default', ['uglify']); }",
+    "tags": [
+      "task-runner",
+      "build",
+      "automation",
+      "plugins"
     ],
     "category": "Dev Tool"
   }
