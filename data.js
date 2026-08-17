@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 293
-// Last updated: 2026-08-17 02:04:48
+// Total modules: 294
+// Last updated: 2026-08-17 02:04:59
 
 module.exports = [
   {
@@ -3519,5 +3519,17 @@ module.exports = [
       "performance"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Zlib",
+    "description": "Node.js native zlib library for gzip, deflate, and inflate",
+    "usage": "const zlib = require('zlib'); const compressed = zlib.gzipSync('Hello World');",
+    "tags": [
+      "zlib",
+      "gzip",
+      "deflate",
+      "compression"
+    ],
+    "category": "Utility"
   }
 ];
