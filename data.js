@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 303
-// Last updated: 2026-08-17 02:07:05
+// Total modules: 304
+// Last updated: 2026-08-17 02:07:13
 
 module.exports = [
   {
@@ -3637,6 +3637,18 @@ module.exports = [
       "hmac",
       "signature",
       "cookie"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Csrf",
+    "description": "CSRF token generation and verification for Express applications",
+    "usage": "const csrf = require('csurf'); app.use(csrf({ cookie: true }));",
+    "tags": [
+      "csrf",
+      "security",
+      "tokens",
+      "express"
     ],
     "category": "Security"
   }
