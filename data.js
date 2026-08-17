@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 282
-// Last updated: 2026-08-17 02:03:42
+// Total modules: 283
+// Last updated: 2026-08-17 02:03:48
 
 module.exports = [
   {
@@ -3385,6 +3385,18 @@ module.exports = [
       "transactions",
       "better-sqlite3",
       "database"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "LevelDB Sublevel",
+    "description": "LevelDB sublevel for namespaced key-value stores with prefixes",
+    "usage": "const { Level } = require('level'); const db = new Level('mydb'); const users = db.sublevel('users'); const posts = db.sublevel('posts'); await users.put('1', { name: 'John' });",
+    "tags": [
+      "leveldb",
+      "sublevel",
+      "key-value",
+      "namespaced"
     ],
     "category": "Database"
   }
