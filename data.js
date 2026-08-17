@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 262
-// Last updated: 2026-08-17 02:01:37
+// Total modules: 263
+// Last updated: 2026-08-17 02:01:42
 
 module.exports = [
   {
@@ -3145,6 +3145,18 @@ module.exports = [
       "scopes",
       "queries",
       "models"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize Migrations",
+    "description": "Sequelize migration system with up/down and schema management",
+    "usage": "npx sequelize-cli migration:generate --name create-users && npx sequelize-cli db:migrate",
+    "tags": [
+      "sequelize",
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
