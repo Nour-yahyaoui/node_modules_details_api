@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 323
-// Last updated: 2026-08-17 02:09:29
+// Total modules: 324
+// Last updated: 2026-08-17 02:09:34
 
 module.exports = [
   {
@@ -3877,6 +3877,18 @@ module.exports = [
       "performance",
       "metrics",
       "express"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Compression Express",
+    "description": "Response compression middleware for Express with threshold",
+    "usage": "const compression = require('compression'); app.use(compression({ threshold: 1024 }));",
+    "tags": [
+      "compression",
+      "express",
+      "gzip",
+      "performance"
     ],
     "category": "Performance"
   }
