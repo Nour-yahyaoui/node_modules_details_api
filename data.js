@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 287
-// Last updated: 2026-08-17 02:04:12
+// Total modules: 288
+// Last updated: 2026-08-17 02:04:18
 
 module.exports = [
   {
@@ -3445,6 +3445,18 @@ module.exports = [
       "cache",
       "performance",
       "function"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fast LRU",
+    "description": "Fast LRU cache implementation with Map-based storage and TTL",
+    "usage": "const lru = require('fast-lru'); const cache = new lru({ max: 100, ttl: 60000 }); cache.set('key', 'value');",
+    "tags": [
+      "lru",
+      "cache",
+      "fast",
+      "ttl"
     ],
     "category": "Performance"
   }
