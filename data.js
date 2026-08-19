@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 131
-// Last updated: 2026-08-19 05:53:42
+// Total modules: 132
+// Last updated: 2026-08-19 05:53:48
 
 module.exports = [
   {
@@ -1575,5 +1575,17 @@ module.exports = [
       "database"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Cypress",
+    "description": "Modern end-to-end testing framework with automatic waiting, time travel, and real-time reloads",
+    "usage": "cy.visit('/login'); cy.get('input[name=email]').type('user@example.com'); cy.get('button').click();",
+    "tags": [
+      "testing",
+      "e2e",
+      "automation",
+      "cypress"
+    ],
+    "category": "Testing/Tool"
   }
 ];
