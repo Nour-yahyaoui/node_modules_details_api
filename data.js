@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 138
-// Last updated: 2026-08-19 05:54:22
+// Total modules: 139
+// Last updated: 2026-08-19 05:54:27
 
 module.exports = [
   {
@@ -1657,6 +1657,18 @@ module.exports = [
       "fake",
       "seeding",
       "testing"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Factory-girl",
+    "description": "Factory library for creating test objects with default attributes and associations",
+    "usage": "const factory = require('factory-girl'); factory.define('user', User, { name: 'John', email: 'john@example.com' }); const user = await factory.create('user');",
+    "tags": [
+      "testing",
+      "factories",
+      "seeding",
+      "data"
     ],
     "category": "Testing/Tool"
   }
