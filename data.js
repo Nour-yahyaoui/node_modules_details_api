@@ -1961,11 +1961,11 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Azure Functions",
-    "description": "Azure Functions runtime for Node.js with triggers, bindings, and HTTP endpoints",
-    "usage": "module.exports = async function (context, req) { context.res = { body: 'Hello' }; };",
+    "title": "Google Cloud Functions",
+    "description": "Google Cloud Functions runtime with HTTP triggers, background events, and Pub/Sub support",
+    "usage": "exports.hello = (req, res) => { res.send('Hello World'); };",
     "tags": [
-      "azure",
+      "gcp",
       "functions",
       "serverless",
       "cloud"
