@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 32
-// Last updated: 2026-08-19 05:39:14
+// Total modules: 33
+// Last updated: 2026-08-19 05:39:20
 
 module.exports = [
   {
@@ -387,5 +387,17 @@ module.exports = [
       "modular"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "TypeORM",
+    "description": "ORM supporting Active Record and Data Mapper patterns with full TypeScript and multiple database drivers",
+    "usage": "import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm'; @Entity() export class User { @PrimaryGeneratedColumn() id: number; @Column() name: string; }",
+    "tags": [
+      "orm",
+      "database",
+      "typescript",
+      "sql"
+    ],
+    "category": "ORM/Database"
   }
 ];
