@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-19 06:32:10
+// Last updated: 2026-08-19 06:32:11
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Snowpack",
-    "description": "Build tool using native ESM with fast builds, Hot Module Replacement, and no bundling",
-    "usage": "snowpack dev",
+    "title": "Docker Compose",
+    "description": "Define and run multi-container Docker applications with service configuration and networking",
+    "usage": "docker-compose up -d",
     "tags": [
-      "build",
-      "esm",
-      "fast",
-      "hmr"
+      "docker",
+      "compose",
+      "orchestration",
+      "containers"
     ],
     "category": "Dev Tool"
   }
