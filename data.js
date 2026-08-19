@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 80
-// Last updated: 2026-08-19 05:47:01
+// Total modules: 81
+// Last updated: 2026-08-19 05:47:07
 
 module.exports = [
   {
@@ -963,5 +963,17 @@ module.exports = [
       "scraping"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Cheerio",
+    "description": "Fast jQuery-like HTML parsing for Node.js with CSS selector support and DOM manipulation",
+    "usage": "const cheerio = require('cheerio'); const $ = cheerio.load('<h1>Hello</h1>'); $('h1').text('World');",
+    "tags": [
+      "scraping",
+      "html",
+      "parse",
+      "selector"
+    ],
+    "category": "Utility"
   }
 ];
