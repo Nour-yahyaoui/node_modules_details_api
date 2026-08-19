@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 155
-// Last updated: 2026-08-19 05:56:00
+// Total modules: 156
+// Last updated: 2026-08-19 05:56:05
 
 module.exports = [
   {
@@ -1863,5 +1863,17 @@ module.exports = [
       "unicode"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Oclif",
+    "description": "CLI framework for building command-line tools with plugins, commands, and flags",
+    "usage": "const { Command } = require('@oclif/core'); class HelloCommand extends Command { async run() { this.log('Hello World'); } }",
+    "tags": [
+      "cli",
+      "framework",
+      "commands",
+      "plugins"
+    ],
+    "category": "CLI/Tool"
   }
 ];
