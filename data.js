@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-19 06:32:13
+// Last updated: 2026-08-19 06:32:14
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Pulumi",
-    "description": "Modern infrastructure as code using TypeScript with support for AWS, Azure, GCP, and Kubernetes",
-    "usage": "import * as aws from '@pulumi/aws'; const bucket = new aws.s3.Bucket('my-bucket');",
+    "title": "Serverless",
+    "description": "Framework for building serverless applications with AWS Lambda, API Gateway, and other cloud services",
+    "usage": "serverless deploy",
     "tags": [
-      "iac",
-      "pulumi",
-      "cloud",
-      "infrastructure"
+      "serverless",
+      "aws",
+      "lambda",
+      "cloud"
     ],
     "category": "Dev Tool"
   }
