@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Kubernetes Client",
-    "description": "Official Kubernetes client for Node.js with pod management, service discovery, and deployment",
-    "usage": "const k8s = require('@kubernetes/client-node'); const kc = new k8s.KubeConfig(); kc.loadFromDefault();",
+    "title": "Terraform (CDKTF)",
+    "description": "Cloud Development Kit for Terraform with infrastructure as code using TypeScript and JavaScript",
+    "usage": "import { Construct } from 'constructs'; import { App, TerraformStack } from 'cdktf';",
     "tags": [
-      "kubernetes",
-      "k8s",
-      "orchestration",
-      "containers"
+      "terraform",
+      "iac",
+      "cloud",
+      "infrastructure"
     ],
     "category": "Dev Tool"
   }
