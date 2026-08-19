@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 146
-// Last updated: 2026-08-19 05:55:08
+// Total modules: 147
+// Last updated: 2026-08-19 05:55:13
 
 module.exports = [
   {
@@ -1755,5 +1755,17 @@ module.exports = [
       "interactive"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Execa",
+    "description": "Improved child_process with promises, buffer limits, and cross-platform command execution",
+    "usage": "const execa = require('execa'); const { stdout } = await execa('echo', ['Hello World']); console.log(stdout);",
+    "tags": [
+      "child_process",
+      "exec",
+      "promises",
+      "cross-platform"
+    ],
+    "category": "Utility"
   }
 ];
