@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 16
-// Last updated: 2026-08-20 03:49:16
+// Total modules: 17
+// Last updated: 2026-08-20 03:49:22
 
 module.exports = [
   {
@@ -195,5 +195,17 @@ module.exports = [
       "mock"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Joi",
+    "description": "Powerful schema validation library with descriptive error messages and type validation for JavaScript objects",
+    "usage": "const Joi = require('joi'); const schema = Joi.object({ name: Joi.string().min(3).required() });",
+    "tags": [
+      "validation",
+      "schema",
+      "data",
+      "types"
+    ],
+    "category": "Validation"
   }
 ];
