@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:03
+// Last updated: 2026-08-20 03:14:04
 
 module.exports = [
   {
@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Directus",
-    "description": "Headless CMS with REST and GraphQL APIs, authentication, and content management",
-    "usage": "const { createDirectus, rest } = require('@directus/sdk'); const client = createDirectus('https://api.example.com').with(rest());",
+    "title": "Strapi SDK",
+    "description": "Client for Strapi headless CMS with REST and GraphQL support and authentication",
+    "usage": "const { Strapi } = require('@strapi/strapi'); const strapi = new Strapi();",
     "tags": [
       "cms",
       "headless",
-      "api",
+      "strapi",
       "content"
     ],
     "category": "Utility"
