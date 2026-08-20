@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:38
+// Last updated: 2026-08-20 03:14:39
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MikroORM Migrations",
-    "description": "MikroORM migration system with schema generation and history tracking",
-    "usage": "npx mikro-orm migration:create && npx mikro-orm migration:up",
+    "title": "MikroORM Seeder",
+    "description": "MikroORM data seeding with factories and custom seed scripts",
+    "usage": "import { Factory } from '@mikro-orm/seeder'; const userFactory = new Factory(User); userFactory.make({ name: 'John' });",
     "tags": [
       "mikroorm",
-      "migrations",
-      "database",
-      "schema"
+      "seeding",
+      "factories",
+      "data"
     ],
     "category": "ORM/Database"
   }
