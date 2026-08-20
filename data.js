@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 215
-// Last updated: 2026-08-20 04:10:53
+// Total modules: 216
+// Last updated: 2026-08-20 04:10:58
 
 module.exports = [
   {
@@ -2583,5 +2583,17 @@ module.exports = [
       "compression"
     ],
     "category": "HTTP Client"
+  },
+  {
+    "title": "Socks",
+    "description": "SOCKS proxy client for creating connections through proxy servers with authentication",
+    "usage": "const socks = require('socks'); const info = await socks.createConnection({ proxy: { ipaddress: '127.0.0.1', port: 1080 }, target: { host: 'example.com', port: 80 } });",
+    "tags": [
+      "proxy",
+      "socks",
+      "networking",
+      "connection"
+    ],
+    "category": "Utility"
   }
 ];
