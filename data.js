@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:22
+// Last updated: 2026-08-20 03:14:23
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Discord.js",
-    "description": "Discord API client with voice support, message handling, and command management",
-    "usage": "const { Client, GatewayIntentBits } = require('discord.js'); const client = new Client({ intents: [GatewayIntentBits.Guilds] }); client.on('messageCreate', msg => { msg.reply('Hello'); });",
+    "title": "Slack SDK",
+    "description": "Slack API client with WebSocket, REST, and webhook support for messaging and collaboration",
+    "usage": "const { WebClient } = require('@slack/web-api'); const client = new WebClient('token'); const result = await client.chat.postMessage({ channel: 'general', text: 'Hello' });",
     "tags": [
-      "discord",
-      "bot",
+      "slack",
+      "messaging",
       "api",
-      "gaming"
+      "collaboration"
     ],
     "category": "Utility"
   }
