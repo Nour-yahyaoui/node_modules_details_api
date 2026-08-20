@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:11
+// Last updated: 2026-08-20 03:14:12
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "SES (AWS)",
-    "description": "AWS Simple Email Service client with sending, receiving, and email configuration management",
-    "usage": "const AWS = require('aws-sdk'); const ses = new AWS.SES({ region: 'us-east-1' }); await ses.sendEmail({ Destination: { ToAddresses: ['user@example.com'] }, Source: 'from@example.com', Message: { Subject: { Data: 'Hello' }, Body: { Text: { Data: 'World' } } } }).promise();",
+    "title": "Elasticsearch",
+    "description": "Official Elasticsearch client with full-text search, aggregation, and analytics features",
+    "usage": "const { Client } = require('@elastic/elasticsearch'); const client = new Client({ node: 'http://localhost:9200' }); const result = await client.search({ index: 'posts', body: { query: { match: { title: 'hello' } } } });",
     "tags": [
-      "email",
-      "aws",
-      "ses",
-      "cloud"
+      "search",
+      "elasticsearch",
+      "analytics",
+      "full-text"
     ],
-    "category": "Cloud"
+    "category": "Database"
   }
 ];
