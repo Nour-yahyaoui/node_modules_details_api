@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 195
-// Last updated: 2026-08-20 03:18:10
+// Total modules: 196
+// Last updated: 2026-08-20 03:18:16
 
 module.exports = [
   {
@@ -2341,6 +2341,18 @@ module.exports = [
       "set",
       "path",
       "nested"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Has Own Property",
+    "description": "Safe object property checking with hasOwnProperty",
+    "usage": "const has = require('has'); const exists = has(obj, 'property');",
+    "tags": [
+      "has",
+      "property",
+      "exists",
+      "object"
     ],
     "category": "Utility"
   }
