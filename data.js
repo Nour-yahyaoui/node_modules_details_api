@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Mongoose",
-    "description": "Mongoose integration for NestJS with schema definitions and model injection",
-    "usage": "import { Module } from '@nestjs/common'; import { MongooseModule } from '@nestjs/mongoose'; @Module({ imports: [MongooseModule.forRoot('mongodb://localhost:27017/test')] }) export class AppModule {}",
+    "title": "NestJS TypeORM",
+    "description": "TypeORM integration for NestJS with entities, repositories, and migrations",
+    "usage": "import { Module } from '@nestjs/common'; import { TypeOrmModule } from '@nestjs/typeorm'; @Module({ imports: [TypeOrmModule.forRoot({ type: 'postgres', host: 'localhost', database: 'test' })] }) export class AppModule {}",
     "tags": [
       "nestjs",
-      "mongodb",
-      "mongoose",
+      "typeorm",
+      "database",
       "orm"
     ],
     "category": "ORM/Database"
