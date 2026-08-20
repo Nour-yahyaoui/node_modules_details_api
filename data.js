@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:55
+// Last updated: 2026-08-20 03:14:56
 
 module.exports = [
   {
@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Piscina",
-    "description": "Worker thread pool for Node.js with async tasks and concurrency control",
-    "usage": "const Piscina = require('piscina'); const pool = new Piscina({ filename: './worker.js' }); const result = await pool.run({ data: 'task' });",
+    "title": "Worker Threads",
+    "description": "Node.js worker threads for CPU-intensive operations and parallel processing",
+    "usage": "const { Worker } = require('worker_threads'); const worker = new Worker('./worker.js'); worker.postMessage('Hello');",
     "tags": [
       "worker-threads",
-      "pool",
-      "concurrency",
+      "parallel",
+      "cpu",
       "performance"
     ],
     "category": "Performance"
