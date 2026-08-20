@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 11 |
-| Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Utility |
+| Total Libraries | 12 |
+| Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Utility, Web Framework |
 | Last Updated | 2026-08-20 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -37,3 +37,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
+| Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
