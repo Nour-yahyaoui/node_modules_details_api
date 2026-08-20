@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 164
-// Last updated: 2026-08-20 04:06:00
+// Total modules: 165
+// Last updated: 2026-08-20 04:06:05
 
 module.exports = [
   {
@@ -1969,6 +1969,18 @@ module.exports = [
       "k8s",
       "orchestration",
       "containers"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Terraform (CDKTF)",
+    "description": "Cloud Development Kit for Terraform with infrastructure as code using TypeScript and JavaScript",
+    "usage": "import { Construct } from 'constructs'; import { App, TerraformStack } from 'cdktf';",
+    "tags": [
+      "terraform",
+      "iac",
+      "cloud",
+      "infrastructure"
     ],
     "category": "Dev Tool"
   }
