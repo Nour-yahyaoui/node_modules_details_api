@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 254 |
+| Total Libraries | 255 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -200,6 +200,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Nodemailer (Advanced) | Utility | Advanced email sending with attachments, HTML, and multiple ... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Numeral | Utility | Number formatting and manipulation with currencies, percenta... |
+| Objection Relations | ORM/Database | Objection.js relationship management with eager loading and ... |
 | Objection.js | ORM/Database | SQL ORM with intuitive model definitions, relation managemen... |
 | Oclif | CLI/Tool | CLI framework for building command-line tools with plugins, ... |
 | OpenSearch | Database | OpenSearch client with search, analytics, and visualization ... |
