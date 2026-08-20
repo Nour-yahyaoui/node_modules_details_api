@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Fastify Autoload",
-    "description": "Auto-load Fastify plugins from directories with configuration and ordering",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/autoload'), { dir: './plugins' });",
+    "title": "Hapi Joi",
+    "description": "Joi validation plugin for Hapi with built-in input validation and error handling",
+    "usage": "const Hapi = require('@hapi/hapi'); const Joi = require('joi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', options: { validate: { query: Joi.object({ name: Joi.string() }) } } });",
     "tags": [
-      "fastify",
-      "plugins",
-      "autoload",
-      "configuration"
+      "hapi",
+      "validation",
+      "joi",
+      "input"
     ],
-    "category": "Dev Tool"
+    "category": "Validation"
   }
 ];
