@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 119
-// Last updated: 2026-08-20 04:01:22
+// Total modules: 120
+// Last updated: 2026-08-20 04:01:29
 
 module.exports = [
   {
@@ -1429,6 +1429,18 @@ module.exports = [
       "redis",
       "jobs",
       "priority"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Node-resque",
+    "description": "Job queue system using Redis with multiple queues, delayed jobs, and plugin support",
+    "usage": "const NodeResque = require('node-resque'); const queue = new NodeResque.Queue({ connection: { redis: { host: 'localhost' } } }); queue.enqueue('email', 'send', ['user@example.com']);",
+    "tags": [
+      "queue",
+      "redis",
+      "jobs",
+      "delayed"
     ],
     "category": "Background Processing"
   }
