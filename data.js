@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 127
-// Last updated: 2026-08-20 04:02:16
+// Total modules: 128
+// Last updated: 2026-08-20 04:02:24
 
 module.exports = [
   {
@@ -1525,6 +1525,18 @@ module.exports = [
       "websocket",
       "subscriptions",
       "realtime"
+    ],
+    "category": "API"
+  },
+  {
+    "title": "JSON GraphQL Server",
+    "description": "Zero-config GraphQL server that automatically generates CRUD operations from JSON data",
+    "usage": "const jsonGraphqlServer = require('json-graphql-server'); const server = jsonGraphqlServer({ posts: [{ id: 1, title: 'Hello' }] });",
+    "tags": [
+      "graphql",
+      "json",
+      "crud",
+      "mock"
     ],
     "category": "API"
   }
