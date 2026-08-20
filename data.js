@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Prisma Client",
-    "description": "Type-safe Prisma client with auto-generated queries and migrations",
-    "usage": "import { PrismaClient } from '@prisma/client'; const prisma = new PrismaClient(); const user = await prisma.user.create({ data: { name: 'John' } });",
+    "title": "Prisma Accelerate",
+    "description": "Prisma extension for connection pooling and edge caching",
+    "usage": "import { PrismaClient } from '@prisma/client'; import { withAccelerate } from '@prisma/extension-accelerate'; const prisma = new PrismaClient().$extends(withAccelerate());",
     "tags": [
       "prisma",
-      "orm",
-      "database",
-      "typescript"
+      "accelerate",
+      "cache",
+      "pooling"
     ],
-    "category": "ORM/Database"
+    "category": "Performance"
   }
 ];
