@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Objection Query Builder",
-    "description": "Objection.js fluent query builder with Eager loading and raw SQL support",
-    "usage": "const users = await User.query() .where('age', '>', 18) .select('name', 'email') .orderBy('name');",
+    "title": "Kysely Migrations",
+    "description": "Kysely migration system with schema generation and version management",
+    "usage": "const { Migrator } = require('kysely'); const migrator = new Migrator({ db, provider: new FileMigrationProvider('./migrations') }); await migrator.migrateToLatest();",
     "tags": [
-      "objection",
-      "query",
-      "builder",
-      "eager-loading"
+      "kysely",
+      "migrations",
+      "database",
+      "typescript"
     ],
     "category": "ORM/Database"
   }
