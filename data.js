@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Bluebird",
-    "description": "Full-featured Promise library with performance, utilities, and cancellation support",
-    "usage": "const Promise = require('bluebird'); Promise.map([1, 2, 3], n => n * 2).then(results => console.log(results));",
+    "title": "Humanize Duration",
+    "description": "Convert milliseconds to human-readable duration strings with internationalization",
+    "usage": "const humanizeDuration = require('humanize-duration'); console.log(humanizeDuration(3600000)); // '1 hour'",
     "tags": [
-      "promises",
-      "async",
-      "performance",
-      "utilities"
+      "time",
+      "duration",
+      "format",
+      "human-readable"
     ],
     "category": "Utility"
   }
