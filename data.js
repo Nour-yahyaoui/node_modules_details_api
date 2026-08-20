@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:35
+// Last updated: 2026-08-20 03:14:36
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Prisma Accelerate",
-    "description": "Prisma extension for connection pooling and edge caching",
-    "usage": "import { PrismaClient } from '@prisma/client'; import { withAccelerate } from '@prisma/extension-accelerate'; const prisma = new PrismaClient().$extends(withAccelerate());",
+    "title": "Prisma Pulse",
+    "description": "Real-time database change stream for Prisma with WebSocket and Redis support",
+    "usage": "import { PrismaClient } from '@prisma/client'; import { withPulse } from '@prisma/pulse'; const prisma = new PrismaClient().$extends(withPulse()); prisma.pulse.subscribe('User', (event) => console.log(event));",
     "tags": [
       "prisma",
-      "accelerate",
-      "cache",
-      "pooling"
+      "pulse",
+      "realtime",
+      "change-stream"
     ],
-    "category": "Performance"
+    "category": "Real-time"
   }
 ];
