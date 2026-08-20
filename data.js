@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 167
-// Last updated: 2026-08-20 04:06:16
+// Total modules: 168
+// Last updated: 2026-08-20 04:06:22
 
 module.exports = [
   {
@@ -2007,5 +2007,17 @@ module.exports = [
       "cloud"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "AWS Lambda",
+    "description": "AWS Lambda runtime for Node.js with event handling, context, and callback support",
+    "usage": "exports.handler = async (event) => { return { statusCode: 200, body: 'Hello' }; };",
+    "tags": [
+      "aws",
+      "lambda",
+      "serverless",
+      "cloud"
+    ],
+    "category": "Cloud"
   }
 ];
