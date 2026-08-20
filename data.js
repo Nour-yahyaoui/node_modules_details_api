@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Enquirer",
-    "description": "Stylish CLI prompts with forms, lists, and selectors for terminal applications",
-    "usage": "const { prompt } = require('enquirer'); const response = await prompt({ type: 'input', name: 'name', message: 'What is your name?' });",
+    "title": "Axios (Advanced)",
+    "description": "Advanced HTTP client with interceptors, retries, and cancellation support",
+    "usage": "const axios = require('axios'); const instance = axios.create({ baseURL: 'https://api.example.com' }); instance.interceptors.request.use(config => { console.log('Request sent'); return config; });",
     "tags": [
-      "cli",
-      "prompts",
-      "terminal",
-      "styles"
+      "http",
+      "interceptors",
+      "retry",
+      "cancellation"
     ],
-    "category": "CLI/Tool"
+    "category": "HTTP Client"
   }
 ];
