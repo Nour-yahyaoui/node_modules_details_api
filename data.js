@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:56
+// Last updated: 2026-08-20 03:14:57
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Cluster",
-    "description": "Node.js cluster module for load balancing across CPU cores",
-    "usage": "const cluster = require('cluster'); if (cluster.isMaster) { cluster.fork(); } else { require('./app'); }",
+    "title": "Compression Webpack",
+    "description": "Webpack plugin for gzip and brotli compression during build",
+    "usage": "const CompressionPlugin = require('compression-webpack-plugin'); module.exports = { plugins: [new CompressionPlugin({ test: /\\.(js|css)$/ })] };",
     "tags": [
-      "cluster",
-      "load-balance",
-      "multi-core",
-      "performance"
+      "webpack",
+      "compression",
+      "gzip",
+      "build"
     ],
-    "category": "Performance"
+    "category": "Dev Tool"
   }
 ];
