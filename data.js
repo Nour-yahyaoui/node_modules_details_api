@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Prisma Pulse",
-    "description": "Real-time database change stream for Prisma with WebSocket and Redis support",
-    "usage": "import { PrismaClient } from '@prisma/client'; import { withPulse } from '@prisma/pulse'; const prisma = new PrismaClient().$extends(withPulse()); prisma.pulse.subscribe('User', (event) => console.log(event));",
+    "title": "Drizzle Studio",
+    "description": "Drizzle ORM with integrated database browser and query runner",
+    "usage": "import { drizzle } from 'drizzle-orm/postgres-js'; import postgres from 'postgres'; const client = postgres('postgres://localhost:5432/db'); const db = drizzle(client);",
     "tags": [
-      "prisma",
-      "pulse",
-      "realtime",
-      "change-stream"
+      "drizzle",
+      "orm",
+      "postgres",
+      "typescript"
     ],
-    "category": "Real-time"
+    "category": "ORM/Database"
   }
 ];
