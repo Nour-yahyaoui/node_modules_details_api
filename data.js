@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Objection Relations",
-    "description": "Objection.js relationship management with eager loading and model validation",
-    "usage": "const { Model } = require('objection'); class User extends Model { static get relationMappings() { return { posts: { relation: Model.HasManyRelation, modelClass: Post, join: { from: 'users.id', to: 'posts.user_id' } } }; } } const users = await User.query().withGraphFetched('posts');",
+    "title": "MikroORM Migrations",
+    "description": "MikroORM migration system with schema generation and history tracking",
+    "usage": "npx mikro-orm migration:create && npx mikro-orm migration:up",
     "tags": [
-      "objection",
-      "orm",
-      "relations",
-      "eager-loading"
+      "mikroorm",
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
