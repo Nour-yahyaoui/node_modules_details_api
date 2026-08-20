@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 263 |
+| Total Libraries | 264 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -247,6 +247,7 @@ This repository contains a growing collection of **Node.js library documentation
 | SendGrid | Utility | Email delivery service client with support for transactional... |
 | Seneca | Web Framework | Microservices toolkit with pattern matching, transport plugi... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
+| Sequelize Validations | ORM/Database | Sequelize model validations with built-in and custom validat... |
 | Serverless | Dev Tool | Framework for building serverless applications with AWS Lamb... |
 | SES (AWS) | Cloud | AWS Simple Email Service client with sending, receiving, and... |
 | Shelljs | Utility | Cross-platform shell commands with Unix-like syntax for Node... |
