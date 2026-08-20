@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:52
+// Last updated: 2026-08-20 03:14:53
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Better-SQLite3 Transactions",
-    "description": "Better-SQLite3 transaction support with deferred and immediate modes",
-    "usage": "const Database = require('better-sqlite3'); const db = new Database('mydb.db'); const transaction = db.transaction((data) => { const stmt = db.prepare('INSERT INTO users (name) VALUES (?)'); data.forEach(user => stmt.run(user)); }); transaction(['John', 'Jane']);",
+    "title": "LevelDB Sublevel",
+    "description": "LevelDB sublevel for namespaced key-value stores with prefixes",
+    "usage": "const { Level } = require('level'); const db = new Level('mydb'); const users = db.sublevel('users'); const posts = db.sublevel('posts'); await users.put('1', { name: 'John' });",
     "tags": [
-      "sqlite",
-      "transactions",
-      "better-sqlite3",
-      "database"
+      "leveldb",
+      "sublevel",
+      "key-value",
+      "namespaced"
     ],
     "category": "Database"
   }
