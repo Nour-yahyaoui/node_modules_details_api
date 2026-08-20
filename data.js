@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "TypeORM Relations",
-    "description": "TypeORM entity relations with one-to-one, one-to-many, and many-to-many",
-    "usage": "import { Entity, OneToMany, ManyToOne } from 'typeorm'; @Entity() class User { @OneToMany(() => Post, post => post.user) posts: Post[]; } @Entity() class Post { @ManyToOne(() => User, user => user.posts) user: User; }",
+    "title": "TypeORM Migrations",
+    "description": "TypeORM migration system with generate, run, and revert commands",
+    "usage": "npx typeorm migration:generate -n CreateUsers && npx typeorm migration:run",
     "tags": [
       "typeorm",
-      "relations",
-      "entities",
-      "database"
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
