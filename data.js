@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Redis Cluster",
-    "description": "Redis cluster client with sharding, failover, and command routing",
-    "usage": "const Redis = require('ioredis'); const cluster = new Redis.Cluster([{ host: 'localhost', port: 6379 }]); await cluster.set('key', 'value');",
+    "title": "Redis Sentinel",
+    "description": "Redis sentinel client with automatic failover and master discovery",
+    "usage": "const Redis = require('ioredis'); const sentinel = new Redis({ sentinels: [{ host: 'localhost', port: 26379 }], name: 'mymaster' });",
     "tags": [
       "redis",
-      "cluster",
-      "sharding",
-      "failover"
+      "sentinel",
+      "failover",
+      "high-availability"
     ],
     "category": "Database"
   }
