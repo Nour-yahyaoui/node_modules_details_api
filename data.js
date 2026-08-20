@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "HSTS",
-    "description": "HTTP Strict Transport Security middleware for Express",
-    "usage": "const hsts = require('hsts'); app.use(hsts({ maxAge: 31536000 }));",
+    "title": "X-Frame-Options",
+    "description": "X-Frame-Options header middleware for clickjacking protection",
+    "usage": "const xframe = require('x-frame-options'); app.use(xframe('DENY'));",
     "tags": [
-      "hsts",
+      "x-frame",
       "security",
-      "ssl",
+      "clickjacking",
       "headers"
     ],
     "category": "Security"
