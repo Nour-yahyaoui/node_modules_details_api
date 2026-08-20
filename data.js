@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Bull",
-    "description": "Bull queue integration for NestJS with job processing and scheduling",
-    "usage": "import { Module } from '@nestjs/common'; import { BullModule } from '@nestjs/bull'; @Module({ imports: [BullModule.forRoot({ redis: { host: 'localhost' } })] }) export class AppModule {}",
+    "title": "NestJS Websockets",
+    "description": "WebSocket gateway module for NestJS with real-time event handling",
+    "usage": "import { WebSocketGateway, SubscribeMessage } from '@nestjs/websockets'; @WebSocketGateway() export class ChatGateway { @SubscribeMessage('message') handleMessage(client, data) { return { event: 'message', data: 'Hello' }; } }",
     "tags": [
       "nestjs",
-      "bull",
-      "queue",
-      "jobs"
+      "websocket",
+      "realtime",
+      "gateway"
     ],
-    "category": "Background Processing"
+    "category": "Real-time"
   }
 ];
