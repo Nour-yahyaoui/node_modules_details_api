@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Async",
-    "description": "Async utilities with control flow, collections, and functional programming helpers",
-    "usage": "const async = require('async'); async.map([1, 2, 3], (n, callback) => { callback(null, n * 2); }, (err, results) => { console.log(results); });",
+    "title": "Bluebird",
+    "description": "Full-featured Promise library with performance, utilities, and cancellation support",
+    "usage": "const Promise = require('bluebird'); Promise.map([1, 2, 3], n => n * 2).then(results => console.log(results));",
     "tags": [
+      "promises",
       "async",
-      "control-flow",
-      "collections",
-      "functional"
+      "performance",
+      "utilities"
     ],
     "category": "Utility"
   }
