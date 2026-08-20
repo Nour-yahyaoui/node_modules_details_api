@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Fastify Sensible",
-    "description": "Collection of useful Fastify plugins including defaults, assertions, and utilities",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/sensible'));",
+    "title": "Fastify Static",
+    "description": "Static file serving plugin for Fastify with caching and path options",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/static'), { root: './public' });",
     "tags": [
       "fastify",
-      "utilities",
-      "assert",
-      "middleware"
+      "static",
+      "file",
+      "serve"
     ],
     "category": "Utility"
   }
