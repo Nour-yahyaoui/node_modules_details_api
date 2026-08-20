@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Stream Web",
-    "description": "Web Streams API implementation for Node.js with WritableStream and ReadableStream",
-    "usage": "const { ReadableStream, WritableStream } = require('stream/web'); const stream = new ReadableStream({ start(controller) { controller.enqueue('Hello'); controller.close(); } });",
+    "title": "Buffer",
+    "description": "Node.js Buffer utilities for binary data manipulation",
+    "usage": "const buf = Buffer.from('Hello World', 'utf8'); const hex = buf.toString('hex');",
     "tags": [
-      "stream",
-      "web",
-      "api",
-      "readable"
+      "buffer",
+      "binary",
+      "encoding",
+      "hex"
     ],
     "category": "Utility"
   }
