@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Knex Migrations",
-    "description": "Database migration management for Knex with up/down and seed support",
-    "usage": "const knex = require('knex')({ client: 'pg' }); await knex.schema.createTable('users', (table) => { table.increments('id'); table.string('name'); });",
+    "title": "Knex Seed",
+    "description": "Database seeding for Knex with CSV, JSON, and JavaScript data sources",
+    "usage": "const knex = require('knex')({ client: 'pg' }); await knex('users').insert([{ name: 'John' }, { name: 'Jane' }]);",
     "tags": [
       "knex",
-      "migrations",
-      "sql",
-      "database"
+      "seeding",
+      "database",
+      "data"
     ],
     "category": "ORM/Database"
   }
