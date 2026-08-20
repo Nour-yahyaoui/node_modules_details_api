@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi Auth JWT",
-    "description": "JWT authentication scheme for Hapi with token validation and user verification",
-    "usage": "const Hapi = require('@hapi/hapi'); const jwt = require('hapi-auth-jwt2'); const server = Hapi.server({ port: 3000 }); await server.register(jwt); server.auth.strategy('jwt', 'jwt', { key: 'secret', validate: async (decoded) => ({ isValid: true }) });",
+    "title": "Hapi Boom",
+    "description": "HTTP-friendly error objects for Hapi with status codes and error messages",
+    "usage": "const Hapi = require('@hapi/hapi'); const Boom = require('@hapi/boom'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => { throw Boom.notFound('Not found'); } });",
     "tags": [
       "hapi",
-      "jwt",
-      "authentication",
-      "security"
+      "errors",
+      "http",
+      "boom"
     ],
-    "category": "Security"
+    "category": "Utility"
   }
 ];
