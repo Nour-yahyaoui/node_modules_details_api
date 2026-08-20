@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 137
-// Last updated: 2026-08-20 04:03:27
+// Total modules: 138
+// Last updated: 2026-08-20 04:03:32
 
 module.exports = [
   {
@@ -1647,5 +1647,17 @@ module.exports = [
       "data"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Pino-pretty",
+    "description": "Pretty logger for Pino with colorized output, human-readable timestamps, and log formatting",
+    "usage": "const pino = require('pino'); const logger = pino({ transport: { target: 'pino-pretty' } }); logger.info('Hello World');",
+    "tags": [
+      "logging",
+      "pino",
+      "pretty",
+      "console"
+    ],
+    "category": "Logging"
   }
 ];
