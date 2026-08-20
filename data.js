@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 174
-// Last updated: 2026-08-20 03:16:09
+// Total modules: 175
+// Last updated: 2026-08-20 03:16:15
 
 module.exports = [
   {
@@ -2089,6 +2089,18 @@ module.exports = [
       "upload",
       "stream",
       "express"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Connect Flash",
+    "description": "Flash message middleware for Express with session integration",
+    "usage": "const flash = require('connect-flash'); app.use(flash()); app.get('/flash', (req, res) => { req.flash('info', 'Hello'); });",
+    "tags": [
+      "flash",
+      "messages",
+      "express",
+      "middleware"
     ],
     "category": "Utility"
   }
