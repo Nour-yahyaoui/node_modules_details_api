@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Worker Threads",
-    "description": "Node.js worker threads for CPU-intensive operations and parallel processing",
-    "usage": "const { Worker } = require('worker_threads'); const worker = new Worker('./worker.js'); worker.postMessage('Hello');",
+    "title": "Cluster",
+    "description": "Node.js cluster module for load balancing across CPU cores",
+    "usage": "const cluster = require('cluster'); if (cluster.isMaster) { cluster.fork(); } else { require('./app'); }",
     "tags": [
-      "worker-threads",
-      "parallel",
-      "cpu",
+      "cluster",
+      "load-balance",
+      "multi-core",
       "performance"
     ],
     "category": "Performance"
