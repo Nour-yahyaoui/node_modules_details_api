@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "LowDB Plugins",
-    "description": "LowDB plugins for encryption, compression, and custom adapters",
-    "usage": "const low = require('lowdb'); const FileSync = require('lowdb/adapters/FileSync'); const adapter = new FileSync('db.json'); const db = low(adapter); db.defaults({ posts: [] }).write(); db._.mixin({ myPlugin: (data) => { return data.map(item => ({ ...item, processed: true })); } });",
+    "title": "Better-SQLite3 Transactions",
+    "description": "Better-SQLite3 transaction support with deferred and immediate modes",
+    "usage": "const Database = require('better-sqlite3'); const db = new Database('mydb.db'); const transaction = db.transaction((data) => { const stmt = db.prepare('INSERT INTO users (name) VALUES (?)'); data.forEach(user => stmt.run(user)); }); transaction(['John', 'Jane']);",
     "tags": [
-      "lowdb",
-      "plugins",
-      "adapters",
+      "sqlite",
+      "transactions",
+      "better-sqlite3",
       "database"
     ],
     "category": "Database"
