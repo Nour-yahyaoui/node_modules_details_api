@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 195 |
+| Total Libraries | 196 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -101,6 +101,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Gulp | Dev Tool | Task runner for automation with streams, plugins, and increm... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
+| Has Own Property | Utility | Safe object property checking with hasOwnProperty |
 | Hasura CLI | Dev Tool | CLI tool for Hasura GraphQL Engine with migrations, metadata... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | HJSON | Utility | Human JSON parser with support for comments and relaxed synt... |
