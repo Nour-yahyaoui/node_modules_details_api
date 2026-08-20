@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Sequelize Validations",
-    "description": "Sequelize model validations with built-in and custom validators",
-    "usage": "const User = sequelize.define('User', { name: { type: DataTypes.STRING, validate: { len: [3, 20] } }, email: { type: DataTypes.STRING, validate: { isEmail: true } } });",
+    "title": "Sequelize Hooks",
+    "description": "Sequelize lifecycle hooks for beforeCreate, afterUpdate, and beforeDestroy",
+    "usage": "const User = sequelize.define('User', { name: DataTypes.STRING }, { hooks: { beforeCreate: (user) => { user.name = user.name.trim(); } } });",
     "tags": [
       "sequelize",
-      "validations",
-      "models",
-      "database"
+      "hooks",
+      "lifecycle",
+      "middleware"
     ],
     "category": "ORM/Database"
   }
