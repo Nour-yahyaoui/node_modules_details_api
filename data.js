@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:46
+// Last updated: 2026-08-20 03:14:47
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MikroORM Unit of Work",
-    "description": "MikroORM unit of work with identity map and transaction management",
-    "usage": "import { MikroORM } from '@mikro-orm/core'; const orm = await MikroORM.init({ entities: [User], dbName: 'db', type: 'postgresql' }); const user = orm.em.create(User, { name: 'John' }); await orm.em.persistAndFlush(user);",
+    "title": "TypeORM Query Builder",
+    "description": "TypeORM query builder with complex conditions, joins, and subqueries",
+    "usage": "const users = await getRepository(User).createQueryBuilder('user') .leftJoinAndSelect('user.posts', 'post') .where('user.age > :age', { age: 18 }) .getMany();",
     "tags": [
-      "mikroorm",
-      "unit-of-work",
-      "identity-map",
-      "transaction"
+      "typeorm",
+      "query",
+      "builder",
+      "sql"
     ],
     "category": "ORM/Database"
   }
