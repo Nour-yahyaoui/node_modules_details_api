@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 5
-// Last updated: 2026-08-20 03:46:58
+// Total modules: 6
+// Last updated: 2026-08-20 03:47:04
 
 module.exports = [
   {
@@ -62,5 +62,17 @@ module.exports = [
       "parsing"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Compression",
+    "description": "Response compression middleware using gzip or deflate to reduce bandwidth and improve page load times",
+    "usage": "const compression = require('compression'); app.use(compression());",
+    "tags": [
+      "compression",
+      "gzip",
+      "performance",
+      "middleware"
+    ],
+    "category": "Performance"
   }
 ];
