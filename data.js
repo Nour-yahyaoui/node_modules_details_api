@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Fast LRU",
-    "description": "Fast LRU cache implementation with Map-based storage and TTL",
-    "usage": "const lru = require('fast-lru'); const cache = new lru({ max: 100, ttl: 60000 }); cache.set('key', 'value');",
+    "title": "Piscina",
+    "description": "Worker thread pool for Node.js with async tasks and concurrency control",
+    "usage": "const Piscina = require('piscina'); const pool = new Piscina({ filename: './worker.js' }); const result = await pool.run({ data: 'task' });",
     "tags": [
-      "lru",
-      "cache",
-      "fast",
-      "ttl"
+      "worker-threads",
+      "pool",
+      "concurrency",
+      "performance"
     ],
     "category": "Performance"
   }
