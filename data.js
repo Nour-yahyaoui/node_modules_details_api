@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:57
+// Last updated: 2026-08-20 03:14:58
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Brotli",
-    "description": "Brotli compression algorithm implementation for Node.js",
-    "usage": "const brotli = require('brotli'); const compressed = brotli.compress(Buffer.from('Hello World'));",
+    "title": "Zlib",
+    "description": "Node.js native zlib library for gzip, deflate, and inflate",
+    "usage": "const zlib = require('zlib'); const compressed = zlib.gzipSync('Hello World');",
     "tags": [
-      "compression",
-      "brotli",
-      "algorithm",
-      "performance"
+      "zlib",
+      "gzip",
+      "deflate",
+      "compression"
     ],
-    "category": "Performance"
+    "category": "Utility"
   }
 ];
