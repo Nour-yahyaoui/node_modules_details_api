@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:45
+// Last updated: 2026-08-20 03:14:46
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "TypeORM Migrations",
-    "description": "TypeORM migration system with generate, run, and revert commands",
-    "usage": "npx typeorm migration:generate -n CreateUsers && npx typeorm migration:run",
+    "title": "TypeORM Subscribers",
+    "description": "TypeORM event subscribers with beforeInsert, beforeUpdate, and afterLoad",
+    "usage": "import { EventSubscriber, EntitySubscriberInterface } from 'typeorm'; @EventSubscriber() export class UserSubscriber implements EntitySubscriberInterface<User> { listenTo() { return User; } beforeInsert(event) { event.entity.createdAt = new Date(); } }",
     "tags": [
       "typeorm",
-      "migrations",
-      "database",
-      "schema"
+      "subscribers",
+      "events",
+      "hooks"
     ],
     "category": "ORM/Database"
   }
