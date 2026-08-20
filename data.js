@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Microservices",
-    "description": "Microservices module for NestJS with TCP, Redis, and MQTT transporters",
-    "usage": "import { Controller } from '@nestjs/common'; import { MessagePattern } from '@nestjs/microservices'; @Controller() export class AppController { @MessagePattern('sum') sum(data) { return data.a + data.b; } }",
+    "title": "NestJS Schedule",
+    "description": "Cron job scheduling for NestJS with decorators and dynamic scheduling",
+    "usage": "import { Injectable } from '@nestjs/common'; import { Cron } from '@nestjs/schedule'; @Injectable() export class TasksService { @Cron('0 0 * * *') handleCron() { console.log('Daily job'); } }",
     "tags": [
       "nestjs",
-      "microservices",
-      "tcp",
-      "mqtt"
+      "cron",
+      "schedule",
+      "tasks"
     ],
-    "category": "Web Framework"
+    "category": "Background Processing"
   }
 ];
