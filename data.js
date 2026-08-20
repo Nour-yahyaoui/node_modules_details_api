@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Crypto Random",
-    "description": "Cryptographically secure random number generation",
-    "usage": "const crypto = require('crypto'); const random = crypto.randomBytes(16).toString('hex');",
+    "title": "Keygrip",
+    "description": "Key rotation and signing for HMAC and cookie signatures",
+    "usage": "const Keygrip = require('keygrip'); const keys = new Keygrip(['secret1', 'secret2']); const sig = keys.sign('data');",
     "tags": [
-      "crypto",
-      "random",
-      "secure",
-      "bytes"
+      "keygrip",
+      "hmac",
+      "signature",
+      "cookie"
     ],
     "category": "Security"
   }
