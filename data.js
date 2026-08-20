@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Firebase Admin",
-    "description": "Firebase Admin SDK with authentication, Firestore, Cloud Messaging, and storage",
-    "usage": "const admin = require('firebase-admin'); admin.initializeApp(); const user = await admin.auth().getUser(uid);",
+    "title": "Firebase Client",
+    "description": "Firebase client SDK with realtime database, Firestore, authentication, and storage",
+    "usage": "import { initializeApp } from 'firebase/app'; import { getDatabase, ref, onValue } from 'firebase/database';",
     "tags": [
       "firebase",
-      "authentication",
       "database",
-      "cloud"
+      "authentication",
+      "realtime"
     ],
     "category": "Cloud"
   }
