@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Fastify Cookie",
-    "description": "Cookie parsing and serialization plugin for Fastify with signed and unsigned cookies",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cookie'), { secret: 'secret' });",
+    "title": "Fastify Session",
+    "description": "Session management plugin for Fastify with in-memory and Redis storage",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/session'), { secret: 'secret' });",
     "tags": [
       "fastify",
-      "cookie",
       "session",
+      "store",
       "middleware"
     ],
-    "category": "Utility"
+    "category": "Security"
   }
 ];
