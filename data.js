@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:54
+// Last updated: 2026-08-20 03:14:55
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Memoizee",
-    "description": "Function memoization with configurable cache size and expiration",
-    "usage": "const memoize = require('memoizee'); const fn = memoize((a, b) => a + b, { maxAge: 60000, max: 100 });",
+    "title": "Fast LRU",
+    "description": "Fast LRU cache implementation with Map-based storage and TTL",
+    "usage": "const lru = require('fast-lru'); const cache = new lru({ max: 100, ttl: 60000 }); cache.set('key', 'value');",
     "tags": [
-      "memoization",
+      "lru",
       "cache",
-      "performance",
-      "function"
+      "fast",
+      "ttl"
     ],
     "category": "Performance"
   }
