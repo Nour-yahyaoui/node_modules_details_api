@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi Good",
-    "description": "Logging and monitoring plugin for Hapi with multiple reporters and event types",
-    "usage": "const Hapi = require('@hapi/hapi'); const Good = require('@hapi/good'); const server = Hapi.server({ port: 3000 }); await server.register({ plugin: Good, options: { reporters: { console: [{ module: '@hapi/good-console' }, 'stdout'] } } });",
+    "title": "Hapi Inert",
+    "description": "Static file serving plugin for Hapi with directory and file routing support",
+    "usage": "const Hapi = require('@hapi/hapi'); const Inert = require('@hapi/inert'); const server = Hapi.server({ port: 3000 }); await server.register(Inert); server.route({ method: 'GET', path: '/{param*}', handler: { directory: { path: './public' } } });",
     "tags": [
       "hapi",
-      "logging",
-      "monitoring",
-      "reporter"
+      "static",
+      "file",
+      "serve"
     ],
-    "category": "Logging"
+    "category": "Utility"
   }
 ];
