@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 178
-// Last updated: 2026-08-20 03:16:32
+// Total modules: 179
+// Last updated: 2026-08-20 03:16:38
 
 module.exports = [
   {
@@ -2139,5 +2139,17 @@ module.exports = [
       "request"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Express Query",
+    "description": "Query string parsing middleware for Express with custom options",
+    "usage": "const express = require('express'); const app = express(); app.set('query parser', (str) => require('qs').parse(str));",
+    "tags": [
+      "query",
+      "parser",
+      "express",
+      "qs"
+    ],
+    "category": "Utility"
   }
 ];
