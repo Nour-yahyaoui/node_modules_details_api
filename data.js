@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 230
-// Last updated: 2026-08-20 04:12:19
+// Total modules: 231
+// Last updated: 2026-08-20 04:12:25
 
 module.exports = [
   {
@@ -2763,5 +2763,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Graceful Shutdown",
+    "description": "Graceful shutdown plugin for Fastify with health checks and SIGTERM handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/graceful-shutdown'));",
+    "tags": [
+      "fastify",
+      "graceful",
+      "shutdown",
+      "health"
+    ],
+    "category": "Dev Tool"
   }
 ];
