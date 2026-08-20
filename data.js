@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 177
-// Last updated: 2026-08-20 03:16:27
+// Total modules: 178
+// Last updated: 2026-08-20 03:16:32
 
 module.exports = [
   {
@@ -2125,6 +2125,18 @@ module.exports = [
       "express",
       "gzip",
       "performance"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Express Timeout",
+    "description": "Request timeout middleware for Express with callback",
+    "usage": "const timeout = require('connect-timeout'); app.use(timeout('5s'));",
+    "tags": [
+      "timeout",
+      "express",
+      "middleware",
+      "request"
     ],
     "category": "Performance"
   }
