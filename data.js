@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:34
+// Last updated: 2026-08-20 03:14:35
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Mail",
-    "description": "Email module for NestJS with Nodemailer integration and template support",
-    "usage": "import { Module } from '@nestjs/common'; import { MailerModule } from '@nestjs-modules/mailer'; @Module({ imports: [MailerModule.forRoot({ transport: 'smtps://user:pass@smtp.example.com' })] }) export class AppModule {}",
+    "title": "Prisma Client",
+    "description": "Type-safe Prisma client with auto-generated queries and migrations",
+    "usage": "import { PrismaClient } from '@prisma/client'; const prisma = new PrismaClient(); const user = await prisma.user.create({ data: { name: 'John' } });",
     "tags": [
-      "nestjs",
-      "email",
-      "mailer",
-      "nodemailer"
+      "prisma",
+      "orm",
+      "database",
+      "typescript"
     ],
-    "category": "Utility"
+    "category": "ORM/Database"
   }
 ];
