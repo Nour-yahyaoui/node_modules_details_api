@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:48
+// Last updated: 2026-08-20 03:14:49
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Slonik Interceptors",
-    "description": "Slonik query interceptors for logging, benchmarking, and error handling",
-    "usage": "const { createPool } = require('slonik'); const pool = createPool('postgres://localhost/db', { interceptors: [ { beforeQuery: (execution) => { console.log('Query:', execution.query); } } ] });",
+    "title": "PG Native",
+    "description": "Native PostgreSQL client with binary parsing and C-level performance",
+    "usage": "const { Client } = require('pg-native'); const client = new Client(); await client.connect(); const result = await client.query('SELECT * FROM users');",
     "tags": [
-      "slonik",
       "postgresql",
-      "interceptors",
-      "logging"
+      "native",
+      "driver",
+      "performance"
     ],
     "category": "Database"
   }
