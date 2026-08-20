@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:41
+// Last updated: 2026-08-20 03:14:42
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Typegoose Advanced",
-    "description": "Advanced Typegoose with decorators, hooks, and virtual properties",
-    "usage": "import { prop, getModelForClass, pre } from '@typegoose/typegoose'; @pre<User>('save', function() { this.updatedAt = new Date(); }) class User { @prop() name: string; @prop() updatedAt: Date; } const UserModel = getModelForClass(User);",
+    "title": "Bookshelf Relations",
+    "description": "Bookshelf.js model relations with eager loading and nested eager fetching",
+    "usage": "const User = bookshelf.model('User', { tableName: 'users', posts() { return this.hasMany('Post'); } }); const user = await User.where('id', 1).fetch({ withRelated: ['posts'] });",
     "tags": [
-      "typegoose",
-      "typescript",
-      "mongodb",
-      "decorators"
+      "bookshelf",
+      "relations",
+      "eager-loading",
+      "orm"
     ],
     "category": "ORM/Database"
   }
