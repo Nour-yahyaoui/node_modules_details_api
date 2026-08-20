@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 186
-// Last updated: 2026-08-20 03:17:18
+// Total modules: 187
+// Last updated: 2026-08-20 03:17:23
 
 module.exports = [
   {
@@ -2233,6 +2233,18 @@ module.exports = [
       "express",
       "callback",
       "cross-domain"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "YAML",
+    "description": "YAML parser and stringifier for Node.js with custom schemas",
+    "usage": "const yaml = require('yaml'); const obj = yaml.parse('key: value'); const str = yaml.stringify(obj);",
+    "tags": [
+      "yaml",
+      "parse",
+      "stringify",
+      "configuration"
     ],
     "category": "Utility"
   }
