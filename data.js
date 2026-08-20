@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:15
+// Last updated: 2026-08-20 03:14:16
 
 module.exports = [
   {
@@ -1961,12 +1961,12 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Humanize Duration",
-    "description": "Convert milliseconds to human-readable duration strings with internationalization",
-    "usage": "const humanizeDuration = require('humanize-duration'); console.log(humanizeDuration(3600000)); // '1 hour'",
+    "title": "Pretty Bytes",
+    "description": "Convert bytes to human-readable file size strings with SI and binary units",
+    "usage": "const prettyBytes = require('pretty-bytes'); console.log(prettyBytes(1024)); // '1.02 kB'",
     "tags": [
-      "time",
-      "duration",
+      "bytes",
+      "size",
       "format",
       "human-readable"
     ],
