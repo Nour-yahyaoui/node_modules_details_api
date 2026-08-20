@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 26
-// Last updated: 2026-08-20 03:50:19
+// Total modules: 27
+// Last updated: 2026-08-20 03:50:26
 
 module.exports = [
   {
@@ -315,5 +315,17 @@ module.exports = [
       "broadcast"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "UUID",
+    "description": "Simple and fast RFC-compliant UUID generation with support for v1, v3, v4, and v5 UUIDs",
+    "usage": "const { v4: uuidv4 } = require('uuid'); const id = uuidv4();",
+    "tags": [
+      "uuid",
+      "identifier",
+      "unique",
+      "id"
+    ],
+    "category": "Utility"
   }
 ];
