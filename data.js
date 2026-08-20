@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:42
+// Last updated: 2026-08-20 03:14:43
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Waterline Associations",
-    "description": "Waterline model associations with one-to-one, one-to-many, and many-to-many",
-    "usage": "const User = Waterline.Model.extend({ identity: 'user', attributes: { name: 'string', posts: { collection: 'post', via: 'user' } } }); const Post = Waterline.Model.extend({ identity: 'post', attributes: { title: 'string', user: { model: 'user' } } });",
+    "title": "Sequelize Validations",
+    "description": "Sequelize model validations with built-in and custom validators",
+    "usage": "const User = sequelize.define('User', { name: { type: DataTypes.STRING, validate: { len: [3, 20] } }, email: { type: DataTypes.STRING, validate: { isEmail: true } } });",
     "tags": [
-      "waterline",
-      "associations",
-      "orm",
-      "models"
+      "sequelize",
+      "validations",
+      "models",
+      "database"
     ],
     "category": "ORM/Database"
   }
