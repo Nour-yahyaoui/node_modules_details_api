@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:44
+// Last updated: 2026-08-20 03:14:45
 
 module.exports = [
   {
@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Sequelize Seeders",
-    "description": "Sequelize data seeding with bulk insert and transaction support",
-    "usage": "module.exports = { up: async (queryInterface) => { await queryInterface.bulkInsert('Users', [{ name: 'John' }]); }, down: async (queryInterface) => { await queryInterface.bulkDelete('Users', null, {}); } };",
+    "title": "TypeORM Relations",
+    "description": "TypeORM entity relations with one-to-one, one-to-many, and many-to-many",
+    "usage": "import { Entity, OneToMany, ManyToOne } from 'typeorm'; @Entity() class User { @OneToMany(() => Post, post => post.user) posts: Post[]; } @Entity() class Post { @ManyToOne(() => User, user => user.posts) user: User; }",
     "tags": [
-      "sequelize",
-      "seeders",
-      "data",
+      "typeorm",
+      "relations",
+      "entities",
       "database"
     ],
     "category": "ORM/Database"
