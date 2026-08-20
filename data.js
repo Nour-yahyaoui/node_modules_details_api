@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 191
-// Last updated: 2026-08-20 04:08:39
+// Total modules: 192
+// Last updated: 2026-08-20 04:08:44
 
 module.exports = [
   {
@@ -2295,5 +2295,17 @@ module.exports = [
       "automation"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Mailgun",
+    "description": "Email service with sending, receiving, and tracking features for transactional and marketing emails",
+    "usage": "const mailgun = require('mailgun-js'); const mg = mailgun({ apiKey: 'key', domain: 'example.com' }); await mg.messages().send({ from: 'me@example.com', to: 'you@example.com', subject: 'Hello', text: 'World' });",
+    "tags": [
+      "email",
+      "mailgun",
+      "transactional",
+      "tracking"
+    ],
+    "category": "Utility"
   }
 ];
