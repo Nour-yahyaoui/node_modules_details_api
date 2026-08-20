@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "LevelDB Sublevel",
-    "description": "LevelDB sublevel for namespaced key-value stores with prefixes",
-    "usage": "const { Level } = require('level'); const db = new Level('mydb'); const users = db.sublevel('users'); const posts = db.sublevel('posts'); await users.put('1', { name: 'John' });",
+    "title": "NeDB Indexes",
+    "description": "NeDB index management with unique, sparse, and compound indexes",
+    "usage": "const Datastore = require('nedb'); const db = new Datastore({ filename: 'data.db', autoload: true }); db.ensureIndex({ fieldName: 'email', unique: true }); db.ensureIndex({ fieldName: 'name', sparse: true });",
     "tags": [
-      "leveldb",
-      "sublevel",
-      "key-value",
-      "namespaced"
+      "nedb",
+      "indexes",
+      "unique",
+      "database"
     ],
     "category": "Database"
   }
