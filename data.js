@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Mongoose Plugin",
-    "description": "Mongoose plugin system with timestamps, pagination, and custom hooks",
-    "usage": "const timestampPlugin = (schema) => { schema.add({ createdAt: Date, updatedAt: Date }); schema.pre('save', function(next) { this.updatedAt = Date.now(); next(); }); }; schema.plugin(timestampPlugin);",
+    "title": "Typegoose Advanced",
+    "description": "Advanced Typegoose with decorators, hooks, and virtual properties",
+    "usage": "import { prop, getModelForClass, pre } from '@typegoose/typegoose'; @pre<User>('save', function() { this.updatedAt = new Date(); }) class User { @prop() name: string; @prop() updatedAt: Date; } const UserModel = getModelForClass(User);",
     "tags": [
-      "mongoose",
-      "plugins",
-      "hooks",
-      "middleware"
+      "typegoose",
+      "typescript",
+      "mongodb",
+      "decorators"
     ],
     "category": "ORM/Database"
   }
