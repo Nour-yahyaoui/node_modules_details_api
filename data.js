@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:15:05
+// Last updated: 2026-08-20 03:15:06
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Referrer Policy",
-    "description": "Referrer-Policy header middleware for controlling referrer information",
-    "usage": "const referrerPolicy = require('referrer-policy'); app.use(referrerPolicy({ policy: 'no-referrer' }));",
+    "title": "HSTS",
+    "description": "HTTP Strict Transport Security middleware for Express",
+    "usage": "const hsts = require('hsts'); app.use(hsts({ maxAge: 31536000 }));",
     "tags": [
-      "referrer",
+      "hsts",
       "security",
-      "headers",
-      "privacy"
+      "ssl",
+      "headers"
     ],
     "category": "Security"
   }
