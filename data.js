@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Sequelize Migrations",
-    "description": "Sequelize migration system with up/down and schema management",
-    "usage": "npx sequelize-cli migration:generate --name create-users && npx sequelize-cli db:migrate",
+    "title": "Sequelize Seeders",
+    "description": "Sequelize data seeding with bulk insert and transaction support",
+    "usage": "module.exports = { up: async (queryInterface) => { await queryInterface.bulkInsert('Users', [{ name: 'John' }]); }, down: async (queryInterface) => { await queryInterface.bulkDelete('Users', null, {}); } };",
     "tags": [
       "sequelize",
-      "migrations",
-      "database",
-      "schema"
+      "seeders",
+      "data",
+      "database"
     ],
     "category": "ORM/Database"
   }
