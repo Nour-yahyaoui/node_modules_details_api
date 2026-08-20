@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Contentful",
-    "description": "Contentful content management client with entry management, delivery, and preview APIs",
-    "usage": "const contentful = require('contentful'); const client = contentful.createClient({ space: 'space', accessToken: 'token' }); const entries = await client.getEntries();",
+    "title": "Prismic",
+    "description": "Prismic headless CMS client with query builder, content management, and slicing",
+    "usage": "const prismic = require('@prismicio/client'); const client = prismic.createClient('repository'); const documents = await client.getAllByType('page');",
     "tags": [
       "cms",
-      "contentful",
+      "prismic",
       "content",
-      "api"
+      "headless"
     ],
     "category": "Utility"
   }
