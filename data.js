@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 196
-// Last updated: 2026-08-20 03:18:16
+// Total modules: 197
+// Last updated: 2026-08-20 03:18:22
 
 module.exports = [
   {
@@ -2353,6 +2353,18 @@ module.exports = [
       "property",
       "exists",
       "object"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Stringify Safe",
+    "description": "Safe JSON stringification with circular reference handling",
+    "usage": "const stringify = require('json-stringify-safe'); const str = stringify(circularObject);",
+    "tags": [
+      "json",
+      "stringify",
+      "safe",
+      "circular"
     ],
     "category": "Utility"
   }
