@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:16
+// Last updated: 2026-08-20 03:14:17
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Numeral",
-    "description": "Number formatting and manipulation with currencies, percentages, and time formats",
-    "usage": "const numeral = require('numeral'); console.log(numeral(1000).format('$0,0.00')); // '$1,000.00'",
+    "title": "Math.js",
+    "description": "Comprehensive math library with arithmetic, units, functions, and matrices",
+    "usage": "const math = require('mathjs'); const result = math.evaluate('1.2 * (2 + 4.5)'); console.log(result);",
     "tags": [
-      "numbers",
-      "format",
-      "currency",
-      "percentage"
+      "math",
+      "calculator",
+      "functions",
+      "units"
     ],
     "category": "Utility"
   }
