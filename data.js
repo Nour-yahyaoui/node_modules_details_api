@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Bookshelf Relations",
-    "description": "Bookshelf.js model relations with eager loading and nested eager fetching",
-    "usage": "const User = bookshelf.model('User', { tableName: 'users', posts() { return this.hasMany('Post'); } }); const user = await User.where('id', 1).fetch({ withRelated: ['posts'] });",
+    "title": "Waterline Associations",
+    "description": "Waterline model associations with one-to-one, one-to-many, and many-to-many",
+    "usage": "const User = Waterline.Model.extend({ identity: 'user', attributes: { name: 'string', posts: { collection: 'post', via: 'user' } } }); const Post = Waterline.Model.extend({ identity: 'post', attributes: { title: 'string', user: { model: 'user' } } });",
     "tags": [
-      "bookshelf",
-      "relations",
-      "eager-loading",
-      "orm"
+      "waterline",
+      "associations",
+      "orm",
+      "models"
     ],
     "category": "ORM/Database"
   }
