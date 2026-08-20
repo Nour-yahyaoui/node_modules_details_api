@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "PG Native",
-    "description": "Native PostgreSQL client with binary parsing and C-level performance",
-    "usage": "const { Client } = require('pg-native'); const client = new Client(); await client.connect(); const result = await client.query('SELECT * FROM users');",
+    "title": "MySQL2 Prepared Statements",
+    "description": "MySQL prepared statements with automatic escaping and query caching",
+    "usage": "const mysql = require('mysql2/promise'); const connection = await mysql.createConnection({ host: 'localhost', user: 'root' }); const [rows] = await connection.execute('SELECT * FROM users WHERE id = ?', [1]);",
     "tags": [
-      "postgresql",
-      "native",
-      "driver",
-      "performance"
+      "mysql",
+      "prepared",
+      "statements",
+      "driver"
     ],
     "category": "Database"
   }
