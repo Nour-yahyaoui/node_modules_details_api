@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi Vision",
-    "description": "Template rendering plugin for Hapi with support for Handlebars, EJS, and others",
-    "usage": "const Hapi = require('@hapi/hapi'); const Vision = require('@hapi/vision'); const server = Hapi.server({ port: 3000 }); await server.register(Vision); server.views({ engines: { html: require('handlebars') }, path: './views' });",
+    "title": "NestJS Mongoose",
+    "description": "Mongoose integration for NestJS with schema definitions and model injection",
+    "usage": "import { Module } from '@nestjs/common'; import { MongooseModule } from '@nestjs/mongoose'; @Module({ imports: [MongooseModule.forRoot('mongodb://localhost:27017/test')] }) export class AppModule {}",
     "tags": [
-      "hapi",
-      "templating",
-      "views",
-      "handlebars"
+      "nestjs",
+      "mongodb",
+      "mongoose",
+      "orm"
     ],
-    "category": "Utility"
+    "category": "ORM/Database"
   }
 ];
