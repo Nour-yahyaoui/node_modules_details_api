@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Schedule",
-    "description": "Cron job scheduling for NestJS with decorators and dynamic scheduling",
-    "usage": "import { Injectable } from '@nestjs/common'; import { Cron } from '@nestjs/schedule'; @Injectable() export class TasksService { @Cron('0 0 * * *') handleCron() { console.log('Daily job'); } }",
+    "title": "NestJS Mail",
+    "description": "Email module for NestJS with Nodemailer integration and template support",
+    "usage": "import { Module } from '@nestjs/common'; import { MailerModule } from '@nestjs-modules/mailer'; @Module({ imports: [MailerModule.forRoot({ transport: 'smtps://user:pass@smtp.example.com' })] }) export class AppModule {}",
     "tags": [
       "nestjs",
-      "cron",
-      "schedule",
-      "tasks"
+      "email",
+      "mailer",
+      "nodemailer"
     ],
-    "category": "Background Processing"
+    "category": "Utility"
   }
 ];
