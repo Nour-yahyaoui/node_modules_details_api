@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "TypeORM Subscribers",
-    "description": "TypeORM event subscribers with beforeInsert, beforeUpdate, and afterLoad",
-    "usage": "import { EventSubscriber, EntitySubscriberInterface } from 'typeorm'; @EventSubscriber() export class UserSubscriber implements EntitySubscriberInterface<User> { listenTo() { return User; } beforeInsert(event) { event.entity.createdAt = new Date(); } }",
+    "title": "MikroORM Unit of Work",
+    "description": "MikroORM unit of work with identity map and transaction management",
+    "usage": "import { MikroORM } from '@mikro-orm/core'; const orm = await MikroORM.init({ entities: [User], dbName: 'db', type: 'postgresql' }); const user = orm.em.create(User, { name: 'John' }); await orm.em.persistAndFlush(user);",
     "tags": [
-      "typeorm",
-      "subscribers",
-      "events",
-      "hooks"
+      "mikroorm",
+      "unit-of-work",
+      "identity-map",
+      "transaction"
     ],
     "category": "ORM/Database"
   }
