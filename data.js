@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 233
-// Last updated: 2026-08-20 04:12:37
+// Total modules: 234
+// Last updated: 2026-08-20 04:12:47
 
 module.exports = [
   {
@@ -2799,5 +2799,17 @@ module.exports = [
       "input"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Hapi Auth JWT",
+    "description": "JWT authentication scheme for Hapi with token validation and user verification",
+    "usage": "const Hapi = require('@hapi/hapi'); const jwt = require('hapi-auth-jwt2'); const server = Hapi.server({ port: 3000 }); await server.register(jwt); server.auth.strategy('jwt', 'jwt', { key: 'secret', validate: async (decoded) => ({ isValid: true }) });",
+    "tags": [
+      "hapi",
+      "jwt",
+      "authentication",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
