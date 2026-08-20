@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Fastify Graceful Shutdown",
-    "description": "Graceful shutdown plugin for Fastify with health checks and SIGTERM handling",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/graceful-shutdown'));",
+    "title": "Fastify Autoload",
+    "description": "Auto-load Fastify plugins from directories with configuration and ordering",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/autoload'), { dir: './plugins' });",
     "tags": [
       "fastify",
-      "graceful",
-      "shutdown",
-      "health"
+      "plugins",
+      "autoload",
+      "configuration"
     ],
     "category": "Dev Tool"
   }
