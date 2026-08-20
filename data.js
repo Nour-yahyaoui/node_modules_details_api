@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "TypeORM Query Builder",
-    "description": "TypeORM query builder with complex conditions, joins, and subqueries",
-    "usage": "const users = await getRepository(User).createQueryBuilder('user') .leftJoinAndSelect('user.posts', 'post') .where('user.age > :age', { age: 18 }) .getMany();",
+    "title": "Objection Query Builder",
+    "description": "Objection.js fluent query builder with Eager loading and raw SQL support",
+    "usage": "const users = await User.query() .where('age', '>', 18) .select('name', 'email') .orderBy('name');",
     "tags": [
-      "typeorm",
+      "objection",
       "query",
       "builder",
-      "sql"
+      "eager-loading"
     ],
     "category": "ORM/Database"
   }
