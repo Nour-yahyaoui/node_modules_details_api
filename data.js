@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-19 12:42:44
+// Last updated: 2026-08-20 03:14:00
 
 module.exports = [
   {
@@ -1961,11 +1961,11 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Netlify CLI",
-    "description": "CLI for Netlify platform with site deployments, functions, and environment management",
-    "usage": "netlify deploy --prod",
+    "title": "Heroku CLI",
+    "description": "CLI for Heroku platform with app management, add-ons, and dyno scaling",
+    "usage": "heroku create my-app",
     "tags": [
-      "netlify",
+      "heroku",
       "deployment",
       "hosting",
       "cli"
