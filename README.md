@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 169 |
+| Total Libraries | 170 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -170,6 +170,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Seneca | Web Framework | Microservices toolkit with pattern matching, transport plugi... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Serve Favicon | Utility | Favicon serving middleware for Express with caching |
+| Serve Index | Utility | Directory index serving middleware for Express with file lis... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Shelljs | Utility | Cross-platform shell commands with Unix-like syntax for Node... |
 | Shortid | Utility | Short, non-sequential, URL-friendly unique ID generator with... |
