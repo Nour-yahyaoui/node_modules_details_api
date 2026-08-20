@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:53
+// Last updated: 2026-08-20 03:14:54
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NeDB Indexes",
-    "description": "NeDB index management with unique, sparse, and compound indexes",
-    "usage": "const Datastore = require('nedb'); const db = new Datastore({ filename: 'data.db', autoload: true }); db.ensureIndex({ fieldName: 'email', unique: true }); db.ensureIndex({ fieldName: 'name', sparse: true });",
+    "title": "Node-cache Manager",
+    "description": "Cache manager with multi-store support and TTL management",
+    "usage": "const cacheManager = require('cache-manager'); const memoryCache = cacheManager.caching({ store: 'memory', ttl: 60 }); await memoryCache.set('key', 'value');",
     "tags": [
-      "nedb",
-      "indexes",
-      "unique",
-      "database"
+      "cache",
+      "memory",
+      "ttl",
+      "multi-store"
     ],
-    "category": "Database"
+    "category": "Performance"
   }
 ];
