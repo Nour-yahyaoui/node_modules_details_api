@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Kysely Relations",
-    "description": "Kysely relation query builder with joins, subqueries, and CTE support",
-    "usage": "const users = await db.selectFrom('users') .leftJoin('posts', 'users.id', 'posts.user_id') .select(['users.name', 'posts.title']) .execute();",
+    "title": "Slonik Interceptors",
+    "description": "Slonik query interceptors for logging, benchmarking, and error handling",
+    "usage": "const { createPool } = require('slonik'); const pool = createPool('postgres://localhost/db', { interceptors: [ { beforeQuery: (execution) => { console.log('Query:', execution.query); } } ] });",
     "tags": [
-      "kysely",
-      "relations",
-      "joins",
-      "typescript"
+      "slonik",
+      "postgresql",
+      "interceptors",
+      "logging"
     ],
-    "category": "ORM/Database"
+    "category": "Database"
   }
 ];
