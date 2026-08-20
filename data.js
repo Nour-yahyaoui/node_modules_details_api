@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Sequelize Scopes",
-    "description": "Sequelize model scopes for reusable query conditions and associations",
-    "usage": "const User = sequelize.define('User', { name: DataTypes.STRING, age: DataTypes.INTEGER }, { scopes: { adult: { where: { age: { [Op.gte]: 18 } } } } }); const adults = await User.scope('adult').findAll();",
+    "title": "Sequelize Migrations",
+    "description": "Sequelize migration system with up/down and schema management",
+    "usage": "npx sequelize-cli migration:generate --name create-users && npx sequelize-cli db:migrate",
     "tags": [
       "sequelize",
-      "scopes",
-      "queries",
-      "models"
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
