@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "No Cache",
-    "description": "HTTP cache-control middleware for preventing client-side caching",
-    "usage": "const nocache = require('nocache'); app.use(nocache());",
+    "title": "Referrer Policy",
+    "description": "Referrer-Policy header middleware for controlling referrer information",
+    "usage": "const referrerPolicy = require('referrer-policy'); app.use(referrerPolicy({ policy: 'no-referrer' }));",
     "tags": [
-      "cache-control",
-      "nosniff",
+      "referrer",
       "security",
-      "express"
+      "headers",
+      "privacy"
     ],
     "category": "Security"
   }
