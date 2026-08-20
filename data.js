@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:05
+// Last updated: 2026-08-20 03:14:06
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Prismic",
-    "description": "Prismic headless CMS client with query builder, content management, and slicing",
-    "usage": "const prismic = require('@prismicio/client'); const client = prismic.createClient('repository'); const documents = await client.getAllByType('page');",
+    "title": "KeystoneJS",
+    "description": "Headless CMS and GraphQL API framework with authentication, access control, and admin UI",
+    "usage": "import { config } from '@keystone-6/core'; export default config({ lists: { User: { fields: { name: { type: 'text' } } } } });",
     "tags": [
       "cms",
-      "prismic",
-      "content",
+      "graphql",
+      "admin",
       "headless"
     ],
-    "category": "Utility"
+    "category": "Web Framework"
   }
 ];
