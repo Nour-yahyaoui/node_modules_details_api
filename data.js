@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 197
-// Last updated: 2026-08-20 03:18:22
+// Total modules: 198
+// Last updated: 2026-08-20 03:18:28
 
 module.exports = [
   {
@@ -2365,6 +2365,18 @@ module.exports = [
       "stringify",
       "safe",
       "circular"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Circular JSON",
+    "description": "Circular JSON parser and stringifier with reviver support",
+    "usage": "const circular = require('circular-json'); const json = circular.stringify(circularObject);",
+    "tags": [
+      "circular",
+      "json",
+      "parse",
+      "stringify"
     ],
     "category": "Utility"
   }
