@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Ghost Admin API",
-    "description": "Ghost CMS admin API client for managing posts, users, and settings programmatically",
-    "usage": "const GhostAdminAPI = require('@tryghost/admin-api'); const api = new GhostAdminAPI({ url: 'url', key: 'key' }); const posts = await api.posts.browse();",
+    "title": "WordPress REST API",
+    "description": "WordPress REST API client with posts, pages, users, and custom endpoints support",
+    "usage": "const wp = require('wordpress-rest-api'); const client = wp({ endpoint: 'https://example.com/wp-json' }); const posts = await client.posts();",
     "tags": [
+      "wordpress",
       "cms",
-      "ghost",
-      "blog",
-      "admin"
+      "rest-api",
+      "blog"
     ],
     "category": "Utility"
   }
