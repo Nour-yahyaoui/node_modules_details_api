@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Writable Stream",
-    "description": "Custom writable stream with write and final methods",
-    "usage": "const { Writable } = require('stream'); const stream = new Writable({ write(chunk, encoding, callback) { console.log(chunk.toString()); callback(); } });",
+    "title": "Transform Stream",
+    "description": "Transform stream for data modification between read and write",
+    "usage": "const { Transform } = require('stream'); const upper = new Transform({ transform(chunk, encoding, callback) { this.push(chunk.toString().toUpperCase()); callback(); } });",
     "tags": [
       "stream",
-      "writable",
-      "write",
+      "transform",
+      "modify",
       "data"
     ],
     "category": "Utility"
