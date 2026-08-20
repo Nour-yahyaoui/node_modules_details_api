@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "HubSpot API",
-    "description": "HubSpot API client with contacts, companies, deals, and marketing automation features",
-    "usage": "const hubspot = require('@hubspot/api-client'); const client = new hubspot.Client({ accessToken: 'token' }); const contacts = await client.crm.contacts.getAll();",
+    "title": "Mailgun",
+    "description": "Email service with sending, receiving, and tracking features for transactional and marketing emails",
+    "usage": "const mailgun = require('mailgun-js'); const mg = mailgun({ apiKey: 'key', domain: 'example.com' }); await mg.messages().send({ from: 'me@example.com', to: 'you@example.com', subject: 'Hello', text: 'World' });",
     "tags": [
-      "hubspot",
-      "crm",
-      "marketing",
-      "automation"
+      "email",
+      "mailgun",
+      "transactional",
+      "tracking"
     ],
-    "category": "Cloud"
+    "category": "Utility"
   }
 ];
