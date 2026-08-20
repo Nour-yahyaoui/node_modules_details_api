@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:15:03
+// Last updated: 2026-08-20 03:15:04
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Xss",
-    "description": "XSS sanitization for user input and HTML content",
-    "usage": "const xss = require('xss'); const sanitized = xss('<script>alert(1)</script>');",
+    "title": "Escape HTML",
+    "description": "HTML escaping and unescaping utilities for safe output",
+    "usage": "const escape = require('escape-html'); const escaped = escape('<div>Hello</div>');",
     "tags": [
-      "xss",
+      "escape",
+      "html",
       "sanitization",
-      "security",
-      "html"
+      "output"
     ],
     "category": "Security"
   }
