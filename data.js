@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:59
+// Last updated: 2026-08-20 03:15:00
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Transform Stream",
-    "description": "Transform stream for data modification between read and write",
-    "usage": "const { Transform } = require('stream'); const upper = new Transform({ transform(chunk, encoding, callback) { this.push(chunk.toString().toUpperCase()); callback(); } });",
+    "title": "Stream Web",
+    "description": "Web Streams API implementation for Node.js with WritableStream and ReadableStream",
+    "usage": "const { ReadableStream, WritableStream } = require('stream/web'); const stream = new ReadableStream({ start(controller) { controller.enqueue('Hello'); controller.close(); } });",
     "tags": [
       "stream",
-      "transform",
-      "modify",
-      "data"
+      "web",
+      "api",
+      "readable"
     ],
     "category": "Utility"
   }
