@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "BigCommerce API",
-    "description": "BigCommerce API client with catalog, checkout, and order management for ecommerce platforms",
-    "usage": "const BigCommerce = require('node-bigcommerce'); const api = new BigCommerce({ clientId: 'id', accessToken: 'token' }); const products = await api.get('/v3/catalog/products');",
+    "title": "Commerce.js",
+    "description": "Commerce.js SDK for Chec API with cart, checkout, and product management",
+    "usage": "const Commerce = require('commerce.js'); const commerce = new Commerce('pk_test_...'); const products = await commerce.products.list();",
     "tags": [
-      "bigcommerce",
+      "commerce",
       "ecommerce",
-      "api",
-      "catalog"
+      "cart",
+      "checkout"
     ],
     "category": "Payment"
   }
