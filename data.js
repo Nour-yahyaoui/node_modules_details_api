@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Escape HTML",
-    "description": "HTML escaping and unescaping utilities for safe output",
-    "usage": "const escape = require('escape-html'); const escaped = escape('<div>Hello</div>');",
+    "title": "HPP",
+    "description": "HTTP Parameter Pollution protection middleware for Express",
+    "usage": "const hpp = require('hpp'); app.use(hpp());",
     "tags": [
-      "escape",
-      "html",
-      "sanitization",
-      "output"
+      "hpp",
+      "security",
+      "parameters",
+      "express"
     ],
     "category": "Security"
   }
