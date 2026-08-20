@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:24
+// Last updated: 2026-08-20 03:14:25
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Plaid",
-    "description": "Plaid API client for banking, financial data, and payment processing integration",
-    "usage": "const { Configuration, PlaidApi } = require('@plaid/plaid-api'); const client = new PlaidApi(new Configuration({ basePath: 'https://sandbox.plaid.com', apiKey: 'key' })); const token = await client.linkTokenCreate({ client_name: 'App', language: 'en', country_codes: ['US'], user: { client_user_id: 'user' } });",
+    "title": "Fastify Swagger",
+    "description": "OpenAPI documentation generator for Fastify with interactive Swagger UI",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/swagger'));",
     "tags": [
-      "plaid",
-      "banking",
-      "finance",
-      "payments"
+      "fastify",
+      "swagger",
+      "openapi",
+      "documentation"
     ],
-    "category": "Payment"
+    "category": "Dev Tool"
   }
 ];
