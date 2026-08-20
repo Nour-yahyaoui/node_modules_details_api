@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 286 |
+| Total Libraries | 287 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -188,6 +188,7 @@ This repository contains a growing collection of **Node.js library documentation
 | NanoID | Utility | Secure, URL-friendly unique ID generator with customizable a... |
 | Ncp | Utility | Copy files and directories recursively with options for over... |
 | NeDB | Database | Pure JavaScript database with MongoDB-like API for embedded ... |
+| NeDB Indexes | Database | NeDB index management with unique, sparse, and compound inde... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | NestJS Bull | Background Processing | Bull queue integration for NestJS with job processing and sc... |
 | NestJS Cache | Performance | Cache module for NestJS with in-memory and Redis storage opt... |
