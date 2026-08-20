@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:15:02
+// Last updated: 2026-08-20 03:15:03
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Csrf",
-    "description": "CSRF token generation and verification for Express applications",
-    "usage": "const csrf = require('csurf'); app.use(csrf({ cookie: true }));",
+    "title": "Xss",
+    "description": "XSS sanitization for user input and HTML content",
+    "usage": "const xss = require('xss'); const sanitized = xss('<script>alert(1)</script>');",
     "tags": [
-      "csrf",
+      "xss",
+      "sanitization",
       "security",
-      "tokens",
-      "express"
+      "html"
     ],
     "category": "Security"
   }
