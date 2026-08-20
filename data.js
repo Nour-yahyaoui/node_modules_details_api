@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Prompts",
-    "description": "Interactive CLI prompts with validation, cancellation, and state management",
-    "usage": "const prompts = require('prompts'); const response = await prompts({ type: 'text', name: 'name', message: 'What is your name?' });",
+    "title": "Enquirer",
+    "description": "Stylish CLI prompts with forms, lists, and selectors for terminal applications",
+    "usage": "const { prompt } = require('enquirer'); const response = await prompt({ type: 'input', name: 'name', message: 'What is your name?' });",
     "tags": [
       "cli",
       "prompts",
       "terminal",
-      "interactive"
+      "styles"
     ],
     "category": "CLI/Tool"
   }
