@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Redis Cache Store",
-    "description": "Redis cache store for cache-manager with clustering support",
-    "usage": "const redisStore = require('cache-manager-redis-store'); const redisCache = cacheManager.caching({ store: redisStore, host: 'localhost', port: 6379 });",
+    "title": "Memoizee",
+    "description": "Function memoization with configurable cache size and expiration",
+    "usage": "const memoize = require('memoizee'); const fn = memoize((a, b) => a + b, { maxAge: 60000, max: 100 });",
     "tags": [
-      "redis",
+      "memoization",
       "cache",
-      "store",
-      "cluster"
+      "performance",
+      "function"
     ],
     "category": "Performance"
   }
