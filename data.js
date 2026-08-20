@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:07
+// Last updated: 2026-08-20 03:14:08
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "WordPress REST API",
-    "description": "WordPress REST API client with posts, pages, users, and custom endpoints support",
-    "usage": "const wp = require('wordpress-rest-api'); const client = wp({ endpoint: 'https://example.com/wp-json' }); const posts = await client.posts();",
+    "title": "Shopify API",
+    "description": "Shopify API client for storefront and admin operations with GraphQL and REST support",
+    "usage": "const Shopify = require('shopify-api-node'); const shopify = new Shopify({ shopName: 'myshop', apiKey: 'key', password: 'pass' }); const products = await shopify.product.list();",
     "tags": [
-      "wordpress",
-      "cms",
-      "rest-api",
-      "blog"
+      "shopify",
+      "ecommerce",
+      "api",
+      "graphql"
     ],
-    "category": "Utility"
+    "category": "Payment"
   }
 ];
