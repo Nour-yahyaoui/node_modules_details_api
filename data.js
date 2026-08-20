@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Stream Pipes",
-    "description": "Node.js stream pipeline with promise support and error handling",
-    "usage": "const { pipeline } = require('stream/promises'); await pipeline(fs.createReadStream('input.txt'), zlib.createGzip(), fs.createWriteStream('output.gz'));",
+    "title": "Readable Stream",
+    "description": "Custom readable stream implementation with data and end events",
+    "usage": "const { Readable } = require('stream'); const stream = new Readable({ read(size) { this.push('Hello'); this.push(null); } });",
     "tags": [
       "stream",
-      "pipeline",
-      "async",
-      "promises"
+      "readable",
+      "async-iterators",
+      "data"
     ],
     "category": "Utility"
   }
