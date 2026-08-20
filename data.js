@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 281
-// Last updated: 2026-08-20 04:18:27
+// Last updated: 2026-08-20 04:19:27
 
 module.exports = [
   {
@@ -3365,14 +3365,14 @@ module.exports = [
     "category": "Database"
   },
   {
-    "title": "Redis Sentinel",
-    "description": "Redis sentinel client with automatic failover and master discovery",
-    "usage": "const Redis = require('ioredis'); const sentinel = new Redis({ sentinels: [{ host: 'localhost', port: 26379 }], name: 'mymaster' });",
+    "title": "MongoDB Change Streams",
+    "description": "MongoDB change streams for real-time database event monitoring",
+    "usage": "const { MongoClient } = require('mongodb'); const client = new MongoClient('mongodb://localhost:27017'); await client.connect(); const changeStream = client.db('test').collection('users').watch(); changeStream.on('change', (change) => console.log(change));",
     "tags": [
-      "redis",
-      "sentinel",
-      "failover",
-      "high-availability"
+      "mongodb",
+      "change-streams",
+      "realtime",
+      "events"
     ],
     "category": "Database"
   }
