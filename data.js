@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 243
-// Last updated: 2026-08-20 04:13:44
+// Total modules: 244
+// Last updated: 2026-08-20 04:13:55
 
 module.exports = [
   {
@@ -2919,5 +2919,17 @@ module.exports = [
       "jobs"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "NestJS Websockets",
+    "description": "WebSocket gateway module for NestJS with real-time event handling",
+    "usage": "import { WebSocketGateway, SubscribeMessage } from '@nestjs/websockets'; @WebSocketGateway() export class ChatGateway { @SubscribeMessage('message') handleMessage(client, data) { return { event: 'message', data: 'Hello' }; } }",
+    "tags": [
+      "nestjs",
+      "websocket",
+      "realtime",
+      "gateway"
+    ],
+    "category": "Real-time"
   }
 ];
