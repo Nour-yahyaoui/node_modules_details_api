@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 224
-// Last updated: 2026-08-20 04:11:44
+// Total modules: 225
+// Last updated: 2026-08-20 04:11:49
 
 module.exports = [
   {
@@ -2691,5 +2691,17 @@ module.exports = [
       "payments"
     ],
     "category": "Payment"
+  },
+  {
+    "title": "Fastify Swagger",
+    "description": "OpenAPI documentation generator for Fastify with interactive Swagger UI",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/swagger'));",
+    "tags": [
+      "fastify",
+      "swagger",
+      "openapi",
+      "documentation"
+    ],
+    "category": "Dev Tool"
   }
 ];
