@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Keygrip",
-    "description": "Key rotation and signing for HMAC and cookie signatures",
-    "usage": "const Keygrip = require('keygrip'); const keys = new Keygrip(['secret1', 'secret2']); const sig = keys.sign('data');",
+    "title": "Csrf",
+    "description": "CSRF token generation and verification for Express applications",
+    "usage": "const csrf = require('csurf'); app.use(csrf({ cookie: true }));",
     "tags": [
-      "keygrip",
-      "hmac",
-      "signature",
-      "cookie"
+      "csrf",
+      "security",
+      "tokens",
+      "express"
     ],
     "category": "Security"
   }
