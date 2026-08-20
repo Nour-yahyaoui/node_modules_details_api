@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:15:04
+// Last updated: 2026-08-20 03:15:05
 
 module.exports = [
   {
@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "HPP",
-    "description": "HTTP Parameter Pollution protection middleware for Express",
-    "usage": "const hpp = require('hpp'); app.use(hpp());",
+    "title": "No Cache",
+    "description": "HTTP cache-control middleware for preventing client-side caching",
+    "usage": "const nocache = require('nocache'); app.use(nocache());",
     "tags": [
-      "hpp",
+      "cache-control",
+      "nosniff",
       "security",
-      "parameters",
       "express"
     ],
     "category": "Security"
