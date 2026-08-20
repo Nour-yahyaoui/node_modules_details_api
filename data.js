@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:33
+// Last updated: 2026-08-20 03:14:34
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "NestJS Websockets",
-    "description": "WebSocket gateway module for NestJS with real-time event handling",
-    "usage": "import { WebSocketGateway, SubscribeMessage } from '@nestjs/websockets'; @WebSocketGateway() export class ChatGateway { @SubscribeMessage('message') handleMessage(client, data) { return { event: 'message', data: 'Hello' }; } }",
+    "title": "NestJS Microservices",
+    "description": "Microservices module for NestJS with TCP, Redis, and MQTT transporters",
+    "usage": "import { Controller } from '@nestjs/common'; import { MessagePattern } from '@nestjs/microservices'; @Controller() export class AppController { @MessagePattern('sum') sum(data) { return data.a + data.b; } }",
     "tags": [
       "nestjs",
-      "websocket",
-      "realtime",
-      "gateway"
+      "microservices",
+      "tcp",
+      "mqtt"
     ],
-    "category": "Real-time"
+    "category": "Web Framework"
   }
 ];
