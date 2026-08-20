@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:36
+// Last updated: 2026-08-20 03:14:37
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Drizzle Studio",
-    "description": "Drizzle ORM with integrated database browser and query runner",
-    "usage": "import { drizzle } from 'drizzle-orm/postgres-js'; import postgres from 'postgres'; const client = postgres('postgres://localhost:5432/db'); const db = drizzle(client);",
+    "title": "Drizzle Kit",
+    "description": "CLI tool for Drizzle ORM with migrations, introspection, and seed data",
+    "usage": "npx drizzle-kit generate && npx drizzle-kit migrate",
     "tags": [
       "drizzle",
-      "orm",
-      "postgres",
-      "typescript"
+      "cli",
+      "migrations",
+      "introspection"
     ],
-    "category": "ORM/Database"
+    "category": "Dev Tool"
   }
 ];
