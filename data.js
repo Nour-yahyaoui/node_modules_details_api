@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 111
-// Last updated: 2026-08-20 04:00:29
+// Total modules: 112
+// Last updated: 2026-08-20 04:00:34
 
 module.exports = [
   {
@@ -1333,6 +1333,18 @@ module.exports = [
       "authentication",
       "passport",
       "guards"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "NestJS/GraphQL",
+    "description": "GraphQL module for NestJS with code-first and schema-first approaches, subscriptions, and federation",
+    "usage": "import { Resolver, Query } from '@nestjs/graphql'; @Resolver() export class AppResolver { @Query(() => String) hello(): string { return 'Hello World'; } }",
+    "tags": [
+      "nestjs",
+      "graphql",
+      "resolvers",
+      "schema"
     ],
     "category": "Web Framework"
   }
