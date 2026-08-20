@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:49
+// Last updated: 2026-08-20 03:14:50
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MySQL2 Prepared Statements",
-    "description": "MySQL prepared statements with automatic escaping and query caching",
-    "usage": "const mysql = require('mysql2/promise'); const connection = await mysql.createConnection({ host: 'localhost', user: 'root' }); const [rows] = await connection.execute('SELECT * FROM users WHERE id = ?', [1]);",
+    "title": "Redis Cluster",
+    "description": "Redis cluster client with sharding, failover, and command routing",
+    "usage": "const Redis = require('ioredis'); const cluster = new Redis.Cluster([{ host: 'localhost', port: 6379 }]); await cluster.set('key', 'value');",
     "tags": [
-      "mysql",
-      "prepared",
-      "statements",
-      "driver"
+      "redis",
+      "cluster",
+      "sharding",
+      "failover"
     ],
     "category": "Database"
   }
