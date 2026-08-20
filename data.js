@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MongoDB Change Streams",
-    "description": "MongoDB change streams for real-time database event monitoring",
-    "usage": "const { MongoClient } = require('mongodb'); const client = new MongoClient('mongodb://localhost:27017'); await client.connect(); const changeStream = client.db('test').collection('users').watch(); changeStream.on('change', (change) => console.log(change));",
+    "title": "MongoDB Transactions",
+    "description": "MongoDB multi-document ACID transactions with session and commit",
+    "usage": "const session = client.startSession(); await session.startTransaction(); await db.collection('users').insertOne({ name: 'John' }, { session }); await session.commitTransaction();",
     "tags": [
       "mongodb",
-      "change-streams",
-      "realtime",
-      "events"
+      "transactions",
+      "acid",
+      "session"
     ],
     "category": "Database"
   }
