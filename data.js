@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:29
+// Last updated: 2026-08-20 03:14:30
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi Boom",
-    "description": "HTTP-friendly error objects for Hapi with status codes and error messages",
-    "usage": "const Hapi = require('@hapi/hapi'); const Boom = require('@hapi/boom'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => { throw Boom.notFound('Not found'); } });",
+    "title": "Hapi Good",
+    "description": "Logging and monitoring plugin for Hapi with multiple reporters and event types",
+    "usage": "const Hapi = require('@hapi/hapi'); const Good = require('@hapi/good'); const server = Hapi.server({ port: 3000 }); await server.register({ plugin: Good, options: { reporters: { console: [{ module: '@hapi/good-console' }, 'stdout'] } } });",
     "tags": [
       "hapi",
-      "errors",
-      "http",
-      "boom"
+      "logging",
+      "monitoring",
+      "reporter"
     ],
-    "category": "Utility"
+    "category": "Logging"
   }
 ];
