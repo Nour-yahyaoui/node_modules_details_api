@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Zlib",
-    "description": "Node.js native zlib library for gzip, deflate, and inflate",
-    "usage": "const zlib = require('zlib'); const compressed = zlib.gzipSync('Hello World');",
+    "title": "Stream Pipes",
+    "description": "Node.js stream pipeline with promise support and error handling",
+    "usage": "const { pipeline } = require('stream/promises'); await pipeline(fs.createReadStream('input.txt'), zlib.createGzip(), fs.createWriteStream('output.gz'));",
     "tags": [
-      "zlib",
-      "gzip",
-      "deflate",
-      "compression"
+      "stream",
+      "pipeline",
+      "async",
+      "promises"
     ],
     "category": "Utility"
   }
