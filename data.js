@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:30
+// Last updated: 2026-08-20 03:14:31
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi Inert",
-    "description": "Static file serving plugin for Hapi with directory and file routing support",
-    "usage": "const Hapi = require('@hapi/hapi'); const Inert = require('@hapi/inert'); const server = Hapi.server({ port: 3000 }); await server.register(Inert); server.route({ method: 'GET', path: '/{param*}', handler: { directory: { path: './public' } } });",
+    "title": "Hapi Vision",
+    "description": "Template rendering plugin for Hapi with support for Handlebars, EJS, and others",
+    "usage": "const Hapi = require('@hapi/hapi'); const Vision = require('@hapi/vision'); const server = Hapi.server({ port: 3000 }); await server.register(Vision); server.views({ engines: { html: require('handlebars') }, path: './views' });",
     "tags": [
       "hapi",
-      "static",
-      "file",
-      "serve"
+      "templating",
+      "views",
+      "handlebars"
     ],
     "category": "Utility"
   }
