@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:39
+// Last updated: 2026-08-20 03:14:40
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MikroORM Seeder",
-    "description": "MikroORM data seeding with factories and custom seed scripts",
-    "usage": "import { Factory } from '@mikro-orm/seeder'; const userFactory = new Factory(User); userFactory.make({ name: 'John' });",
+    "title": "Mongoose Aggregation",
+    "description": "Mongoose aggregation pipeline builder with stage operators and projection",
+    "usage": "const User = mongoose.model('User', new mongoose.Schema({ name: String, age: Number })); const results = await User.aggregate([{ $match: { age: { $gt: 18 } } }, { $group: { _id: '$name', count: { $sum: 1 } } }]);",
     "tags": [
-      "mikroorm",
-      "seeding",
-      "factories",
-      "data"
+      "mongoose",
+      "mongodb",
+      "aggregation",
+      "pipeline"
     ],
     "category": "ORM/Database"
   }
