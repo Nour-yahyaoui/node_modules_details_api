@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 236
-// Last updated: 2026-08-20 04:12:58
+// Total modules: 237
+// Last updated: 2026-08-20 04:13:04
 
 module.exports = [
   {
@@ -2835,5 +2835,17 @@ module.exports = [
       "reporter"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Hapi Inert",
+    "description": "Static file serving plugin for Hapi with directory and file routing support",
+    "usage": "const Hapi = require('@hapi/hapi'); const Inert = require('@hapi/inert'); const server = Hapi.server({ port: 3000 }); await server.register(Inert); server.route({ method: 'GET', path: '/{param*}', handler: { directory: { path: './public' } } });",
+    "tags": [
+      "hapi",
+      "static",
+      "file",
+      "serve"
+    ],
+    "category": "Utility"
   }
 ];
