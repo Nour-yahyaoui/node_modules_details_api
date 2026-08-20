@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Drizzle Kit",
-    "description": "CLI tool for Drizzle ORM with migrations, introspection, and seed data",
-    "usage": "npx drizzle-kit generate && npx drizzle-kit migrate",
+    "title": "Knex Migrations",
+    "description": "Database migration management for Knex with up/down and seed support",
+    "usage": "const knex = require('knex')({ client: 'pg' }); await knex.schema.createTable('users', (table) => { table.increments('id'); table.string('name'); });",
     "tags": [
-      "drizzle",
-      "cli",
+      "knex",
       "migrations",
-      "introspection"
+      "sql",
+      "database"
     ],
-    "category": "Dev Tool"
+    "category": "ORM/Database"
   }
 ];
