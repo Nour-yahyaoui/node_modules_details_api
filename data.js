@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 168
-// Last updated: 2026-08-20 04:06:22
+// Total modules: 169
+// Last updated: 2026-08-20 04:06:27
 
 module.exports = [
   {
@@ -2015,6 +2015,18 @@ module.exports = [
     "tags": [
       "aws",
       "lambda",
+      "serverless",
+      "cloud"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Azure Functions",
+    "description": "Azure Functions runtime for Node.js with triggers, bindings, and HTTP endpoints",
+    "usage": "module.exports = async function (context, req) { context.res = { body: 'Hello' }; };",
+    "tags": [
+      "azure",
+      "functions",
       "serverless",
       "cloud"
     ],
