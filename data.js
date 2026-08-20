@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MongoDB Transactions",
-    "description": "MongoDB multi-document ACID transactions with session and commit",
-    "usage": "const session = client.startSession(); await session.startTransaction(); await db.collection('users').insertOne({ name: 'John' }, { session }); await session.commitTransaction();",
+    "title": "MongoDB Aggregation Expressions",
+    "description": "MongoDB aggregation with $addFields, $project, and conditional operators",
+    "usage": "const results = await db.collection('users').aggregate([ { $addFields: { fullName: { $concat: ['$firstName', ' ', '$lastName'] } } }, { $project: { name: '$fullName', age: 1 } } ]).toArray();",
     "tags": [
       "mongodb",
-      "transactions",
-      "acid",
-      "session"
+      "aggregation",
+      "expressions",
+      "pipeline"
     ],
     "category": "Database"
   }
