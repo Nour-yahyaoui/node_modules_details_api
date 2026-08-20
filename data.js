@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 146
-// Last updated: 2026-08-20 04:04:18
+// Total modules: 147
+// Last updated: 2026-08-20 04:04:23
 
 module.exports = [
   {
@@ -1753,6 +1753,18 @@ module.exports = [
       "commands",
       "cross-platform",
       "unix"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Glob",
+    "description": "Pattern matching for files using glob syntax with sync and async matching options",
+    "usage": "const glob = require('glob'); const files = glob.sync('src/**/*.js'); console.log(files);",
+    "tags": [
+      "files",
+      "pattern",
+      "matching",
+      "glob"
     ],
     "category": "Utility"
   }
