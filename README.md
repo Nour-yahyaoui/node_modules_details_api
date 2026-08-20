@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 185 |
+| Total Libraries | 186 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -110,6 +110,7 @@ This repository contains a growing collection of **Node.js library documentation
 | JSON Patch | Utility | JSON Patch implementation for applying patches to JSON objec... |
 | JSON Ref | Utility | JSON Reference and JSON Pointer implementation for JSON Sche... |
 | JSON Schema | Validation | JSON Schema validation with draft-07 support and custom keyw... |
+| JSONP | Utility | JSONP middleware for Express with callback support |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
 | Knex.js | ORM/Database | SQL query builder with schema migrations and support for Pos... |
 | Koa | Web Framework | Modern web framework designed by the Express team with async... |
