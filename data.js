@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 186
-// Last updated: 2026-08-20 04:08:11
+// Total modules: 187
+// Last updated: 2026-08-20 04:08:16
 
 module.exports = [
   {
@@ -2233,6 +2233,18 @@ module.exports = [
       "ecommerce",
       "api",
       "graphql"
+    ],
+    "category": "Payment"
+  },
+  {
+    "title": "WooCommerce API",
+    "description": "WooCommerce REST API client with products, orders, customers, and coupons management",
+    "usage": "const WooCommerceAPI = require('woocommerce-api'); const WooCommerce = new WooCommerceAPI({ url: 'url', consumerKey: 'key', consumerSecret: 'secret' }); const products = await WooCommerce.get('products');",
+    "tags": [
+      "woocommerce",
+      "ecommerce",
+      "api",
+      "wordpress"
     ],
     "category": "Payment"
   }
