@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "OpenSearch",
-    "description": "OpenSearch client with search, analytics, and visualization capabilities",
-    "usage": "const { Client } = require('@opensearch-project/opensearch'); const client = new Client({ node: 'http://localhost:9200' }); const result = await client.search({ index: 'posts', body: { query: { match: { content: 'hello' } } } });",
+    "title": "RxJS",
+    "description": "Reactive extensions library for async programming with observables, operators, and subscriptions",
+    "usage": "const { Observable } = require('rxjs'); const obs = new Observable(subscriber => { subscriber.next('Hello'); subscriber.complete(); }); obs.subscribe(value => console.log(value));",
     "tags": [
-      "search",
-      "opensearch",
-      "analytics",
-      "full-text"
+      "reactive",
+      "observables",
+      "async",
+      "streams"
     ],
-    "category": "Database"
+    "category": "Utility"
   }
 ];
