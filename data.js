@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 222
-// Last updated: 2026-08-20 04:11:32
+// Total modules: 223
+// Last updated: 2026-08-20 04:11:38
 
 module.exports = [
   {
@@ -2665,6 +2665,18 @@ module.exports = [
       "sms",
       "voice",
       "api"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Vonage",
+    "description": "Vonage API client for SMS, voice, video, and authentication services",
+    "usage": "const vonage = require('@vonage/server-sdk'); const client = new vonage({ apiKey: 'key', apiSecret: 'secret' }); client.message.sendSms('Vonage', '+1234567890', 'Hello');",
+    "tags": [
+      "vonage",
+      "sms",
+      "voice",
+      "authentication"
     ],
     "category": "Utility"
   }
