@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:51
+// Last updated: 2026-08-20 03:14:52
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "MongoDB Aggregation Expressions",
-    "description": "MongoDB aggregation with $addFields, $project, and conditional operators",
-    "usage": "const results = await db.collection('users').aggregate([ { $addFields: { fullName: { $concat: ['$firstName', ' ', '$lastName'] } } }, { $project: { name: '$fullName', age: 1 } } ]).toArray();",
+    "title": "LowDB Plugins",
+    "description": "LowDB plugins for encryption, compression, and custom adapters",
+    "usage": "const low = require('lowdb'); const FileSync = require('lowdb/adapters/FileSync'); const adapter = new FileSync('db.json'); const db = low(adapter); db.defaults({ posts: [] }).write(); db._.mixin({ myPlugin: (data) => { return data.map(item => ({ ...item, processed: true })); } });",
     "tags": [
-      "mongodb",
-      "aggregation",
-      "expressions",
-      "pipeline"
+      "lowdb",
+      "plugins",
+      "adapters",
+      "database"
     ],
     "category": "Database"
   }
