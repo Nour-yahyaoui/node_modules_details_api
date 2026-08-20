@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:37
+// Last updated: 2026-08-20 03:14:38
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Knex Seed",
-    "description": "Database seeding for Knex with CSV, JSON, and JavaScript data sources",
-    "usage": "const knex = require('knex')({ client: 'pg' }); await knex('users').insert([{ name: 'John' }, { name: 'Jane' }]);",
+    "title": "Objection Relations",
+    "description": "Objection.js relationship management with eager loading and model validation",
+    "usage": "const { Model } = require('objection'); class User extends Model { static get relationMappings() { return { posts: { relation: Model.HasManyRelation, modelClass: Post, join: { from: 'users.id', to: 'posts.user_id' } } }; } } const users = await User.query().withGraphFetched('posts');",
     "tags": [
-      "knex",
-      "seeding",
-      "database",
-      "data"
+      "objection",
+      "orm",
+      "relations",
+      "eager-loading"
     ],
     "category": "ORM/Database"
   }
