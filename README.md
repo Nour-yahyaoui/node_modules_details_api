@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 196 |
+| Total Libraries | 197 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -202,6 +202,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Slonik | Database | PostgreSQL client with type safety, connection pooling, and ... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
+| Stringify Safe | Utility | Safe JSON stringification with circular reference handling |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
 | Supertest | Testing/Tool | HTTP assertion library for testing Express/Node.js applicati... |
