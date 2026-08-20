@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 191 |
+| Total Libraries | 192 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-20 |
 
@@ -69,6 +69,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
 | Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
 | Deep Equal | Utility | Deep equality checking for JavaScript objects and arrays |
+| Deep Merge | Utility | Deep recursive merge of objects with array handling |
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
