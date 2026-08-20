@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "KeystoneJS",
-    "description": "Headless CMS and GraphQL API framework with authentication, access control, and admin UI",
-    "usage": "import { config } from '@keystone-6/core'; export default config({ lists: { User: { fields: { name: { type: 'text' } } } } });",
+    "title": "Payload CMS",
+    "description": "Headless CMS with authentication, access control, and REST API built with Express and MongoDB",
+    "usage": "import { buildConfig } from 'payload/config'; export default buildConfig({ collections: [{ slug: 'users', fields: [] }] });",
     "tags": [
       "cms",
-      "graphql",
-      "admin",
-      "headless"
+      "headless",
+      "mongodb",
+      "rest-api"
     ],
     "category": "Web Framework"
   }
