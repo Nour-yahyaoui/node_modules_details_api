@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:47
+// Last updated: 2026-08-20 03:14:48
 
 module.exports = [
   {
@@ -1961,13 +1961,13 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Kysely Migrations",
-    "description": "Kysely migration system with schema generation and version management",
-    "usage": "const { Migrator } = require('kysely'); const migrator = new Migrator({ db, provider: new FileMigrationProvider('./migrations') }); await migrator.migrateToLatest();",
+    "title": "Kysely Relations",
+    "description": "Kysely relation query builder with joins, subqueries, and CTE support",
+    "usage": "const users = await db.selectFrom('users') .leftJoin('posts', 'users.id', 'posts.user_id') .select(['users.name', 'posts.title']) .execute();",
     "tags": [
       "kysely",
-      "migrations",
-      "database",
+      "relations",
+      "joins",
       "typescript"
     ],
     "category": "ORM/Database"
