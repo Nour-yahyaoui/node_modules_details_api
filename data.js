@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Compression Webpack",
-    "description": "Webpack plugin for gzip and brotli compression during build",
-    "usage": "const CompressionPlugin = require('compression-webpack-plugin'); module.exports = { plugins: [new CompressionPlugin({ test: /\\.(js|css)$/ })] };",
+    "title": "Brotli",
+    "description": "Brotli compression algorithm implementation for Node.js",
+    "usage": "const brotli = require('brotli'); const compressed = brotli.compress(Buffer.from('Hello World'));",
     "tags": [
-      "webpack",
       "compression",
-      "gzip",
-      "build"
+      "brotli",
+      "algorithm",
+      "performance"
     ],
-    "category": "Dev Tool"
+    "category": "Performance"
   }
 ];
