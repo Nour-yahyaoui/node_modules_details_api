@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 216
-// Last updated: 2026-08-20 04:10:58
+// Total modules: 217
+// Last updated: 2026-08-20 04:11:04
 
 module.exports = [
   {
@@ -2593,6 +2593,18 @@ module.exports = [
       "socks",
       "networking",
       "connection"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Nodemailer (Advanced)",
+    "description": "Advanced email sending with attachments, HTML, and multiple transport options",
+    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ host: 'smtp.example.com', port: 587, auth: { user: 'user', pass: 'pass' } }); await transporter.sendMail({ from: 'from@example.com', to: 'to@example.com', subject: 'Hello', html: '<b>World</b>', attachments: [{ filename: 'file.pdf', path: './file.pdf' }] });",
+    "tags": [
+      "email",
+      "smtp",
+      "attachments",
+      "html"
     ],
     "category": "Utility"
   }
