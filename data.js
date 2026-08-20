@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "ArrayBuffer",
-    "description": "ArrayBuffer and TypedArray utilities for binary data",
-    "usage": "const buffer = new ArrayBuffer(8); const view = new DataView(buffer); view.setInt32(0, 42);",
+    "title": "Crypto",
+    "description": "Node.js crypto module for hashing, encryption, and random generation",
+    "usage": "const crypto = require('crypto'); const hash = crypto.createHash('sha256').update('Hello').digest('hex');",
     "tags": [
-      "arraybuffer",
-      "typedarray",
-      "binary",
-      "data"
+      "crypto",
+      "hash",
+      "encryption",
+      "random"
     ],
-    "category": "Utility"
+    "category": "Security"
   }
 ];
