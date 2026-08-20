@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Vonage",
-    "description": "Vonage API client for SMS, voice, video, and authentication services",
-    "usage": "const vonage = require('@vonage/server-sdk'); const client = new vonage({ apiKey: 'key', apiSecret: 'secret' }); client.message.sendSms('Vonage', '+1234567890', 'Hello');",
+    "title": "Plaid",
+    "description": "Plaid API client for banking, financial data, and payment processing integration",
+    "usage": "const { Configuration, PlaidApi } = require('@plaid/plaid-api'); const client = new PlaidApi(new Configuration({ basePath: 'https://sandbox.plaid.com', apiKey: 'key' })); const token = await client.linkTokenCreate({ client_name: 'App', language: 'en', country_codes: ['US'], user: { client_user_id: 'user' } });",
     "tags": [
-      "vonage",
-      "sms",
-      "voice",
-      "authentication"
+      "plaid",
+      "banking",
+      "finance",
+      "payments"
     ],
-    "category": "Utility"
+    "category": "Payment"
   }
 ];
