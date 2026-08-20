@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 132
-// Last updated: 2026-08-20 04:02:46
+// Total modules: 133
+// Last updated: 2026-08-20 04:02:52
 
 module.exports = [
   {
@@ -1585,6 +1585,18 @@ module.exports = [
       "bdd",
       "gherkin",
       "features"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Supertest",
+    "description": "HTTP assertion library for testing Express/Node.js applications with superagent integration",
+    "usage": "const request = require('supertest'); const app = require('./app'); await request(app).get('/').expect(200).expect('Hello World');",
+    "tags": [
+      "testing",
+      "http",
+      "assertions",
+      "express"
     ],
     "category": "Testing/Tool"
   }
