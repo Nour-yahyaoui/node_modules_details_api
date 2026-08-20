@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 206
-// Last updated: 2026-08-20 04:10:02
+// Total modules: 207
+// Last updated: 2026-08-20 04:10:07
 
 module.exports = [
   {
@@ -2475,5 +2475,17 @@ module.exports = [
       "units"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Colors",
+    "description": "Terminal color styling with support for color codes, themes, and ANSI escapes",
+    "usage": "require('colors'); console.log('Hello World'.green.bold);",
+    "tags": [
+      "terminal",
+      "colors",
+      "styling",
+      "ansi"
+    ],
+    "category": "CLI/Tool"
   }
 ];
