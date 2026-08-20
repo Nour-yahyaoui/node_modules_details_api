@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Node-cache Manager",
-    "description": "Cache manager with multi-store support and TTL management",
-    "usage": "const cacheManager = require('cache-manager'); const memoryCache = cacheManager.caching({ store: 'memory', ttl: 60 }); await memoryCache.set('key', 'value');",
+    "title": "Redis Cache Store",
+    "description": "Redis cache store for cache-manager with clustering support",
+    "usage": "const redisStore = require('cache-manager-redis-store'); const redisCache = cacheManager.caching({ store: redisStore, host: 'localhost', port: 6379 });",
     "tags": [
+      "redis",
       "cache",
-      "memory",
-      "ttl",
-      "multi-store"
+      "store",
+      "cluster"
     ],
     "category": "Performance"
   }
