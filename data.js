@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:40
+// Last updated: 2026-08-20 03:14:41
 
 module.exports = [
   {
@@ -1961,14 +1961,14 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Mongoose Population",
-    "description": "Mongoose document population with path, select, and match options",
-    "usage": "const user = await User.findById('123').populate({ path: 'posts', select: 'title', match: { published: true } });",
+    "title": "Mongoose Plugin",
+    "description": "Mongoose plugin system with timestamps, pagination, and custom hooks",
+    "usage": "const timestampPlugin = (schema) => { schema.add({ createdAt: Date, updatedAt: Date }); schema.pre('save', function(next) { this.updatedAt = Date.now(); next(); }); }; schema.plugin(timestampPlugin);",
     "tags": [
       "mongoose",
-      "population",
-      "relations",
-      "mongodb"
+      "plugins",
+      "hooks",
+      "middleware"
     ],
     "category": "ORM/Database"
   }
