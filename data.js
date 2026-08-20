@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 182
-// Last updated: 2026-08-20 03:16:55
+// Total modules: 183
+// Last updated: 2026-08-20 03:17:01
 
 module.exports = [
   {
@@ -2185,6 +2185,18 @@ module.exports = [
       "patch",
       "apply",
       "modify"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "JSON Diff",
+    "description": "JSON diff calculation and patching with deep comparison",
+    "usage": "const jsonDiff = require('json-diff'); const diff = jsonDiff.diff({ a: 1 }, { a: 2 });",
+    "tags": [
+      "json",
+      "diff",
+      "compare",
+      "patch"
     ],
     "category": "Utility"
   }
