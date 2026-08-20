@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:06
+// Last updated: 2026-08-20 03:14:07
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Payload CMS",
-    "description": "Headless CMS with authentication, access control, and REST API built with Express and MongoDB",
-    "usage": "import { buildConfig } from 'payload/config'; export default buildConfig({ collections: [{ slug: 'users', fields: [] }] });",
+    "title": "Ghost Admin API",
+    "description": "Ghost CMS admin API client for managing posts, users, and settings programmatically",
+    "usage": "const GhostAdminAPI = require('@tryghost/admin-api'); const api = new GhostAdminAPI({ url: 'url', key: 'key' }); const posts = await api.posts.browse();",
     "tags": [
       "cms",
-      "headless",
-      "mongodb",
-      "rest-api"
+      "ghost",
+      "blog",
+      "admin"
     ],
-    "category": "Web Framework"
+    "category": "Utility"
   }
 ];
