@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Commerce.js",
-    "description": "Commerce.js SDK for Chec API with cart, checkout, and product management",
-    "usage": "const Commerce = require('commerce.js'); const commerce = new Commerce('pk_test_...'); const products = await commerce.products.list();",
+    "title": "Salesforce API",
+    "description": "Salesforce REST API client with CRUD operations, queries, and bulk data management",
+    "usage": "const jsforce = require('jsforce'); const conn = new jsforce.Connection({ loginUrl: 'https://login.salesforce.com' }); await conn.login('user', 'password'); const accounts = await conn.query('SELECT Id, Name FROM Account');",
     "tags": [
-      "commerce",
-      "ecommerce",
-      "cart",
-      "checkout"
+      "salesforce",
+      "crm",
+      "api",
+      "cloud"
     ],
-    "category": "Payment"
+    "category": "Cloud"
   }
 ];
