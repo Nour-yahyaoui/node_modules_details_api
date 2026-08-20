@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 275
-// Last updated: 2026-08-20 04:17:37
+// Total modules: 276
+// Last updated: 2026-08-20 04:17:43
 
 module.exports = [
   {
@@ -3300,6 +3300,18 @@ module.exports = [
       "kysely",
       "migrations",
       "database",
+      "typescript"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Kysely Relations",
+    "description": "Kysely relation query builder with joins, subqueries, and CTE support",
+    "usage": "const users = await db.selectFrom('users') .leftJoin('posts', 'users.id', 'posts.user_id') .select(['users.name', 'posts.title']) .execute();",
+    "tags": [
+      "kysely",
+      "relations",
+      "joins",
       "typescript"
     ],
     "category": "ORM/Database"
