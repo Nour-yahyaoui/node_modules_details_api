@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 164
-// Last updated: 2026-08-20 03:14:00
+// Last updated: 2026-08-20 03:14:01
 
 module.exports = [
   {
@@ -1961,15 +1961,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Heroku CLI",
-    "description": "CLI for Heroku platform with app management, add-ons, and dyno scaling",
-    "usage": "heroku create my-app",
+    "title": "Supabase JS",
+    "description": "Supabase client with authentication, realtime subscriptions, and PostgreSQL database access",
+    "usage": "const { createClient } = require('@supabase/supabase-js'); const supabase = createClient(url, key); const { data } = await supabase.from('users').select('*');",
     "tags": [
-      "heroku",
-      "deployment",
-      "hosting",
-      "cli"
+      "supabase",
+      "database",
+      "authentication",
+      "realtime"
     ],
-    "category": "Dev Tool"
+    "category": "Database"
   }
 ];
