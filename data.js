@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Cli-spinners",
-    "description": "Collection of terminal spinners for CLI applications with customizable styles",
-    "usage": "const cliSpinners = require('cli-spinners'); console.log(cliSpinners.dots);",
+    "title": "Cli-progress",
+    "description": "Terminal progress bars with customizable styles and multiple bar types",
+    "usage": "const cliProgress = require('cli-progress'); const bar = new cliProgress.SingleBar(); bar.start(100, 0); bar.update(50); bar.stop();",
     "tags": [
       "cli",
-      "spinner",
+      "progress",
       "terminal",
-      "animation"
+      "bar"
     ],
     "category": "CLI/Tool"
   }
