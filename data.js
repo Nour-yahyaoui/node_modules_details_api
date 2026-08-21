@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 121
-// Last updated: 2026-08-21 04:39:06
+// Total modules: 122
+// Last updated: 2026-08-21 04:39:12
 
 module.exports = [
   {
@@ -1455,5 +1455,17 @@ module.exports = [
       "presence"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "GraphQL-WS",
+    "description": "GraphQL over WebSocket protocol implementation for real-time subscriptions with GraphQL",
+    "usage": "const { useServer } = require('graphql-ws/lib/use/ws'); const server = useServer({ schema }, wsServer);",
+    "tags": [
+      "graphql",
+      "websocket",
+      "subscriptions",
+      "realtime"
+    ],
+    "category": "API"
   }
 ];
