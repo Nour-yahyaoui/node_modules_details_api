@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 92
-// Last updated: 2026-08-21 04:35:32
+// Total modules: 93
+// Last updated: 2026-08-21 04:35:44
 
 module.exports = [
   {
@@ -1105,6 +1105,18 @@ module.exports = [
       "password",
       "hashing",
       "argon2"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Crypto-js",
+    "description": "Pure JavaScript cryptographic library with AES, SHA, HMAC, and other encryption algorithms",
+    "usage": "const CryptoJS = require('crypto-js'); const encrypted = CryptoJS.AES.encrypt('message', 'secret').toString(); const decrypted = CryptoJS.AES.decrypt(encrypted, 'secret').toString(CryptoJS.enc.Utf8);",
+    "tags": [
+      "encryption",
+      "crypto",
+      "aes",
+      "hash"
     ],
     "category": "Security"
   }
