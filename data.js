@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 40
-// Last updated: 2026-08-21 03:43:37
+// Total modules: 41
+// Last updated: 2026-08-21 03:43:45
 
 module.exports = [
   {
@@ -481,6 +481,18 @@ module.exports = [
       "browser",
       "testing",
       "cross-browser"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Mocha",
+    "description": "Feature-rich test framework for Node.js with async testing, reporting, and flexible assertion support",
+    "usage": "describe('Array', function() { it('should return -1 when value is not present', function() { assert.equal([1,2,3].indexOf(4), -1); }); });",
+    "tags": [
+      "testing",
+      "unit-test",
+      "async",
+      "reporting"
     ],
     "category": "Testing/Tool"
   }
