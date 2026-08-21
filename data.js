@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 100
-// Last updated: 2026-08-21 04:36:30
+// Total modules: 101
+// Last updated: 2026-08-21 04:36:38
 
 module.exports = [
   {
@@ -1201,6 +1201,18 @@ module.exports = [
       "time",
       "datetime",
       "immutable"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Day.js",
+    "description": "Fast 2KB immutable date library alternative to Moment.js with plugin system and locale support",
+    "usage": "const dayjs = require('dayjs'); const now = dayjs(); const formatted = now.format('YYYY-MM-DD');",
+    "tags": [
+      "date",
+      "time",
+      "datetime",
+      "lightweight"
     ],
     "category": "Utility"
   }
