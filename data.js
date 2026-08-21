@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 111
-// Last updated: 2026-08-21 04:38:00
+// Total modules: 112
+// Last updated: 2026-08-21 04:38:09
 
 module.exports = [
   {
@@ -1335,5 +1335,17 @@ module.exports = [
       "hooks"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "BullMQ",
+    "description": "Advanced job queue using Redis with support for delayed jobs, retries, and concurrency control",
+    "usage": "const { Queue } = require('bullmq'); const queue = new Queue('email'); await queue.add('send', { to: 'user@example.com' });",
+    "tags": [
+      "queue",
+      "redis",
+      "jobs",
+      "background"
+    ],
+    "category": "Background Processing"
   }
 ];
