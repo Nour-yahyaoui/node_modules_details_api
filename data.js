@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Nodemailer (Advanced)",
-    "description": "Advanced email sending with attachments, HTML, and multiple transport options",
-    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ host: 'smtp.example.com', port: 587, auth: { user: 'user', pass: 'pass' } }); await transporter.sendMail({ from: 'from@example.com', to: 'to@example.com', subject: 'Hello', html: '<b>World</b>', attachments: [{ filename: 'file.pdf', path: './file.pdf' }] });",
+    "title": "Node-telegram-bot-api",
+    "description": "Telegram Bot API client with message, callback, and inline query handling",
+    "usage": "const TelegramBot = require('node-telegram-bot-api'); const bot = new TelegramBot('TOKEN', { polling: true }); bot.onText(//start/, (msg) => { bot.sendMessage(msg.chat.id, 'Hello'); });",
     "tags": [
-      "email",
-      "smtp",
-      "attachments",
-      "html"
+      "telegram",
+      "bot",
+      "messaging",
+      "api"
     ],
     "category": "Utility"
   }
