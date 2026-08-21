@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 94
-// Last updated: 2026-08-21 04:35:51
+// Total modules: 95
+// Last updated: 2026-08-21 04:35:58
 
 module.exports = [
   {
@@ -1129,6 +1129,18 @@ module.exports = [
       "memory",
       "ttl",
       "performance"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Memory-cache",
+    "description": "Lightweight in-memory cache with simple put/get API and expiration support",
+    "usage": "const cache = require('memory-cache'); cache.put('key', 'value', 60000); const value = cache.get('key');",
+    "tags": [
+      "cache",
+      "memory",
+      "ttl",
+      "simple"
     ],
     "category": "Performance"
   }
