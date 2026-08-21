@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 262
-// Last updated: 2026-08-21 05:03:56
+// Total modules: 263
+// Last updated: 2026-08-21 05:04:01
 
 module.exports = [
   {
@@ -3145,6 +3145,18 @@ module.exports = [
       "security",
       "headers",
       "privacy"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "HSTS",
+    "description": "HTTP Strict Transport Security middleware for Express",
+    "usage": "const hsts = require('hsts'); app.use(hsts({ maxAge: 31536000 }));",
+    "tags": [
+      "hsts",
+      "security",
+      "ssl",
+      "headers"
     ],
     "category": "Security"
   }
