@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 80
-// Last updated: 2026-08-21 04:31:37
+// Total modules: 81
+// Last updated: 2026-08-21 04:31:43
 
 module.exports = [
   {
@@ -961,6 +961,18 @@ module.exports = [
       "json",
       "local",
       "file"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Better-sqlite3",
+    "description": "Fast and efficient SQLite3 library with synchronous API and prepared statement caching",
+    "usage": "const Database = require('better-sqlite3'); const db = new Database('mydb.db'); const stmt = db.prepare('SELECT * FROM users WHERE age > ?'); const users = stmt.all(18);",
+    "tags": [
+      "database",
+      "sqlite",
+      "fast",
+      "synchronous"
     ],
     "category": "Database"
   }
