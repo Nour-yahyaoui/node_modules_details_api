@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 245 |
+| Total Libraries | 246 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -270,4 +270,5 @@ This repository contains a growing collection of **Node.js library documentation
 | Worker Threads | Performance | Node.js worker threads for CPU-intensive operations and para... |
 | Yargs | CLI/Tool | Sophisticated CLI argument parser with command handling, hel... |
 | Yup | Validation | Object schema validation with async support, conditional val... |
+| Zlib | Utility | Node.js native zlib library for gzip, deflate, and inflate |
 | Zod | Validation | TypeScript-first schema validation with static type inferenc... |
