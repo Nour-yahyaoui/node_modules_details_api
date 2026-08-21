@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 87
-// Last updated: 2026-08-21 04:32:19
+// Last updated: 2026-08-21 04:34:55
 
 module.exports = [
   {
@@ -1037,14 +1037,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "MikroORM",
-    "description": "TypeScript ORM with unit of work, identity map, and support for MongoDB, SQL, and migrations",
-    "usage": "import { MikroORM } from '@mikro-orm/core'; const orm = await MikroORM.init({ entities: [User], dbName: 'db', type: 'postgresql' }); const users = await orm.em.find(User, {});",
+    "title": "Mongoose (Advanced)",
+    "description": "MongoDB ODM with advanced schema features, validation, middleware, and population for Node.js",
+    "usage": "const mongoose = require('mongoose'); const userSchema = new mongoose.Schema({ name: String, age: Number }); const User = mongoose.model('User', userSchema); const users = await User.find({ age: { $gt: 18 } });",
     "tags": [
-      "orm",
-      "typescript",
-      "unit-of-work",
-      "sql"
+      "mongodb",
+      "odm",
+      "schema",
+      "validation"
     ],
     "category": "ORM/Database"
   }
