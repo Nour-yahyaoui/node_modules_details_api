@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 84
-// Last updated: 2026-08-21 04:32:01
+// Total modules: 85
+// Last updated: 2026-08-21 04:32:06
 
 module.exports = [
   {
@@ -1004,6 +1004,18 @@ module.exports = [
     "title": "Objection.js",
     "description": "SQL ORM with intuitive model definitions, relation management, and query building for Node.js",
     "usage": "const { Model } = require('objection'); class User extends Model { static get tableName() { return 'users'; } } const users = await User.query().where('age', '>', 18);",
+    "tags": [
+      "orm",
+      "sql",
+      "models",
+      "relations"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Bookshelf.js",
+    "description": "ORM for PostgreSQL, MySQL, SQLite with model relations, eager loading, and event hooks",
+    "usage": "const bookshelf = require('bookshelf')(knex); const User = bookshelf.model('User', { tableName: 'users' }); const user = await User.where('id', 1).fetch();",
     "tags": [
       "orm",
       "sql",
