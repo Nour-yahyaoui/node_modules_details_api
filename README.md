@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 51 |
+| Total Libraries | 52 |
 | Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -46,6 +46,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
+| Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
 | Joi | Validation | Powerful schema validation library with descriptive error me... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
