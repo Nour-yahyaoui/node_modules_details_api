@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Fastify Session",
-    "description": "Session management plugin for Fastify with in-memory and Redis storage",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/session'), { secret: 'secret' });",
+    "title": "Fastify Graceful Shutdown",
+    "description": "Graceful shutdown plugin for Fastify with health checks and SIGTERM handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/graceful-shutdown'));",
     "tags": [
       "fastify",
-      "session",
-      "store",
-      "middleware"
+      "graceful",
+      "shutdown",
+      "health"
     ],
-    "category": "Security"
+    "category": "Dev Tool"
   }
 ];
