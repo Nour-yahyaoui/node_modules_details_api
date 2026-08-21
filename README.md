@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 100 |
+| Total Libraries | 101 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -46,6 +46,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
 | Crypto-js | Security | Pure JavaScript cryptographic library with AES, SHA, HMAC, a... |
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
+| Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
 | EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
