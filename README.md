@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 2 |
-| Categories | Security, Utility |
+| Total Libraries | 3 |
+| Categories | CLI/Tool, Security, Utility |
 | Last Updated | 2026-08-21 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -28,3 +28,4 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | Bcrypt | Security | Password hashing library using the bcrypt algorithm with sal... |
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
+| Chalk | CLI/Tool | Terminal string styling with colors, RGB, and hex support fo... |
