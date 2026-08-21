@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 245
-// Last updated: 2026-08-21 04:55:47
+// Last updated: 2026-08-21 05:02:17
 
 module.exports = [
   {
@@ -2933,15 +2933,15 @@ module.exports = [
     "category": "Performance"
   },
   {
-    "title": "Compression Webpack",
-    "description": "Webpack plugin for gzip and brotli compression during build",
-    "usage": "const CompressionPlugin = require('compression-webpack-plugin'); module.exports = { plugins: [new CompressionPlugin({ test: /\\.(js|css)$/ })] };",
+    "title": "Brotli",
+    "description": "Brotli compression algorithm implementation for Node.js",
+    "usage": "const brotli = require('brotli'); const compressed = brotli.compress(Buffer.from('Hello World'));",
     "tags": [
-      "webpack",
       "compression",
-      "gzip",
-      "build"
+      "brotli",
+      "algorithm",
+      "performance"
     ],
-    "category": "Dev Tool"
+    "category": "Performance"
   }
 ];
