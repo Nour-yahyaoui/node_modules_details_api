@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 68
-// Last updated: 2026-08-21 04:29:03
+// Last updated: 2026-08-21 04:30:27
 
 module.exports = [
   {
@@ -809,14 +809,14 @@ module.exports = [
     "category": "API"
   },
   {
-    "title": "AWS SDK",
-    "description": "Official AWS SDK for Node.js with support for S3, DynamoDB, Lambda, and 200+ AWS services",
-    "usage": "const AWS = require('aws-sdk'); const s3 = new AWS.S3(); const data = await s3.listBuckets().promise();",
+    "title": "Google Cloud Client",
+    "description": "Official Google Cloud client for Node.js with support for Storage, Firestore, Pub/Sub, and other GCP services",
+    "usage": "const { Storage } = require('@google-cloud/storage'); const storage = new Storage(); const [buckets] = await storage.getBuckets();",
     "tags": [
-      "aws",
-      "s3",
-      "dynamodb",
-      "lambda"
+      "google-cloud",
+      "gcp",
+      "storage",
+      "firestore"
     ],
     "category": "Cloud"
   }
