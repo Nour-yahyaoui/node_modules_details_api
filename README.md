@@ -28,7 +28,6 @@ This repository contains a growing collection of **Node.js library documentation
 |---------|----------|-------------|
 | Agenda | Background Processing | MongoDB-backed job scheduling library for creating and manag... |
 | Apollo Server | API | GraphQL server for Express, Fastify, and other frameworks wi... |
-| AWS SDK | Cloud | Official AWS SDK for Node.js with support for S3, DynamoDB, ... |
 | Bcrypt | Security | Password hashing library using the bcrypt algorithm with sal... |
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
 | Bull | Background Processing | Redis-based job queue for handling background jobs, scheduli... |
@@ -51,6 +50,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Google Cloud Client | Cloud | Official Google Cloud client for Node.js with support for St... |
 | GraphQL | API | GraphQL reference implementation with schema construction, q... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
