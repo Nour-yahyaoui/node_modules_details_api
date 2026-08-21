@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 236
-// Last updated: 2026-08-21 04:54:53
+// Total modules: 237
+// Last updated: 2026-08-21 04:54:59
 
 module.exports = [
   {
@@ -2833,6 +2833,18 @@ module.exports = [
       "sublevel",
       "key-value",
       "namespaced"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "NeDB Indexes",
+    "description": "NeDB index management with unique, sparse, and compound indexes",
+    "usage": "const Datastore = require('nedb'); const db = new Datastore({ filename: 'data.db', autoload: true }); db.ensureIndex({ fieldName: 'email', unique: true }); db.ensureIndex({ fieldName: 'name', sparse: true });",
+    "tags": [
+      "nedb",
+      "indexes",
+      "unique",
+      "database"
     ],
     "category": "Database"
   }
