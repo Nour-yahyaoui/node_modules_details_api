@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 115
-// Last updated: 2026-08-21 04:38:30
+// Total modules: 116
+// Last updated: 2026-08-21 04:38:37
 
 module.exports = [
   {
@@ -1383,5 +1383,17 @@ module.exports = [
       "delayed"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "Moleculer",
+    "description": "Fast microservices framework with service discovery, load balancing, and built-in caching",
+    "usage": "const { ServiceBroker } = require('moleculer'); const broker = new ServiceBroker(); broker.createService({ name: 'math', actions: { add(ctx) { return ctx.params.a + ctx.params.b } } });",
+    "tags": [
+      "microservices",
+      "framework",
+      "service-discovery",
+      "load-balancing"
+    ],
+    "category": "Web Framework"
   }
 ];
