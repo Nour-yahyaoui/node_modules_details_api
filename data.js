@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 288
-// Last updated: 2026-08-21 05:18:04
+// Total modules: 289
+// Last updated: 2026-08-21 05:18:09
 
 module.exports = [
   {
@@ -3457,6 +3457,18 @@ module.exports = [
       "parse",
       "human",
       "json"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Patchwork",
+    "description": "JSON patch and merge utilities with conflict resolution",
+    "usage": "const patchwork = require('patchwork'); const merged = patchwork.merge({ a: 1 }, { b: 2 });",
+    "tags": [
+      "patch",
+      "merge",
+      "json",
+      "conflict"
     ],
     "category": "Utility"
   }
