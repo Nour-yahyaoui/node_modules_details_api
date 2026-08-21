@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Ky",
-    "description": "Lightweight HTTP client with hooks, retries, and timeout support built on fetch",
-    "usage": "import ky from 'ky'; const json = await ky.get('https://api.example.com').json();",
+    "title": "Undici",
+    "description": "Fast, efficient HTTP/1.1 and HTTP/2 client with connection pooling and request pipelining",
+    "usage": "const { request } = require('undici'); const { body } = await request('https://api.example.com'); const data = await body.json();",
     "tags": [
       "http",
       "fetch",
-      "hooks",
-      "retry"
+      "fast",
+      "pooling"
     ],
     "category": "HTTP Client"
   }
