@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 165
-// Last updated: 2026-08-21 04:43:49
+// Total modules: 166
+// Last updated: 2026-08-21 04:43:54
 
 module.exports = [
   {
@@ -1983,5 +1983,17 @@ module.exports = [
       "cloud"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Vercel CLI",
+    "description": "CLI for Vercel platform with deployments, environment variables, and project management",
+    "usage": "vercel --prod",
+    "tags": [
+      "vercel",
+      "deployment",
+      "hosting",
+      "cli"
+    ],
+    "category": "Dev Tool"
   }
 ];
