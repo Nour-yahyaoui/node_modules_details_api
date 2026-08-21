@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "WooCommerce API",
-    "description": "WooCommerce REST API client with products, orders, customers, and coupons management",
-    "usage": "const WooCommerceAPI = require('woocommerce-api'); const WooCommerce = new WooCommerceAPI({ url: 'url', consumerKey: 'key', consumerSecret: 'secret' }); const products = await WooCommerce.get('products');",
+    "title": "BigCommerce API",
+    "description": "BigCommerce API client with catalog, checkout, and order management for ecommerce platforms",
+    "usage": "const BigCommerce = require('node-bigcommerce'); const api = new BigCommerce({ clientId: 'id', accessToken: 'token' }); const products = await api.get('/v3/catalog/products');",
     "tags": [
-      "woocommerce",
+      "bigcommerce",
       "ecommerce",
       "api",
-      "wordpress"
+      "catalog"
     ],
     "category": "Payment"
   }
