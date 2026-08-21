@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 47
-// Last updated: 2026-08-21 03:44:38
+// Last updated: 2026-08-21 04:25:41
 
 module.exports = [
   {
@@ -557,15 +557,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Hapi",
-    "description": "Rich framework for building applications with configuration-based routing, validation, and plugin system",
-    "usage": "const Hapi = require('@hapi/hapi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => 'Hello World' });",
+    "title": "Inquirer",
+    "description": "Collection of interactive CLI prompts for input, selection, and confirmation in terminal applications",
+    "usage": "const inquirer = require('inquirer'); const answers = await inquirer.prompt([{ type: 'input', name: 'name', message: 'Enter name' }]);",
     "tags": [
-      "web",
-      "framework",
-      "configuration",
-      "enterprise"
+      "cli",
+      "prompts",
+      "terminal",
+      "interactive"
     ],
-    "category": "Web Framework"
+    "category": "CLI/Tool"
   }
 ];
