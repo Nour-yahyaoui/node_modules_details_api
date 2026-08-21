@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 286 |
+| Total Libraries | 287 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -131,6 +131,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Heroku CLI | Dev Tool | CLI for Heroku platform with app management, add-ons, and dy... |
 | HPP | Security | HTTP Parameter Pollution protection middleware for Express |
 | HSTS | Security | HTTP Strict Transport Security middleware for Express |
+| INI | Utility | INI configuration parser with sections and comments support |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
 | Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
