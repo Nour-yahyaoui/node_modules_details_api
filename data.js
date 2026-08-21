@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 59
-// Last updated: 2026-08-21 04:26:57
+// Total modules: 60
+// Last updated: 2026-08-21 04:27:02
 
 module.exports = [
   {
@@ -709,6 +709,18 @@ module.exports = [
       "production",
       "manager",
       "monitoring"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Forever",
+    "description": "Simple daemon for keeping Node.js processes running continuously with automatic restarts on failure",
+    "usage": "forever start app.js",
+    "tags": [
+      "process",
+      "daemon",
+      "restart",
+      "persistent"
     ],
     "category": "Dev Tool"
   }
