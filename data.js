@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 293
-// Last updated: 2026-08-21 05:18:33
+// Total modules: 294
+// Last updated: 2026-08-21 05:18:39
 
 module.exports = [
   {
@@ -3517,6 +3517,18 @@ module.exports = [
       "get",
       "safety",
       "default"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Property Setter",
+    "description": "Safe nested property setting with path creation",
+    "usage": "const set = require('lodash/set'); set(obj, 'nested.property', 'value');",
+    "tags": [
+      "property",
+      "set",
+      "path",
+      "nested"
     ],
     "category": "Utility"
   }
