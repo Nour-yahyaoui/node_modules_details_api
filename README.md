@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 184 |
+| Total Libraries | 185 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -98,6 +98,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi Auth JWT | Security | JWT authentication scheme for Hapi with token validation and... |
 | Hapi Boom | Utility | HTTP-friendly error objects for Hapi with status codes and e... |
+| Hapi Good | Logging | Logging and monitoring plugin for Hapi with multiple reporte... |
 | Hapi Joi | Validation | Joi validation plugin for Hapi with built-in input validatio... |
 | Hasura CLI | Dev Tool | CLI tool for Hasura GraphQL Engine with migrations, metadata... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
