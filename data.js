@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 173
-// Last updated: 2026-08-21 04:44:34
+// Total modules: 174
+// Last updated: 2026-08-21 04:44:39
 
 module.exports = [
   {
@@ -2076,6 +2076,18 @@ module.exports = [
       "cms",
       "headless",
       "api",
+      "content"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Strapi SDK",
+    "description": "Client for Strapi headless CMS with REST and GraphQL support and authentication",
+    "usage": "const { Strapi } = require('@strapi/strapi'); const strapi = new Strapi();",
+    "tags": [
+      "cms",
+      "headless",
+      "strapi",
       "content"
     ],
     "category": "Utility"
