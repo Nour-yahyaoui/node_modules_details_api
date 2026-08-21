@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 267 |
+| Total Libraries | 268 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -61,6 +61,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
+| Connect Mongo | Database | MongoDB session store for Express with TTL and auto-connect |
 | Connect Redis | Database | Redis session store for Express with automatic session manag... |
 | Contentful | Utility | Contentful content management client with entry management, ... |
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
