@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 242 |
+| Total Libraries | 243 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -265,6 +265,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Waterline Associations | ORM/Database | Waterline model associations with one-to-one, one-to-many, a... |
 | Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
 | Winston | Logging | Versatile logging library supporting multiple transports, cu... |
+| Worker Threads | Performance | Node.js worker threads for CPU-intensive operations and para... |
 | Yargs | CLI/Tool | Sophisticated CLI argument parser with command handling, hel... |
 | Yup | Validation | Object schema validation with async support, conditional val... |
 | Zod | Validation | TypeScript-first schema validation with static type inferenc... |
