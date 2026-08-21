@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 219
-// Last updated: 2026-08-21 04:53:14
+// Total modules: 220
+// Last updated: 2026-08-21 04:53:20
 
 module.exports = [
   {
@@ -2629,6 +2629,18 @@ module.exports = [
       "migrations",
       "database",
       "schema"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "TypeORM Subscribers",
+    "description": "TypeORM event subscribers with beforeInsert, beforeUpdate, and afterLoad",
+    "usage": "import { EventSubscriber, EntitySubscriberInterface } from 'typeorm'; @EventSubscriber() export class UserSubscriber implements EntitySubscriberInterface<User> { listenTo() { return User; } beforeInsert(event) { event.entity.createdAt = new Date(); } }",
+    "tags": [
+      "typeorm",
+      "subscribers",
+      "events",
+      "hooks"
     ],
     "category": "ORM/Database"
   }
