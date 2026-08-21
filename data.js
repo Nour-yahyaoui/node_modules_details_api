@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:45:46
+// Last updated: 2026-08-21 04:49:05
 
 module.exports = [
   {
@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Postmark",
-    "description": "Email delivery service with templating, open tracking, and bounce management",
-    "usage": "const postmark = require('postmark'); const client = new postmark.Client('server-token'); await client.sendEmail({ From: 'from@example.com', To: 'to@example.com', Subject: 'Hello', TextBody: 'World' });",
+    "title": "SES (AWS)",
+    "description": "AWS Simple Email Service client with sending, receiving, and email configuration management",
+    "usage": "const AWS = require('aws-sdk'); const ses = new AWS.SES({ region: 'us-east-1' }); await ses.sendEmail({ Destination: { ToAddresses: ['user@example.com'] }, Source: 'from@example.com', Message: { Subject: { Data: 'Hello' }, Body: { Text: { Data: 'World' } } } }).promise();",
     "tags": [
       "email",
-      "postmark",
-      "transactional",
-      "templates"
+      "aws",
+      "ses",
+      "cloud"
     ],
-    "category": "Utility"
+    "category": "Cloud"
   }
 ];
