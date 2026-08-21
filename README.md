@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 117 |
+| Total Libraries | 118 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -29,6 +29,7 @@ This repository contains a growing collection of **Node.js library documentation
 | AdonisJS | Web Framework | Full-stack MVC framework with ORM, authentication, and every... |
 | Agenda | Background Processing | MongoDB-backed job scheduling library for creating and manag... |
 | Ajv | Validation | Fast JSON schema validator with support for draft-04, draft-... |
+| Amqplib | Background Processing | RabbitMQ client with connection management, channel handling... |
 | Apollo Server | API | GraphQL server for Express, Fastify, and other frameworks wi... |
 | Argon2 | Security | Modern password hashing using Argon2 algorithm with configur... |
 | Azure SDK | Cloud | Microsoft Azure SDK with support for Blob Storage, Queue, Se... |
