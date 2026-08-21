@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 158
-// Last updated: 2026-08-21 04:43:11
+// Total modules: 159
+// Last updated: 2026-08-21 04:43:16
 
 module.exports = [
   {
@@ -1895,6 +1895,18 @@ module.exports = [
     "tags": [
       "docker",
       "compose",
+      "orchestration",
+      "containers"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Kubernetes Client",
+    "description": "Official Kubernetes client for Node.js with pod management, service discovery, and deployment",
+    "usage": "const k8s = require('@kubernetes/client-node'); const kc = new k8s.KubeConfig(); kc.loadFromDefault();",
+    "tags": [
+      "kubernetes",
+      "k8s",
       "orchestration",
       "containers"
     ],
