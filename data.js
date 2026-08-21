@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 19
-// Last updated: 2026-08-21 03:36:40
+// Last updated: 2026-08-21 03:37:44
 
 module.exports = [
   {
@@ -221,15 +221,15 @@ module.exports = [
     "category": "Security"
   },
   {
-    "title": "Koa",
-    "description": "Modern web framework designed by the Express team with async/await support and no callback hell",
-    "usage": "const Koa = require('koa'); const app = new Koa(); app.use(async ctx => { ctx.body = 'Hello World'; });",
+    "title": "Lodash",
+    "description": "Modern JavaScript utility library delivering modularity, performance, and extras for array and object manipulation",
+    "usage": "const _ = require('lodash'); const unique = _.uniq([1, 2, 2, 3]); const grouped = _.groupBy(users, 'age');",
     "tags": [
-      "web",
-      "framework",
-      "async",
-      "modern"
+      "utility",
+      "array",
+      "object",
+      "functional"
     ],
-    "category": "Web Framework"
+    "category": "Utility"
   }
 ];
