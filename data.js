@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 257
-// Last updated: 2026-08-21 05:03:27
+// Total modules: 258
+// Last updated: 2026-08-21 05:03:33
 
 module.exports = [
   {
@@ -3085,6 +3085,18 @@ module.exports = [
       "security",
       "tokens",
       "express"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Xss",
+    "description": "XSS sanitization for user input and HTML content",
+    "usage": "const xss = require('xss'); const sanitized = xss('<script>alert(1)</script>');",
+    "tags": [
+      "xss",
+      "sanitization",
+      "security",
+      "html"
     ],
     "category": "Security"
   }
