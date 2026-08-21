@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:45:44
+// Last updated: 2026-08-21 04:45:45
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Salesforce API",
-    "description": "Salesforce REST API client with CRUD operations, queries, and bulk data management",
-    "usage": "const jsforce = require('jsforce'); const conn = new jsforce.Connection({ loginUrl: 'https://login.salesforce.com' }); await conn.login('user', 'password'); const accounts = await conn.query('SELECT Id, Name FROM Account');",
+    "title": "HubSpot API",
+    "description": "HubSpot API client with contacts, companies, deals, and marketing automation features",
+    "usage": "const hubspot = require('@hubspot/api-client'); const client = new hubspot.Client({ accessToken: 'token' }); const contacts = await client.crm.contacts.getAll();",
     "tags": [
-      "salesforce",
+      "hubspot",
       "crm",
-      "api",
-      "cloud"
+      "marketing",
+      "automation"
     ],
     "category": "Cloud"
   }
