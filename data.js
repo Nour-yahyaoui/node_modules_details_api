@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 46
-// Last updated: 2026-08-21 03:44:29
+// Total modules: 47
+// Last updated: 2026-08-21 03:44:38
 
 module.exports = [
   {
@@ -555,5 +555,17 @@ module.exports = [
       "typescript"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Hapi",
+    "description": "Rich framework for building applications with configuration-based routing, validation, and plugin system",
+    "usage": "const Hapi = require('@hapi/hapi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => 'Hello World' });",
+    "tags": [
+      "web",
+      "framework",
+      "configuration",
+      "enterprise"
+    ],
+    "category": "Web Framework"
   }
 ];
