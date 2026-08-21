@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:15
+// Last updated: 2026-08-21 04:49:16
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Socks",
-    "description": "SOCKS proxy client for creating connections through proxy servers with authentication",
-    "usage": "const socks = require('socks'); const info = await socks.createConnection({ proxy: { ipaddress: '127.0.0.1', port: 1080 }, target: { host: 'example.com', port: 80 } });",
+    "title": "Nodemailer (Advanced)",
+    "description": "Advanced email sending with attachments, HTML, and multiple transport options",
+    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ host: 'smtp.example.com', port: 587, auth: { user: 'user', pass: 'pass' } }); await transporter.sendMail({ from: 'from@example.com', to: 'to@example.com', subject: 'Hello', html: '<b>World</b>', attachments: [{ filename: 'file.pdf', path: './file.pdf' }] });",
     "tags": [
-      "proxy",
-      "socks",
-      "networking",
-      "connection"
+      "email",
+      "smtp",
+      "attachments",
+      "html"
     ],
     "category": "Utility"
   }
