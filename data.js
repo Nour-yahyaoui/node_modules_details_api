@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 66
-// Last updated: 2026-08-21 04:27:46
+// Total modules: 67
+// Last updated: 2026-08-21 04:27:53
 
 module.exports = [
   {
@@ -793,6 +793,18 @@ module.exports = [
       "express",
       "middleware",
       "graphiql"
+    ],
+    "category": "API"
+  },
+  {
+    "title": "Mercurius",
+    "description": "GraphQL server and gateway for Fastify with schema stitching, federation, and caching capabilities",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('mercurius'), { schema });",
+    "tags": [
+      "graphql",
+      "fastify",
+      "federation",
+      "gateway"
     ],
     "category": "API"
   }
