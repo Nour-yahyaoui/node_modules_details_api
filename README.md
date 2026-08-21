@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 47 |
+| Total Libraries | 48 |
 | Categories | CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -49,6 +49,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
 | Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
+| Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | Mongoose | ORM/Database | MongoDB object modeling with schema validation, query buildi... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
