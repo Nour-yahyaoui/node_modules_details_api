@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Axios (Advanced)",
-    "description": "Advanced HTTP client with interceptors, retries, and cancellation support",
-    "usage": "const axios = require('axios'); const instance = axios.create({ baseURL: 'https://api.example.com' }); instance.interceptors.request.use(config => { console.log('Request sent'); return config; });",
+    "title": "Ky",
+    "description": "Lightweight HTTP client with hooks, retries, and timeout support built on fetch",
+    "usage": "import ky from 'ky'; const json = await ky.get('https://api.example.com').json();",
     "tags": [
       "http",
-      "interceptors",
-      "retry",
-      "cancellation"
+      "fetch",
+      "hooks",
+      "retry"
     ],
     "category": "HTTP Client"
   }
