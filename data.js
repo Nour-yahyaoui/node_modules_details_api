@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:14
+// Last updated: 2026-08-21 04:49:15
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Undici",
-    "description": "Fast, efficient HTTP/1.1 and HTTP/2 client with connection pooling and request pipelining",
-    "usage": "const { request } = require('undici'); const { body } = await request('https://api.example.com'); const data = await body.json();",
+    "title": "Node-fetch (Advanced)",
+    "description": "Enhanced node-fetch with redirect, compression, and agent support",
+    "usage": "const fetch = require('node-fetch'); const response = await fetch('https://api.example.com', { redirect: 'follow', compress: true });",
     "tags": [
       "http",
       "fetch",
-      "fast",
-      "pooling"
+      "redirect",
+      "compression"
     ],
     "category": "HTTP Client"
   }
