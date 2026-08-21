@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 13 |
+| Total Libraries | 14 |
 | Categories | CLI/Tool, Dev Tool, Performance, Security, Utility, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -39,3 +39,4 @@ This repository contains a growing collection of **Node.js library documentation
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
+| Fs-extra | Utility | Extended file system module with promise support and additio... |
