@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 59 |
+| Total Libraries | 60 |
 | Categories | Background Processing, CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -45,6 +45,7 @@ This repository contains a growing collection of **Node.js library documentation
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
+| Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
