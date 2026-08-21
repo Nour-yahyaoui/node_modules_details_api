@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Pretty Bytes",
-    "description": "Convert bytes to human-readable file size strings with SI and binary units",
-    "usage": "const prettyBytes = require('pretty-bytes'); console.log(prettyBytes(1024)); // '1.02 kB'",
+    "title": "Numeral",
+    "description": "Number formatting and manipulation with currencies, percentages, and time formats",
+    "usage": "const numeral = require('numeral'); console.log(numeral(1000).format('$0,0.00')); // '$1,000.00'",
     "tags": [
-      "bytes",
-      "size",
+      "numbers",
       "format",
-      "human-readable"
+      "currency",
+      "percentage"
     ],
     "category": "Utility"
   }
