@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 98
-// Last updated: 2026-08-21 04:36:18
+// Total modules: 99
+// Last updated: 2026-08-21 04:36:24
 
 module.exports = [
   {
@@ -1177,6 +1177,18 @@ module.exports = [
       "identifier",
       "unique",
       "short"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Date-fns",
+    "description": "Modern date utility library with modular functions for parsing, formatting, and manipulating dates",
+    "usage": "const { format, addDays, differenceInDays } = require('date-fns'); const formatted = format(new Date(), 'yyyy-MM-dd'); const future = addDays(new Date(), 5);",
+    "tags": [
+      "date",
+      "time",
+      "datetime",
+      "format"
     ],
     "category": "Utility"
   }
