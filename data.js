@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 246
-// Last updated: 2026-08-21 05:02:24
+// Total modules: 247
+// Last updated: 2026-08-21 05:02:29
 
 module.exports = [
   {
@@ -2953,6 +2953,18 @@ module.exports = [
       "gzip",
       "deflate",
       "compression"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Stream Pipes",
+    "description": "Node.js stream pipeline with promise support and error handling",
+    "usage": "const { pipeline } = require('stream/promises'); await pipeline(fs.createReadStream('input.txt'), zlib.createGzip(), fs.createWriteStream('output.gz'));",
+    "tags": [
+      "stream",
+      "pipeline",
+      "async",
+      "promises"
     ],
     "category": "Utility"
   }
