@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 154
-// Last updated: 2026-08-21 04:42:45
+// Total modules: 155
+// Last updated: 2026-08-21 04:42:51
 
 module.exports = [
   {
@@ -1849,6 +1849,18 @@ module.exports = [
       "fast",
       "rust",
       "typescript"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Parcel",
+    "description": "Zero-configuration web application bundler with built-in support for many file types",
+    "usage": "parcel build index.html",
+    "tags": [
+      "bundler",
+      "build",
+      "zero-config",
+      "assets"
     ],
     "category": "Dev Tool"
   }
