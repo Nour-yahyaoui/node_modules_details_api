@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 34
-// Last updated: 2026-08-21 03:42:17
+// Total modules: 35
+// Last updated: 2026-08-21 03:42:30
 
 module.exports = [
   {
@@ -409,6 +409,18 @@ module.exports = [
       "database",
       "nosql",
       "driver"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Redis (ioredis)",
+    "description": "Complete Redis client with clustering, Lua scripting, and support for all Redis commands",
+    "usage": "const Redis = require('ioredis'); const redis = new Redis({ host: 'localhost', port: 6379 }); await redis.set('key', 'value');",
+    "tags": [
+      "redis",
+      "cache",
+      "database",
+      "in-memory"
     ],
     "category": "Database"
   }
