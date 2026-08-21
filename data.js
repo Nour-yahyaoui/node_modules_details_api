@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 60
-// Last updated: 2026-08-21 04:27:02
+// Total modules: 61
+// Last updated: 2026-08-21 04:27:08
 
 module.exports = [
   {
@@ -723,5 +723,17 @@ module.exports = [
       "persistent"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Handlebars",
+    "description": "Minimal templating engine with logic-less templates, partials, helpers, and precompilation support",
+    "usage": "const Handlebars = require('handlebars'); const template = Handlebars.compile('Hello {{name}}'); const result = template({ name: 'World' });",
+    "tags": [
+      "templating",
+      "views",
+      "html",
+      "partials"
+    ],
+    "category": "Utility"
   }
 ];
