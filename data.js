@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 179
-// Last updated: 2026-08-21 04:45:09
+// Total modules: 180
+// Last updated: 2026-08-21 04:45:14
 
 module.exports = [
   {
@@ -2149,6 +2149,18 @@ module.exports = [
       "ghost",
       "blog",
       "admin"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "WordPress REST API",
+    "description": "WordPress REST API client with posts, pages, users, and custom endpoints support",
+    "usage": "const wp = require('wordpress-rest-api'); const client = wp({ endpoint: 'https://example.com/wp-json' }); const posts = await client.posts();",
+    "tags": [
+      "wordpress",
+      "cms",
+      "rest-api",
+      "blog"
     ],
     "category": "Utility"
   }
