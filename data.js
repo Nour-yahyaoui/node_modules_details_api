@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 191
-// Last updated: 2026-08-21 04:50:25
+// Total modules: 192
+// Last updated: 2026-08-21 04:50:31
 
 module.exports = [
   {
@@ -2295,5 +2295,17 @@ module.exports = [
       "performance"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "NestJS Bull",
+    "description": "Bull queue integration for NestJS with job processing and scheduling",
+    "usage": "import { Module } from '@nestjs/common'; import { BullModule } from '@nestjs/bull'; @Module({ imports: [BullModule.forRoot({ redis: { host: 'localhost' } })] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "bull",
+      "queue",
+      "jobs"
+    ],
+    "category": "Background Processing"
   }
 ];
