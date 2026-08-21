@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:18
+// Last updated: 2026-08-21 04:49:19
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Twilio",
-    "description": "Twilio API client for SMS, voice, video, and WhatsApp messaging",
-    "usage": "const twilio = require('twilio'); const client = twilio('sid', 'token'); await client.messages.create({ body: 'Hello', to: '+1234567890', from: '+0987654321' });",
+    "title": "Vonage",
+    "description": "Vonage API client for SMS, voice, video, and authentication services",
+    "usage": "const vonage = require('@vonage/server-sdk'); const client = new vonage({ apiKey: 'key', apiSecret: 'secret' }); client.message.sendSms('Vonage', '+1234567890', 'Hello');",
     "tags": [
-      "twilio",
+      "vonage",
       "sms",
       "voice",
-      "api"
+      "authentication"
     ],
     "category": "Utility"
   }
