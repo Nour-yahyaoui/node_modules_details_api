@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 251 |
+| Total Libraries | 252 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -47,6 +47,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Bookshelf Relations | ORM/Database | Bookshelf.js model relations with eager loading and nested e... |
 | Bookshelf.js | ORM/Database | ORM for PostgreSQL, MySQL, SQLite with model relations, eage... |
 | Brotli | Performance | Brotli compression algorithm implementation for Node.js |
+| Buffer | Utility | Node.js Buffer utilities for binary data manipulation |
 | Bull | Background Processing | Redis-based job queue for handling background jobs, scheduli... |
 | BullMQ | Background Processing | Advanced job queue using Redis with support for delayed jobs... |
 | Bunyan | Logging | JSON logging library with CLI, ring buffer, and rotation sup... |
