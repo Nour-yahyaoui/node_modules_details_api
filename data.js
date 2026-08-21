@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 286
-// Last updated: 2026-08-21 05:17:53
+// Total modules: 287
+// Last updated: 2026-08-21 05:17:58
 
 module.exports = [
   {
@@ -3433,6 +3433,18 @@ module.exports = [
       "parse",
       "stringify",
       "configuration"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "INI",
+    "description": "INI configuration parser with sections and comments support",
+    "usage": "const ini = require('ini'); const config = ini.parse('[section]\nkey=value');",
+    "tags": [
+      "ini",
+      "parse",
+      "configuration",
+      "config"
     ],
     "category": "Utility"
   }
