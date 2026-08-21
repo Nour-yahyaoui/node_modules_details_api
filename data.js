@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 194
-// Last updated: 2026-08-21 04:50:43
+// Total modules: 195
+// Last updated: 2026-08-21 04:50:49
 
 module.exports = [
   {
@@ -2331,5 +2331,17 @@ module.exports = [
       "mqtt"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "NestJS Schedule",
+    "description": "Cron job scheduling for NestJS with decorators and dynamic scheduling",
+    "usage": "import { Injectable } from '@nestjs/common'; import { Cron } from '@nestjs/schedule'; @Injectable() export class TasksService { @Cron('0 0 * * *') handleCron() { console.log('Daily job'); } }",
+    "tags": [
+      "nestjs",
+      "cron",
+      "schedule",
+      "tasks"
+    ],
+    "category": "Background Processing"
   }
 ];
