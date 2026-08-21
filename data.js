@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 255
-// Last updated: 2026-08-21 05:03:17
+// Total modules: 256
+// Last updated: 2026-08-21 05:03:22
 
 module.exports = [
   {
@@ -3061,6 +3061,18 @@ module.exports = [
       "random",
       "secure",
       "bytes"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Keygrip",
+    "description": "Key rotation and signing for HMAC and cookie signatures",
+    "usage": "const Keygrip = require('keygrip'); const keys = new Keygrip(['secret1', 'secret2']); const sig = keys.sign('data');",
+    "tags": [
+      "keygrip",
+      "hmac",
+      "signature",
+      "cookie"
     ],
     "category": "Security"
   }
