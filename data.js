@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 118
-// Last updated: 2026-08-21 04:38:48
+// Total modules: 119
+// Last updated: 2026-08-21 04:38:54
 
 module.exports = [
   {
@@ -1419,5 +1419,17 @@ module.exports = [
       "amqp"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "MQTT",
+    "description": "MQTT client for IoT and real-time messaging with publish-subscribe pattern and QoS levels",
+    "usage": "const mqtt = require('mqtt'); const client = mqtt.connect('mqtt://localhost'); client.subscribe('sensors/temperature'); client.on('message', (topic, message) => { console.log(message.toString()); });",
+    "tags": [
+      "mqtt",
+      "iot",
+      "messaging",
+      "pubsub"
+    ],
+    "category": "Real-time"
   }
 ];
