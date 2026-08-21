@@ -44,4 +44,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
 | Joi | Validation | Powerful schema validation library with descriptive error me... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
-| Koa | Web Framework | Modern web framework designed by the Express team with async... |
+| Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
