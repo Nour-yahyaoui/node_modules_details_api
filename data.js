@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Slack SDK",
-    "description": "Slack API client with WebSocket, REST, and webhook support for messaging and collaboration",
-    "usage": "const { WebClient } = require('@slack/web-api'); const client = new WebClient('token'); const result = await client.chat.postMessage({ channel: 'general', text: 'Hello' });",
+    "title": "Zoom API",
+    "description": "Zoom API client for managing meetings, webinars, users, and recordings",
+    "usage": "const ZoomAPI = require('zoomapi'); const zoom = new ZoomAPI({ jwt: 'token' }); const meetings = await zoom.meetings.list({ userId: 'me' });",
     "tags": [
-      "slack",
-      "messaging",
+      "zoom",
+      "video",
       "api",
-      "collaboration"
+      "meetings"
     ],
     "category": "Utility"
   }
