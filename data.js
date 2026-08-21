@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 133
-// Last updated: 2026-08-21 04:40:23
+// Total modules: 134
+// Last updated: 2026-08-21 04:40:30
 
 module.exports = [
   {
@@ -1597,6 +1597,18 @@ module.exports = [
       "pino",
       "pretty",
       "console"
+    ],
+    "category": "Logging"
+  },
+  {
+    "title": "Bunyan",
+    "description": "JSON logging library with CLI, ring buffer, and rotation support for Node.js applications",
+    "usage": "const bunyan = require('bunyan'); const logger = bunyan.createLogger({ name: 'myapp' }); logger.info({ user: 'john' }, 'User logged in');",
+    "tags": [
+      "logging",
+      "json",
+      "bunyan",
+      "debug"
     ],
     "category": "Logging"
   }
