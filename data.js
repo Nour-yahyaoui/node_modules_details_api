@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 174
-// Last updated: 2026-08-21 04:44:39
+// Total modules: 175
+// Last updated: 2026-08-21 04:44:45
 
 module.exports = [
   {
@@ -2089,6 +2089,18 @@ module.exports = [
       "headless",
       "strapi",
       "content"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Contentful",
+    "description": "Contentful content management client with entry management, delivery, and preview APIs",
+    "usage": "const contentful = require('contentful'); const client = contentful.createClient({ space: 'space', accessToken: 'token' }); const entries = await client.getEntries();",
+    "tags": [
+      "cms",
+      "contentful",
+      "content",
+      "api"
     ],
     "category": "Utility"
   }
