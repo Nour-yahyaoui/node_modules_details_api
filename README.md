@@ -79,6 +79,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Factory-girl | Testing/Tool | Factory library for creating test objects with default attri... |
 | Faker | Testing/Tool | Generate massive amounts of fake data including names, email... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
+| Fastify Graceful Shutdown | Dev Tool | Graceful shutdown plugin for Fastify with health checks and ... |
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Firebase Admin | Cloud | Firebase Admin SDK with authentication, Firestore, Cloud Mes... |
 | Firebase Client | Cloud | Firebase client SDK with realtime database, Firestore, authe... |
@@ -202,7 +203,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Waterline | ORM/Database | ORM supporting multiple database adapters with model definit... |
 | Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
 | Winston | Logging | Versatile logging library supporting multiple transports, cu... |
-| WordPress REST API | Utility | WordPress REST API client with posts, pages, users, and cust... |
 | Yargs | CLI/Tool | Sophisticated CLI argument parser with command handling, hel... |
 | Yup | Validation | Object schema validation with async support, conditional val... |
 | Zod | Validation | TypeScript-first schema validation with static type inferenc... |
