@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 147
-// Last updated: 2026-08-21 04:42:00
+// Total modules: 148
+// Last updated: 2026-08-21 04:42:07
 
 module.exports = [
   {
@@ -1765,6 +1765,18 @@ module.exports = [
       "pty",
       "shell",
       "emulation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Node-emoji",
+    "description": "Emoji support with conversion between emoji names, characters, and Unicode representations",
+    "usage": "const emoji = require('node-emoji'); console.log(emoji.emojify('I :heart: Node.js')); console.log(emoji.get('heart'));",
+    "tags": [
+      "emoji",
+      "unicode",
+      "conversion",
+      "unicode"
     ],
     "category": "Utility"
   }
