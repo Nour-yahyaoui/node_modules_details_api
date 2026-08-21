@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 164
-// Last updated: 2026-08-21 04:43:43
+// Total modules: 165
+// Last updated: 2026-08-21 04:43:49
 
 module.exports = [
   {
@@ -1966,6 +1966,18 @@ module.exports = [
     "usage": "module.exports = async function (context, req) { context.res = { body: 'Hello' }; };",
     "tags": [
       "azure",
+      "functions",
+      "serverless",
+      "cloud"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Google Cloud Functions",
+    "description": "Google Cloud Functions runtime with HTTP triggers, background events, and Pub/Sub support",
+    "usage": "exports.hello = (req, res) => { res.send('Hello World'); };",
+    "tags": [
+      "gcp",
       "functions",
       "serverless",
       "cloud"
