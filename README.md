@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 81 |
+| Total Libraries | 82 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -98,6 +98,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
+| Slonik | Database | PostgreSQL client with type safety, connection pooling, and ... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
