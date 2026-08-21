@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:45:45
+// Last updated: 2026-08-21 04:45:46
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Mailgun",
-    "description": "Email service with sending, receiving, and tracking features for transactional and marketing emails",
-    "usage": "const mailgun = require('mailgun-js'); const mg = mailgun({ apiKey: 'key', domain: 'example.com' }); await mg.messages().send({ from: 'me@example.com', to: 'you@example.com', subject: 'Hello', text: 'World' });",
+    "title": "Postmark",
+    "description": "Email delivery service with templating, open tracking, and bounce management",
+    "usage": "const postmark = require('postmark'); const client = new postmark.Client('server-token'); await client.sendEmail({ From: 'from@example.com', To: 'to@example.com', Subject: 'Hello', TextBody: 'World' });",
     "tags": [
       "email",
-      "mailgun",
+      "postmark",
       "transactional",
-      "tracking"
+      "templates"
     ],
     "category": "Utility"
   }
