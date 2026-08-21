@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 68
-// Last updated: 2026-08-21 04:28:02
+// Last updated: 2026-08-21 04:29:03
 
 module.exports = [
   {
@@ -809,15 +809,15 @@ module.exports = [
     "category": "API"
   },
   {
-    "title": "Dockerode",
-    "description": "Complete Docker Remote API client for managing containers, images, volumes, and networks programmatically",
-    "usage": "const Docker = require('dockerode'); const docker = new Docker(); const container = await docker.createContainer({ Image: 'node' });",
+    "title": "AWS SDK",
+    "description": "Official AWS SDK for Node.js with support for S3, DynamoDB, Lambda, and 200+ AWS services",
+    "usage": "const AWS = require('aws-sdk'); const s3 = new AWS.S3(); const data = await s3.listBuckets().promise();",
     "tags": [
-      "docker",
-      "containers",
-      "api",
-      "orchestration"
+      "aws",
+      "s3",
+      "dynamodb",
+      "lambda"
     ],
-    "category": "Dev Tool"
+    "category": "Cloud"
   }
 ];
