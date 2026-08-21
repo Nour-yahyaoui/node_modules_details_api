@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 64
-// Last updated: 2026-08-21 04:27:31
+// Total modules: 65
+// Last updated: 2026-08-21 04:27:37
 
 module.exports = [
   {
@@ -769,6 +769,18 @@ module.exports = [
       "api",
       "query",
       "schema"
+    ],
+    "category": "API"
+  },
+  {
+    "title": "Apollo Server",
+    "description": "GraphQL server for Express, Fastify, and other frameworks with built-in subscriptions and caching",
+    "usage": "const { ApolloServer } = require('@apollo/server'); const server = new ApolloServer({ typeDefs, resolvers });",
+    "tags": [
+      "graphql",
+      "api",
+      "server",
+      "apollo"
     ],
     "category": "API"
   }
