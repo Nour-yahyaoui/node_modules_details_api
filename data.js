@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:11
+// Last updated: 2026-08-21 04:49:12
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Colors",
-    "description": "Terminal color styling with support for color codes, themes, and ANSI escapes",
-    "usage": "require('colors'); console.log('Hello World'.green.bold);",
+    "title": "Cli-spinners",
+    "description": "Collection of terminal spinners for CLI applications with customizable styles",
+    "usage": "const cliSpinners = require('cli-spinners'); console.log(cliSpinners.dots);",
     "tags": [
+      "cli",
+      "spinner",
       "terminal",
-      "colors",
-      "styling",
-      "ansi"
+      "animation"
     ],
     "category": "CLI/Tool"
   }
