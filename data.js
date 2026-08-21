@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Fastify CORS",
-    "description": "CORS plugin for Fastify with configurable origins, methods, and headers",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cors'), { origin: 'https://example.com' });",
+    "title": "Fastify Sensible",
+    "description": "Collection of useful Fastify plugins including defaults, assertions, and utilities",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/sensible'));",
     "tags": [
       "fastify",
-      "cors",
-      "security",
+      "utilities",
+      "assert",
       "middleware"
     ],
-    "category": "Security"
+    "category": "Utility"
   }
 ];
