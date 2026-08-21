@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Fastify Static",
-    "description": "Static file serving plugin for Fastify with caching and path options",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/static'), { root: './public' });",
+    "title": "Fastify Cookie",
+    "description": "Cookie parsing and serialization plugin for Fastify with signed and unsigned cookies",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cookie'), { secret: 'secret' });",
     "tags": [
       "fastify",
-      "static",
-      "file",
-      "serve"
+      "cookie",
+      "session",
+      "middleware"
     ],
     "category": "Utility"
   }
