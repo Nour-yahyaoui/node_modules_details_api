@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 211 |
+| Total Libraries | 212 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -232,6 +232,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Vercel CLI | Dev Tool | CLI for Vercel platform with deployments, environment variab... |
 | Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
 | Waterline | ORM/Database | ORM supporting multiple database adapters with model definit... |
+| Waterline Associations | ORM/Database | Waterline model associations with one-to-one, one-to-many, a... |
 | Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
 | Winston | Logging | Versatile logging library supporting multiple transports, cu... |
 | Yargs | CLI/Tool | Sophisticated CLI argument parser with command handling, hel... |
