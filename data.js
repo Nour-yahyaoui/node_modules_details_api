@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 72
-// Last updated: 2026-08-21 04:30:51
+// Total modules: 73
+// Last updated: 2026-08-21 04:30:56
 
 module.exports = [
   {
@@ -865,6 +865,18 @@ module.exports = [
       "sendgrid",
       "transactional",
       "campaign"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Nodemailer",
+    "description": "Email sending module with support for SMTP, attachments, HTML content, and multiple transport mechanisms",
+    "usage": "const nodemailer = require('nodemailer'); const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: 'user@gmail.com', pass: 'pass' } }); await transporter.sendMail({ from: 'sender', to: 'receiver', subject: 'Hello', text: 'World' });",
+    "tags": [
+      "email",
+      "smtp",
+      "mail",
+      "attachment"
     ],
     "category": "Utility"
   }
