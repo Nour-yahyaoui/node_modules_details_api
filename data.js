@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 171
-// Last updated: 2026-08-21 04:44:23
+// Total modules: 172
+// Last updated: 2026-08-21 04:44:28
 
 module.exports = [
   {
@@ -2053,6 +2053,18 @@ module.exports = [
       "database",
       "authentication",
       "realtime"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Appwrite",
+    "description": "Backend server with authentication, database, storage, and serverless functions",
+    "usage": "const sdk = require('node-appwrite'); const client = new sdk.Client(); client.setEndpoint('https://cloud.appwrite.io/v1');",
+    "tags": [
+      "backend",
+      "authentication",
+      "database",
+      "storage"
     ],
     "category": "Cloud"
   }
