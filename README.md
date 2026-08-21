@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 176 |
+| Total Libraries | 177 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -102,6 +102,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Joi | Validation | Powerful schema validation library with descriptive error me... |
 | JSON GraphQL Server | API | Zero-config GraphQL server that automatically generates CRUD... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
+| KeystoneJS | Web Framework | Headless CMS and GraphQL API framework with authentication, ... |
 | Kubernetes Client | Dev Tool | Official Kubernetes client for Node.js with pod management, ... |
 | Kue | Background Processing | Redis-backed priority job queue with rich UI, job status, an... |
 | Kysely | ORM/Database | Type-safe SQL query builder for TypeScript with rich query b... |
