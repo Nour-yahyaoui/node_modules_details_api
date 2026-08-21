@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 81
-// Last updated: 2026-08-21 04:31:43
+// Total modules: 82
+// Last updated: 2026-08-21 04:31:49
 
 module.exports = [
   {
@@ -973,6 +973,18 @@ module.exports = [
       "sqlite",
       "fast",
       "synchronous"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Slonik",
+    "description": "PostgreSQL client with type safety, connection pooling, and advanced query building features",
+    "usage": "const { createPool } = require('slonik'); const pool = createPool('postgres://user:pass@localhost/db'); const result = await pool.query('SELECT * FROM users');",
+    "tags": [
+      "postgresql",
+      "database",
+      "typescript",
+      "pool"
     ],
     "category": "Database"
   }
