@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 103
-// Last updated: 2026-08-21 04:36:55
+// Total modules: 104
+// Last updated: 2026-08-21 04:37:03
 
 module.exports = [
   {
@@ -1237,6 +1237,18 @@ module.exports = [
       "schema",
       "async",
       "errors"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Ajv",
+    "description": "Fast JSON schema validator with support for draft-04, draft-06, and custom keywords",
+    "usage": "const Ajv = require('ajv'); const ajv = new Ajv(); const validate = ajv.compile({ type: 'string', minLength: 3 }); const valid = validate('abc');",
+    "tags": [
+      "validation",
+      "json-schema",
+      "fast",
+      "schema"
     ],
     "category": "Validation"
   }
