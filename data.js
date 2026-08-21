@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:17
+// Last updated: 2026-08-21 04:49:18
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Zoom API",
-    "description": "Zoom API client for managing meetings, webinars, users, and recordings",
-    "usage": "const ZoomAPI = require('zoomapi'); const zoom = new ZoomAPI({ jwt: 'token' }); const meetings = await zoom.meetings.list({ userId: 'me' });",
+    "title": "Twilio",
+    "description": "Twilio API client for SMS, voice, video, and WhatsApp messaging",
+    "usage": "const twilio = require('twilio'); const client = twilio('sid', 'token'); await client.messages.create({ body: 'Hello', to: '+1234567890', from: '+0987654321' });",
     "tags": [
-      "zoom",
-      "video",
-      "api",
-      "meetings"
+      "twilio",
+      "sms",
+      "voice",
+      "api"
     ],
     "category": "Utility"
   }
