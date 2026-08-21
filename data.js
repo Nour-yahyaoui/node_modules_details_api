@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 189
-// Last updated: 2026-08-21 04:50:14
+// Total modules: 190
+// Last updated: 2026-08-21 04:50:20
 
 module.exports = [
   {
@@ -2271,5 +2271,17 @@ module.exports = [
       "orm"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "NestJS Config",
+    "description": "Configuration module for NestJS with env files, validation, and defaults",
+    "usage": "import { Module } from '@nestjs/common'; import { ConfigModule } from '@nestjs/config'; @Module({ imports: [ConfigModule.forRoot({ envFilePath: '.env' })] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "config",
+      "env",
+      "validation"
+    ],
+    "category": "Utility"
   }
 ];
