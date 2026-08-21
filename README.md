@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 198 |
+| Total Libraries | 199 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -180,6 +180,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Prisma Accelerate | Performance | Prisma extension for connection pooling and edge caching |
 | Prisma Client | ORM/Database | Type-safe Prisma client with auto-generated queries and migr... |
+| Prisma Pulse | Real-time | Real-time database change stream for Prisma with WebSocket a... |
 | Prismic | Utility | Prismic headless CMS client with query builder, content mana... |
 | Pug | Utility | High-performance template engine with clean, whitespace-sens... |
 | Pulumi | Dev Tool | Modern infrastructure as code using TypeScript with support ... |
