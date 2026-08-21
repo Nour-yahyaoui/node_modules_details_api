@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 270
-// Last updated: 2026-08-21 05:04:41
+// Total modules: 271
+// Last updated: 2026-08-21 05:04:46
 
 module.exports = [
   {
@@ -3241,6 +3241,18 @@ module.exports = [
       "directory",
       "listing",
       "express"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Method Override",
+    "description": "HTTP method override middleware for Express with header support",
+    "usage": "const methodOverride = require('method-override'); app.use(methodOverride('_method'));",
+    "tags": [
+      "method",
+      "override",
+      "express",
+      "middleware"
     ],
     "category": "Utility"
   }
