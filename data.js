@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Node-fetch (Advanced)",
-    "description": "Enhanced node-fetch with redirect, compression, and agent support",
-    "usage": "const fetch = require('node-fetch'); const response = await fetch('https://api.example.com', { redirect: 'follow', compress: true });",
+    "title": "Socks",
+    "description": "SOCKS proxy client for creating connections through proxy servers with authentication",
+    "usage": "const socks = require('socks'); const info = await socks.createConnection({ proxy: { ipaddress: '127.0.0.1', port: 1080 }, target: { host: 'example.com', port: 80 } });",
     "tags": [
-      "http",
-      "fetch",
-      "redirect",
-      "compression"
+      "proxy",
+      "socks",
+      "networking",
+      "connection"
     ],
-    "category": "HTTP Client"
+    "category": "Utility"
   }
 ];
