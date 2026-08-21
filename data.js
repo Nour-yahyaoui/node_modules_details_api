@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 128
-// Last updated: 2026-08-21 04:39:50
+// Total modules: 129
+// Last updated: 2026-08-21 04:39:55
 
 module.exports = [
   {
@@ -1537,6 +1537,18 @@ module.exports = [
       "http",
       "assertions",
       "express"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Nock",
+    "description": "HTTP mocking library for testing with interception, recording, and custom responses",
+    "usage": "const nock = require('nock'); nock('https://api.example.com').get('/users').reply(200, { users: [] });",
+    "tags": [
+      "testing",
+      "mock",
+      "http",
+      "interception"
     ],
     "category": "Testing/Tool"
   }
