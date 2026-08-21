@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 27
-// Last updated: 2026-08-21 03:39:15
+// Total modules: 28
+// Last updated: 2026-08-21 03:39:21
 
 module.exports = [
   {
@@ -327,5 +327,17 @@ module.exports = [
       "url"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Winston",
+    "description": "Versatile logging library supporting multiple transports, custom log levels, and JSON log formatting",
+    "usage": "const winston = require('winston'); const logger = winston.createLogger({ transports: [new winston.transports.Console()] });",
+    "tags": [
+      "logging",
+      "debug",
+      "console",
+      "transports"
+    ],
+    "category": "Logging"
   }
 ];
