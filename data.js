@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 193
-// Last updated: 2026-08-21 04:50:37
+// Total modules: 194
+// Last updated: 2026-08-21 04:50:43
 
 module.exports = [
   {
@@ -2319,5 +2319,17 @@ module.exports = [
       "gateway"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "NestJS Microservices",
+    "description": "Microservices module for NestJS with TCP, Redis, and MQTT transporters",
+    "usage": "import { Controller } from '@nestjs/common'; import { MessagePattern } from '@nestjs/microservices'; @Controller() export class AppController { @MessagePattern('sum') sum(data) { return data.a + data.b; } }",
+    "tags": [
+      "nestjs",
+      "microservices",
+      "tcp",
+      "mqtt"
+    ],
+    "category": "Web Framework"
   }
 ];
