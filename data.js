@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Elasticsearch",
-    "description": "Official Elasticsearch client with full-text search, aggregation, and analytics features",
-    "usage": "const { Client } = require('@elastic/elasticsearch'); const client = new Client({ node: 'http://localhost:9200' }); const result = await client.search({ index: 'posts', body: { query: { match: { title: 'hello' } } } });",
+    "title": "Meilisearch",
+    "description": "Fast search engine with typo-tolerance, filtering, and instant search capabilities",
+    "usage": "const { MeiliSearch } = require('meilisearch'); const client = new MeiliSearch({ host: 'http://localhost:7700' }); const results = await client.index('movies').search('Batman');",
     "tags": [
       "search",
-      "elasticsearch",
-      "analytics",
-      "full-text"
+      "meilisearch",
+      "full-text",
+      "typo-tolerance"
     ],
     "category": "Database"
   }
