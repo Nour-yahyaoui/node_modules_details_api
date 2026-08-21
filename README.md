@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 123 |
+| Total Libraries | 124 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -71,6 +71,7 @@ This repository contains a growing collection of **Node.js library documentation
 | GraphQL | API | GraphQL reference implementation with schema construction, q... |
 | GraphQL-WS | API | GraphQL over WebSocket protocol implementation for real-time... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
+| Hasura CLI | Dev Tool | CLI tool for Hasura GraphQL Engine with migrations, metadata... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
