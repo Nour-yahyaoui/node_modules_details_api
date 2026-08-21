@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:16
+// Last updated: 2026-08-21 04:49:17
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Node-telegram-bot-api",
-    "description": "Telegram Bot API client with message, callback, and inline query handling",
-    "usage": "const TelegramBot = require('node-telegram-bot-api'); const bot = new TelegramBot('TOKEN', { polling: true }); bot.onText(//start/, (msg) => { bot.sendMessage(msg.chat.id, 'Hello'); });",
+    "title": "Discord.js",
+    "description": "Discord API client with voice support, message handling, and command management",
+    "usage": "const { Client, GatewayIntentBits } = require('discord.js'); const client = new Client({ intents: [GatewayIntentBits.Guilds] }); client.on('messageCreate', msg => { msg.reply('Hello'); });",
     "tags": [
-      "telegram",
+      "discord",
       "bot",
-      "messaging",
-      "api"
+      "api",
+      "gaming"
     ],
     "category": "Utility"
   }
