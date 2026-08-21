@@ -2153,12 +2153,12 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Humanize Duration",
-    "description": "Convert milliseconds to human-readable duration strings with internationalization",
-    "usage": "const humanizeDuration = require('humanize-duration'); console.log(humanizeDuration(3600000)); // '1 hour'",
+    "title": "Pretty Bytes",
+    "description": "Convert bytes to human-readable file size strings with SI and binary units",
+    "usage": "const prettyBytes = require('pretty-bytes'); console.log(prettyBytes(1024)); // '1.02 kB'",
     "tags": [
-      "time",
-      "duration",
+      "bytes",
+      "size",
       "format",
       "human-readable"
     ],
