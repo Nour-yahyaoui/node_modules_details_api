@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 219 |
+| Total Libraries | 220 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -233,6 +233,7 @@ This repository contains a growing collection of **Node.js library documentation
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | TypeORM Migrations | ORM/Database | TypeORM migration system with generate, run, and revert comm... |
 | TypeORM Relations | ORM/Database | TypeORM entity relations with one-to-one, one-to-many, and m... |
+| TypeORM Subscribers | ORM/Database | TypeORM event subscribers with beforeInsert, beforeUpdate, a... |
 | TypeScript | Dev Tool | Typed superset of JavaScript that compiles to plain JavaScri... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
