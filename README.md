@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 258 |
+| Total Libraries | 259 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -81,6 +81,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Drizzle Studio | ORM/Database | Drizzle ORM with integrated database browser and query runne... |
 | EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
+| Escape HTML | Security | HTML escaping and unescaping utilities for safe output |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Execa | Utility | Improved child_process with promises, buffer limits, and cro... |
