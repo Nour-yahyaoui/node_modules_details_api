@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:06
+// Last updated: 2026-08-21 04:49:07
 
 module.exports = [
   {
@@ -2153,12 +2153,12 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Meilisearch",
-    "description": "Fast search engine with typo-tolerance, filtering, and instant search capabilities",
-    "usage": "const { MeiliSearch } = require('meilisearch'); const client = new MeiliSearch({ host: 'http://localhost:7700' }); const results = await client.index('movies').search('Batman');",
+    "title": "Typesense",
+    "description": "Fast search engine with typo tolerance, faceting, and geolocation search support",
+    "usage": "const Typesense = require('typesense'); const client = new Typesense.Client({ nodes: [{ host: 'localhost', port: '8108' }] }); const results = await client.collections('products').documents().search({ q: 'laptop', query_by: 'name' });",
     "tags": [
       "search",
-      "meilisearch",
+      "typesense",
       "full-text",
       "typo-tolerance"
     ],
