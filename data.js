@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 95
-// Last updated: 2026-08-21 04:35:58
+// Total modules: 96
+// Last updated: 2026-08-21 04:36:04
 
 module.exports = [
   {
@@ -1141,6 +1141,18 @@ module.exports = [
       "memory",
       "ttl",
       "simple"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Lru-cache",
+    "description": "Least Recently Used cache with configurable max size and TTL for efficient memory management",
+    "usage": "const LRU = require('lru-cache'); const cache = new LRU({ max: 100, ttl: 1000 * 60 }); cache.set('key', 'value'); const value = cache.get('key');",
+    "tags": [
+      "cache",
+      "lru",
+      "memory",
+      "performance"
     ],
     "category": "Performance"
   }
