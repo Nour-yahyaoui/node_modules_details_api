@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Math.js",
-    "description": "Comprehensive math library with arithmetic, units, functions, and matrices",
-    "usage": "const math = require('mathjs'); const result = math.evaluate('1.2 * (2 + 4.5)'); console.log(result);",
+    "title": "Colors",
+    "description": "Terminal color styling with support for color codes, themes, and ANSI escapes",
+    "usage": "require('colors'); console.log('Hello World'.green.bold);",
     "tags": [
-      "math",
-      "calculator",
-      "functions",
-      "units"
+      "terminal",
+      "colors",
+      "styling",
+      "ansi"
     ],
-    "category": "Utility"
+    "category": "CLI/Tool"
   }
 ];
