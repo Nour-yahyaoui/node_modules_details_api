@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 90
-// Last updated: 2026-08-21 04:35:18
+// Total modules: 91
+// Last updated: 2026-08-21 04:35:26
 
 module.exports = [
   {
@@ -1081,6 +1081,18 @@ module.exports = [
       "fetch",
       "promises",
       "api"
+    ],
+    "category": "HTTP Client"
+  },
+  {
+    "title": "Superagent",
+    "description": "Progressive HTTP client with flexible API, plugins, and support for query strings and multipart requests",
+    "usage": "const superagent = require('superagent'); const response = await superagent.get('https://api.example.com/data').query({ limit: 10 });",
+    "tags": [
+      "http",
+      "api",
+      "request",
+      "promises"
     ],
     "category": "HTTP Client"
   }
