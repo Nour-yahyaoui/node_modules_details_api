@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 75
-// Last updated: 2026-08-21 04:31:08
+// Total modules: 76
+// Last updated: 2026-08-21 04:31:14
 
 module.exports = [
   {
@@ -903,5 +903,17 @@ module.exports = [
       "selector"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Node-cron",
+    "description": "Lightweight cron job scheduler for Node.js using standard cron syntax for scheduled tasks",
+    "usage": "const cron = require('node-cron'); cron.schedule('0 0 * * *', () => { console.log('Daily job'); });",
+    "tags": [
+      "cron",
+      "schedule",
+      "tasks",
+      "automation"
+    ],
+    "category": "Background Processing"
   }
 ];
