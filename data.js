@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 160
-// Last updated: 2026-08-21 04:43:22
+// Total modules: 161
+// Last updated: 2026-08-21 04:43:27
 
 module.exports = [
   {
@@ -1919,6 +1919,18 @@ module.exports = [
     "tags": [
       "terraform",
       "iac",
+      "cloud",
+      "infrastructure"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Pulumi",
+    "description": "Modern infrastructure as code using TypeScript with support for AWS, Azure, GCP, and Kubernetes",
+    "usage": "import * as aws from '@pulumi/aws'; const bucket = new aws.s3.Bucket('my-bucket');",
+    "tags": [
+      "iac",
+      "pulumi",
       "cloud",
       "infrastructure"
     ],
