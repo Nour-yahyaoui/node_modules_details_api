@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 187
-// Last updated: 2026-08-21 04:50:02
+// Total modules: 188
+// Last updated: 2026-08-21 04:50:08
 
 module.exports = [
   {
@@ -2247,5 +2247,17 @@ module.exports = [
       "handlebars"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "NestJS Mongoose",
+    "description": "Mongoose integration for NestJS with schema definitions and model injection",
+    "usage": "import { Module } from '@nestjs/common'; import { MongooseModule } from '@nestjs/mongoose'; @Module({ imports: [MongooseModule.forRoot('mongodb://localhost:27017/test')] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "mongodb",
+      "mongoose",
+      "orm"
+    ],
+    "category": "ORM/Database"
   }
 ];
