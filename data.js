@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Typesense",
-    "description": "Fast search engine with typo tolerance, faceting, and geolocation search support",
-    "usage": "const Typesense = require('typesense'); const client = new Typesense.Client({ nodes: [{ host: 'localhost', port: '8108' }] }); const results = await client.collections('products').documents().search({ q: 'laptop', query_by: 'name' });",
+    "title": "Algolia",
+    "description": "Algolia search client with instant search, faceting, and AI-powered ranking",
+    "usage": "const algoliasearch = require('algoliasearch'); const client = algoliasearch('app-id', 'api-key'); const index = client.initIndex('products'); const results = await index.search('laptop');",
     "tags": [
       "search",
-      "typesense",
+      "algolia",
       "full-text",
-      "typo-tolerance"
+      "ranking"
     ],
     "category": "Database"
   }
