@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 180
-// Last updated: 2026-08-21 04:49:12
+// Last updated: 2026-08-21 04:49:13
 
 module.exports = [
   {
@@ -2153,14 +2153,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Cli-progress",
-    "description": "Terminal progress bars with customizable styles and multiple bar types",
-    "usage": "const cliProgress = require('cli-progress'); const bar = new cliProgress.SingleBar(); bar.start(100, 0); bar.update(50); bar.stop();",
+    "title": "Prompts",
+    "description": "Interactive CLI prompts with validation, cancellation, and state management",
+    "usage": "const prompts = require('prompts'); const response = await prompts({ type: 'text', name: 'name', message: 'What is your name?' });",
     "tags": [
       "cli",
-      "progress",
+      "prompts",
       "terminal",
-      "bar"
+      "interactive"
     ],
     "category": "CLI/Tool"
   }
