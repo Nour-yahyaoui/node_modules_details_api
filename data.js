@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 170
-// Last updated: 2026-08-21 04:44:17
+// Total modules: 171
+// Last updated: 2026-08-21 04:44:23
 
 module.exports = [
   {
@@ -2041,6 +2041,18 @@ module.exports = [
       "authentication",
       "database",
       "cloud"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Firebase Client",
+    "description": "Firebase client SDK with realtime database, Firestore, authentication, and storage",
+    "usage": "import { initializeApp } from 'firebase/app'; import { getDatabase, ref, onValue } from 'firebase/database';",
+    "tags": [
+      "firebase",
+      "database",
+      "authentication",
+      "realtime"
     ],
     "category": "Cloud"
   }
