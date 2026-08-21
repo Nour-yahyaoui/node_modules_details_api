@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 260
-// Last updated: 2026-08-21 05:03:44
+// Total modules: 261
+// Last updated: 2026-08-21 05:03:50
 
 module.exports = [
   {
@@ -3120,6 +3120,18 @@ module.exports = [
       "hpp",
       "security",
       "parameters",
+      "express"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "No Cache",
+    "description": "HTTP cache-control middleware for preventing client-side caching",
+    "usage": "const nocache = require('nocache'); app.use(nocache());",
+    "tags": [
+      "cache-control",
+      "nosniff",
+      "security",
       "express"
     ],
     "category": "Security"
