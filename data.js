@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 130
-// Last updated: 2026-08-21 04:40:01
+// Total modules: 131
+// Last updated: 2026-08-21 04:40:07
 
 module.exports = [
   {
@@ -1561,6 +1561,18 @@ module.exports = [
       "docker",
       "containers",
       "integration"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Faker",
+    "description": "Generate massive amounts of fake data including names, emails, addresses, and custom types",
+    "usage": "const { faker } = require('@faker-js/faker'); const name = faker.person.fullName(); const email = faker.internet.email();",
+    "tags": [
+      "data",
+      "fake",
+      "seeding",
+      "testing"
     ],
     "category": "Testing/Tool"
   }
