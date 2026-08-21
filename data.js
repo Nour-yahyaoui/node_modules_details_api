@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 203
-// Last updated: 2026-08-21 04:51:34
+// Total modules: 204
+// Last updated: 2026-08-21 04:51:40
 
 module.exports = [
   {
@@ -2437,6 +2437,18 @@ module.exports = [
       "seeding",
       "database",
       "data"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Objection Relations",
+    "description": "Objection.js relationship management with eager loading and model validation",
+    "usage": "const { Model } = require('objection'); class User extends Model { static get relationMappings() { return { posts: { relation: Model.HasManyRelation, modelClass: Post, join: { from: 'users.id', to: 'posts.user_id' } } }; } } const users = await User.query().withGraphFetched('posts');",
+    "tags": [
+      "objection",
+      "orm",
+      "relations",
+      "eager-loading"
     ],
     "category": "ORM/Database"
   }
