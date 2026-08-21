@@ -2153,15 +2153,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Fastify Swagger",
-    "description": "OpenAPI documentation generator for Fastify with interactive Swagger UI",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/swagger'));",
+    "title": "Fastify CORS",
+    "description": "CORS plugin for Fastify with configurable origins, methods, and headers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cors'), { origin: 'https://example.com' });",
     "tags": [
       "fastify",
-      "swagger",
-      "openapi",
-      "documentation"
+      "cors",
+      "security",
+      "middleware"
     ],
-    "category": "Dev Tool"
+    "category": "Security"
   }
 ];
