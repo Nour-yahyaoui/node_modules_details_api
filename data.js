@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 196
-// Last updated: 2026-08-21 04:50:55
+// Total modules: 197
+// Last updated: 2026-08-21 04:51:01
 
 module.exports = [
   {
@@ -2355,5 +2355,17 @@ module.exports = [
       "nodemailer"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Prisma Client",
+    "description": "Type-safe Prisma client with auto-generated queries and migrations",
+    "usage": "import { PrismaClient } from '@prisma/client'; const prisma = new PrismaClient(); const user = await prisma.user.create({ data: { name: 'John' } });",
+    "tags": [
+      "prisma",
+      "orm",
+      "database",
+      "typescript"
+    ],
+    "category": "ORM/Database"
   }
 ];
