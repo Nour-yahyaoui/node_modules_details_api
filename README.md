@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 276 |
+| Total Libraries | 277 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-21 |
 
@@ -60,6 +60,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cluster | Performance | Node.js cluster module for load balancing across CPU cores |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
+| Compression Express | Performance | Response compression middleware for Express with threshold |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
 | Connect Busboy | Utility | Busboy middleware for streaming multipart file uploads |
 | Connect Flash | Utility | Flash message middleware for Express with session integratio... |
