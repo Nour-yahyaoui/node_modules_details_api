@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 286
-// Last updated: 2026-08-22 05:40:45
+// Total modules: 287
+// Last updated: 2026-08-22 05:40:56
 
 module.exports = [
   {
@@ -3432,6 +3432,18 @@ module.exports = [
       "lowdb",
       "plugins",
       "adapters",
+      "database"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Better-SQLite3 Transactions",
+    "description": "Better-SQLite3 transaction support with deferred and immediate modes",
+    "usage": "const Database = require('better-sqlite3'); const db = new Database('mydb.db'); const transaction = db.transaction((data) => { const stmt = db.prepare('INSERT INTO users (name) VALUES (?)'); data.forEach(user => stmt.run(user)); }); transaction(['John', 'Jane']);",
+    "tags": [
+      "sqlite",
+      "transactions",
+      "better-sqlite3",
       "database"
     ],
     "category": "Database"
