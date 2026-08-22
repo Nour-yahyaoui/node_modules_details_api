@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 56
-// Last updated: 2026-08-22 17:03:33
+// Total modules: 57
+// Last updated: 2026-08-22 17:03:40
 
 module.exports = [
   {
@@ -673,6 +673,18 @@ module.exports = [
       "background",
       "jobs",
       "redis"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Agenda",
+    "description": "MongoDB-backed job scheduling library for creating and managing recurring jobs and cron tasks",
+    "usage": "const Agenda = require('agenda'); const agenda = new Agenda({ db: { address: 'mongodb://localhost/agenda' } }); agenda.define('send report', async () => { await sendReport(); }); await agenda.every('0 0 * * *', 'send report');",
+    "tags": [
+      "schedule",
+      "jobs",
+      "cron",
+      "mongodb"
     ],
     "category": "Background Processing"
   }
