@@ -1,18 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:23
+// Last updated: 2026-08-22 05:10:24
 
 module.exports = [
   {
-    "title": "Body-parser",
-    "description": "Request body parsing middleware that populates req.body with parsed JSON, URL-encoded, or multipart data",
-    "usage": "const bodyParser = require('body-parser'); app.use(bodyParser.json()); app.use(bodyParser.urlencoded({ extended: true }));",
+    "title": "Chalk",
+    "description": "Terminal string styling with colors, RGB, and hex support for beautiful console output",
+    "usage": "const chalk = require('chalk'); console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));",
     "tags": [
-      "parse",
-      "json",
-      "urlencoded",
-      "middleware"
+      "terminal",
+      "colors",
+      "console",
+      "styling"
     ],
-    "category": "Utility"
+    "category": "CLI/Tool"
   }
 ];
