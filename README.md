@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 67 |
+| Total Libraries | 68 |
 | Categories | API, Background Processing, CLI/Tool, Database, Dev Tool, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -27,6 +27,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Agenda | Background Processing | MongoDB-backed job scheduling library for creating and manag... |
+| Apollo Server | API | GraphQL server for Express, Fastify, and other frameworks wi... |
 | Bcrypt | Security | Password hashing library using the bcrypt algorithm with sal... |
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
 | Bull | Background Processing | Redis-based job queue for handling background jobs, scheduli... |
