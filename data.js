@@ -4,14 +4,14 @@
 
 module.exports = [
   {
-    "title": "Express",
-    "description": "Minimalist web framework for Node.js with routing, middleware, and HTTP utility methods",
-    "usage": "const express = require('express'); const app = express(); app.get('/', (req, res) => res.send('Hello World'));",
+    "title": "Fastify",
+    "description": "Fast and low-overhead web framework with built-in schema validation, logging, and plugin system",
+    "usage": "const fastify = require('fastify')({ logger: true }); fastify.get('/', async () => ({ hello: 'world' }));",
     "tags": [
       "web",
       "framework",
-      "routing",
-      "middleware"
+      "performance",
+      "fast"
     ],
     "category": "Web Framework"
   }
