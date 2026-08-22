@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 149
-// Last updated: 2026-08-22 05:26:02
+// Total modules: 150
+// Last updated: 2026-08-22 05:26:07
 
 module.exports = [
   {
@@ -1789,6 +1789,18 @@ module.exports = [
       "watch",
       "fs",
       "events"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Ncp",
+    "description": "Copy files and directories recursively with options for overwrite, filtering, and preserving permissions",
+    "usage": "const ncp = require('ncp'); ncp('src', 'dist', { stopOnErr: true }, err => { if (err) console.error(err); });",
+    "tags": [
+      "file",
+      "copy",
+      "recursive",
+      "fs"
     ],
     "category": "Utility"
   }
