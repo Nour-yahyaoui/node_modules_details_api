@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 78
-// Last updated: 2026-08-22 17:15:25
+// Total modules: 79
+// Last updated: 2026-08-22 17:15:30
 
 module.exports = [
   {
@@ -937,6 +937,18 @@ module.exports = [
       "key-value",
       "leveldb",
       "embedded"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Lowdb",
+    "description": "Small local database for Node.js using JSON files with lodash query support and plugins",
+    "usage": "const low = require('lowdb'); const FileSync = require('lowdb/adapters/FileSync'); const adapter = new FileSync('db.json'); const db = low(adapter); db.defaults({ posts: [] }).write();",
+    "tags": [
+      "database",
+      "json",
+      "local",
+      "file"
     ],
     "category": "Database"
   }
