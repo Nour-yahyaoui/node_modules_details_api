@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 341
-// Last updated: 2026-08-22 05:46:41
+// Total modules: 342
+// Last updated: 2026-08-22 05:46:47
 
 module.exports = [
   {
@@ -4093,6 +4093,18 @@ module.exports = [
       "parse",
       "configuration",
       "config"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "HJSON",
+    "description": "Human JSON parser with support for comments and relaxed syntax",
+    "usage": "const hjson = require('hjson'); const obj = hjson.parse('{ // comment\n  key: value\n }');",
+    "tags": [
+      "hjson",
+      "parse",
+      "human",
+      "json"
     ],
     "category": "Utility"
   }
