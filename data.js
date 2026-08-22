@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 189
-// Last updated: 2026-08-22 05:31:13
+// Total modules: 190
+// Last updated: 2026-08-22 05:31:19
 
 module.exports = [
   {
@@ -2269,6 +2269,18 @@ module.exports = [
       "ecommerce",
       "api",
       "catalog"
+    ],
+    "category": "Payment"
+  },
+  {
+    "title": "Commerce.js",
+    "description": "Commerce.js SDK for Chec API with cart, checkout, and product management",
+    "usage": "const Commerce = require('commerce.js'); const commerce = new Commerce('pk_test_...'); const products = await commerce.products.list();",
+    "tags": [
+      "commerce",
+      "ecommerce",
+      "cart",
+      "checkout"
     ],
     "category": "Payment"
   }
