@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 249
-// Last updated: 2026-08-22 05:37:08
+// Total modules: 250
+// Last updated: 2026-08-22 05:37:14
 
 module.exports = [
   {
@@ -2991,5 +2991,17 @@ module.exports = [
       "typescript"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Prisma Accelerate",
+    "description": "Prisma extension for connection pooling and edge caching",
+    "usage": "import { PrismaClient } from '@prisma/client'; import { withAccelerate } from '@prisma/extension-accelerate'; const prisma = new PrismaClient().$extends(withAccelerate());",
+    "tags": [
+      "prisma",
+      "accelerate",
+      "cache",
+      "pooling"
+    ],
+    "category": "Performance"
   }
 ];
