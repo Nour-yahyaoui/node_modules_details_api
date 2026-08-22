@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 201
-// Last updated: 2026-08-22 05:32:20
+// Total modules: 202
+// Last updated: 2026-08-22 05:32:27
 
 module.exports = [
   {
@@ -2413,6 +2413,18 @@ module.exports = [
       "observables",
       "async",
       "streams"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Async",
+    "description": "Async utilities with control flow, collections, and functional programming helpers",
+    "usage": "const async = require('async'); async.map([1, 2, 3], (n, callback) => { callback(null, n * 2); }, (err, results) => { console.log(results); });",
+    "tags": [
+      "async",
+      "control-flow",
+      "collections",
+      "functional"
     ],
     "category": "Utility"
   }
