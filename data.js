@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 44
-// Last updated: 2026-08-22 16:49:04
+// Last updated: 2026-08-22 16:50:06
 
 module.exports = [
   {
@@ -521,14 +521,14 @@ module.exports = [
     "category": "Testing/Tool"
   },
   {
-    "title": "Chai",
-    "description": "BDD assertion library with expect, should, and assert interfaces for Node.js and browsers",
-    "usage": "const expect = require('chai').expect; expect(2 + 2).to.equal(4);",
+    "title": "Sinon",
+    "description": "Test spy, stub, and mock library for testing components in isolation with comprehensive assertion support",
+    "usage": "const sinon = require('sinon'); const callback = sinon.spy(); callback(); sinon.assert.calledOnce(callback);",
     "tags": [
       "testing",
-      "assertions",
-      "bdd",
-      "chai"
+      "mock",
+      "spy",
+      "stub"
     ],
     "category": "Testing/Tool"
   }
