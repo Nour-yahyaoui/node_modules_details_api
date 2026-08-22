@@ -1,18 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:27
+// Last updated: 2026-08-22 05:10:28
 
 module.exports = [
   {
-    "title": "Cross-env",
-    "description": "Cross-platform environment variable setting for npm scripts on Windows, Linux, and macOS",
-    "usage": "cross-env NODE_ENV=production npm start",
+    "title": "Dotenv",
+    "description": "Load environment variables from .env files into process.env for secure configuration management",
+    "usage": "require('dotenv').config(); const dbPassword = process.env.DB_PASSWORD;",
     "tags": [
       "env",
-      "cross-platform",
-      "scripts",
+      "configuration",
+      "secrets",
       "variables"
     ],
-    "category": "Dev Tool"
+    "category": "Utility"
   }
 ];
