@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 59
-// Last updated: 2026-08-22 17:04:20
+// Last updated: 2026-08-22 17:07:59
 
 module.exports = [
   {
@@ -701,15 +701,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "Forever",
-    "description": "Simple daemon for keeping Node.js processes running continuously with automatic restarts on failure",
-    "usage": "forever start app.js",
+    "title": "Handlebars",
+    "description": "Minimal templating engine with logic-less templates, partials, helpers, and precompilation support",
+    "usage": "const Handlebars = require('handlebars'); const template = Handlebars.compile('Hello {{name}}'); const result = template({ name: 'World' });",
     "tags": [
-      "process",
-      "daemon",
-      "restart",
-      "persistent"
+      "templating",
+      "views",
+      "html",
+      "partials"
     ],
-    "category": "Dev Tool"
+    "category": "Utility"
   }
 ];
