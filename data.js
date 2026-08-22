@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 333
-// Last updated: 2026-08-22 05:45:51
+// Total modules: 334
+// Last updated: 2026-08-22 05:45:58
 
 module.exports = [
   {
@@ -3999,5 +3999,17 @@ module.exports = [
       "stringify"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fast JSON Stringify",
+    "description": "Fast JSON stringification with schema-based optimization",
+    "usage": "const fastJson = require('fast-json-stringify'); const stringify = fastJson({ type: 'object', properties: { name: { type: 'string' } } }); const json = stringify({ name: 'John' });",
+    "tags": [
+      "json",
+      "stringify",
+      "fast",
+      "optimization"
+    ],
+    "category": "Performance"
   }
 ];
