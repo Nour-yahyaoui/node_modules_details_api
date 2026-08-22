@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 322
-// Last updated: 2026-08-22 05:44:42
+// Total modules: 323
+// Last updated: 2026-08-22 05:44:48
 
 module.exports = [
   {
@@ -3865,6 +3865,18 @@ module.exports = [
       "express",
       "static",
       "serve"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Serve Index",
+    "description": "Directory index serving middleware for Express with file listing",
+    "usage": "const serveIndex = require('serve-index'); app.use('/public', serveIndex('public', { icons: true }));",
+    "tags": [
+      "serve-index",
+      "directory",
+      "listing",
+      "express"
     ],
     "category": "Utility"
   }
