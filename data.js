@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 114
-// Last updated: 2026-08-22 05:22:20
+// Total modules: 115
+// Last updated: 2026-08-22 05:22:25
 
 module.exports = [
   {
@@ -1369,6 +1369,18 @@ module.exports = [
       "framework",
       "mvc",
       "full-stack"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Sails.js",
+    "description": "MVC framework for building custom, enterprise-grade Node.js applications with real-time features",
+    "usage": "module.exports = { index: async function(req, res) { return res.send('Hello World'); } }",
+    "tags": [
+      "web",
+      "framework",
+      "mvc",
+      "real-time"
     ],
     "category": "Web Framework"
   }
