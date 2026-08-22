@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 209
-// Last updated: 2026-08-22 05:33:15
+// Total modules: 210
+// Last updated: 2026-08-22 05:33:21
 
 module.exports = [
   {
@@ -2509,6 +2509,18 @@ module.exports = [
       "spinner",
       "terminal",
       "animation"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Cli-progress",
+    "description": "Terminal progress bars with customizable styles and multiple bar types",
+    "usage": "const cliProgress = require('cli-progress'); const bar = new cliProgress.SingleBar(); bar.start(100, 0); bar.update(50); bar.stop();",
+    "tags": [
+      "cli",
+      "progress",
+      "terminal",
+      "bar"
     ],
     "category": "CLI/Tool"
   }
