@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:45
+// Last updated: 2026-08-22 18:17:46
 
 module.exports = [
   {
@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Superagent",
-    "description": "Progressive HTTP client with flexible API, plugins, and support for query strings and multipart requests",
-    "usage": "const superagent = require('superagent'); const response = await superagent.get('https://api.example.com/data').query({ limit: 10 });",
+    "title": "Argon2",
+    "description": "Modern password hashing using Argon2 algorithm with configurable memory, time, and parallelism parameters",
+    "usage": "const argon2 = require('argon2'); const hash = await argon2.hash('password123'); const verify = await argon2.verify(hash, 'password123');",
     "tags": [
-      "http",
-      "api",
-      "request",
-      "promises"
+      "security",
+      "password",
+      "hashing",
+      "argon2"
     ],
-    "category": "HTTP Client"
+    "category": "Security"
   }
 ];
