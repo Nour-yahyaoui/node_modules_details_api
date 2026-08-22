@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 326
-// Last updated: 2026-08-22 05:45:06
+// Total modules: 327
+// Last updated: 2026-08-22 05:45:11
 
 module.exports = [
   {
@@ -3913,6 +3913,18 @@ module.exports = [
       "upload",
       "express",
       "middleware"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Connect Busboy",
+    "description": "Busboy middleware for streaming multipart file uploads",
+    "usage": "const busboy = require('connect-busboy'); app.use(busboy({ immediate: true }));",
+    "tags": [
+      "busboy",
+      "upload",
+      "stream",
+      "express"
     ],
     "category": "Utility"
   }
