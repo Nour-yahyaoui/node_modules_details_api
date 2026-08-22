@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Date-fns",
-    "description": "Modern date utility library with modular functions for parsing, formatting, and manipulating dates",
-    "usage": "const { format, addDays, differenceInDays } = require('date-fns'); const formatted = format(new Date(), 'yyyy-MM-dd'); const future = addDays(new Date(), 5);",
+    "title": "Luxon",
+    "description": "Powerful date and time library with immutable objects, durations, and interval support",
+    "usage": "const { DateTime } = require('luxon'); const now = DateTime.now(); const formatted = now.toFormat('yyyy-MM-dd HH:mm:ss');",
     "tags": [
       "date",
       "time",
       "datetime",
-      "format"
+      "immutable"
     ],
     "category": "Utility"
   }
