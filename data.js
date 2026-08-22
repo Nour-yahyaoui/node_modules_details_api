@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 259
-// Last updated: 2026-08-22 05:38:06
+// Total modules: 260
+// Last updated: 2026-08-22 05:38:12
 
 module.exports = [
   {
@@ -3109,6 +3109,18 @@ module.exports = [
       "mongodb",
       "aggregation",
       "pipeline"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Mongoose Population",
+    "description": "Mongoose document population with path, select, and match options",
+    "usage": "const user = await User.findById('123').populate({ path: 'posts', select: 'title', match: { published: true } });",
+    "tags": [
+      "mongoose",
+      "population",
+      "relations",
+      "mongodb"
     ],
     "category": "ORM/Database"
   }
