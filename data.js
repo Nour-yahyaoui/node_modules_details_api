@@ -4,15 +4,15 @@
 
 module.exports = [
   {
-    "title": "Dotenv",
-    "description": "Load environment variables from .env files into process.env for secure configuration management",
-    "usage": "require('dotenv').config(); const dbPassword = process.env.DB_PASSWORD;",
+    "title": "ESLint",
+    "description": "Static code analysis tool for identifying and fixing problems in JavaScript and TypeScript code",
+    "usage": "npx eslint --fix .",
     "tags": [
-      "env",
-      "configuration",
-      "secrets",
-      "variables"
+      "lint",
+      "code-quality",
+      "static-analysis",
+      "typescript"
     ],
-    "category": "Utility"
+    "category": "Dev Tool"
   }
 ];
