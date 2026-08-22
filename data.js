@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 263
-// Last updated: 2026-08-22 05:38:29
+// Total modules: 264
+// Last updated: 2026-08-22 05:38:35
 
 module.exports = [
   {
@@ -3157,6 +3157,18 @@ module.exports = [
       "relations",
       "eager-loading",
       "orm"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Waterline Associations",
+    "description": "Waterline model associations with one-to-one, one-to-many, and many-to-many",
+    "usage": "const User = Waterline.Model.extend({ identity: 'user', attributes: { name: 'string', posts: { collection: 'post', via: 'user' } } }); const Post = Waterline.Model.extend({ identity: 'post', attributes: { title: 'string', user: { model: 'user' } } });",
+    "tags": [
+      "waterline",
+      "associations",
+      "orm",
+      "models"
     ],
     "category": "ORM/Database"
   }
