@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 155
-// Last updated: 2026-08-22 05:26:38
+// Total modules: 156
+// Last updated: 2026-08-22 05:26:43
 
 module.exports = [
   {
@@ -1863,5 +1863,17 @@ module.exports = [
       "plugins"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Gulp",
+    "description": "Task runner for automation with streams, plugins, and incremental builds",
+    "usage": "const gulp = require('gulp'); gulp.task('default', () => { return gulp.src('src/*.js').pipe(gulp.dest('dist')); });",
+    "tags": [
+      "task-runner",
+      "build",
+      "automation",
+      "streams"
+    ],
+    "category": "Dev Tool"
   }
 ];
