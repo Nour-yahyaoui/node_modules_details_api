@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 291
-// Last updated: 2026-08-22 05:41:20
+// Total modules: 292
+// Last updated: 2026-08-22 05:41:26
 
 module.exports = [
   {
@@ -3493,6 +3493,18 @@ module.exports = [
       "cache",
       "store",
       "cluster"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Memoizee",
+    "description": "Function memoization with configurable cache size and expiration",
+    "usage": "const memoize = require('memoizee'); const fn = memoize((a, b) => a + b, { maxAge: 60000, max: 100 });",
+    "tags": [
+      "memoization",
+      "cache",
+      "performance",
+      "function"
     ],
     "category": "Performance"
   }
