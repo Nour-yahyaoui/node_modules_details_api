@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 80
-// Last updated: 2026-08-22 16:23:16
+// Total modules: 81
+// Last updated: 2026-08-22 16:23:25
 
 module.exports = [
   {
@@ -961,6 +961,18 @@ module.exports = [
       "schedule",
       "tasks",
       "automation"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Node-schedule",
+    "description": "Flexible job scheduling library with cron-like syntax, date-based scheduling, and recurring jobs",
+    "usage": "const schedule = require('node-schedule'); const job = schedule.scheduleJob('*/5 * * * *', () => { console.log('Running every 5 minutes'); });",
+    "tags": [
+      "schedule",
+      "jobs",
+      "cron",
+      "recurring"
     ],
     "category": "Background Processing"
   }
