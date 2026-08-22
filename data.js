@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 59
-// Last updated: 2026-08-22 17:07:59
+// Total modules: 60
+// Last updated: 2026-08-22 17:08:09
 
 module.exports = [
   {
@@ -709,6 +709,18 @@ module.exports = [
       "views",
       "html",
       "partials"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "EJS",
+    "description": "Embedded JavaScript templating with simple syntax, includes, and support for dynamic content rendering",
+    "usage": "const ejs = require('ejs'); const html = ejs.render('<h1><%= title %></h1>', { title: 'Hello World' });",
+    "tags": [
+      "templating",
+      "views",
+      "html",
+      "embed"
     ],
     "category": "Utility"
   }
