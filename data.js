@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 206
-// Last updated: 2026-08-22 05:32:57
+// Total modules: 207
+// Last updated: 2026-08-22 05:33:04
 
 module.exports = [
   {
@@ -2473,6 +2473,18 @@ module.exports = [
       "format",
       "currency",
       "percentage"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Math.js",
+    "description": "Comprehensive math library with arithmetic, units, functions, and matrices",
+    "usage": "const math = require('mathjs'); const result = math.evaluate('1.2 * (2 + 4.5)'); console.log(result);",
+    "tags": [
+      "math",
+      "calculator",
+      "functions",
+      "units"
     ],
     "category": "Utility"
   }
