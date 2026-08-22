@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 147
-// Last updated: 2026-08-22 16:30:17
+// Total modules: 148
+// Last updated: 2026-08-22 16:30:23
 
 module.exports = [
   {
@@ -1765,6 +1765,18 @@ module.exports = [
       "pattern",
       "matching",
       "glob"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Chokidar",
+    "description": "File watching library with cross-platform support, event handling, and ignore patterns",
+    "usage": "const chokidar = require('chokidar'); const watcher = chokidar.watch('src/**/*.js'); watcher.on('change', path => console.log(`File ${path} changed`));",
+    "tags": [
+      "file",
+      "watch",
+      "fs",
+      "events"
     ],
     "category": "Utility"
   }
