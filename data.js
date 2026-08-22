@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "NanoID",
-    "description": "Secure, URL-friendly unique ID generator with customizable alphabet and length options",
-    "usage": "const { nanoid } = require('nanoid'); const id = nanoid(10); const customId = nanoid('abcdef', 12);",
+    "title": "Shortid",
+    "description": "Short, non-sequential, URL-friendly unique ID generator with optional customization",
+    "usage": "const shortid = require('shortid'); const id = shortid.generate();",
     "tags": [
       "uuid",
       "identifier",
       "unique",
-      "secure"
+      "short"
     ],
     "category": "Utility"
   }
