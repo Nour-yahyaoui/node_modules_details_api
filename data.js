@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:44
+// Last updated: 2026-08-22 18:17:45
 
 module.exports = [
   {
@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Node-fetch",
-    "description": "Lightweight HTTP client that brings window.fetch to Node.js with native promise support",
-    "usage": "const fetch = require('node-fetch'); const response = await fetch('https://api.example.com/data'); const data = await response.json();",
+    "title": "Superagent",
+    "description": "Progressive HTTP client with flexible API, plugins, and support for query strings and multipart requests",
+    "usage": "const superagent = require('superagent'); const response = await superagent.get('https://api.example.com/data').query({ limit: 10 });",
     "tags": [
       "http",
-      "fetch",
-      "promises",
-      "api"
+      "api",
+      "request",
+      "promises"
     ],
     "category": "HTTP Client"
   }
