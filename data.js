@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:55
+// Last updated: 2026-08-22 18:17:56
 
 module.exports = [
   {
@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Bee-queue",
-    "description": "Simple and secure Redis-based job queue with pause/resume and job status tracking",
-    "usage": "const Queue = require('bee-queue'); const queue = new Queue('email'); queue.process(async (job) => { await sendEmail(job.data); });",
+    "title": "Kue",
+    "description": "Redis-backed priority job queue with rich UI, job status, and event listeners",
+    "usage": "const kue = require('kue'); const queue = kue.createQueue(); queue.create('email', { to: 'user@example.com' }).save();",
     "tags": [
       "queue",
       "redis",
       "jobs",
-      "simple"
+      "priority"
     ],
     "category": "Background Processing"
   }
