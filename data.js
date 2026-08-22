@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "BullMQ",
-    "description": "Advanced job queue using Redis with support for delayed jobs, retries, and concurrency control",
-    "usage": "const { Queue } = require('bullmq'); const queue = new Queue('email'); await queue.add('send', { to: 'user@example.com' });",
+    "title": "Bee-queue",
+    "description": "Simple and secure Redis-based job queue with pause/resume and job status tracking",
+    "usage": "const Queue = require('bee-queue'); const queue = new Queue('email'); queue.process(async (job) => { await sendEmail(job.data); });",
     "tags": [
       "queue",
       "redis",
       "jobs",
-      "background"
+      "simple"
     ],
     "category": "Background Processing"
   }
