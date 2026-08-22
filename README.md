@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 22 |
+| Total Libraries | 23 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, Performance, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -48,3 +48,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Koa | Web Framework | Modern web framework designed by the Express team with async... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
+| Multer | Utility | File upload middleware for handling multipart/form-data with... |
