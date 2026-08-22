@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 70
-// Last updated: 2026-08-22 17:13:31
+// Total modules: 71
+// Last updated: 2026-08-22 17:14:15
 
 module.exports = [
   {
@@ -843,5 +843,17 @@ module.exports = [
       "transaction"
     ],
     "category": "Payment"
+  },
+  {
+    "title": "SendGrid",
+    "description": "Email delivery service client with support for transactional emails, marketing campaigns, and analytics",
+    "usage": "const sgMail = require('@sendgrid/mail'); sgMail.setApiKey(process.env.SENDGRID_API_KEY); await sgMail.send({ to: 'user@example.com', from: 'no-reply@example.com', subject: 'Hello', text: 'World' });",
+    "tags": [
+      "email",
+      "sendgrid",
+      "transactional",
+      "campaign"
+    ],
+    "category": "Utility"
   }
 ];
