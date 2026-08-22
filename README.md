@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 60 |
-| Categories | Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
+| Total Libraries | 61 |
+| Categories | API, Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -44,6 +44,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| GraphQL | API | GraphQL reference implementation with schema construction, q... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
