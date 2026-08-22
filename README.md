@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 165 |
+| Total Libraries | 166 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -154,6 +154,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Pug | Utility | High-performance template engine with clean, whitespace-sens... |
+| Pulumi | Dev Tool | Modern infrastructure as code using TypeScript with support ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Puppeteer Extra | Testing/Tool | Enhanced Puppeteer with stealth plugin, ad blocker, and addi... |
 | Pusher | Real-time | Real-time messaging service with WebSockets, presence channe... |
