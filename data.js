@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 2
-// Last updated: 2026-08-22 05:11:44
+// Total modules: 3
+// Last updated: 2026-08-22 05:11:49
 
 module.exports = [
   {
@@ -26,5 +26,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Chalk",
+    "description": "Terminal string styling with colors, RGB, and hex support for beautiful console output",
+    "usage": "const chalk = require('chalk'); console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));",
+    "tags": [
+      "terminal",
+      "colors",
+      "console",
+      "styling"
+    ],
+    "category": "CLI/Tool"
   }
 ];
