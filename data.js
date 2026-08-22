@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 162
-// Last updated: 2026-08-22 05:28:39
+// Total modules: 163
+// Last updated: 2026-08-22 05:28:45
 
 module.exports = [
   {
@@ -1945,6 +1945,18 @@ module.exports = [
       "tree-shaking",
       "esm",
       "library"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Snowpack",
+    "description": "Build tool using native ESM with fast builds, Hot Module Replacement, and no bundling",
+    "usage": "snowpack dev",
+    "tags": [
+      "build",
+      "esm",
+      "fast",
+      "hmr"
     ],
     "category": "Dev Tool"
   }
