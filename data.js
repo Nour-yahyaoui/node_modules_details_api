@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 203
-// Last updated: 2026-08-22 05:32:33
+// Total modules: 204
+// Last updated: 2026-08-22 05:32:44
 
 module.exports = [
   {
@@ -2437,6 +2437,18 @@ module.exports = [
       "async",
       "performance",
       "utilities"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Humanize Duration",
+    "description": "Convert milliseconds to human-readable duration strings with internationalization",
+    "usage": "const humanizeDuration = require('humanize-duration'); console.log(humanizeDuration(3600000)); // '1 hour'",
+    "tags": [
+      "time",
+      "duration",
+      "format",
+      "human-readable"
     ],
     "category": "Utility"
   }
