@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 1
-// Last updated: 2026-08-22 05:11:38
+// Total modules: 2
+// Last updated: 2026-08-22 05:11:44
 
 module.exports = [
   {
@@ -14,5 +14,17 @@ module.exports = [
       "encryption"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Body-parser",
+    "description": "Request body parsing middleware that populates req.body with parsed JSON, URL-encoded, or multipart data",
+    "usage": "const bodyParser = require('body-parser'); app.use(bodyParser.json()); app.use(bodyParser.urlencoded({ extended: true }));",
+    "tags": [
+      "parse",
+      "json",
+      "urlencoded",
+      "middleware"
+    ],
+    "category": "Utility"
   }
 ];
