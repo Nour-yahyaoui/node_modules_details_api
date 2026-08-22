@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 229
-// Last updated: 2026-08-22 05:35:14
+// Total modules: 230
+// Last updated: 2026-08-22 05:35:20
 
 module.exports = [
   {
@@ -2749,6 +2749,18 @@ module.exports = [
       "static",
       "file",
       "serve"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Cookie",
+    "description": "Cookie parsing and serialization plugin for Fastify with signed and unsigned cookies",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cookie'), { secret: 'secret' });",
+    "tags": [
+      "fastify",
+      "cookie",
+      "session",
+      "middleware"
     ],
     "category": "Utility"
   }
