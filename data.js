@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 123
-// Last updated: 2026-08-22 05:23:18
+// Total modules: 124
+// Last updated: 2026-08-22 05:23:24
 
 module.exports = [
   {
@@ -1479,5 +1479,17 @@ module.exports = [
       "messages"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Amqplib",
+    "description": "RabbitMQ client with connection management, channel handling, and message exchange patterns",
+    "usage": "const amqp = require('amqplib'); const connection = await amqp.connect('amqp://localhost'); const channel = await connection.createChannel(); await channel.assertQueue('tasks'); channel.sendToQueue('tasks', Buffer.from('Hello'));",
+    "tags": [
+      "rabbitmq",
+      "queue",
+      "message",
+      "amqp"
+    ],
+    "category": "Background Processing"
   }
 ];
