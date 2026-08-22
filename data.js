@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 22
-// Last updated: 2026-08-22 16:12:43
+// Last updated: 2026-08-22 16:13:44
 
 module.exports = [
   {
@@ -257,15 +257,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Mongoose",
-    "description": "MongoDB object modeling with schema validation, query building, and middleware support",
-    "usage": "const mongoose = require('mongoose'); await mongoose.connect('mongodb://localhost:27017/test');",
+    "title": "Morgan",
+    "description": "HTTP request logging middleware with customizable log formats for development and production",
+    "usage": "const morgan = require('morgan'); app.use(morgan('combined'));",
     "tags": [
-      "mongodb",
-      "odm",
-      "schema",
-      "validation"
+      "logging",
+      "http",
+      "middleware",
+      "requests"
     ],
-    "category": "ORM/Database"
+    "category": "Logging"
   }
 ];
