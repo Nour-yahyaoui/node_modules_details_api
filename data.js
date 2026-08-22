@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 85
-// Last updated: 2026-08-22 18:00:02
+// Total modules: 86
+// Last updated: 2026-08-22 18:00:17
 
 module.exports = [
   {
@@ -1021,6 +1021,18 @@ module.exports = [
       "typescript",
       "unit-of-work",
       "sql"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Mongoose (Advanced)",
+    "description": "MongoDB ODM with advanced schema features, validation, middleware, and population for Node.js",
+    "usage": "const mongoose = require('mongoose'); const userSchema = new mongoose.Schema({ name: String, age: Number }); const User = mongoose.model('User', userSchema); const users = await User.find({ age: { $gt: 18 } });",
+    "tags": [
+      "mongodb",
+      "odm",
+      "schema",
+      "validation"
     ],
     "category": "ORM/Database"
   }
