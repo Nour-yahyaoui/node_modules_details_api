@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 202
-// Last updated: 2026-08-22 05:32:27
+// Total modules: 203
+// Last updated: 2026-08-22 05:32:33
 
 module.exports = [
   {
@@ -2425,6 +2425,18 @@ module.exports = [
       "control-flow",
       "collections",
       "functional"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Bluebird",
+    "description": "Full-featured Promise library with performance, utilities, and cancellation support",
+    "usage": "const Promise = require('bluebird'); Promise.map([1, 2, 3], n => n * 2).then(results => console.log(results));",
+    "tags": [
+      "promises",
+      "async",
+      "performance",
+      "utilities"
     ],
     "category": "Utility"
   }
