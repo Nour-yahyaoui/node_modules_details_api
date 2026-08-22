@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 69 |
+| Total Libraries | 70 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -73,6 +73,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
+| PayPal SDK | Payment | PayPal REST API SDK for processing payments, managing subscr... |
 | PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
 | Pino | Logging | Fast and low-overhead JSON logging with log rotation and nat... |
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
