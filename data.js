@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 113
-// Last updated: 2026-08-22 05:22:14
+// Total modules: 114
+// Last updated: 2026-08-22 05:22:20
 
 module.exports = [
   {
@@ -1357,6 +1357,18 @@ module.exports = [
       "graphql",
       "resolvers",
       "schema"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "AdonisJS",
+    "description": "Full-stack MVC framework with ORM, authentication, and everything needed for building web applications",
+    "usage": "const Route = use('Route'); Route.get('/', () => { return 'Hello World'; });",
+    "tags": [
+      "web",
+      "framework",
+      "mvc",
+      "full-stack"
     ],
     "category": "Web Framework"
   }
