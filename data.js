@@ -1,19 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:30
+// Last updated: 2026-08-22 05:10:36
 
 module.exports = [
   {
-    "title": "Fs-extra",
-    "description": "Extended file system module with promise support and additional methods like copy, ensureDir, and remove",
-    "usage": "const fs = require('fs-extra'); await fs.copy('src', 'dist'); await fs.ensureDir('data');",
+    "title": "Axios",
+    "description": "Promise-based HTTP client for Node.js and browsers with automatic JSON transformation and request/response interception",
+    "usage": "const axios = require('axios'); const response = await axios.get('https://api.github.com/users/nour-yahyaoui');",
     "tags": [
-      "fs",
-      "file",
-      "directory",
-      "copy",
-      "promise"
+      "http",
+      "api",
+      "promises",
+      "interceptor"
     ],
-    "category": "Utility"
+    "category": "HTTP Client"
   }
 ];
