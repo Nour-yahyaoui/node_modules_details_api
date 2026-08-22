@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 199
-// Last updated: 2026-08-22 05:32:09
+// Total modules: 200
+// Last updated: 2026-08-22 05:32:14
 
 module.exports = [
   {
@@ -2389,6 +2389,18 @@ module.exports = [
       "algolia",
       "full-text",
       "ranking"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "OpenSearch",
+    "description": "OpenSearch client with search, analytics, and visualization capabilities",
+    "usage": "const { Client } = require('@opensearch-project/opensearch'); const client = new Client({ node: 'http://localhost:9200' }); const result = await client.search({ index: 'posts', body: { query: { match: { content: 'hello' } } } });",
+    "tags": [
+      "search",
+      "opensearch",
+      "analytics",
+      "full-text"
     ],
     "category": "Database"
   }
