@@ -1,18 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:36
+// Last updated: 2026-08-22 05:11:38
 
 module.exports = [
   {
-    "title": "Axios",
-    "description": "Promise-based HTTP client for Node.js and browsers with automatic JSON transformation and request/response interception",
-    "usage": "const axios = require('axios'); const response = await axios.get('https://api.github.com/users/nour-yahyaoui');",
+    "title": "Bcrypt",
+    "description": "Password hashing library using the bcrypt algorithm with salt generation and secure comparison functions",
+    "usage": "const bcrypt = require('bcrypt'); const hash = await bcrypt.hash('password123', 10); const match = await bcrypt.compare('password123', hash);",
     "tags": [
-      "http",
-      "api",
-      "promises",
-      "interceptor"
+      "security",
+      "password",
+      "hashing",
+      "encryption"
     ],
-    "category": "HTTP Client"
+    "category": "Security"
   }
 ];
