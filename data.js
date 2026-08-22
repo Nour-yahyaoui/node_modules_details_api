@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 214
-// Last updated: 2026-08-22 05:33:46
+// Total modules: 215
+// Last updated: 2026-08-22 05:33:53
 
 module.exports = [
   {
@@ -2569,6 +2569,18 @@ module.exports = [
       "fetch",
       "hooks",
       "retry"
+    ],
+    "category": "HTTP Client"
+  },
+  {
+    "title": "Undici",
+    "description": "Fast, efficient HTTP/1.1 and HTTP/2 client with connection pooling and request pipelining",
+    "usage": "const { request } = require('undici'); const { body } = await request('https://api.example.com'); const data = await body.json();",
+    "tags": [
+      "http",
+      "fetch",
+      "fast",
+      "pooling"
     ],
     "category": "HTTP Client"
   }
