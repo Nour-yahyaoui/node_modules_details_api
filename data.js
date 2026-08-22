@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 143
-// Last updated: 2026-08-22 05:25:17
+// Total modules: 144
+// Last updated: 2026-08-22 05:25:23
 
 module.exports = [
   {
@@ -1717,6 +1717,18 @@ module.exports = [
       "arguments",
       "parsing",
       "commands"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Ora",
+    "description": "Elegant terminal spinner for CLI applications with customizable styles and colors",
+    "usage": "const ora = require('ora'); const spinner = ora('Loading data...').start(); await fetchData(); spinner.succeed('Data loaded');",
+    "tags": [
+      "cli",
+      "spinner",
+      "terminal",
+      "progress"
     ],
     "category": "CLI/Tool"
   }
