@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 39
-// Last updated: 2026-08-22 05:15:13
+// Total modules: 40
+// Last updated: 2026-08-22 05:15:18
 
 module.exports = [
   {
@@ -469,6 +469,18 @@ module.exports = [
       "database",
       "driver",
       "pool"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "SQLite3",
+    "description": "Powerful SQLite3 driver providing a low-level interface to SQLite databases with verbose error reporting",
+    "usage": "const sqlite3 = require('sqlite3').verbose(); const db = new sqlite3.Database(':memory:');",
+    "tags": [
+      "database",
+      "sqlite",
+      "embedded",
+      "driver"
     ],
     "category": "Database"
   }
