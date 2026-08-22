@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:50
+// Last updated: 2026-08-22 18:17:51
 
 module.exports = [
   {
@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Zod",
-    "description": "TypeScript-first schema validation with static type inference, custom validators, and error formatting",
-    "usage": "const z = require('zod'); const schema = z.object({ name: z.string().min(3), age: z.number().positive() }); const parsed = schema.parse({ name: 'John', age: 25 });",
+    "title": "Yup",
+    "description": "Object schema validation with async support, conditional validation, and custom error messages",
+    "usage": "const yup = require('yup'); const schema = yup.object({ name: yup.string().required(), age: yup.number().positive() }); const valid = await schema.isValid({ name: 'John', age: 25 });",
     "tags": [
       "validation",
-      "typescript",
       "schema",
-      "type-safe"
+      "async",
+      "errors"
     ],
     "category": "Validation"
   }
