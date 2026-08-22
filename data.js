@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 102
-// Last updated: 2026-08-22 05:21:12
+// Total modules: 103
+// Last updated: 2026-08-22 05:21:18
 
 module.exports = [
   {
@@ -1227,5 +1227,17 @@ module.exports = [
       "performance"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "NanoID",
+    "description": "Secure, URL-friendly unique ID generator with customizable alphabet and length options",
+    "usage": "const { nanoid } = require('nanoid'); const id = nanoid(10); const customId = nanoid('abcdef', 12);",
+    "tags": [
+      "uuid",
+      "identifier",
+      "unique",
+      "secure"
+    ],
+    "category": "Utility"
   }
 ];
