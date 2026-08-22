@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 304
-// Last updated: 2026-08-22 05:42:33
+// Total modules: 305
+// Last updated: 2026-08-22 05:42:38
 
 module.exports = [
   {
@@ -3649,6 +3649,18 @@ module.exports = [
       "web",
       "api",
       "readable"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Buffer",
+    "description": "Node.js Buffer utilities for binary data manipulation",
+    "usage": "const buf = Buffer.from('Hello World', 'utf8'); const hex = buf.toString('hex');",
+    "tags": [
+      "buffer",
+      "binary",
+      "encoding",
+      "hex"
     ],
     "category": "Utility"
   }
