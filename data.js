@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 222
-// Last updated: 2026-08-22 05:34:34
+// Total modules: 223
+// Last updated: 2026-08-22 05:34:39
 
 module.exports = [
   {
@@ -2665,6 +2665,18 @@ module.exports = [
       "video",
       "api",
       "meetings"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Twilio",
+    "description": "Twilio API client for SMS, voice, video, and WhatsApp messaging",
+    "usage": "const twilio = require('twilio'); const client = twilio('sid', 'token'); await client.messages.create({ body: 'Hello', to: '+1234567890', from: '+0987654321' });",
+    "tags": [
+      "twilio",
+      "sms",
+      "voice",
+      "api"
     ],
     "category": "Utility"
   }
