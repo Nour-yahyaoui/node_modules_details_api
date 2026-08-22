@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 148 |
+| Total Libraries | 149 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -46,6 +46,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Chai | Testing/Tool | BDD assertion library with expect, should, and assert interf... |
 | Chalk | CLI/Tool | Terminal string styling with colors, RGB, and hex support fo... |
 | Cheerio | Utility | Fast jQuery-like HTML parsing for Node.js with CSS selector ... |
+| Chokidar | Utility | File watching library with cross-platform support, event han... |
 | Class-validator | Validation | Validation using decorators for TypeScript classes with supp... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
