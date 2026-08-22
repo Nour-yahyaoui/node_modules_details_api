@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 205
-// Last updated: 2026-08-22 05:32:51
+// Total modules: 206
+// Last updated: 2026-08-22 05:32:57
 
 module.exports = [
   {
@@ -2461,6 +2461,18 @@ module.exports = [
       "size",
       "format",
       "human-readable"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Numeral",
+    "description": "Number formatting and manipulation with currencies, percentages, and time formats",
+    "usage": "const numeral = require('numeral'); console.log(numeral(1000).format('$0,0.00')); // '$1,000.00'",
+    "tags": [
+      "numbers",
+      "format",
+      "currency",
+      "percentage"
     ],
     "category": "Utility"
   }
