@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 29 |
+| Total Libraries | 30 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -49,6 +49,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
+| Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
