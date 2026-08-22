@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 226
-// Last updated: 2026-08-22 05:34:57
+// Total modules: 227
+// Last updated: 2026-08-22 05:35:03
 
 module.exports = [
   {
@@ -2715,5 +2715,17 @@ module.exports = [
       "documentation"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify CORS",
+    "description": "CORS plugin for Fastify with configurable origins, methods, and headers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/cors'), { origin: 'https://example.com' });",
+    "tags": [
+      "fastify",
+      "cors",
+      "security",
+      "middleware"
+    ],
+    "category": "Security"
   }
 ];
