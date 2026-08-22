@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 81
-// Last updated: 2026-08-22 17:15:53
+// Last updated: 2026-08-22 17:58:06
 
 module.exports = [
   {
@@ -965,15 +965,15 @@ module.exports = [
     "category": "Database"
   },
   {
-    "title": "Slonik",
-    "description": "PostgreSQL client with type safety, connection pooling, and advanced query building features",
-    "usage": "const { createPool } = require('slonik'); const pool = createPool('postgres://user:pass@localhost/db'); const result = await pool.query('SELECT * FROM users');",
+    "title": "Kysely",
+    "description": "Type-safe SQL query builder for TypeScript with rich query building and database interface generation",
+    "usage": "import { Kysely, PostgresDialect } from 'kysely'; const db = new Kysely({ dialect: new PostgresDialect({ host: 'localhost', database: 'db' }) }); const users = await db.selectFrom('users').selectAll().execute();",
     "tags": [
-      "postgresql",
-      "database",
+      "sql",
+      "query",
       "typescript",
-      "pool"
+      "builder"
     ],
-    "category": "Database"
+    "category": "ORM/Database"
   }
 ];
