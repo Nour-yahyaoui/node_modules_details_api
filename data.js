@@ -1,18 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:24
+// Last updated: 2026-08-22 05:10:25
 
 module.exports = [
   {
-    "title": "Commander",
-    "description": "Complete command-line interface solution with argument parsing, automatic help generation, and command definitions",
-    "usage": "const { program } = require('commander'); program.version('1.0.0').option('-p, --port <number>').parse();",
+    "title": "Compression",
+    "description": "Response compression middleware using gzip or deflate to reduce bandwidth and improve page load times",
+    "usage": "const compression = require('compression'); app.use(compression());",
     "tags": [
-      "cli",
-      "command",
-      "arguments",
-      "parsing"
+      "compression",
+      "gzip",
+      "performance",
+      "middleware"
     ],
-    "category": "CLI/Tool"
+    "category": "Performance"
   }
 ];
