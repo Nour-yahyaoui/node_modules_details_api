@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 275
-// Last updated: 2026-08-22 05:39:40
+// Total modules: 276
+// Last updated: 2026-08-22 05:39:47
 
 module.exports = [
   {
@@ -3301,6 +3301,18 @@ module.exports = [
       "query",
       "builder",
       "eager-loading"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Kysely Migrations",
+    "description": "Kysely migration system with schema generation and version management",
+    "usage": "const { Migrator } = require('kysely'); const migrator = new Migrator({ db, provider: new FileMigrationProvider('./migrations') }); await migrator.migrateToLatest();",
+    "tags": [
+      "kysely",
+      "migrations",
+      "database",
+      "typescript"
     ],
     "category": "ORM/Database"
   }
