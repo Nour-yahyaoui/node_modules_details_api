@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Crypto-js",
-    "description": "Pure JavaScript cryptographic library with AES, SHA, HMAC, and other encryption algorithms",
-    "usage": "const CryptoJS = require('crypto-js'); const encrypted = CryptoJS.AES.encrypt('message', 'secret').toString(); const decrypted = CryptoJS.AES.decrypt(encrypted, 'secret').toString(CryptoJS.enc.Utf8);",
+    "title": "Node-cache",
+    "description": "Simple in-memory caching with TTL support, statistics, and key management for Node.js applications",
+    "usage": "const NodeCache = require('node-cache'); const cache = new NodeCache({ stdTTL: 60 }); cache.set('key', 'value'); const value = cache.get('key');",
     "tags": [
-      "encryption",
-      "crypto",
-      "aes",
-      "hash"
+      "cache",
+      "memory",
+      "ttl",
+      "performance"
     ],
-    "category": "Security"
+    "category": "Performance"
   }
 ];
