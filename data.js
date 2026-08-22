@@ -4,15 +4,15 @@
 
 module.exports = [
   {
-    "title": "Cookie-parser",
-    "description": "Cookie parsing middleware that populates req.cookies with signed and unsigned cookies",
-    "usage": "const cookieParser = require('cookie-parser'); app.use(cookieParser('secret'));",
+    "title": "Cors",
+    "description": "Cross-Origin Resource Sharing middleware with configurable options for allowed origins, methods, and headers",
+    "usage": "const cors = require('cors'); app.use(cors({ origin: 'https://example.com' }));",
     "tags": [
-      "cookie",
-      "session",
-      "parse",
+      "cors",
+      "security",
+      "headers",
       "middleware"
     ],
-    "category": "Utility"
+    "category": "Security"
   }
 ];
