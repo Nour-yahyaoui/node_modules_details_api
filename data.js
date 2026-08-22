@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 83
-// Last updated: 2026-08-22 17:58:41
+// Total modules: 84
+// Last updated: 2026-08-22 17:59:55
 
 module.exports = [
   {
@@ -997,6 +997,18 @@ module.exports = [
       "sql",
       "models",
       "relations"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Waterline",
+    "description": "ORM supporting multiple database adapters with model definitions, associations, and query building",
+    "usage": "const Waterline = require('waterline'); const User = Waterline.Model.extend({ identity: 'user', connection: 'default' });",
+    "tags": [
+      "orm",
+      "database",
+      "models",
+      "adapters"
     ],
     "category": "ORM/Database"
   }
