@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 146
-// Last updated: 2026-08-22 05:25:36
+// Total modules: 147
+// Last updated: 2026-08-22 05:25:50
 
 module.exports = [
   {
@@ -1753,6 +1753,18 @@ module.exports = [
       "exec",
       "promises",
       "cross-platform"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Shelljs",
+    "description": "Cross-platform shell commands with Unix-like syntax for Node.js applications",
+    "usage": "const shell = require('shelljs'); shell.cd('project'); if (!shell.which('git')) shell.echo('Git not found');",
+    "tags": [
+      "shell",
+      "commands",
+      "cross-platform",
+      "unix"
     ],
     "category": "Utility"
   }
