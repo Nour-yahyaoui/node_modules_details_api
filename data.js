@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 62
-// Last updated: 2026-08-22 17:10:58
+// Total modules: 63
+// Last updated: 2026-08-22 17:11:14
 
 module.exports = [
   {
@@ -745,6 +745,18 @@ module.exports = [
       "api",
       "server",
       "apollo"
+    ],
+    "category": "API"
+  },
+  {
+    "title": "Express GraphQL",
+    "description": "Simple GraphQL middleware for Express with optional GraphiQL interface for testing and exploration",
+    "usage": "const { graphqlHTTP } = require('express-graphql'); app.use('/graphql', graphqlHTTP({ schema, graphiql: true }));",
+    "tags": [
+      "graphql",
+      "express",
+      "middleware",
+      "graphiql"
     ],
     "category": "API"
   }
