@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 53
-// Last updated: 2026-08-22 17:01:49
+// Total modules: 54
+// Last updated: 2026-08-22 17:01:55
 
 module.exports = [
   {
@@ -639,5 +639,17 @@ module.exports = [
       "lightweight"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Rimraf",
+    "description": "Deep deletion module providing rm -rf functionality for directories and files across platforms",
+    "usage": "const rimraf = require('rimraf'); rimraf.sync('dist');",
+    "tags": [
+      "delete",
+      "clean",
+      "rm",
+      "files"
+    ],
+    "category": "Utility"
   }
 ];
