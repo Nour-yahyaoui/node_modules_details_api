@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 126
-// Last updated: 2026-08-22 05:23:37
+// Total modules: 127
+// Last updated: 2026-08-22 05:23:42
 
 module.exports = [
   {
@@ -1513,6 +1513,18 @@ module.exports = [
       "realtime",
       "pubsub",
       "events"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Ably",
+    "description": "Real-time messaging platform with WebSocket and REST APIs, presence, and message history",
+    "usage": "const ably = require('ably'); const client = new ably.Realtime('apiKey'); const channel = client.channels.get('channel'); channel.publish('event', { message: 'Hello' });",
+    "tags": [
+      "websocket",
+      "realtime",
+      "pubsub",
+      "presence"
     ],
     "category": "Real-time"
   }
