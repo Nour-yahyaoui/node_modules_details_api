@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:54
+// Last updated: 2026-08-22 18:17:55
 
 module.exports = [
   {
@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "LoopBack",
-    "description": "API framework for creating RESTful APIs with built-in models, relations, and authentication",
-    "usage": "const { Application } = require('@loopback/core'); const app = new Application(); app.route('get', '/', async () => 'Hello World');",
+    "title": "FeathersJS",
+    "description": "Real-time API framework with service architecture, hooks, and support for multiple databases",
+    "usage": "const feathers = require('@feathersjs/feathers'); const app = feathers(); app.use('messages', { async get(id) { return { id, text: 'Hello' } } });",
     "tags": [
       "api",
-      "framework",
-      "rest",
-      "loopback"
+      "realtime",
+      "services",
+      "hooks"
     ],
     "category": "Web Framework"
   }
