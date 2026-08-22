@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 88
-// Last updated: 2026-08-22 18:17:47
+// Last updated: 2026-08-22 18:17:48
 
 module.exports = [
   {
@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Lru-cache",
-    "description": "Least Recently Used cache with configurable max size and TTL for efficient memory management",
-    "usage": "const LRU = require('lru-cache'); const cache = new LRU({ max: 100, ttl: 1000 * 60 }); cache.set('key', 'value'); const value = cache.get('key');",
+    "title": "NanoID",
+    "description": "Secure, URL-friendly unique ID generator with customizable alphabet and length options",
+    "usage": "const { nanoid } = require('nanoid'); const id = nanoid(10); const customId = nanoid('abcdef', 12);",
     "tags": [
-      "cache",
-      "lru",
-      "memory",
-      "performance"
+      "uuid",
+      "identifier",
+      "unique",
+      "secure"
     ],
-    "category": "Performance"
+    "category": "Utility"
   }
 ];
