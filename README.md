@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 59 |
+| Total Libraries | 60 |
 | Categories | Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -39,6 +39,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
+| EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
