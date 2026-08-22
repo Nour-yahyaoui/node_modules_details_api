@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 338
-// Last updated: 2026-08-22 05:46:22
+// Total modules: 339
+// Last updated: 2026-08-22 05:46:29
 
 module.exports = [
   {
@@ -4057,6 +4057,18 @@ module.exports = [
       "pointer",
       "schema",
       "reference"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "JSONP",
+    "description": "JSONP middleware for Express with callback support",
+    "usage": "const jsonp = require('express-jsonp'); app.use(jsonp()); app.get('/data', (req, res) => { res.jsonp({ data: 'Hello' }); });",
+    "tags": [
+      "jsonp",
+      "express",
+      "callback",
+      "cross-domain"
     ],
     "category": "Utility"
   }
