@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 181
-// Last updated: 2026-08-22 16:33:50
+// Total modules: 182
+// Last updated: 2026-08-22 16:33:56
 
 module.exports = [
   {
@@ -2175,5 +2175,17 @@ module.exports = [
       "headless"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "KeystoneJS",
+    "description": "Headless CMS and GraphQL API framework with authentication, access control, and admin UI",
+    "usage": "import { config } from '@keystone-6/core'; export default config({ lists: { User: { fields: { name: { type: 'text' } } } } });",
+    "tags": [
+      "cms",
+      "graphql",
+      "admin",
+      "headless"
+    ],
+    "category": "Web Framework"
   }
 ];
