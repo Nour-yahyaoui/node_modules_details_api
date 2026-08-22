@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 52
-// Last updated: 2026-08-22 16:18:34
+// Total modules: 53
+// Last updated: 2026-08-22 16:18:40
 
 module.exports = [
   {
@@ -625,6 +625,18 @@ module.exports = [
       "generation",
       "documents",
       "report"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "ExcelJS",
+    "description": "Read, write, and manipulate Excel files with support for xlsx, csv, and other spreadsheet formats",
+    "usage": "const Excel = require('exceljs'); const workbook = new Excel.Workbook(); const worksheet = workbook.addWorksheet('Sheet 1');",
+    "tags": [
+      "excel",
+      "spreadsheet",
+      "xlsx",
+      "csv"
     ],
     "category": "Utility"
   }
