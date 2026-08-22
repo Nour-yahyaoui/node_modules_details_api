@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Argon2",
-    "description": "Modern password hashing using Argon2 algorithm with configurable memory, time, and parallelism parameters",
-    "usage": "const argon2 = require('argon2'); const hash = await argon2.hash('password123'); const verify = await argon2.verify(hash, 'password123');",
+    "title": "Crypto-js",
+    "description": "Pure JavaScript cryptographic library with AES, SHA, HMAC, and other encryption algorithms",
+    "usage": "const CryptoJS = require('crypto-js'); const encrypted = CryptoJS.AES.encrypt('message', 'secret').toString(); const decrypted = CryptoJS.AES.decrypt(encrypted, 'secret').toString(CryptoJS.enc.Utf8);",
     "tags": [
-      "security",
-      "password",
-      "hashing",
-      "argon2"
+      "encryption",
+      "crypto",
+      "aes",
+      "hash"
     ],
     "category": "Security"
   }
