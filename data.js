@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 200
-// Last updated: 2026-08-22 05:32:14
+// Total modules: 201
+// Last updated: 2026-08-22 05:32:20
 
 module.exports = [
   {
@@ -2403,5 +2403,17 @@ module.exports = [
       "full-text"
     ],
     "category": "Database"
+  },
+  {
+    "title": "RxJS",
+    "description": "Reactive extensions library for async programming with observables, operators, and subscriptions",
+    "usage": "const { Observable } = require('rxjs'); const obs = new Observable(subscriber => { subscriber.next('Hello'); subscriber.complete(); }); obs.subscribe(value => console.log(value));",
+    "tags": [
+      "reactive",
+      "observables",
+      "async",
+      "streams"
+    ],
+    "category": "Utility"
   }
 ];
