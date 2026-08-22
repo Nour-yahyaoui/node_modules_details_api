@@ -1,18 +1,19 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:29
+// Last updated: 2026-08-22 05:10:30
 
 module.exports = [
   {
-    "title": "Fastify",
-    "description": "Fast and low-overhead web framework with built-in schema validation, logging, and plugin system",
-    "usage": "const fastify = require('fastify')({ logger: true }); fastify.get('/', async () => ({ hello: 'world' }));",
+    "title": "Fs-extra",
+    "description": "Extended file system module with promise support and additional methods like copy, ensureDir, and remove",
+    "usage": "const fs = require('fs-extra'); await fs.copy('src', 'dist'); await fs.ensureDir('data');",
     "tags": [
-      "web",
-      "framework",
-      "performance",
-      "fast"
+      "fs",
+      "file",
+      "directory",
+      "copy",
+      "promise"
     ],
-    "category": "Web Framework"
+    "category": "Utility"
   }
 ];
