@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 201 |
+| Total Libraries | 202 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-22 |
 
@@ -36,6 +36,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Appwrite | Cloud | Backend server with authentication, database, storage, and s... |
 | Archiver | Utility | Create ZIP and TAR archives with compression, stream support... |
 | Argon2 | Security | Modern password hashing using Argon2 algorithm with configur... |
+| Async | Utility | Async utilities with control flow, collections, and function... |
 | AWS Lambda | Cloud | AWS Lambda runtime for Node.js with event handling, context,... |
 | AWS SDK | Cloud | Official AWS SDK for Node.js with support for S3, DynamoDB, ... |
 | Azure Functions | Cloud | Azure Functions runtime for Node.js with triggers, bindings,... |
