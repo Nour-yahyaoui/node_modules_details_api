@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 47
-// Last updated: 2026-08-22 16:50:33
+// Last updated: 2026-08-22 16:55:38
 
 module.exports = [
   {
@@ -557,15 +557,15 @@ module.exports = [
     "category": "Dev Tool"
   },
   {
-    "title": "ESBuild",
-    "description": "Extremely fast JavaScript bundler that compiles TypeScript and JavaScript to ESM or CJS modules",
-    "usage": "require('esbuild').build({ entryPoints: ['app.js'], bundle: true, outfile: 'out.js' });",
+    "title": "Hapi",
+    "description": "Rich framework for building applications with configuration-based routing, validation, and plugin system",
+    "usage": "const Hapi = require('@hapi/hapi'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => 'Hello World' });",
     "tags": [
-      "bundler",
-      "build",
-      "fast",
-      "typescript"
+      "web",
+      "framework",
+      "configuration",
+      "enterprise"
     ],
-    "category": "Dev Tool"
+    "category": "Web Framework"
   }
 ];
