@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 158
-// Last updated: 2026-08-22 05:28:17
+// Total modules: 159
+// Last updated: 2026-08-22 05:28:23
 
 module.exports = [
   {
@@ -1897,6 +1897,18 @@ module.exports = [
       "babel",
       "es6",
       "compiler"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "TypeScript",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript with full type checking",
+    "usage": "npx tsc app.ts",
+    "tags": [
+      "typescript",
+      "typing",
+      "compiler",
+      "language"
     ],
     "category": "Dev Tool"
   }
