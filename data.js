@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "FeathersJS",
-    "description": "Real-time API framework with service architecture, hooks, and support for multiple databases",
-    "usage": "const feathers = require('@feathersjs/feathers'); const app = feathers(); app.use('messages', { async get(id) { return { id, text: 'Hello' } } });",
+    "title": "BullMQ",
+    "description": "Advanced job queue using Redis with support for delayed jobs, retries, and concurrency control",
+    "usage": "const { Queue } = require('bullmq'); const queue = new Queue('email'); await queue.add('send', { to: 'user@example.com' });",
     "tags": [
-      "api",
-      "realtime",
-      "services",
-      "hooks"
+      "queue",
+      "redis",
+      "jobs",
+      "background"
     ],
-    "category": "Web Framework"
+    "category": "Background Processing"
   }
 ];
