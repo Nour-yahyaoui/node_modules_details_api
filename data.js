@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 295
-// Last updated: 2026-08-22 05:41:42
+// Total modules: 296
+// Last updated: 2026-08-22 05:41:48
 
 module.exports = [
   {
@@ -3540,6 +3540,18 @@ module.exports = [
       "worker-threads",
       "parallel",
       "cpu",
+      "performance"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Cluster",
+    "description": "Node.js cluster module for load balancing across CPU cores",
+    "usage": "const cluster = require('cluster'); if (cluster.isMaster) { cluster.fork(); } else { require('./app'); }",
+    "tags": [
+      "cluster",
+      "load-balance",
+      "multi-core",
       "performance"
     ],
     "category": "Performance"
