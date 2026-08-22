@@ -43,8 +43,8 @@ This repository contains a growing collection of **Node.js library documentation
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
-| Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
