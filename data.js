@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 11
-// Last updated: 2026-08-22 16:44:05
+// Total modules: 12
+// Last updated: 2026-08-22 16:44:15
 
 module.exports = [
   {
@@ -134,5 +134,17 @@ module.exports = [
       "typescript"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Express",
+    "description": "Minimalist web framework for Node.js with routing, middleware, and HTTP utility methods",
+    "usage": "const express = require('express'); const app = express(); app.get('/', (req, res) => res.send('Hello World'));",
+    "tags": [
+      "web",
+      "framework",
+      "routing",
+      "middleware"
+    ],
+    "category": "Web Framework"
   }
 ];
