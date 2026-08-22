@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 281
-// Last updated: 2026-08-22 05:40:16
+// Total modules: 282
+// Last updated: 2026-08-22 05:40:21
 
 module.exports = [
   {
@@ -3373,6 +3373,18 @@ module.exports = [
       "cluster",
       "sharding",
       "failover"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Redis Sentinel",
+    "description": "Redis sentinel client with automatic failover and master discovery",
+    "usage": "const Redis = require('ioredis'); const sentinel = new Redis({ sentinels: [{ host: 'localhost', port: 26379 }], name: 'mymaster' });",
+    "tags": [
+      "redis",
+      "sentinel",
+      "failover",
+      "high-availability"
     ],
     "category": "Database"
   }
