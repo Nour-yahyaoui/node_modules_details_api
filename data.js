@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 156
-// Last updated: 2026-08-22 16:31:12
+// Total modules: 157
+// Last updated: 2026-08-22 16:31:22
 
 module.exports = [
   {
@@ -1873,6 +1873,18 @@ module.exports = [
       "build",
       "automation",
       "plugins"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Babel",
+    "description": "JavaScript compiler for transforming ES6+ code into backward-compatible JavaScript versions",
+    "usage": "npx babel src --out-dir dist",
+    "tags": [
+      "transpiler",
+      "babel",
+      "es6",
+      "compiler"
     ],
     "category": "Dev Tool"
   }
