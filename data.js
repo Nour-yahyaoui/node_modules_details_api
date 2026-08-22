@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Node-resque",
-    "description": "Job queue system using Redis with multiple queues, delayed jobs, and plugin support",
-    "usage": "const NodeResque = require('node-resque'); const queue = new NodeResque.Queue({ connection: { redis: { host: 'localhost' } } }); queue.enqueue('email', 'send', ['user@example.com']);",
+    "title": "Moleculer",
+    "description": "Fast microservices framework with service discovery, load balancing, and built-in caching",
+    "usage": "const { ServiceBroker } = require('moleculer'); const broker = new ServiceBroker(); broker.createService({ name: 'math', actions: { add(ctx) { return ctx.params.a + ctx.params.b } } });",
     "tags": [
-      "queue",
-      "redis",
-      "jobs",
-      "delayed"
+      "microservices",
+      "framework",
+      "service-discovery",
+      "load-balancing"
     ],
-    "category": "Background Processing"
+    "category": "Web Framework"
   }
 ];
