@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 290
-// Last updated: 2026-08-22 05:41:15
+// Total modules: 291
+// Last updated: 2026-08-22 05:41:20
 
 module.exports = [
   {
@@ -3481,6 +3481,18 @@ module.exports = [
       "memory",
       "ttl",
       "multi-store"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Redis Cache Store",
+    "description": "Redis cache store for cache-manager with clustering support",
+    "usage": "const redisStore = require('cache-manager-redis-store'); const redisCache = cacheManager.caching({ store: redisStore, host: 'localhost', port: 6379 });",
+    "tags": [
+      "redis",
+      "cache",
+      "store",
+      "cluster"
     ],
     "category": "Performance"
   }
