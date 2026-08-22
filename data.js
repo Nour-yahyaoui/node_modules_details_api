@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 194
-// Last updated: 2026-08-22 05:31:41
+// Total modules: 195
+// Last updated: 2026-08-22 05:31:46
 
 module.exports = [
   {
@@ -2331,5 +2331,17 @@ module.exports = [
       "templates"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "SES (AWS)",
+    "description": "AWS Simple Email Service client with sending, receiving, and email configuration management",
+    "usage": "const AWS = require('aws-sdk'); const ses = new AWS.SES({ region: 'us-east-1' }); await ses.sendEmail({ Destination: { ToAddresses: ['user@example.com'] }, Source: 'from@example.com', Message: { Subject: { Data: 'Hello' }, Body: { Text: { Data: 'World' } } } }).promise();",
+    "tags": [
+      "email",
+      "aws",
+      "ses",
+      "cloud"
+    ],
+    "category": "Cloud"
   }
 ];
