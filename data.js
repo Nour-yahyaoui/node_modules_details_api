@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 97
-// Last updated: 2026-08-22 05:20:45
+// Total modules: 98
+// Last updated: 2026-08-22 05:20:50
 
 module.exports = [
   {
@@ -1167,5 +1167,17 @@ module.exports = [
       "promises"
     ],
     "category": "HTTP Client"
+  },
+  {
+    "title": "Argon2",
+    "description": "Modern password hashing using Argon2 algorithm with configurable memory, time, and parallelism parameters",
+    "usage": "const argon2 = require('argon2'); const hash = await argon2.hash('password123'); const verify = await argon2.verify(hash, 'password123');",
+    "tags": [
+      "security",
+      "password",
+      "hashing",
+      "argon2"
+    ],
+    "category": "Security"
   }
 ];
