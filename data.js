@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 52
-// Last updated: 2026-08-22 05:16:27
+// Total modules: 53
+// Last updated: 2026-08-22 05:16:32
 
 module.exports = [
   {
@@ -625,6 +625,18 @@ module.exports = [
       "processing",
       "resize",
       "conversion"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "PDFKit",
+    "description": "PDF generation library with support for text, images, vector graphics, and tables in Node.js",
+    "usage": "const PDFDocument = require('pdfkit'); const doc = new PDFDocument(); doc.text('Hello World'); doc.pipe(fs.createWriteStream('output.pdf')); doc.end();",
+    "tags": [
+      "pdf",
+      "generation",
+      "documents",
+      "report"
     ],
     "category": "Utility"
   }
