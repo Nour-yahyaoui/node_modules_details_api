@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 302
-// Last updated: 2026-08-22 05:42:22
+// Total modules: 303
+// Last updated: 2026-08-22 05:42:27
 
 module.exports = [
   {
@@ -3624,6 +3624,18 @@ module.exports = [
       "stream",
       "writable",
       "write",
+      "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Transform Stream",
+    "description": "Transform stream for data modification between read and write",
+    "usage": "const { Transform } = require('stream'); const upper = new Transform({ transform(chunk, encoding, callback) { this.push(chunk.toString().toUpperCase()); callback(); } });",
+    "tags": [
+      "stream",
+      "transform",
+      "modify",
       "data"
     ],
     "category": "Utility"
