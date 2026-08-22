@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 50
-// Last updated: 2026-08-22 16:59:40
+// Last updated: 2026-08-22 17:00:41
 
 module.exports = [
   {
@@ -593,14 +593,14 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "PDFKit",
-    "description": "PDF generation library with support for text, images, vector graphics, and tables in Node.js",
-    "usage": "const PDFDocument = require('pdfkit'); const doc = new PDFDocument(); doc.text('Hello World'); doc.pipe(fs.createWriteStream('output.pdf')); doc.end();",
+    "title": "ExcelJS",
+    "description": "Read, write, and manipulate Excel files with support for xlsx, csv, and other spreadsheet formats",
+    "usage": "const Excel = require('exceljs'); const workbook = new Excel.Workbook(); const worksheet = workbook.addWorksheet('Sheet 1');",
     "tags": [
-      "pdf",
-      "generation",
-      "documents",
-      "report"
+      "excel",
+      "spreadsheet",
+      "xlsx",
+      "csv"
     ],
     "category": "Utility"
   }
