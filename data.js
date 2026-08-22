@@ -1,18 +1,18 @@
 // Node.js Library Documentation
 // Total modules: 1
-// Last updated: 2026-08-22 05:10:26
+// Last updated: 2026-08-22 05:10:27
 
 module.exports = [
   {
-    "title": "Cors",
-    "description": "Cross-Origin Resource Sharing middleware with configurable options for allowed origins, methods, and headers",
-    "usage": "const cors = require('cors'); app.use(cors({ origin: 'https://example.com' }));",
+    "title": "Cross-env",
+    "description": "Cross-platform environment variable setting for npm scripts on Windows, Linux, and macOS",
+    "usage": "cross-env NODE_ENV=production npm start",
     "tags": [
-      "cors",
-      "security",
-      "headers",
-      "middleware"
+      "env",
+      "cross-platform",
+      "scripts",
+      "variables"
     ],
-    "category": "Security"
+    "category": "Dev Tool"
   }
 ];
