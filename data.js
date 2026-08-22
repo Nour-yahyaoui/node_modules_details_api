@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 190
-// Last updated: 2026-08-22 05:31:19
+// Total modules: 191
+// Last updated: 2026-08-22 05:31:25
 
 module.exports = [
   {
@@ -2283,5 +2283,17 @@ module.exports = [
       "checkout"
     ],
     "category": "Payment"
+  },
+  {
+    "title": "Salesforce API",
+    "description": "Salesforce REST API client with CRUD operations, queries, and bulk data management",
+    "usage": "const jsforce = require('jsforce'); const conn = new jsforce.Connection({ loginUrl: 'https://login.salesforce.com' }); await conn.login('user', 'password'); const accounts = await conn.query('SELECT Id, Name FROM Account');",
+    "tags": [
+      "salesforce",
+      "crm",
+      "api",
+      "cloud"
+    ],
+    "category": "Cloud"
   }
 ];
