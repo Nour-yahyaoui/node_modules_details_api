@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 328
-// Last updated: 2026-08-22 05:45:17
+// Total modules: 329
+// Last updated: 2026-08-22 05:45:22
 
 module.exports = [
   {
@@ -3939,5 +3939,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Response Time",
+    "description": "Response time header middleware for Express with timing metrics",
+    "usage": "const responseTime = require('response-time'); app.use(responseTime());",
+    "tags": [
+      "response-time",
+      "performance",
+      "metrics",
+      "express"
+    ],
+    "category": "Performance"
   }
 ];
