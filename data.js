@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 23
-// Last updated: 2026-08-22 16:45:45
+// Total modules: 24
+// Last updated: 2026-08-22 16:45:54
 
 module.exports = [
   {
@@ -279,5 +279,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Passport",
+    "description": "Authentication middleware supporting 500+ strategies including OAuth, OpenID, and local authentication",
+    "usage": "const passport = require('passport'); app.use(passport.initialize()); passport.use(new LocalStrategy());",
+    "tags": [
+      "authentication",
+      "oauth",
+      "strategies",
+      "login"
+    ],
+    "category": "Security"
   }
 ];
