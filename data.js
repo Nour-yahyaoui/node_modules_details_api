@@ -1049,14 +1049,14 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Memory-cache",
-    "description": "Lightweight in-memory cache with simple put/get API and expiration support",
-    "usage": "const cache = require('memory-cache'); cache.put('key', 'value', 60000); const value = cache.get('key');",
+    "title": "Lru-cache",
+    "description": "Least Recently Used cache with configurable max size and TTL for efficient memory management",
+    "usage": "const LRU = require('lru-cache'); const cache = new LRU({ max: 100, ttl: 1000 * 60 }); cache.set('key', 'value'); const value = cache.get('key');",
     "tags": [
       "cache",
+      "lru",
       "memory",
-      "ttl",
-      "simple"
+      "performance"
     ],
     "category": "Performance"
   }
