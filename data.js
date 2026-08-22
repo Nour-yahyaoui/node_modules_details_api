@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 83
-// Last updated: 2026-08-22 05:19:27
+// Total modules: 84
+// Last updated: 2026-08-22 05:19:32
 
 module.exports = [
   {
@@ -997,6 +997,18 @@ module.exports = [
       "embedded",
       "mongodb-like",
       "persistence"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "LevelDB",
+    "description": "Fast key-value store with simple API and support for various backends including LevelDB, RocksDB, and more",
+    "usage": "const { Level } = require('level'); const db = new Level('mydb'); await db.put('key', 'value'); const value = await db.get('key');",
+    "tags": [
+      "database",
+      "key-value",
+      "leveldb",
+      "embedded"
     ],
     "category": "Database"
   }
