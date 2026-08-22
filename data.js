@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 296
-// Last updated: 2026-08-22 05:41:48
+// Total modules: 297
+// Last updated: 2026-08-22 05:41:53
 
 module.exports = [
   {
@@ -3555,5 +3555,17 @@ module.exports = [
       "performance"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Compression Webpack",
+    "description": "Webpack plugin for gzip and brotli compression during build",
+    "usage": "const CompressionPlugin = require('compression-webpack-plugin'); module.exports = { plugins: [new CompressionPlugin({ test: /\\.(js|css)$/ })] };",
+    "tags": [
+      "webpack",
+      "compression",
+      "gzip",
+      "build"
+    ],
+    "category": "Dev Tool"
   }
 ];
