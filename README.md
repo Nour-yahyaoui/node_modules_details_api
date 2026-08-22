@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 6 |
+| Total Libraries | 7 |
 | Categories | CLI/Tool, Dev Tool, Performance, Security, Utility |
 | Last Updated | 2026-08-22 |
 
@@ -32,3 +32,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
+| Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
