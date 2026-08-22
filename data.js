@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 49
-// Last updated: 2026-08-22 16:55:59
+// Last updated: 2026-08-22 16:59:34
 
 module.exports = [
   {
@@ -581,14 +581,14 @@ module.exports = [
     "category": "CLI/Tool"
   },
   {
-    "title": "Moment.js",
-    "description": "Comprehensive date library for parsing, validating, manipulating, and formatting dates with internationalization",
-    "usage": "const moment = require('moment'); const now = moment(); const formatted = now.format('YYYY-MM-DD');",
+    "title": "Sharp",
+    "description": "High-performance image processing with resizing, cropping, format conversion, and image optimization",
+    "usage": "const sharp = require('sharp'); await sharp('input.jpg').resize(300, 300).toFile('output.jpg');",
     "tags": [
-      "date",
-      "time",
-      "datetime",
-      "formatting"
+      "image",
+      "processing",
+      "resize",
+      "conversion"
     ],
     "category": "Utility"
   }
