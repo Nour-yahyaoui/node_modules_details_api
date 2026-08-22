@@ -1049,15 +1049,15 @@ module.exports = [
     "category": "ORM/Database"
   },
   {
-    "title": "Day.js",
-    "description": "Fast 2KB immutable date library alternative to Moment.js with plugin system and locale support",
-    "usage": "const dayjs = require('dayjs'); const now = dayjs(); const formatted = now.format('YYYY-MM-DD');",
+    "title": "Zod",
+    "description": "TypeScript-first schema validation with static type inference, custom validators, and error formatting",
+    "usage": "const z = require('zod'); const schema = z.object({ name: z.string().min(3), age: z.number().positive() }); const parsed = schema.parse({ name: 'John', age: 25 });",
     "tags": [
-      "date",
-      "time",
-      "datetime",
-      "lightweight"
+      "validation",
+      "typescript",
+      "schema",
+      "type-safe"
     ],
-    "category": "Utility"
+    "category": "Validation"
   }
 ];
