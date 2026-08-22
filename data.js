@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 42
-// Last updated: 2026-08-22 16:16:27
+// Last updated: 2026-08-22 16:17:33
 
 module.exports = [
   {
@@ -497,14 +497,14 @@ module.exports = [
     "category": "Testing/Tool"
   },
   {
-    "title": "Playwright",
-    "description": "Browser automation supporting Chromium, Firefox, and WebKit with auto-waiting and modern testing features",
-    "usage": "const { chromium } = require('playwright'); const browser = await chromium.launch(); const page = await browser.newPage();",
+    "title": "Mocha",
+    "description": "Feature-rich test framework for Node.js with async testing, reporting, and flexible assertion support",
+    "usage": "describe('Array', function() { it('should return -1 when value is not present', function() { assert.equal([1,2,3].indexOf(4), -1); }); });",
     "tags": [
-      "automation",
-      "browser",
       "testing",
-      "cross-browser"
+      "unit-test",
+      "async",
+      "reporting"
     ],
     "category": "Testing/Tool"
   }
