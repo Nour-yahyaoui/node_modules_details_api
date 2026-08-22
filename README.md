@@ -39,7 +39,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
-| EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
@@ -72,6 +71,7 @@ This repository contains a growing collection of **Node.js library documentation
 | PM2 | Dev Tool | Production process manager for Node.js with built-in load ba... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
+| Pug | Utility | High-performance template engine with clean, whitespace-sens... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
