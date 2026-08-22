@@ -50,7 +50,6 @@ This repository contains a growing collection of **Node.js library documentation
 | Koa | Web Framework | Modern web framework designed by the Express team with async... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
 | Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
-| Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
 | MongoDB (Native Driver) | Database | Official MongoDB driver with connection pooling, change stre... |
 | Mongoose | ORM/Database | MongoDB object modeling with schema validation, query buildi... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
@@ -66,6 +65,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
+| Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
