@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 74
-// Last updated: 2026-08-22 05:18:33
+// Total modules: 75
+// Last updated: 2026-08-22 05:18:39
 
 module.exports = [
   {
@@ -891,5 +891,17 @@ module.exports = [
       "storage"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Stripe",
+    "description": "Official Stripe API client with support for payments, subscriptions, invoices, and webhook handling",
+    "usage": "const stripe = require('stripe')('sk_test_...'); const paymentIntent = await stripe.paymentIntents.create({ amount: 1000, currency: 'usd' });",
+    "tags": [
+      "payment",
+      "stripe",
+      "subscription",
+      "billing"
+    ],
+    "category": "Payment"
   }
 ];
