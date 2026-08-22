@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 69
-// Last updated: 2026-08-22 17:13:24
+// Total modules: 70
+// Last updated: 2026-08-22 17:13:31
 
 module.exports = [
   {
@@ -829,6 +829,18 @@ module.exports = [
       "stripe",
       "subscription",
       "billing"
+    ],
+    "category": "Payment"
+  },
+  {
+    "title": "PayPal SDK",
+    "description": "PayPal REST API SDK for processing payments, managing subscriptions, and handling transactions",
+    "usage": "const paypal = require('paypal-rest-sdk'); paypal.configure({ mode: 'sandbox', client_id: 'id', client_secret: 'secret' });",
+    "tags": [
+      "payment",
+      "paypal",
+      "billing",
+      "transaction"
     ],
     "category": "Payment"
   }
