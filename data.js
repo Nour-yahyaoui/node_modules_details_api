@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 504
-// Last updated: 2026-08-23 06:06:38
+// Total modules: 505
+// Last updated: 2026-08-23 06:06:44
 
 module.exports = [
   {
@@ -6049,6 +6049,18 @@ module.exports = [
       "typesense",
       "search",
       "full-text"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Algolia",
+    "description": "Algolia plugin for Fastify with search and index management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-algolia'), { appId: 'app-id', apiKey: 'api-key' });",
+    "tags": [
+      "fastify",
+      "algolia",
+      "search",
+      "index"
     ],
     "category": "Database"
   }
