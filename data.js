@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 407
-// Last updated: 2026-08-23 05:53:33
+// Total modules: 408
+// Last updated: 2026-08-23 05:53:40
 
 module.exports = [
   {
@@ -4887,5 +4887,17 @@ module.exports = [
       "validation"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Fastify JWT (Advanced)",
+    "description": "Advanced JWT plugin with refresh tokens and blacklisting",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/jwt'), { secret: 'secret', refreshToken: true });",
+    "tags": [
+      "fastify",
+      "jwt",
+      "refresh",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
