@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 376
-// Last updated: 2026-08-23 05:50:31
+// Total modules: 377
+// Last updated: 2026-08-23 05:50:37
 
 module.exports = [
   {
@@ -4515,5 +4515,17 @@ module.exports = [
       "schema"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Fastify Error Handler",
+    "description": "Custom error handler plugin for Fastify with logging and formatting",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-error-handler'));",
+    "tags": [
+      "fastify",
+      "error",
+      "handling",
+      "logging"
+    ],
+    "category": "Utility"
   }
 ];
