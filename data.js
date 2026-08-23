@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 500
-// Last updated: 2026-08-23 06:06:11
+// Total modules: 501
+// Last updated: 2026-08-23 06:06:17
 
 module.exports = [
   {
@@ -6003,5 +6003,17 @@ module.exports = [
       "data-warehouse"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Fastify OpenSearch",
+    "description": "OpenSearch plugin for Fastify with search and analytics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-opensearch'), { node: 'http://localhost:9200' });",
+    "tags": [
+      "fastify",
+      "opensearch",
+      "search",
+      "analytics"
+    ],
+    "category": "Database"
   }
 ];
