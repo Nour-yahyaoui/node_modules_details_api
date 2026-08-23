@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 479
-// Last updated: 2026-08-23 06:02:09
+// Total modules: 480
+// Last updated: 2026-08-23 06:02:15
 
 module.exports = [
   {
@@ -5749,6 +5749,18 @@ module.exports = [
       "kafka",
       "streaming",
       "events"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify NATS",
+    "description": "NATS messaging plugin for Fastify with pub-sub and request-reply",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-nats'), { servers: ['nats://localhost:4222'] });",
+    "tags": [
+      "fastify",
+      "nats",
+      "messaging",
+      "pubsub"
     ],
     "category": "Real-time"
   }
