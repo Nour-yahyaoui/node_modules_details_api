@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 476
-// Last updated: 2026-08-23 06:01:52
+// Total modules: 477
+// Last updated: 2026-08-23 06:01:58
 
 module.exports = [
   {
@@ -5713,6 +5713,18 @@ module.exports = [
       "node-cron",
       "schedule",
       "cron"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify AMQP",
+    "description": "AMQP/RabbitMQ plugin for Fastify with message publishing and consumption",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-amqp'), { url: 'amqp://localhost' });",
+    "tags": [
+      "fastify",
+      "amqp",
+      "rabbitmq",
+      "queue"
     ],
     "category": "Background Processing"
   }
