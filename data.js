@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 270
-// Last updated: 2026-08-23 05:40:21
+// Total modules: 271
+// Last updated: 2026-08-23 05:40:27
 
 module.exports = [
   {
@@ -3240,6 +3240,18 @@ module.exports = [
       "sequelize",
       "seeders",
       "data",
+      "database"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "TypeORM Relations",
+    "description": "TypeORM entity relations with one-to-one, one-to-many, and many-to-many",
+    "usage": "import { Entity, OneToMany, ManyToOne } from 'typeorm'; @Entity() class User { @OneToMany(() => Post, post => post.user) posts: Post[]; } @Entity() class Post { @ManyToOne(() => User, user => user.posts) user: User; }",
+    "tags": [
+      "typeorm",
+      "relations",
+      "entities",
       "database"
     ],
     "category": "ORM/Database"
