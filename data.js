@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 408
-// Last updated: 2026-08-23 05:53:40
+// Total modules: 409
+// Last updated: 2026-08-23 05:53:45
 
 module.exports = [
   {
@@ -4896,6 +4896,18 @@ module.exports = [
       "fastify",
       "jwt",
       "refresh",
+      "security"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify OTP",
+    "description": "One-time password plugin for Fastify with TOTP and HOTP support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-otp'), { algorithm: 'sha1' });",
+    "tags": [
+      "fastify",
+      "otp",
+      "totp",
       "security"
     ],
     "category": "Security"
