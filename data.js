@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 505
-// Last updated: 2026-08-23 06:06:44
+// Total modules: 506
+// Last updated: 2026-08-23 06:06:50
 
 module.exports = [
   {
@@ -6063,5 +6063,17 @@ module.exports = [
       "index"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Fastify Redis Cache",
+    "description": "Redis cache plugin for Fastify with automatic caching and invalidation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-redis-cache'), { host: 'localhost', ttl: 60 });",
+    "tags": [
+      "fastify",
+      "redis",
+      "cache",
+      "ttl"
+    ],
+    "category": "Performance"
   }
 ];
