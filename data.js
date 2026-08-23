@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 412
-// Last updated: 2026-08-23 05:54:04
+// Total modules: 413
+// Last updated: 2026-08-23 05:54:10
 
 module.exports = [
   {
@@ -4945,6 +4945,18 @@ module.exports = [
       "argon2",
       "hash",
       "security"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Crypto",
+    "description": "Crypto utilities plugin for Fastify with AES and random generation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-crypto'), { algorithm: 'aes-256-cbc' });",
+    "tags": [
+      "fastify",
+      "crypto",
+      "encryption",
+      "random"
     ],
     "category": "Security"
   }
