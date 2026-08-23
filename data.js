@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 454
-// Last updated: 2026-08-23 05:58:35
+// Last updated: 2026-08-23 05:59:37
 
 module.exports = [
   {
@@ -5441,15 +5441,15 @@ module.exports = [
     "category": "Utility"
   },
   {
-    "title": "Fastify CSS",
-    "description": "CSS processing plugin for Fastify with minification and compilation",
-    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-css'), { minify: true });",
+    "title": "Fastify JSX",
+    "description": "JSX rendering plugin for Fastify with React support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-jsx'), { });",
     "tags": [
       "fastify",
-      "css",
-      "minify",
-      "compilation"
+      "jsx",
+      "react",
+      "render"
     ],
-    "category": "Dev Tool"
+    "category": "Utility"
   }
 ];
