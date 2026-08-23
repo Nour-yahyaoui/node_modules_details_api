@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 306
-// Last updated: 2026-08-23 05:43:47
+// Total modules: 307
+// Last updated: 2026-08-23 05:43:52
 
 module.exports = [
   {
@@ -3673,6 +3673,18 @@ module.exports = [
       "binary",
       "encoding",
       "hex"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "ArrayBuffer",
+    "description": "ArrayBuffer and TypedArray utilities for binary data",
+    "usage": "const buffer = new ArrayBuffer(8); const view = new DataView(buffer); view.setInt32(0, 42);",
+    "tags": [
+      "arraybuffer",
+      "typedarray",
+      "binary",
+      "data"
     ],
     "category": "Utility"
   }
