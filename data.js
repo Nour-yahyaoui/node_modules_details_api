@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 458
-// Last updated: 2026-08-23 06:00:01
+// Total modules: 459
+// Last updated: 2026-08-23 06:00:07
 
 module.exports = [
   {
@@ -5495,6 +5495,18 @@ module.exports = [
     "tags": [
       "fastify",
       "svelte",
+      "ssr",
+      "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Solid",
+    "description": "Solid.js rendering plugin for Fastify with SSR support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-solid'), { ssr: true });",
+    "tags": [
+      "fastify",
+      "solid",
       "ssr",
       "render"
     ],
