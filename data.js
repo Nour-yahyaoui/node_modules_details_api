@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 486
-// Last updated: 2026-08-23 06:03:06
+// Total modules: 487
+// Last updated: 2026-08-23 06:03:14
 
 module.exports = [
   {
@@ -5833,6 +5833,18 @@ module.exports = [
       "s3",
       "aws",
       "storage"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify SES",
+    "description": "AWS SES plugin for Fastify with email sending and receiving",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ses'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "ses",
+      "aws",
+      "email"
     ],
     "category": "Cloud"
   }
