@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 499 |
+| Total Libraries | 500 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-23 |
 
@@ -230,6 +230,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify RDS | Cloud | AWS RDS plugin for Fastify with database connection manageme... |
 | Fastify React | Utility | React rendering plugin for Fastify with hydration support |
 | Fastify Redis | Database | Redis plugin for Fastify with connection pooling and command... |
+| Fastify Redshift | Cloud | AWS Redshift plugin for Fastify with data warehousing |
 | Fastify Reply From | HTTP Client | HTTP proxy plugin for Fastify with request forwarding and re... |
 | Fastify Request Context | Utility | Request context plugin for Fastify with async storage and lo... |
 | Fastify Response Validation | Validation | Response validation plugin for Fastify with schema checking |
