@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 473
-// Last updated: 2026-08-23 06:01:34
+// Total modules: 474
+// Last updated: 2026-08-23 06:01:41
 
 module.exports = [
   {
@@ -5675,6 +5675,18 @@ module.exports = [
     "tags": [
       "fastify",
       "bull",
+      "queue",
+      "jobs"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify BullMQ",
+    "description": "BullMQ queue integration for Fastify with advanced job features",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-bullmq'), { redis: { host: 'localhost' } });",
+    "tags": [
+      "fastify",
+      "bullmq",
       "queue",
       "jobs"
     ],
