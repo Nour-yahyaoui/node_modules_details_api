@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 83
-// Last updated: 2026-08-23 05:20:56
+// Total modules: 84
+// Last updated: 2026-08-23 05:21:02
 
 module.exports = [
   {
@@ -999,5 +999,17 @@ module.exports = [
       "recurring"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "NeDB",
+    "description": "Pure JavaScript database with MongoDB-like API for embedded applications with persistence",
+    "usage": "const Datastore = require('nedb'); const db = new Datastore({ filename: 'data.db', autoload: true }); db.insert({ name: 'John' });",
+    "tags": [
+      "database",
+      "embedded",
+      "mongodb-like",
+      "persistence"
+    ],
+    "category": "Database"
   }
 ];
