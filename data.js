@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 414
-// Last updated: 2026-08-23 05:54:15
+// Total modules: 415
+// Last updated: 2026-08-23 05:54:23
 
 module.exports = [
   {
@@ -4969,6 +4969,18 @@ module.exports = [
       "uuid",
       "generate",
       "identifier"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Nanoid",
+    "description": "NanoID generation plugin for Fastify with custom alphabet",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-nanoid'), { length: 10 });",
+    "tags": [
+      "fastify",
+      "nanoid",
+      "id",
+      "generate"
     ],
     "category": "Utility"
   }
