@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 503
-// Last updated: 2026-08-23 06:06:30
+// Total modules: 504
+// Last updated: 2026-08-23 06:06:38
 
 module.exports = [
   {
@@ -6037,6 +6037,18 @@ module.exports = [
       "meilisearch",
       "search",
       "typo-tolerance"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Typesense",
+    "description": "Typesense plugin for Fastify with full-text search and faceting",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-typesense'), { nodes: [{ host: 'localhost', port: '8108' }] });",
+    "tags": [
+      "fastify",
+      "typesense",
+      "search",
+      "full-text"
     ],
     "category": "Database"
   }
