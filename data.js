@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 263
-// Last updated: 2026-08-23 05:39:42
+// Total modules: 264
+// Last updated: 2026-08-23 05:39:48
 
 module.exports = [
   {
@@ -3157,6 +3157,18 @@ module.exports = [
       "typescript",
       "mongodb",
       "decorators"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Bookshelf Relations",
+    "description": "Bookshelf.js model relations with eager loading and nested eager fetching",
+    "usage": "const User = bookshelf.model('User', { tableName: 'users', posts() { return this.hasMany('Post'); } }); const user = await User.where('id', 1).fetch({ withRelated: ['posts'] });",
+    "tags": [
+      "bookshelf",
+      "relations",
+      "eager-loading",
+      "orm"
     ],
     "category": "ORM/Database"
   }
