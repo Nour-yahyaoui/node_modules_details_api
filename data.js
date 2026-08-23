@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 475
-// Last updated: 2026-08-23 06:01:47
+// Total modules: 476
+// Last updated: 2026-08-23 06:01:52
 
 module.exports = [
   {
@@ -5701,6 +5701,18 @@ module.exports = [
       "agenda",
       "jobs",
       "schedule"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify Node Cron",
+    "description": "Node-cron integration for Fastify with cron schedule support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-node-cron'), { });",
+    "tags": [
+      "fastify",
+      "node-cron",
+      "schedule",
+      "cron"
     ],
     "category": "Background Processing"
   }
