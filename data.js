@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 416
-// Last updated: 2026-08-23 05:54:33
+// Total modules: 417
+// Last updated: 2026-08-23 05:54:39
 
 module.exports = [
   {
@@ -4993,6 +4993,18 @@ module.exports = [
       "slug",
       "generate",
       "url"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Normalize",
+    "description": "String normalization plugin for Fastify with unicode and case handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-normalize'), { case: 'lower' });",
+    "tags": [
+      "fastify",
+      "normalize",
+      "string",
+      "unicode"
     ],
     "category": "Utility"
   }
