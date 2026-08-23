@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 363
-// Last updated: 2026-08-23 05:49:18
+// Total modules: 364
+// Last updated: 2026-08-23 05:49:24
 
 module.exports = [
   {
@@ -4359,5 +4359,17 @@ module.exports = [
       "status"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Request Context",
+    "description": "Request context plugin for Fastify with async storage and logging",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/request-context'), { defaultStoreValues: { user: null } });",
+    "tags": [
+      "fastify",
+      "context",
+      "async",
+      "logging"
+    ],
+    "category": "Utility"
   }
 ];
