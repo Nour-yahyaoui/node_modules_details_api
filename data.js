@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 461
-// Last updated: 2026-08-23 06:00:19
+// Total modules: 462
+// Last updated: 2026-08-23 06:00:26
 
 module.exports = [
   {
@@ -5533,6 +5533,18 @@ module.exports = [
       "htmx",
       "dynamic",
       "html"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Alpine",
+    "description": "Alpine.js integration plugin for Fastify with dynamic UI",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-alpine'), { });",
+    "tags": [
+      "fastify",
+      "alpine",
+      "dynamic",
+      "ui"
     ],
     "category": "Utility"
   }
