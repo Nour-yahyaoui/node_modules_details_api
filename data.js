@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 266
-// Last updated: 2026-08-23 05:39:59
+// Total modules: 267
+// Last updated: 2026-08-23 05:40:05
 
 module.exports = [
   {
@@ -3193,6 +3193,18 @@ module.exports = [
       "validations",
       "models",
       "database"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize Hooks",
+    "description": "Sequelize lifecycle hooks for beforeCreate, afterUpdate, and beforeDestroy",
+    "usage": "const User = sequelize.define('User', { name: DataTypes.STRING }, { hooks: { beforeCreate: (user) => { user.name = user.name.trim(); } } });",
+    "tags": [
+      "sequelize",
+      "hooks",
+      "lifecycle",
+      "middleware"
     ],
     "category": "ORM/Database"
   }
