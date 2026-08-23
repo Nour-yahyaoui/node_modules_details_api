@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 387
-// Last updated: 2026-08-23 05:51:34
+// Total modules: 388
+// Last updated: 2026-08-23 05:51:40
 
 module.exports = [
   {
@@ -4647,5 +4647,17 @@ module.exports = [
       "scaffold"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Fastify OpenAPI",
+    "description": "OpenAPI document generation for Fastify with full spec support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/openapi'));",
+    "tags": [
+      "fastify",
+      "openapi",
+      "documentation",
+      "spec"
+    ],
+    "category": "Dev Tool"
   }
 ];
