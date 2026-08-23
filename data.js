@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 431
-// Last updated: 2026-08-23 05:56:01
+// Total modules: 432
+// Last updated: 2026-08-23 05:56:06
 
 module.exports = [
   {
@@ -5173,6 +5173,18 @@ module.exports = [
       "yaml",
       "parse",
       "schema"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify TOML",
+    "description": "TOML parsing and generation plugin for Fastify",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-toml'), { });",
+    "tags": [
+      "fastify",
+      "toml",
+      "parse",
+      "generate"
     ],
     "category": "Utility"
   }
