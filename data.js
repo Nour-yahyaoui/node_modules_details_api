@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 463
-// Last updated: 2026-08-23 06:00:31
+// Total modules: 464
+// Last updated: 2026-08-23 06:00:39
 
 module.exports = [
   {
@@ -5559,5 +5559,17 @@ module.exports = [
       "build"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Bootstrap",
+    "description": "Bootstrap integration plugin for Fastify with components",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-bootstrap'), { });",
+    "tags": [
+      "fastify",
+      "bootstrap",
+      "css",
+      "components"
+    ],
+    "category": "Utility"
   }
 ];
