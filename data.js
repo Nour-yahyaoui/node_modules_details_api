@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 466
-// Last updated: 2026-08-23 06:00:52
+// Total modules: 467
+// Last updated: 2026-08-23 06:00:59
 
 module.exports = [
   {
@@ -5593,6 +5593,18 @@ module.exports = [
       "material",
       "design",
       "components"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Font Awesome",
+    "description": "Font Awesome integration plugin for Fastify with icons",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-font-awesome'), { });",
+    "tags": [
+      "fastify",
+      "font-awesome",
+      "icons",
+      "font"
     ],
     "category": "Utility"
   }
