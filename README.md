@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 479 |
+| Total Libraries | 480 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-08-23 |
 
@@ -200,6 +200,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify MQTT | Real-time | MQTT plugin for Fastify with publish-subscribe messaging |
 | Fastify MySQL | Database | MySQL plugin for Fastify with connection management and quer... |
 | Fastify Nanoid | Utility | NanoID generation plugin for Fastify with custom alphabet |
+| Fastify NATS | Real-time | NATS messaging plugin for Fastify with pub-sub and request-r... |
 | Fastify Node Cron | Background Processing | Node-cron integration for Fastify with cron schedule support |
 | Fastify Normalize | Utility | String normalization plugin for Fastify with unicode and cas... |
 | Fastify Notifications | Utility | Push notification plugin for Fastify with WebPush and Fireba... |
