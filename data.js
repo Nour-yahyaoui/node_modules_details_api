@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 286
-// Last updated: 2026-08-23 05:41:52
+// Total modules: 287
+// Last updated: 2026-08-23 05:41:58
 
 module.exports = [
   {
@@ -3433,6 +3433,18 @@ module.exports = [
       "aggregation",
       "expressions",
       "pipeline"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "LowDB Plugins",
+    "description": "LowDB plugins for encryption, compression, and custom adapters",
+    "usage": "const low = require('lowdb'); const FileSync = require('lowdb/adapters/FileSync'); const adapter = new FileSync('db.json'); const db = low(adapter); db.defaults({ posts: [] }).write(); db._.mixin({ myPlugin: (data) => { return data.map(item => ({ ...item, processed: true })); } });",
+    "tags": [
+      "lowdb",
+      "plugins",
+      "adapters",
+      "database"
     ],
     "category": "Database"
   }
