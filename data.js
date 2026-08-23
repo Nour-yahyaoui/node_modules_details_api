@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 179
-// Last updated: 2026-08-23 05:31:21
+// Total modules: 180
+// Last updated: 2026-08-23 05:31:29
 
 module.exports = [
   {
@@ -2151,5 +2151,17 @@ module.exports = [
       "storage"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Directus",
+    "description": "Headless CMS with REST and GraphQL APIs, authentication, and content management",
+    "usage": "const { createDirectus, rest } = require('@directus/sdk'); const client = createDirectus('https://api.example.com').with(rest());",
+    "tags": [
+      "cms",
+      "headless",
+      "api",
+      "content"
+    ],
+    "category": "Utility"
   }
 ];
