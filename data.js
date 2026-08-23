@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 484
-// Last updated: 2026-08-23 06:02:44
+// Total modules: 485
+// Last updated: 2026-08-23 06:02:51
 
 module.exports = [
   {
@@ -5809,6 +5809,18 @@ module.exports = [
       "lambda",
       "aws",
       "serverless"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify DynamoDB",
+    "description": "DynamoDB plugin for Fastify with table operations and queries",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-dynamodb'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "dynamodb",
+      "aws",
+      "database"
     ],
     "category": "Cloud"
   }
