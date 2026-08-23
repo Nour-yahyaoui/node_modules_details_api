@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 462
-// Last updated: 2026-08-23 06:00:26
+// Total modules: 463
+// Last updated: 2026-08-23 06:00:31
 
 module.exports = [
   {
@@ -5547,5 +5547,17 @@ module.exports = [
       "ui"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Tailwind",
+    "description": "Tailwind CSS integration plugin for Fastify with build-time processing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-tailwind'), { content: ['./views/**/*.html'] });",
+    "tags": [
+      "fastify",
+      "tailwind",
+      "css",
+      "build"
+    ],
+    "category": "Dev Tool"
   }
 ];
