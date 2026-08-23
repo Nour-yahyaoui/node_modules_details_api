@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 455
-// Last updated: 2026-08-23 05:59:43
+// Total modules: 456
+// Last updated: 2026-08-23 05:59:49
 
 module.exports = [
   {
@@ -5460,6 +5460,18 @@ module.exports = [
       "fastify",
       "vue",
       "ssr",
+      "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify React",
+    "description": "React rendering plugin for Fastify with hydration support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-react'), { hydrate: true });",
+    "tags": [
+      "fastify",
+      "react",
+      "hydrate",
       "render"
     ],
     "category": "Utility"
