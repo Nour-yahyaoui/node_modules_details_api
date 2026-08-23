@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 271
-// Last updated: 2026-08-23 05:40:27
+// Total modules: 272
+// Last updated: 2026-08-23 05:40:33
 
 module.exports = [
   {
@@ -3253,6 +3253,18 @@ module.exports = [
       "relations",
       "entities",
       "database"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "TypeORM Migrations",
+    "description": "TypeORM migration system with generate, run, and revert commands",
+    "usage": "npx typeorm migration:generate -n CreateUsers && npx typeorm migration:run",
+    "tags": [
+      "typeorm",
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
