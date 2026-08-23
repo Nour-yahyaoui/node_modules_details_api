@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 96
-// Last updated: 2026-08-23 05:22:28
+// Total modules: 97
+// Last updated: 2026-08-23 05:22:34
 
 module.exports = [
   {
@@ -1153,6 +1153,18 @@ module.exports = [
       "api",
       "retry",
       "promises"
+    ],
+    "category": "HTTP Client"
+  },
+  {
+    "title": "Node-fetch",
+    "description": "Lightweight HTTP client that brings window.fetch to Node.js with native promise support",
+    "usage": "const fetch = require('node-fetch'); const response = await fetch('https://api.example.com/data'); const data = await response.json();",
+    "tags": [
+      "http",
+      "fetch",
+      "promises",
+      "api"
     ],
     "category": "HTTP Client"
   }
