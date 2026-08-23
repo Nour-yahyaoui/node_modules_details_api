@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 506
-// Last updated: 2026-08-23 06:06:50
+// Total modules: 507
+// Last updated: 2026-08-23 06:06:56
 
 module.exports = [
   {
@@ -6073,6 +6073,18 @@ module.exports = [
       "redis",
       "cache",
       "ttl"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Memory Cache",
+    "description": "In-memory cache plugin for Fastify with LRU and TTL support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-memory-cache'), { max: 1000, ttl: 60 });",
+    "tags": [
+      "fastify",
+      "cache",
+      "memory",
+      "lru"
     ],
     "category": "Performance"
   }
