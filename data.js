@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 468
-// Last updated: 2026-08-23 06:01:05
+// Total modules: 469
+// Last updated: 2026-08-23 06:01:11
 
 module.exports = [
   {
@@ -5617,6 +5617,18 @@ module.exports = [
       "icons",
       "material",
       "font-awesome"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Emoji",
+    "description": "Emoji support plugin for Fastify with Unicode and shortcode conversion",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-emoji'), { });",
+    "tags": [
+      "fastify",
+      "emoji",
+      "unicode",
+      "shortcode"
     ],
     "category": "Utility"
   }
