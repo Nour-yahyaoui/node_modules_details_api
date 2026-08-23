@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 510
-// Last updated: 2026-08-23 06:07:14
+// Total modules: 511
+// Last updated: 2026-08-23 06:07:20
 
 module.exports = [
   {
@@ -6121,6 +6121,18 @@ module.exports = [
       "cdn",
       "assets",
       "optimization"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Edge",
+    "description": "Edge computing plugin for Fastify with CDN and cloudflare workers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-edge'), { });",
+    "tags": [
+      "fastify",
+      "edge",
+      "cdn",
+      "cloudflare"
     ],
     "category": "Performance"
   }
