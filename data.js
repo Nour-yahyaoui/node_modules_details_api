@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:38:21
+// Last updated: 2026-08-24 20:38:22
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Ajv",
-    "description": "Fast JSON schema validator with support for draft-04, draft-06, and custom keywords",
-    "usage": "const Ajv = require('ajv'); const ajv = new Ajv(); const validate = ajv.compile({ type: 'string', minLength: 3 }); const valid = validate('abc');",
+    "title": "Class-validator",
+    "description": "Validation using decorators for TypeScript classes with support for nested validation and groups",
+    "usage": "import { IsString, MinLength, IsNumber } from 'class-validator'; class User { @IsString() @MinLength(3) name: string; @IsNumber() age: number; }",
     "tags": [
       "validation",
-      "json-schema",
-      "fast",
-      "schema"
+      "typescript",
+      "decorators",
+      "classes"
     ],
     "category": "Validation"
   }
