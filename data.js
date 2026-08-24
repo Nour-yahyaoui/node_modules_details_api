@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:20
+// Last updated: 2026-08-25 00:39:21
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Listr",
-    "description": "Task runner for CLI with interactive progress, subtasks, and error handling",
-    "usage": "const Listr = require('listr'); const tasks = new Listr([{ title: 'Task 1', task: () => Promise.resolve() }]); await tasks.run();",
+    "title": "Execa",
+    "description": "Improved child_process with promises, buffer limits, and cross-platform command execution",
+    "usage": "const execa = require('execa'); const { stdout } = await execa('echo', ['Hello World']); console.log(stdout);",
     "tags": [
-      "cli",
-      "tasks",
-      "progress",
-      "interactive"
+      "child_process",
+      "exec",
+      "promises",
+      "cross-platform"
     ],
-    "category": "CLI/Tool"
+    "category": "Utility"
   }
 ];
