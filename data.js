@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Gulp",
-    "description": "Task runner for automation with streams, plugins, and incremental builds",
-    "usage": "const gulp = require('gulp'); gulp.task('default', () => { return gulp.src('src/*.js').pipe(gulp.dest('dist')); });",
+    "title": "Grunt",
+    "description": "Task runner with extensive plugin ecosystem for build automation and workflow management",
+    "usage": "module.exports = function(grunt) { grunt.registerTask('default', ['uglify']); }",
     "tags": [
       "task-runner",
       "build",
       "automation",
-      "streams"
+      "plugins"
     ],
     "category": "Dev Tool"
   }
