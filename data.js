@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:37:24
+// Last updated: 2026-08-25 00:37:25
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Testcontainers",
-    "description": "Docker container management for tests with database, message broker, and service containers",
-    "usage": "const { GenericContainer } = require('testcontainers'); const container = await new GenericContainer('postgres:13').start();",
+    "title": "Faker",
+    "description": "Generate massive amounts of fake data including names, emails, addresses, and custom types",
+    "usage": "const { faker } = require('@faker-js/faker'); const name = faker.person.fullName(); const email = faker.internet.email();",
     "tags": [
-      "testing",
-      "docker",
-      "containers",
-      "integration"
+      "data",
+      "fake",
+      "seeding",
+      "testing"
     ],
     "category": "Testing/Tool"
   }
