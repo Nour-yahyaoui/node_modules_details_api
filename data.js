@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:17
+// Last updated: 2026-08-25 00:39:18
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Pino-pretty",
-    "description": "Pretty logger for Pino with colorized output, human-readable timestamps, and log formatting",
-    "usage": "const pino = require('pino'); const logger = pino({ transport: { target: 'pino-pretty' } }); logger.info('Hello World');",
+    "title": "Bunyan",
+    "description": "JSON logging library with CLI, ring buffer, and rotation support for Node.js applications",
+    "usage": "const bunyan = require('bunyan'); const logger = bunyan.createLogger({ name: 'myapp' }); logger.info({ user: 'john' }, 'User logged in');",
     "tags": [
       "logging",
-      "pino",
-      "pretty",
-      "console"
+      "json",
+      "bunyan",
+      "debug"
     ],
     "category": "Logging"
   }
