@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Roarr",
-    "description": "JSON logger with built-in filtering, child loggers, and context propagation",
-    "usage": "const ROARR = require('roarr'); const log = ROARR.child({ context: 'user-service' }); log.info({ user: 'john' }, 'User created');",
+    "title": "Yargs",
+    "description": "Sophisticated CLI argument parser with command handling, help generation, and validation",
+    "usage": "const yargs = require('yargs'); const argv = yargs.option('port', { alias: 'p', type: 'number', default: 3000 }).argv;",
     "tags": [
-      "logging",
-      "json",
-      "context",
-      "child"
+      "cli",
+      "arguments",
+      "parsing",
+      "commands"
     ],
-    "category": "Logging"
+    "category": "CLI/Tool"
   }
 ];
