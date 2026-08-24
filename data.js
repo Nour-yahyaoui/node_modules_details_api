@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:21
+// Last updated: 2026-08-25 00:39:22
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Shelljs",
-    "description": "Cross-platform shell commands with Unix-like syntax for Node.js applications",
-    "usage": "const shell = require('shelljs'); shell.cd('project'); if (!shell.which('git')) shell.echo('Git not found');",
+    "title": "Glob",
+    "description": "Pattern matching for files using glob syntax with sync and async matching options",
+    "usage": "const glob = require('glob'); const files = glob.sync('src/**/*.js'); console.log(files);",
     "tags": [
-      "shell",
-      "commands",
-      "cross-platform",
-      "unix"
+      "files",
+      "pattern",
+      "matching",
+      "glob"
     ],
     "category": "Utility"
   }
