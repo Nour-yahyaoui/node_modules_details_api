@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Sails.js",
-    "description": "MVC framework for building custom, enterprise-grade Node.js applications with real-time features",
-    "usage": "module.exports = { index: async function(req, res) { return res.send('Hello World'); } }",
+    "title": "LoopBack",
+    "description": "API framework for creating RESTful APIs with built-in models, relations, and authentication",
+    "usage": "const { Application } = require('@loopback/core'); const app = new Application(); app.route('get', '/', async () => 'Hello World');",
     "tags": [
-      "web",
+      "api",
       "framework",
-      "mvc",
-      "real-time"
+      "rest",
+      "loopback"
     ],
     "category": "Web Framework"
   }
