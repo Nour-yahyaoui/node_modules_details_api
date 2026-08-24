@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:22
+// Last updated: 2026-08-25 01:18:41
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Glob",
-    "description": "Pattern matching for files using glob syntax with sync and async matching options",
-    "usage": "const glob = require('glob'); const files = glob.sync('src/**/*.js'); console.log(files);",
+    "title": "Chokidar",
+    "description": "File watching library with cross-platform support, event handling, and ignore patterns",
+    "usage": "const chokidar = require('chokidar'); const watcher = chokidar.watch('src/**/*.js'); watcher.on('change', path => console.log(`File ${path} changed`));",
     "tags": [
-      "files",
-      "pattern",
-      "matching",
-      "glob"
+      "file",
+      "watch",
+      "fs",
+      "events"
     ],
     "category": "Utility"
   }
