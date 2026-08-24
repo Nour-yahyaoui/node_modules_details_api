@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Node-emoji",
-    "description": "Emoji support with conversion between emoji names, characters, and Unicode representations",
-    "usage": "const emoji = require('node-emoji'); console.log(emoji.emojify('I :heart: Node.js')); console.log(emoji.get('heart'));",
+    "title": "Oclif",
+    "description": "CLI framework for building command-line tools with plugins, commands, and flags",
+    "usage": "const { Command } = require('@oclif/core'); class HelloCommand extends Command { async run() { this.log('Hello World'); } }",
     "tags": [
-      "emoji",
-      "unicode",
-      "conversion",
-      "unicode"
+      "cli",
+      "framework",
+      "commands",
+      "plugins"
     ],
-    "category": "Utility"
+    "category": "CLI/Tool"
   }
 ];
