@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:42
+// Last updated: 2026-08-25 01:18:43
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Archiver",
-    "description": "Create ZIP and TAR archives with compression, stream support, and file entry management",
-    "usage": "const archiver = require('archiver'); const archive = archiver('zip'); archive.directory('src', false); archive.pipe(fs.createWriteStream('output.zip')); await archive.finalize();",
+    "title": "Extract-zip",
+    "description": "Extract ZIP archives with progress reporting, file filtering, and directory structure preservation",
+    "usage": "const extract = require('extract-zip'); await extract('archive.zip', { dir: 'output' });",
     "tags": [
       "zip",
       "archive",
-      "compression",
-      "tar"
+      "extract",
+      "compression"
     ],
     "category": "Utility"
   }
