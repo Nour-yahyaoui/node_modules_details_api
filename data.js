@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Nock",
-    "description": "HTTP mocking library for testing with interception, recording, and custom responses",
-    "usage": "const nock = require('nock'); nock('https://api.example.com').get('/users').reply(200, { users: [] });",
+    "title": "Testcontainers",
+    "description": "Docker container management for tests with database, message broker, and service containers",
+    "usage": "const { GenericContainer } = require('testcontainers'); const container = await new GenericContainer('postgres:13').start();",
     "tags": [
       "testing",
-      "mock",
-      "http",
-      "interception"
+      "docker",
+      "containers",
+      "integration"
     ],
     "category": "Testing/Tool"
   }
