@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Execa",
-    "description": "Improved child_process with promises, buffer limits, and cross-platform command execution",
-    "usage": "const execa = require('execa'); const { stdout } = await execa('echo', ['Hello World']); console.log(stdout);",
+    "title": "Shelljs",
+    "description": "Cross-platform shell commands with Unix-like syntax for Node.js applications",
+    "usage": "const shell = require('shelljs'); shell.cd('project'); if (!shell.which('git')) shell.echo('Git not found');",
     "tags": [
-      "child_process",
-      "exec",
-      "promises",
-      "cross-platform"
+      "shell",
+      "commands",
+      "cross-platform",
+      "unix"
     ],
     "category": "Utility"
   }
