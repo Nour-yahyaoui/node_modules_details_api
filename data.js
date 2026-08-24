@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Class-validator",
-    "description": "Validation using decorators for TypeScript classes with support for nested validation and groups",
-    "usage": "import { IsString, MinLength, IsNumber } from 'class-validator'; class User { @IsString() @MinLength(3) name: string; @IsNumber() age: number; }",
+    "title": "NestJS/Passport",
+    "description": "Passport module for NestJS providing authentication strategies and guards for GraphQL and REST APIs",
+    "usage": "import { AuthGuard } from '@nestjs/passport'; @UseGuards(AuthGuard('jwt')) @Get('profile') getProfile(@Request() req) { return req.user; }",
     "tags": [
-      "validation",
-      "typescript",
-      "decorators",
-      "classes"
+      "nestjs",
+      "authentication",
+      "passport",
+      "guards"
     ],
-    "category": "Validation"
+    "category": "Web Framework"
   }
 ];
