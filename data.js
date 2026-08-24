@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:33:27
+// Last updated: 2026-08-24 20:33:28
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Luxon",
-    "description": "Powerful date and time library with immutable objects, durations, and interval support",
-    "usage": "const { DateTime } = require('luxon'); const now = DateTime.now(); const formatted = now.toFormat('yyyy-MM-dd HH:mm:ss');",
+    "title": "Day.js",
+    "description": "Fast 2KB immutable date library alternative to Moment.js with plugin system and locale support",
+    "usage": "const dayjs = require('dayjs'); const now = dayjs(); const formatted = now.format('YYYY-MM-DD');",
     "tags": [
       "date",
       "time",
       "datetime",
-      "immutable"
+      "lightweight"
     ],
     "category": "Utility"
   }
