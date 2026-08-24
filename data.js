@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:37:25
+// Last updated: 2026-08-25 00:39:17
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Faker",
-    "description": "Generate massive amounts of fake data including names, emails, addresses, and custom types",
-    "usage": "const { faker } = require('@faker-js/faker'); const name = faker.person.fullName(); const email = faker.internet.email();",
+    "title": "Factory-girl",
+    "description": "Factory library for creating test objects with default attributes and associations",
+    "usage": "const factory = require('factory-girl'); factory.define('user', User, { name: 'John', email: 'john@example.com' }); const user = await factory.create('user');",
     "tags": [
-      "data",
-      "fake",
+      "testing",
+      "factories",
       "seeding",
-      "testing"
+      "data"
     ],
     "category": "Testing/Tool"
   }
