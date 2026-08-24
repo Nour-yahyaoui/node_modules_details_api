@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:38:23
+// Last updated: 2026-08-24 20:38:24
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "AdonisJS",
-    "description": "Full-stack MVC framework with ORM, authentication, and everything needed for building web applications",
-    "usage": "const Route = use('Route'); Route.get('/', () => { return 'Hello World'; });",
+    "title": "Sails.js",
+    "description": "MVC framework for building custom, enterprise-grade Node.js applications with real-time features",
+    "usage": "module.exports = { index: async function(req, res) { return res.send('Hello World'); } }",
     "tags": [
       "web",
       "framework",
       "mvc",
-      "full-stack"
+      "real-time"
     ],
     "category": "Web Framework"
   }
