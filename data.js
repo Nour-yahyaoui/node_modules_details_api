@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Yup",
-    "description": "Object schema validation with async support, conditional validation, and custom error messages",
-    "usage": "const yup = require('yup'); const schema = yup.object({ name: yup.string().required(), age: yup.number().positive() }); const valid = await schema.isValid({ name: 'John', age: 25 });",
+    "title": "Ajv",
+    "description": "Fast JSON schema validator with support for draft-04, draft-06, and custom keywords",
+    "usage": "const Ajv = require('ajv'); const ajv = new Ajv(); const validate = ajv.compile({ type: 'string', minLength: 3 }); const valid = validate('abc');",
     "tags": [
       "validation",
-      "schema",
-      "async",
-      "errors"
+      "json-schema",
+      "fast",
+      "schema"
     ],
     "category": "Validation"
   }
