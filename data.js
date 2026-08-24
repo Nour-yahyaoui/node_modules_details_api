@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:45
+// Last updated: 2026-08-25 01:18:46
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Grunt",
-    "description": "Task runner with extensive plugin ecosystem for build automation and workflow management",
-    "usage": "module.exports = function(grunt) { grunt.registerTask('default', ['uglify']); }",
+    "title": "Babel",
+    "description": "JavaScript compiler for transforming ES6+ code into backward-compatible JavaScript versions",
+    "usage": "npx babel src --out-dir dist",
     "tags": [
-      "task-runner",
-      "build",
-      "automation",
-      "plugins"
+      "transpiler",
+      "babel",
+      "es6",
+      "compiler"
     ],
     "category": "Dev Tool"
   }
