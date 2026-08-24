@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:23:56
+// Last updated: 2026-08-25 00:37:21
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "GraphQL-WS",
-    "description": "GraphQL over WebSocket protocol implementation for real-time subscriptions with GraphQL",
-    "usage": "const { useServer } = require('graphql-ws/lib/use/ws'); const server = useServer({ schema }, wsServer);",
+    "title": "JSON GraphQL Server",
+    "description": "Zero-config GraphQL server that automatically generates CRUD operations from JSON data",
+    "usage": "const jsonGraphqlServer = require('json-graphql-server'); const server = jsonGraphqlServer({ posts: [{ id: 1, title: 'Hello' }] });",
     "tags": [
       "graphql",
-      "websocket",
-      "subscriptions",
-      "realtime"
+      "json",
+      "crud",
+      "mock"
     ],
     "category": "API"
   }
