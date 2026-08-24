@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:41
+// Last updated: 2026-08-25 01:18:42
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Chokidar",
-    "description": "File watching library with cross-platform support, event handling, and ignore patterns",
-    "usage": "const chokidar = require('chokidar'); const watcher = chokidar.watch('src/**/*.js'); watcher.on('change', path => console.log(`File ${path} changed`));",
+    "title": "Ncp",
+    "description": "Copy files and directories recursively with options for overwrite, filtering, and preserving permissions",
+    "usage": "const ncp = require('ncp'); ncp('src', 'dist', { stopOnErr: true }, err => { if (err) console.error(err); });",
     "tags": [
       "file",
-      "watch",
-      "fs",
-      "events"
+      "copy",
+      "recursive",
+      "fs"
     ],
     "category": "Utility"
   }
