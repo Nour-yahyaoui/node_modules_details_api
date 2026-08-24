@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:33:23
+// Last updated: 2026-08-24 20:33:24
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Crypto-js",
-    "description": "Pure JavaScript cryptographic library with AES, SHA, HMAC, and other encryption algorithms",
-    "usage": "const CryptoJS = require('crypto-js'); const encrypted = CryptoJS.AES.encrypt('message', 'secret').toString(); const decrypted = CryptoJS.AES.decrypt(encrypted, 'secret').toString(CryptoJS.enc.Utf8);",
+    "title": "Node-cache",
+    "description": "Simple in-memory caching with TTL support, statistics, and key management for Node.js applications",
+    "usage": "const NodeCache = require('node-cache'); const cache = new NodeCache({ stdTTL: 60 }); cache.set('key', 'value'); const value = cache.get('key');",
     "tags": [
-      "encryption",
-      "crypto",
-      "aes",
-      "hash"
+      "cache",
+      "memory",
+      "ttl",
+      "performance"
     ],
-    "category": "Security"
+    "category": "Performance"
   }
 ];
