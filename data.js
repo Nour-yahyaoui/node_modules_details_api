@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:23:55
+// Last updated: 2026-08-25 00:23:56
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Ably",
-    "description": "Real-time messaging platform with WebSocket and REST APIs, presence, and message history",
-    "usage": "const ably = require('ably'); const client = new ably.Realtime('apiKey'); const channel = client.channels.get('channel'); channel.publish('event', { message: 'Hello' });",
+    "title": "GraphQL-WS",
+    "description": "GraphQL over WebSocket protocol implementation for real-time subscriptions with GraphQL",
+    "usage": "const { useServer } = require('graphql-ws/lib/use/ws'); const server = useServer({ schema }, wsServer);",
     "tags": [
+      "graphql",
       "websocket",
-      "realtime",
-      "pubsub",
-      "presence"
+      "subscriptions",
+      "realtime"
     ],
-    "category": "Real-time"
+    "category": "API"
   }
 ];
