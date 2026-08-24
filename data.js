@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:33:26
+// Last updated: 2026-08-24 20:33:27
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Shortid",
-    "description": "Short, non-sequential, URL-friendly unique ID generator with optional customization",
-    "usage": "const shortid = require('shortid'); const id = shortid.generate();",
+    "title": "Date-fns",
+    "description": "Modern date utility library with modular functions for parsing, formatting, and manipulating dates",
+    "usage": "const { format, addDays, differenceInDays } = require('date-fns'); const formatted = format(new Date(), 'yyyy-MM-dd'); const future = addDays(new Date(), 5);",
     "tags": [
-      "uuid",
-      "identifier",
-      "unique",
-      "short"
+      "date",
+      "time",
+      "datetime",
+      "format"
     ],
     "category": "Utility"
   }
