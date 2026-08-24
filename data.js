@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:23:53
+// Last updated: 2026-08-25 00:23:54
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Seneca",
-    "description": "Microservices toolkit with pattern matching, transport plugins, and message-based architecture",
-    "usage": "const Seneca = require('seneca'); const seneca = Seneca(); seneca.add('role:math,cmd:add', (msg, reply) => { reply(null, { result: msg.a + msg.b }) });",
+    "title": "Amqplib",
+    "description": "RabbitMQ client with connection management, channel handling, and message exchange patterns",
+    "usage": "const amqp = require('amqplib'); const connection = await amqp.connect('amqp://localhost'); const channel = await connection.createChannel(); await channel.assertQueue('tasks'); channel.sendToQueue('tasks', Buffer.from('Hello'));",
     "tags": [
-      "microservices",
-      "patterns",
-      "transport",
-      "messages"
+      "rabbitmq",
+      "queue",
+      "message",
+      "amqp"
     ],
-    "category": "Web Framework"
+    "category": "Background Processing"
   }
 ];
