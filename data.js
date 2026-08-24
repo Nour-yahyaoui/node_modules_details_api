@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Ora",
-    "description": "Elegant terminal spinner for CLI applications with customizable styles and colors",
-    "usage": "const ora = require('ora'); const spinner = ora('Loading data...').start(); await fetchData(); spinner.succeed('Data loaded');",
+    "title": "Listr",
+    "description": "Task runner for CLI with interactive progress, subtasks, and error handling",
+    "usage": "const Listr = require('listr'); const tasks = new Listr([{ title: 'Task 1', task: () => Promise.resolve() }]); await tasks.run();",
     "tags": [
       "cli",
-      "spinner",
-      "terminal",
-      "progress"
+      "tasks",
+      "progress",
+      "interactive"
     ],
     "category": "CLI/Tool"
   }
