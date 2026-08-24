@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:44
+// Last updated: 2026-08-25 01:18:45
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Oclif",
-    "description": "CLI framework for building command-line tools with plugins, commands, and flags",
-    "usage": "const { Command } = require('@oclif/core'); class HelloCommand extends Command { async run() { this.log('Hello World'); } }",
+    "title": "Gulp",
+    "description": "Task runner for automation with streams, plugins, and incremental builds",
+    "usage": "const gulp = require('gulp'); gulp.task('default', () => { return gulp.src('src/*.js').pipe(gulp.dest('dist')); });",
     "tags": [
-      "cli",
-      "framework",
-      "commands",
-      "plugins"
+      "task-runner",
+      "build",
+      "automation",
+      "streams"
     ],
-    "category": "CLI/Tool"
+    "category": "Dev Tool"
   }
 ];
