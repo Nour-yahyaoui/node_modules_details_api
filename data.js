@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Kue",
-    "description": "Redis-backed priority job queue with rich UI, job status, and event listeners",
-    "usage": "const kue = require('kue'); const queue = kue.createQueue(); queue.create('email', { to: 'user@example.com' }).save();",
+    "title": "Node-resque",
+    "description": "Job queue system using Redis with multiple queues, delayed jobs, and plugin support",
+    "usage": "const NodeResque = require('node-resque'); const queue = new NodeResque.Queue({ connection: { redis: { host: 'localhost' } } }); queue.enqueue('email', 'send', ['user@example.com']);",
     "tags": [
       "queue",
       "redis",
       "jobs",
-      "priority"
+      "delayed"
     ],
     "category": "Background Processing"
   }
