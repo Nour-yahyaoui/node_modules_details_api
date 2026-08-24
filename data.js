@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "NestJS/GraphQL",
-    "description": "GraphQL module for NestJS with code-first and schema-first approaches, subscriptions, and federation",
-    "usage": "import { Resolver, Query } from '@nestjs/graphql'; @Resolver() export class AppResolver { @Query(() => String) hello(): string { return 'Hello World'; } }",
+    "title": "AdonisJS",
+    "description": "Full-stack MVC framework with ORM, authentication, and everything needed for building web applications",
+    "usage": "const Route = use('Route'); Route.get('/', () => { return 'Hello World'; });",
     "tags": [
-      "nestjs",
-      "graphql",
-      "resolvers",
-      "schema"
+      "web",
+      "framework",
+      "mvc",
+      "full-stack"
     ],
     "category": "Web Framework"
   }
