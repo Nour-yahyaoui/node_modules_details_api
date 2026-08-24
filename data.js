@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Bunyan",
-    "description": "JSON logging library with CLI, ring buffer, and rotation support for Node.js applications",
-    "usage": "const bunyan = require('bunyan'); const logger = bunyan.createLogger({ name: 'myapp' }); logger.info({ user: 'john' }, 'User logged in');",
+    "title": "Log4js",
+    "description": "Logging framework with appenders, layouts, categories, and configuration-based logging",
+    "usage": "const log4js = require('log4js'); log4js.configure({ appenders: { out: { type: 'stdout' } }, categories: { default: { appenders: ['out'], level: 'info' } } }); const logger = log4js.getLogger(); logger.info('Hello');",
     "tags": [
       "logging",
-      "json",
-      "bunyan",
-      "debug"
+      "appenders",
+      "categories",
+      "configuration"
     ],
     "category": "Logging"
   }
