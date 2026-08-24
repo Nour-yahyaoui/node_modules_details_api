@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Ncp",
-    "description": "Copy files and directories recursively with options for overwrite, filtering, and preserving permissions",
-    "usage": "const ncp = require('ncp'); ncp('src', 'dist', { stopOnErr: true }, err => { if (err) console.error(err); });",
+    "title": "Archiver",
+    "description": "Create ZIP and TAR archives with compression, stream support, and file entry management",
+    "usage": "const archiver = require('archiver'); const archive = archiver('zip'); archive.directory('src', false); archive.pipe(fs.createWriteStream('output.zip')); await archive.finalize();",
     "tags": [
-      "file",
-      "copy",
-      "recursive",
-      "fs"
+      "zip",
+      "archive",
+      "compression",
+      "tar"
     ],
     "category": "Utility"
   }
