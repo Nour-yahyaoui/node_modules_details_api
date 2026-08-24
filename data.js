@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:37:21
+// Last updated: 2026-08-25 00:37:22
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "JSON GraphQL Server",
-    "description": "Zero-config GraphQL server that automatically generates CRUD operations from JSON data",
-    "usage": "const jsonGraphqlServer = require('json-graphql-server'); const server = jsonGraphqlServer({ posts: [{ id: 1, title: 'Hello' }] });",
+    "title": "Hasura CLI",
+    "description": "CLI tool for Hasura GraphQL Engine with migrations, metadata management, and seed data",
+    "usage": "hasura init --endpoint https://myapp.hasura.app --admin-secret secret",
     "tags": [
       "graphql",
-      "json",
-      "crud",
-      "mock"
+      "hasura",
+      "cli",
+      "database"
     ],
-    "category": "API"
+    "category": "Dev Tool"
   }
 ];
