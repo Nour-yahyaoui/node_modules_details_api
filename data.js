@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Pusher",
-    "description": "Real-time messaging service with WebSockets, presence channels, and webhook events",
-    "usage": "const Pusher = require('pusher'); const pusher = new Pusher({ appId: 'id', key: 'key', secret: 'secret' }); pusher.trigger('channel', 'event', { message: 'Hello' });",
+    "title": "Ably",
+    "description": "Real-time messaging platform with WebSocket and REST APIs, presence, and message history",
+    "usage": "const ably = require('ably'); const client = new ably.Realtime('apiKey'); const channel = client.channels.get('channel'); channel.publish('event', { message: 'Hello' });",
     "tags": [
       "websocket",
       "realtime",
       "pubsub",
-      "events"
+      "presence"
     ],
     "category": "Real-time"
   }
