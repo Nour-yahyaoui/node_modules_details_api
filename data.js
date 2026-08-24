@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:19
+// Last updated: 2026-08-25 00:39:20
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Yargs",
-    "description": "Sophisticated CLI argument parser with command handling, help generation, and validation",
-    "usage": "const yargs = require('yargs'); const argv = yargs.option('port', { alias: 'p', type: 'number', default: 3000 }).argv;",
+    "title": "Ora",
+    "description": "Elegant terminal spinner for CLI applications with customizable styles and colors",
+    "usage": "const ora = require('ora'); const spinner = ora('Loading data...').start(); await fetchData(); spinner.succeed('Data loaded');",
     "tags": [
       "cli",
-      "arguments",
-      "parsing",
-      "commands"
+      "spinner",
+      "terminal",
+      "progress"
     ],
     "category": "CLI/Tool"
   }
