@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Supertest",
-    "description": "HTTP assertion library for testing Express/Node.js applications with superagent integration",
-    "usage": "const request = require('supertest'); const app = require('./app'); await request(app).get('/').expect(200).expect('Hello World');",
+    "title": "Nock",
+    "description": "HTTP mocking library for testing with interception, recording, and custom responses",
+    "usage": "const nock = require('nock'); nock('https://api.example.com').get('/users').reply(200, { users: [] });",
     "tags": [
       "testing",
+      "mock",
       "http",
-      "assertions",
-      "express"
+      "interception"
     ],
     "category": "Testing/Tool"
   }
