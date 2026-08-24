@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Moleculer",
-    "description": "Fast microservices framework with service discovery, load balancing, and built-in caching",
-    "usage": "const { ServiceBroker } = require('moleculer'); const broker = new ServiceBroker(); broker.createService({ name: 'math', actions: { add(ctx) { return ctx.params.a + ctx.params.b } } });",
+    "title": "Seneca",
+    "description": "Microservices toolkit with pattern matching, transport plugins, and message-based architecture",
+    "usage": "const Seneca = require('seneca'); const seneca = Seneca(); seneca.add('role:math,cmd:add', (msg, reply) => { reply(null, { result: msg.a + msg.b }) });",
     "tags": [
       "microservices",
-      "framework",
-      "service-discovery",
-      "load-balancing"
+      "patterns",
+      "transport",
+      "messages"
     ],
     "category": "Web Framework"
   }
