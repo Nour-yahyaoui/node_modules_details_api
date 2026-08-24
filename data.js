@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Extract-zip",
-    "description": "Extract ZIP archives with progress reporting, file filtering, and directory structure preservation",
-    "usage": "const extract = require('extract-zip'); await extract('archive.zip', { dir: 'output' });",
+    "title": "Node-pty",
+    "description": "Pseudo terminal (PTY) for Node.js with support for command execution and terminal emulation",
+    "usage": "const pty = require('node-pty'); const term = pty.spawn('bash', [], { name: 'xterm-color', cols: 80, rows: 30 }); term.on('data', data => process.stdout.write(data));",
     "tags": [
-      "zip",
-      "archive",
-      "extract",
-      "compression"
+      "terminal",
+      "pty",
+      "shell",
+      "emulation"
     ],
     "category": "Utility"
   }
