@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Factory-girl",
-    "description": "Factory library for creating test objects with default attributes and associations",
-    "usage": "const factory = require('factory-girl'); factory.define('user', User, { name: 'John', email: 'john@example.com' }); const user = await factory.create('user');",
+    "title": "Pino-pretty",
+    "description": "Pretty logger for Pino with colorized output, human-readable timestamps, and log formatting",
+    "usage": "const pino = require('pino'); const logger = pino({ transport: { target: 'pino-pretty' } }); logger.info('Hello World');",
     "tags": [
-      "testing",
-      "factories",
-      "seeding",
-      "data"
+      "logging",
+      "pino",
+      "pretty",
+      "console"
     ],
-    "category": "Testing/Tool"
+    "category": "Logging"
   }
 ];
