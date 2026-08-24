@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:23:54
+// Last updated: 2026-08-25 00:23:55
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "MQTT",
-    "description": "MQTT client for IoT and real-time messaging with publish-subscribe pattern and QoS levels",
-    "usage": "const mqtt = require('mqtt'); const client = mqtt.connect('mqtt://localhost'); client.subscribe('sensors/temperature'); client.on('message', (topic, message) => { console.log(message.toString()); });",
+    "title": "Pusher",
+    "description": "Real-time messaging service with WebSockets, presence channels, and webhook events",
+    "usage": "const Pusher = require('pusher'); const pusher = new Pusher({ appId: 'id', key: 'key', secret: 'secret' }); pusher.trigger('channel', 'event', { message: 'Hello' });",
     "tags": [
-      "mqtt",
-      "iot",
-      "messaging",
-      "pubsub"
+      "websocket",
+      "realtime",
+      "pubsub",
+      "events"
     ],
     "category": "Real-time"
   }
