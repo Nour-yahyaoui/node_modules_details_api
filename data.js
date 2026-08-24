@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-24 20:38:22
+// Last updated: 2026-08-24 20:38:23
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "NestJS/Passport",
-    "description": "Passport module for NestJS providing authentication strategies and guards for GraphQL and REST APIs",
-    "usage": "import { AuthGuard } from '@nestjs/passport'; @UseGuards(AuthGuard('jwt')) @Get('profile') getProfile(@Request() req) { return req.user; }",
+    "title": "NestJS/GraphQL",
+    "description": "GraphQL module for NestJS with code-first and schema-first approaches, subscriptions, and federation",
+    "usage": "import { Resolver, Query } from '@nestjs/graphql'; @Resolver() export class AppResolver { @Query(() => String) hello(): string { return 'Hello World'; } }",
     "tags": [
       "nestjs",
-      "authentication",
-      "passport",
-      "guards"
+      "graphql",
+      "resolvers",
+      "schema"
     ],
     "category": "Web Framework"
   }
