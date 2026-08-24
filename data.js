@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Playwright Test",
-    "description": "Cross-browser E2E testing with auto-waiting, fixtures, and parallel test execution",
-    "usage": "import { test, expect } from '@playwright/test'; test('homepage loads', async ({ page }) => { await page.goto('/'); await expect(page).toHaveTitle('Home'); });",
+    "title": "Cucumber",
+    "description": "BDD testing with Gherkin syntax, step definitions, and hooks for behavior-driven development",
+    "usage": "Feature: Login Scenario: User logs in Given I am on the login page When I enter credentials Then I see the dashboard",
     "tags": [
       "testing",
-      "e2e",
-      "playwright",
-      "automation"
+      "bdd",
+      "gherkin",
+      "features"
     ],
     "category": "Testing/Tool"
   }
