@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Amqplib",
-    "description": "RabbitMQ client with connection management, channel handling, and message exchange patterns",
-    "usage": "const amqp = require('amqplib'); const connection = await amqp.connect('amqp://localhost'); const channel = await connection.createChannel(); await channel.assertQueue('tasks'); channel.sendToQueue('tasks', Buffer.from('Hello'));",
+    "title": "MQTT",
+    "description": "MQTT client for IoT and real-time messaging with publish-subscribe pattern and QoS levels",
+    "usage": "const mqtt = require('mqtt'); const client = mqtt.connect('mqtt://localhost'); client.subscribe('sensors/temperature'); client.on('message', (topic, message) => { console.log(message.toString()); });",
     "tags": [
-      "rabbitmq",
-      "queue",
-      "message",
-      "amqp"
+      "mqtt",
+      "iot",
+      "messaging",
+      "pubsub"
     ],
-    "category": "Background Processing"
+    "category": "Real-time"
   }
 ];
