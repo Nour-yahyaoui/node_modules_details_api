@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Hasura CLI",
-    "description": "CLI tool for Hasura GraphQL Engine with migrations, metadata management, and seed data",
-    "usage": "hasura init --endpoint https://myapp.hasura.app --admin-secret secret",
+    "title": "Cypress",
+    "description": "Modern end-to-end testing framework with automatic waiting, time travel, and real-time reloads",
+    "usage": "cy.visit('/login'); cy.get('input[name=email]').type('user@example.com'); cy.get('button').click();",
     "tags": [
-      "graphql",
-      "hasura",
-      "cli",
-      "database"
+      "testing",
+      "e2e",
+      "automation",
+      "cypress"
     ],
-    "category": "Dev Tool"
+    "category": "Testing/Tool"
   }
 ];
