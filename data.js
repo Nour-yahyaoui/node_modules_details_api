@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:43
+// Last updated: 2026-08-25 01:18:44
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Node-pty",
-    "description": "Pseudo terminal (PTY) for Node.js with support for command execution and terminal emulation",
-    "usage": "const pty = require('node-pty'); const term = pty.spawn('bash', [], { name: 'xterm-color', cols: 80, rows: 30 }); term.on('data', data => process.stdout.write(data));",
+    "title": "Node-emoji",
+    "description": "Emoji support with conversion between emoji names, characters, and Unicode representations",
+    "usage": "const emoji = require('node-emoji'); console.log(emoji.emojify('I :heart: Node.js')); console.log(emoji.get('heart'));",
     "tags": [
-      "terminal",
-      "pty",
-      "shell",
-      "emulation"
+      "emoji",
+      "unicode",
+      "conversion",
+      "unicode"
     ],
     "category": "Utility"
   }
