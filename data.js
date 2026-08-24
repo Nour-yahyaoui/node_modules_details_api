@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 00:39:18
+// Last updated: 2026-08-25 00:39:19
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Log4js",
-    "description": "Logging framework with appenders, layouts, categories, and configuration-based logging",
-    "usage": "const log4js = require('log4js'); log4js.configure({ appenders: { out: { type: 'stdout' } }, categories: { default: { appenders: ['out'], level: 'info' } } }); const logger = log4js.getLogger(); logger.info('Hello');",
+    "title": "Roarr",
+    "description": "JSON logger with built-in filtering, child loggers, and context propagation",
+    "usage": "const ROARR = require('roarr'); const log = ROARR.child({ context: 'user-service' }); log.info({ user: 'john' }, 'User created');",
     "tags": [
       "logging",
-      "appenders",
-      "categories",
-      "configuration"
+      "json",
+      "context",
+      "child"
     ],
     "category": "Logging"
   }
