@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 08:24:17
+// Last updated: 2026-08-25 08:24:18
 
 module.exports = [
   {
@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Serverless",
-    "description": "Framework for building serverless applications with AWS Lambda, API Gateway, and other cloud services",
-    "usage": "serverless deploy",
+    "title": "AWS Lambda",
+    "description": "AWS Lambda runtime for Node.js with event handling, context, and callback support",
+    "usage": "exports.handler = async (event) => { return { statusCode: 200, body: 'Hello' }; };",
     "tags": [
-      "serverless",
       "aws",
       "lambda",
+      "serverless",
       "cloud"
     ],
-    "category": "Dev Tool"
+    "category": "Cloud"
   }
 ];
