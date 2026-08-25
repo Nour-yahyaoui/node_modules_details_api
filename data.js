@@ -1181,12 +1181,12 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "AWS Lambda",
-    "description": "AWS Lambda runtime for Node.js with event handling, context, and callback support",
-    "usage": "exports.handler = async (event) => { return { statusCode: 200, body: 'Hello' }; };",
+    "title": "Azure Functions",
+    "description": "Azure Functions runtime for Node.js with triggers, bindings, and HTTP endpoints",
+    "usage": "module.exports = async function (context, req) { context.res = { body: 'Hello' }; };",
     "tags": [
-      "aws",
-      "lambda",
+      "azure",
+      "functions",
       "serverless",
       "cloud"
     ],
