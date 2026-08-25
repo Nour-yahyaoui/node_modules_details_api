@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 01:18:46
+// Last updated: 2026-08-25 07:24:20
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Babel",
-    "description": "JavaScript compiler for transforming ES6+ code into backward-compatible JavaScript versions",
-    "usage": "npx babel src --out-dir dist",
+    "title": "TypeScript",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript with full type checking",
+    "usage": "npx tsc app.ts",
     "tags": [
-      "transpiler",
-      "babel",
-      "es6",
-      "compiler"
+      "typescript",
+      "typing",
+      "compiler",
+      "language"
     ],
     "category": "Dev Tool"
   }
