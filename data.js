@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 461
-// Last updated: 2026-08-25 08:36:13
+// Total modules: 462
+// Last updated: 2026-08-25 08:36:15
 
 module.exports = [
   {
@@ -5533,6 +5533,18 @@ module.exports = [
       "lit",
       "web-components",
       "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Htmx",
+    "description": "Htmx integration plugin for Fastify with dynamic HTML updates",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-htmx'), { });",
+    "tags": [
+      "fastify",
+      "htmx",
+      "dynamic",
+      "html"
     ],
     "category": "Utility"
   }
