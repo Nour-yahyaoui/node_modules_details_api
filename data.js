@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 365
-// Last updated: 2026-08-25 08:34:20
+// Total modules: 366
+// Last updated: 2026-08-25 08:34:21
 
 module.exports = [
   {
@@ -4381,6 +4381,18 @@ module.exports = [
       "utilities",
       "http-errors",
       "assert"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Formbody",
+    "description": "URL-encoded form body parser plugin for Fastify with extended options",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/formbody'), { extended: true });",
+    "tags": [
+      "fastify",
+      "formbody",
+      "parse",
+      "urlencoded"
     ],
     "category": "Utility"
   }
