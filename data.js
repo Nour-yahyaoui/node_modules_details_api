@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 374
-// Last updated: 2026-08-25 08:34:31
+// Total modules: 375
+// Last updated: 2026-08-25 08:34:32
 
 module.exports = [
   {
@@ -4489,6 +4489,18 @@ module.exports = [
       "compression",
       "gzip",
       "brotli"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Etag",
+    "description": "ETag generation plugin for Fastify with cache validation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/etag'));",
+    "tags": [
+      "fastify",
+      "etag",
+      "cache",
+      "validation"
     ],
     "category": "Performance"
   }
