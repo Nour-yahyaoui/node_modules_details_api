@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 493
-// Last updated: 2026-08-25 08:36:52
+// Total modules: 494
+// Last updated: 2026-08-25 08:36:53
 
 module.exports = [
   {
@@ -5917,6 +5917,18 @@ module.exports = [
       "api-gateway",
       "aws",
       "rest"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Cognito",
+    "description": "AWS Cognito plugin for Fastify with user pool and authentication",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cognito'), { region: 'us-east-1', userPoolId: 'us-east-1_123' });",
+    "tags": [
+      "fastify",
+      "cognito",
+      "aws",
+      "authentication"
     ],
     "category": "Cloud"
   }
