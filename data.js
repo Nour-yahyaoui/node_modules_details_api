@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 445
-// Last updated: 2026-08-25 08:35:55
+// Total modules: 446
+// Last updated: 2026-08-25 08:35:56
 
 module.exports = [
   {
@@ -5340,6 +5340,18 @@ module.exports = [
       "fastify",
       "video",
       "ffmpeg",
+      "processing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Image Processing",
+    "description": "Image processing plugin with Sharp and Jimp integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-image'), { library: 'sharp' });",
+    "tags": [
+      "fastify",
+      "image",
+      "sharp",
       "processing"
     ],
     "category": "Utility"
