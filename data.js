@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 430
-// Last updated: 2026-08-25 08:35:37
+// Total modules: 431
+// Last updated: 2026-08-25 08:35:38
 
 module.exports = [
   {
@@ -5161,6 +5161,18 @@ module.exports = [
       "xml",
       "parse",
       "generate"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify YAML (Advanced)",
+    "description": "Advanced YAML plugin with custom schemas and validation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-yaml'), { schema: 'core' });",
+    "tags": [
+      "fastify",
+      "yaml",
+      "parse",
+      "schema"
     ],
     "category": "Utility"
   }
