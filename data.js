@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 196
-// Last updated: 2026-08-25 08:31:01
+// Total modules: 197
+// Last updated: 2026-08-25 08:31:03
 
 module.exports = [
   {
@@ -2355,5 +2355,17 @@ module.exports = [
       "cloud"
     ],
     "category": "Cloud"
+  },
+  {
+    "title": "Elasticsearch",
+    "description": "Official Elasticsearch client with full-text search, aggregation, and analytics features",
+    "usage": "const { Client } = require('@elastic/elasticsearch'); const client = new Client({ node: 'http://localhost:9200' }); const result = await client.search({ index: 'posts', body: { query: { match: { title: 'hello' } } } });",
+    "tags": [
+      "search",
+      "elasticsearch",
+      "analytics",
+      "full-text"
+    ],
+    "category": "Database"
   }
 ];
