@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 488
-// Last updated: 2026-08-25 08:36:46
+// Total modules: 489
+// Last updated: 2026-08-25 08:36:47
 
 module.exports = [
   {
@@ -5857,6 +5857,18 @@ module.exports = [
       "ses",
       "aws",
       "email"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify CloudWatch",
+    "description": "AWS CloudWatch plugin for Fastify with metrics and logs",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cloudwatch'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "cloudwatch",
+      "aws",
+      "monitoring"
     ],
     "category": "Cloud"
   }
