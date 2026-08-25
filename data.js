@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Google Cloud Functions",
-    "description": "Google Cloud Functions runtime with HTTP triggers, background events, and Pub/Sub support",
-    "usage": "exports.hello = (req, res) => { res.send('Hello World'); };",
+    "title": "Vercel CLI",
+    "description": "CLI for Vercel platform with deployments, environment variables, and project management",
+    "usage": "vercel --prod",
     "tags": [
-      "gcp",
-      "functions",
-      "serverless",
-      "cloud"
+      "vercel",
+      "deployment",
+      "hosting",
+      "cli"
     ],
-    "category": "Cloud"
+    "category": "Dev Tool"
   }
 ];
