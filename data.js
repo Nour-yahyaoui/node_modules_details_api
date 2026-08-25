@@ -1181,11 +1181,11 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Netlify CLI",
-    "description": "CLI for Netlify platform with site deployments, functions, and environment management",
-    "usage": "netlify deploy --prod",
+    "title": "Heroku CLI",
+    "description": "CLI for Heroku platform with app management, add-ons, and dyno scaling",
+    "usage": "heroku create my-app",
     "tags": [
-      "netlify",
+      "heroku",
       "deployment",
       "hosting",
       "cli"
