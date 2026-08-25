@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 08:24:16
+// Last updated: 2026-08-25 08:24:17
 
 module.exports = [
   {
@@ -1181,12 +1181,12 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Terraform (CDKTF)",
-    "description": "Cloud Development Kit for Terraform with infrastructure as code using TypeScript and JavaScript",
-    "usage": "import { Construct } from 'constructs'; import { App, TerraformStack } from 'cdktf';",
+    "title": "Pulumi",
+    "description": "Modern infrastructure as code using TypeScript with support for AWS, Azure, GCP, and Kubernetes",
+    "usage": "import * as aws from '@pulumi/aws'; const bucket = new aws.s3.Bucket('my-bucket');",
     "tags": [
-      "terraform",
       "iac",
+      "pulumi",
       "cloud",
       "infrastructure"
     ],
