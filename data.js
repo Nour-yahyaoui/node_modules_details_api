@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 385
-// Last updated: 2026-08-25 08:34:44
+// Total modules: 386
+// Last updated: 2026-08-25 08:34:45
 
 module.exports = [
   {
@@ -4623,5 +4623,17 @@ module.exports = [
       "security"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Banner",
+    "description": "Banner display plugin for Fastify with custom ASCII art and version info",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-banner'), { version: '1.0.0' });",
+    "tags": [
+      "fastify",
+      "banner",
+      "version",
+      "ascii"
+    ],
+    "category": "CLI/Tool"
   }
 ];
