@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Supabase JS",
-    "description": "Supabase client with authentication, realtime subscriptions, and PostgreSQL database access",
-    "usage": "const { createClient } = require('@supabase/supabase-js'); const supabase = createClient(url, key); const { data } = await supabase.from('users').select('*');",
+    "title": "Firebase Admin",
+    "description": "Firebase Admin SDK with authentication, Firestore, Cloud Messaging, and storage",
+    "usage": "const admin = require('firebase-admin'); admin.initializeApp(); const user = await admin.auth().getUser(uid);",
     "tags": [
-      "supabase",
-      "database",
+      "firebase",
       "authentication",
-      "realtime"
+      "database",
+      "cloud"
     ],
-    "category": "Database"
+    "category": "Cloud"
   }
 ];
