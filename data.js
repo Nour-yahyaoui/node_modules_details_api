@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 08:24:22
+// Last updated: 2026-08-25 08:24:23
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Firebase Client",
-    "description": "Firebase client SDK with realtime database, Firestore, authentication, and storage",
-    "usage": "import { initializeApp } from 'firebase/app'; import { getDatabase, ref, onValue } from 'firebase/database';",
+    "title": "Appwrite",
+    "description": "Backend server with authentication, database, storage, and serverless functions",
+    "usage": "const sdk = require('node-appwrite'); const client = new sdk.Client(); client.setEndpoint('https://cloud.appwrite.io/v1');",
     "tags": [
-      "firebase",
-      "database",
+      "backend",
       "authentication",
-      "realtime"
+      "database",
+      "storage"
     ],
     "category": "Cloud"
   }
