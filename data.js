@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 07:24:21
+// Last updated: 2026-08-25 07:24:22
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Parcel",
-    "description": "Zero-configuration web application bundler with built-in support for many file types",
-    "usage": "parcel build index.html",
+    "title": "Rollup",
+    "description": "Module bundler with tree-shaking, ESM support, and plugin ecosystem for library development",
+    "usage": "rollup --config rollup.config.js",
     "tags": [
       "bundler",
-      "build",
-      "zero-config",
-      "assets"
+      "tree-shaking",
+      "esm",
+      "library"
     ],
     "category": "Dev Tool"
   }
