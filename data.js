@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 478
-// Last updated: 2026-08-25 08:36:34
+// Total modules: 479
+// Last updated: 2026-08-25 08:36:36
 
 module.exports = [
   {
@@ -5739,5 +5739,17 @@ module.exports = [
       "queue"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "Fastify MQTT",
+    "description": "MQTT plugin for Fastify with publish-subscribe messaging",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-mqtt'), { host: 'mqtt://localhost' });",
+    "tags": [
+      "fastify",
+      "mqtt",
+      "iot",
+      "messaging"
+    ],
+    "category": "Real-time"
   }
 ];
