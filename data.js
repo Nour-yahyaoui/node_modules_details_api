@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 481
-// Last updated: 2026-08-25 08:36:38
+// Total modules: 482
+// Last updated: 2026-08-25 08:36:39
 
 module.exports = [
   {
@@ -5775,5 +5775,17 @@ module.exports = [
       "pubsub"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify RabbitMQ",
+    "description": "RabbitMQ plugin for Fastify with advanced queuing features",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rabbitmq'), { connection: 'amqp://localhost' });",
+    "tags": [
+      "fastify",
+      "rabbitmq",
+      "queue",
+      "amqp"
+    ],
+    "category": "Background Processing"
   }
 ];
