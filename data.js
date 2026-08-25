@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 228
-// Last updated: 2026-08-25 08:31:38
+// Total modules: 229
+// Last updated: 2026-08-25 08:31:40
 
 module.exports = [
   {
@@ -2739,5 +2739,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Sensible",
+    "description": "Collection of useful Fastify plugins including defaults, assertions, and utilities",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/sensible'));",
+    "tags": [
+      "fastify",
+      "utilities",
+      "assert",
+      "middleware"
+    ],
+    "category": "Utility"
   }
 ];
