@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 436
-// Last updated: 2026-08-25 08:35:44
+// Total modules: 437
+// Last updated: 2026-08-25 08:35:45
 
 module.exports = [
   {
@@ -5235,5 +5235,17 @@ module.exports = [
       "management"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Secrets",
+    "description": "Secrets management plugin for Fastify with Vault and AWS integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-secrets'), { provider: 'vault' });",
+    "tags": [
+      "fastify",
+      "secrets",
+      "vault",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
