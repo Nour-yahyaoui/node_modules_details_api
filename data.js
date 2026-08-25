@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 07:24:20
+// Last updated: 2026-08-25 07:24:21
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "TypeScript",
-    "description": "Typed superset of JavaScript that compiles to plain JavaScript with full type checking",
-    "usage": "npx tsc app.ts",
+    "title": "SWC",
+    "description": "Extremely fast Rust-based JavaScript/TypeScript compiler for building and bundling",
+    "usage": "npx swc src -d dist",
     "tags": [
-      "typescript",
-      "typing",
       "compiler",
-      "language"
+      "fast",
+      "rust",
+      "typescript"
     ],
     "category": "Dev Tool"
   }
