@@ -1181,15 +1181,15 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Appwrite",
-    "description": "Backend server with authentication, database, storage, and serverless functions",
-    "usage": "const sdk = require('node-appwrite'); const client = new sdk.Client(); client.setEndpoint('https://cloud.appwrite.io/v1');",
+    "title": "Directus",
+    "description": "Headless CMS with REST and GraphQL APIs, authentication, and content management",
+    "usage": "const { createDirectus, rest } = require('@directus/sdk'); const client = createDirectus('https://api.example.com').with(rest());",
     "tags": [
-      "backend",
-      "authentication",
-      "database",
-      "storage"
+      "cms",
+      "headless",
+      "api",
+      "content"
     ],
-    "category": "Cloud"
+    "category": "Utility"
   }
 ];
