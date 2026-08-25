@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "SWC",
-    "description": "Extremely fast Rust-based JavaScript/TypeScript compiler for building and bundling",
-    "usage": "npx swc src -d dist",
+    "title": "Parcel",
+    "description": "Zero-configuration web application bundler with built-in support for many file types",
+    "usage": "parcel build index.html",
     "tags": [
-      "compiler",
-      "fast",
-      "rust",
-      "typescript"
+      "bundler",
+      "build",
+      "zero-config",
+      "assets"
     ],
     "category": "Dev Tool"
   }
