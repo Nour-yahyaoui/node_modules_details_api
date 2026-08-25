@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 284
-// Last updated: 2026-08-25 08:32:45
+// Total modules: 285
+// Last updated: 2026-08-25 08:32:46
 
 module.exports = [
   {
@@ -3409,6 +3409,18 @@ module.exports = [
       "change-streams",
       "realtime",
       "events"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MongoDB Transactions",
+    "description": "MongoDB multi-document ACID transactions with session and commit",
+    "usage": "const session = client.startSession(); await session.startTransaction(); await db.collection('users').insertOne({ name: 'John' }, { session }); await session.commitTransaction();",
+    "tags": [
+      "mongodb",
+      "transactions",
+      "acid",
+      "session"
     ],
     "category": "Database"
   }
