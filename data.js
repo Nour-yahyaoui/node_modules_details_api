@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 483
-// Last updated: 2026-08-25 08:36:40
+// Total modules: 484
+// Last updated: 2026-08-25 08:36:42
 
 module.exports = [
   {
@@ -5797,6 +5797,18 @@ module.exports = [
       "sqs",
       "aws",
       "queue"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify SNS",
+    "description": "AWS SNS plugin for Fastify with topic management and publishing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sns'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "sns",
+      "aws",
+      "pubsub"
     ],
     "category": "Cloud"
   }
