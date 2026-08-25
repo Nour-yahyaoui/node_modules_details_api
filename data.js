@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 425
-// Last updated: 2026-08-25 08:35:31
+// Total modules: 426
+// Last updated: 2026-08-25 08:35:32
 
 module.exports = [
   {
@@ -5103,5 +5103,17 @@ module.exports = [
       "schema"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Fastify Excel",
+    "description": "Excel generation plugin for Fastify with xlsx and csv support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-excel'), { });",
+    "tags": [
+      "fastify",
+      "excel",
+      "xlsx",
+      "csv"
+    ],
+    "category": "Utility"
   }
 ];
