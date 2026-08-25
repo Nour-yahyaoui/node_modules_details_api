@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 497
-// Last updated: 2026-08-25 08:36:57
+// Total modules: 498
+// Last updated: 2026-08-25 08:36:58
 
 module.exports = [
   {
@@ -5965,6 +5965,18 @@ module.exports = [
       "parameter-store",
       "aws",
       "configuration"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify ECS",
+    "description": "AWS ECS plugin for Fastify with container management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ecs'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "ecs",
+      "aws",
+      "containers"
     ],
     "category": "Cloud"
   }
