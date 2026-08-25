@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 454
-// Last updated: 2026-08-25 08:36:05
+// Total modules: 455
+// Last updated: 2026-08-25 08:36:06
 
 module.exports = [
   {
@@ -5451,5 +5451,17 @@ module.exports = [
       "compilation"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify JSX",
+    "description": "JSX rendering plugin for Fastify with React support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-jsx'), { });",
+    "tags": [
+      "fastify",
+      "jsx",
+      "react",
+      "render"
+    ],
+    "category": "Utility"
   }
 ];
