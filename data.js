@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 07:24:22
+// Last updated: 2026-08-25 08:24:14
 
 module.exports = [
   {
@@ -1181,14 +1181,14 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Rollup",
-    "description": "Module bundler with tree-shaking, ESM support, and plugin ecosystem for library development",
-    "usage": "rollup --config rollup.config.js",
+    "title": "Snowpack",
+    "description": "Build tool using native ESM with fast builds, Hot Module Replacement, and no bundling",
+    "usage": "snowpack dev",
     "tags": [
-      "bundler",
-      "tree-shaking",
+      "build",
       "esm",
-      "library"
+      "fast",
+      "hmr"
     ],
     "category": "Dev Tool"
   }
