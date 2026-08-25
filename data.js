@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 441
-// Last updated: 2026-08-25 08:35:50
+// Total modules: 442
+// Last updated: 2026-08-25 08:35:51
 
 module.exports = [
   {
@@ -5295,5 +5295,17 @@ module.exports = [
       "tracing"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Notifications",
+    "description": "Push notification plugin for Fastify with WebPush and Firebase",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-notifications'), { providers: ['webpush', 'firebase'] });",
+    "tags": [
+      "fastify",
+      "notifications",
+      "push",
+      "webpush"
+    ],
+    "category": "Utility"
   }
 ];
