@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 94
-// Last updated: 2026-08-25 08:29:02
+// Total modules: 95
+// Last updated: 2026-08-25 08:29:03
 
 module.exports = [
   {
@@ -1129,6 +1129,18 @@ module.exports = [
       "odm",
       "schema",
       "validation"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Typegoose",
+    "description": "TypeScript-first Mongoose wrapper providing type-safe models and schema definitions",
+    "usage": "import { prop, getModelForClass } from '@typegoose/typegoose'; class User { @prop() name: string; } const UserModel = getModelForClass(User);",
+    "tags": [
+      "typescript",
+      "mongodb",
+      "mongoose",
+      "type-safe"
     ],
     "category": "ORM/Database"
   }
