@@ -1,6 +1,6 @@
 // Node.js Library Documentation
 // Total modules: 99
-// Last updated: 2026-08-25 08:24:18
+// Last updated: 2026-08-25 08:24:19
 
 module.exports = [
   {
@@ -1181,11 +1181,11 @@ module.exports = [
     "category": "HTTP Client"
   },
   {
-    "title": "Azure Functions",
-    "description": "Azure Functions runtime for Node.js with triggers, bindings, and HTTP endpoints",
-    "usage": "module.exports = async function (context, req) { context.res = { body: 'Hello' }; };",
+    "title": "Google Cloud Functions",
+    "description": "Google Cloud Functions runtime with HTTP triggers, background events, and Pub/Sub support",
+    "usage": "exports.hello = (req, res) => { res.send('Hello World'); };",
     "tags": [
-      "azure",
+      "gcp",
       "functions",
       "serverless",
       "cloud"
