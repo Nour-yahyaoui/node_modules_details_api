@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 584
-// Last updated: 2026-09-02 20:01:14
+// Total modules: 585
+// Last updated: 2026-09-02 20:01:15
 
 module.exports = [
   {
@@ -7009,6 +7009,18 @@ module.exports = [
       "shell",
       "commands",
       "exec"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Terminal",
+    "description": "Terminal emulation plugin for Fastify with web-based terminal",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-terminal'), { });",
+    "tags": [
+      "fastify",
+      "terminal",
+      "web",
+      "emulation"
     ],
     "category": "Utility"
   }
