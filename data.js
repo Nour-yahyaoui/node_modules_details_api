@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 597
-// Last updated: 2026-09-02 20:01:30
+// Total modules: 598
+// Last updated: 2026-09-02 20:01:31
 
 module.exports = [
   {
@@ -7167,5 +7167,17 @@ module.exports = [
       "data"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify Replication",
+    "description": "Replication plugin for Fastify with master-slave replication",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-replication'), { master: 'localhost', slave: 'localhost' });",
+    "tags": [
+      "fastify",
+      "replication",
+      "master-slave",
+      "data"
+    ],
+    "category": "Database"
   }
 ];
