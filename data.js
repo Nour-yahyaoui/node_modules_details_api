@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 524
-// Last updated: 2026-09-02 20:00:00
+// Total modules: 525
+// Last updated: 2026-09-02 20:00:01
 
 module.exports = [
   {
@@ -6291,5 +6291,17 @@ module.exports = [
       "redo"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Snapshot",
+    "description": "Snapshot testing plugin for Fastify with JSON comparison",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-snapshot'), { });",
+    "tags": [
+      "fastify",
+      "snapshot",
+      "testing",
+      "comparison"
+    ],
+    "category": "Testing/Tool"
   }
 ];
