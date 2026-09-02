@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 673
-// Last updated: 2026-09-02 20:03:04
+// Total modules: 674
+// Last updated: 2026-09-02 20:03:05
 
 module.exports = [
   {
@@ -8077,6 +8077,18 @@ module.exports = [
       "aquarium",
       "fish",
       "tanks"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Botanics",
+    "description": "Botanical garden plugin for Fastify with plants and gardens",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-botanics'), { });",
+    "tags": [
+      "fastify",
+      "botanics",
+      "plants",
+      "gardens"
     ],
     "category": "Utility"
   }
