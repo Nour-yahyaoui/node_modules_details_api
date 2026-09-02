@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 621
-// Last updated: 2026-09-02 20:01:59
+// Total modules: 622
+// Last updated: 2026-09-02 20:02:01
 
 module.exports = [
   {
@@ -7453,6 +7453,18 @@ module.exports = [
       "snippet",
       "code",
       "reusable"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Library",
+    "description": "Library manager for Fastify with shared code libraries",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-library'), { libraries: ['./lib'] });",
+    "tags": [
+      "fastify",
+      "library",
+      "shared",
+      "code"
     ],
     "category": "Dev Tool"
   }
