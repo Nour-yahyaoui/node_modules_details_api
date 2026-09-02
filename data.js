@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 370
-// Last updated: 2026-09-02 15:23:36
+// Total modules: 371
+// Last updated: 2026-09-02 15:23:38
 
 module.exports = [
   {
@@ -4443,5 +4443,17 @@ module.exports = [
       "ttl"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Fastify Flake ID",
+    "description": "Snowflake ID generator plugin for Fastify with distributed ID generation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-flake-id'), { machineId: 1 });",
+    "tags": [
+      "fastify",
+      "id",
+      "generator",
+      "snowflake"
+    ],
+    "category": "Utility"
   }
 ];
