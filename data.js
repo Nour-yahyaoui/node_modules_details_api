@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 388
-// Last updated: 2026-09-02 15:23:58
+// Total modules: 389
+// Last updated: 2026-09-02 15:24:00
 
 module.exports = [
   {
@@ -4659,5 +4659,17 @@ module.exports = [
       "spec"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify CRUD",
+    "description": "CRUD plugin for Fastify with automatic route generation for databases",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-crud'), { model: User, routes: ['create', 'read', 'update', 'delete'] });",
+    "tags": [
+      "fastify",
+      "crud",
+      "routes",
+      "database"
+    ],
+    "category": "Web Framework"
   }
 ];
