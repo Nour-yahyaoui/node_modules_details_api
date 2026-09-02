@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 637
-// Last updated: 2026-09-02 20:02:19
+// Total modules: 638
+// Last updated: 2026-09-02 20:02:20
 
 module.exports = [
   {
@@ -7647,5 +7647,17 @@ module.exports = [
       "cache"
     ],
     "category": "HTTP Client"
+  },
+  {
+    "title": "Fastify Gateway",
+    "description": "API gateway plugin for Fastify with routing and authentication",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-gateway'), { routes: ['./routes'] });",
+    "tags": [
+      "fastify",
+      "gateway",
+      "api",
+      "routing"
+    ],
+    "category": "Web Framework"
   }
 ];
