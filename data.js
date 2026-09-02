@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 602
-// Last updated: 2026-09-02 20:01:36
+// Total modules: 603
+// Last updated: 2026-09-02 20:01:37
 
 module.exports = [
   {
@@ -7225,6 +7225,18 @@ module.exports = [
       "etl",
       "extract",
       "transform"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify ELT",
+    "description": "ELT plugin for Fastify with extract, load, transform workflows",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-elt'), { workflows: ['./elt'] });",
+    "tags": [
+      "fastify",
+      "elt",
+      "extract",
+      "load"
     ],
     "category": "Utility"
   }
