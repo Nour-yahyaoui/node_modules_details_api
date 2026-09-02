@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 72
-// Last updated: 2026-09-02 21:40:57
+// Total modules: 73
+// Last updated: 2026-09-02 21:40:59
 
 module.exports = [
   {
@@ -867,5 +867,17 @@ module.exports = [
       "orchestration"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "AWS SDK",
+    "description": "Official AWS SDK for Node.js with support for S3, DynamoDB, Lambda, and 200+ AWS services",
+    "usage": "const AWS = require('aws-sdk'); const s3 = new AWS.S3(); const data = await s3.listBuckets().promise();",
+    "tags": [
+      "aws",
+      "s3",
+      "dynamodb",
+      "lambda"
+    ],
+    "category": "Cloud"
   }
 ];
