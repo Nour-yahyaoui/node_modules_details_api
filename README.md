@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 66 |
+| Total Libraries | 67 |
 | Categories | Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-02 |
 
@@ -78,6 +78,7 @@ This repository contains a growing collection of **Node.js library documentation
 | PM2 | Dev Tool | Production process manager for Node.js with built-in load ba... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
+| Pug | Utility | High-performance template engine with clean, whitespace-sens... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
