@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 333
-// Last updated: 2026-09-02 19:56:04
+// Total modules: 334
+// Last updated: 2026-09-02 19:56:06
 
 module.exports = [
   {
@@ -3997,6 +3997,18 @@ module.exports = [
       "parser",
       "express",
       "qs"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "QS",
+    "description": "Query string parsing and stringifying with nested objects support",
+    "usage": "const qs = require('qs'); const obj = qs.parse('a=b&c=d'); const str = qs.stringify(obj);",
+    "tags": [
+      "qs",
+      "query",
+      "parse",
+      "stringify"
     ],
     "category": "Utility"
   }
