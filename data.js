@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 79
-// Last updated: 2026-09-02 21:41:15
+// Total modules: 80
+// Last updated: 2026-09-02 21:41:17
 
 module.exports = [
   {
@@ -951,5 +951,17 @@ module.exports = [
       "attachment"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Puppeteer Extra",
+    "description": "Enhanced Puppeteer with stealth plugin, ad blocker, and additional plugins for undetectable browser automation",
+    "usage": "const puppeteer = require('puppeteer-extra'); const StealthPlugin = require('puppeteer-extra-plugin-stealth'); puppeteer.use(StealthPlugin());",
+    "tags": [
+      "automation",
+      "browser",
+      "stealth",
+      "scraping"
+    ],
+    "category": "Testing/Tool"
   }
 ];
