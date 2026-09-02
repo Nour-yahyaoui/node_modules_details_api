@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 773
-// Last updated: 2026-09-02 20:05:09
+// Total modules: 774
+// Last updated: 2026-09-02 20:05:10
 
 module.exports = [
   {
@@ -9277,6 +9277,18 @@ module.exports = [
       "email",
       "templates",
       "tracking"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify SMS (Advanced)",
+    "description": "Advanced SMS plugin with bulk and scheduling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sms'), { bulk: true, scheduling: true });",
+    "tags": [
+      "fastify",
+      "sms",
+      "bulk",
+      "scheduling"
     ],
     "category": "Utility"
   }
