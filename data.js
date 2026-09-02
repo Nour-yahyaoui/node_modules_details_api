@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 624
-// Last updated: 2026-09-02 20:02:03
+// Total modules: 625
+// Last updated: 2026-09-02 20:02:04
 
 module.exports = [
   {
@@ -7489,6 +7489,18 @@ module.exports = [
       "dependency",
       "injection",
       "container"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Container",
+    "description": "IoC container for Fastify with service registration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-container'), { services: ['./services'] });",
+    "tags": [
+      "fastify",
+      "container",
+      "ioc",
+      "services"
     ],
     "category": "Web Framework"
   }
