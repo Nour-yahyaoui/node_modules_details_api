@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 73 |
+| Total Libraries | 74 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-02 |
 
@@ -53,6 +53,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Google Cloud Client | Cloud | Official Google Cloud client for Node.js with support for St... |
 | GraphQL | API | GraphQL reference implementation with schema construction, q... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
