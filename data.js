@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 759
-// Last updated: 2026-09-02 20:04:52
+// Total modules: 760
+// Last updated: 2026-09-02 20:04:53
 
 module.exports = [
   {
@@ -9109,6 +9109,18 @@ module.exports = [
       "compliance",
       "regulations",
       "audits"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Audit (Advanced)",
+    "description": "Advanced auditing with trails and forensics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-audit'), { forensics: true, trails: true });",
+    "tags": [
+      "fastify",
+      "audit",
+      "trails",
+      "forensics"
     ],
     "category": "Security"
   }
