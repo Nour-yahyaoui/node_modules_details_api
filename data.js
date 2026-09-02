@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 359
-// Last updated: 2026-09-02 15:23:23
+// Total modules: 360
+// Last updated: 2026-09-02 15:23:24
 
 module.exports = [
   {
@@ -4311,5 +4311,17 @@ module.exports = [
       "realtime"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify GraphQL",
+    "description": "GraphQL plugin for Fastify with schema stitching and resolver support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/graphql'), { schema, resolvers });",
+    "tags": [
+      "fastify",
+      "graphql",
+      "api",
+      "schema"
+    ],
+    "category": "API"
   }
 ];
