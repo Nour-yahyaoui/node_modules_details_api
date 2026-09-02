@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 74
-// Last updated: 2026-09-02 15:17:27
+// Total modules: 75
+// Last updated: 2026-09-02 15:17:29
 
 module.exports = [
   {
@@ -889,6 +889,18 @@ module.exports = [
       "gcp",
       "storage",
       "firestore"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Azure SDK",
+    "description": "Microsoft Azure SDK with support for Blob Storage, Queue, Service Bus, and Cosmos DB services",
+    "usage": "const { BlobServiceClient } = require('@azure/storage-blob'); const client = BlobServiceClient.fromConnectionString(connectionString);",
+    "tags": [
+      "azure",
+      "microsoft",
+      "cloud",
+      "storage"
     ],
     "category": "Cloud"
   }
