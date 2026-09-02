@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 69 |
+| Total Libraries | 70 |
 | Categories | API, Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-02 |
 
@@ -47,6 +47,7 @@ This repository contains a growing collection of **Node.js library documentation
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
+| Express GraphQL | API | Simple GraphQL middleware for Express with optional GraphiQL... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
