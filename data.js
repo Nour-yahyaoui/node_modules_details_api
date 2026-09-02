@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 95
-// Last updated: 2026-09-02 21:41:35
+// Total modules: 96
+// Last updated: 2026-09-02 21:41:36
 
 module.exports = [
   {
@@ -1143,5 +1143,17 @@ module.exports = [
       "type-safe"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Got",
+    "description": "Human-friendly and powerful HTTP request library with advanced features like retries, timeouts, and pagination",
+    "usage": "const got = require('got'); const response = await got('https://api.github.com/users/nour-yahyaoui', { responseType: 'json' });",
+    "tags": [
+      "http",
+      "api",
+      "retry",
+      "promises"
+    ],
+    "category": "HTTP Client"
   }
 ];
