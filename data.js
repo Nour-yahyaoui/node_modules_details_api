@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 410
-// Last updated: 2026-09-02 19:57:38
+// Total modules: 411
+// Last updated: 2026-09-02 19:57:39
 
 module.exports = [
   {
@@ -4923,5 +4923,17 @@ module.exports = [
       "png"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Bcrypt",
+    "description": "Bcrypt hashing plugin for Fastify with salt rounds and compare",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-bcrypt'), { saltRounds: 10 });",
+    "tags": [
+      "fastify",
+      "bcrypt",
+      "hash",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
