@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 354
-// Last updated: 2026-09-02 15:23:16
+// Total modules: 355
+// Last updated: 2026-09-02 15:23:18
 
 module.exports = [
   {
@@ -4249,6 +4249,18 @@ module.exports = [
       "redis",
       "cache",
       "database"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify MongoDB",
+    "description": "MongoDB plugin for Fastify with connection management and collection access",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/mongodb'), { url: 'mongodb://localhost:27017/test' });",
+    "tags": [
+      "fastify",
+      "mongodb",
+      "database",
+      "nosql"
     ],
     "category": "Database"
   }
