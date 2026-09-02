@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 610
-// Last updated: 2026-09-02 20:01:46
+// Total modules: 611
+// Last updated: 2026-09-02 20:01:47
 
 module.exports = [
   {
@@ -7321,6 +7321,18 @@ module.exports = [
       "clean-architecture",
       "use-cases",
       "entities"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Onion",
+    "description": "Onion architecture plugin for Fastify with layers and dependencies",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-onion'), { layers: ['./layers'] });",
+    "tags": [
+      "fastify",
+      "onion",
+      "architecture",
+      "layers"
     ],
     "category": "Web Framework"
   }
