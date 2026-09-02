@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 283
-// Last updated: 2026-09-02 19:55:04
+// Total modules: 284
+// Last updated: 2026-09-02 19:55:05
 
 module.exports = [
   {
@@ -3397,6 +3397,18 @@ module.exports = [
       "sentinel",
       "failover",
       "high-availability"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "MongoDB Change Streams",
+    "description": "MongoDB change streams for real-time database event monitoring",
+    "usage": "const { MongoClient } = require('mongodb'); const client = new MongoClient('mongodb://localhost:27017'); await client.connect(); const changeStream = client.db('test').collection('users').watch(); changeStream.on('change', (change) => console.log(change));",
+    "tags": [
+      "mongodb",
+      "change-streams",
+      "realtime",
+      "events"
     ],
     "category": "Database"
   }
