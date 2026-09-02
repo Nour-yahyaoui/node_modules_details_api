@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 634
-// Last updated: 2026-09-02 20:02:16
+// Total modules: 635
+// Last updated: 2026-09-02 20:02:17
 
 module.exports = [
   {
@@ -7609,6 +7609,18 @@ module.exports = [
       "annotation",
       "processing",
       "custom"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Metadata",
+    "description": "Metadata management for Fastify with reflection and introspection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-metadata'), { });",
+    "tags": [
+      "fastify",
+      "metadata",
+      "reflection",
+      "introspection"
     ],
     "category": "Dev Tool"
   }
