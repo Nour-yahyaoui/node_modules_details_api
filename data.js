@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 494
-// Last updated: 2026-09-02 15:26:11
+// Total modules: 495
+// Last updated: 2026-09-02 15:26:12
 
 module.exports = [
   {
@@ -5929,6 +5929,18 @@ module.exports = [
       "cognito",
       "aws",
       "authentication"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify KMS",
+    "description": "AWS KMS plugin for Fastify with encryption and decryption",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-kms'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "kms",
+      "aws",
+      "encryption"
     ],
     "category": "Cloud"
   }
