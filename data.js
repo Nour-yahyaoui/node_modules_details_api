@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 764
-// Last updated: 2026-09-02 20:04:58
+// Total modules: 765
+// Last updated: 2026-09-02 20:04:59
 
 module.exports = [
   {
@@ -9169,6 +9169,18 @@ module.exports = [
       "notification",
       "personalization",
       "analytics"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Recommendation",
+    "description": "Recommendation engine plugin for Fastify with collaborative filtering",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-recommendation'), { });",
+    "tags": [
+      "fastify",
+      "recommendation",
+      "engine",
+      "filtering"
     ],
     "category": "Utility"
   }
