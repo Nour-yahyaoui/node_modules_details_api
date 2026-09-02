@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 509
-// Last updated: 2026-09-02 15:26:29
+// Total modules: 510
+// Last updated: 2026-09-02 15:26:32
 
 module.exports = [
   {
@@ -6109,6 +6109,18 @@ module.exports = [
       "cache",
       "memory",
       "lru"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Cache Manager",
+    "description": "Cache manager plugin for Fastify with multi-store support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cache-manager'), { stores: ['memory', 'redis'] });",
+    "tags": [
+      "fastify",
+      "cache",
+      "manager",
+      "multi-store"
     ],
     "category": "Performance"
   }
