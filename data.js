@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 322
-// Last updated: 2026-09-02 15:22:37
+// Total modules: 323
+// Last updated: 2026-09-02 15:22:38
 
 module.exports = [
   {
@@ -3867,5 +3867,17 @@ module.exports = [
       "express"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Serve Favicon",
+    "description": "Favicon serving middleware for Express with caching",
+    "usage": "const favicon = require('serve-favicon'); app.use(favicon('favicon.ico'));",
+    "tags": [
+      "favicon",
+      "express",
+      "static",
+      "serve"
+    ],
+    "category": "Utility"
   }
 ];
