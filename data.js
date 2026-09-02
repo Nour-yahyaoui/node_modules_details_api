@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 578
-// Last updated: 2026-09-02 20:01:07
+// Total modules: 579
+// Last updated: 2026-09-02 20:01:08
 
 module.exports = [
   {
@@ -6937,6 +6937,18 @@ module.exports = [
       "worker",
       "threads",
       "delegation"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Benchmark",
+    "description": "Benchmarking plugin for Fastify with performance metrics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-benchmark'), { });",
+    "tags": [
+      "fastify",
+      "benchmark",
+      "performance",
+      "metrics"
     ],
     "category": "Performance"
   }
