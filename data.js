@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 603
-// Last updated: 2026-09-02 20:01:37
+// Total modules: 604
+// Last updated: 2026-09-02 20:01:39
 
 module.exports = [
   {
@@ -7237,6 +7237,18 @@ module.exports = [
       "elt",
       "extract",
       "load"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Data Pipeline",
+    "description": "Data pipeline plugin for Fastify with streaming data processing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-data-pipeline'), { });",
+    "tags": [
+      "fastify",
+      "data",
+      "pipeline",
+      "streaming"
     ],
     "category": "Utility"
   }
