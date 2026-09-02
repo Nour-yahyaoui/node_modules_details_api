@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 632
-// Last updated: 2026-09-02 20:02:13
+// Total modules: 633
+// Last updated: 2026-09-02 20:02:14
 
 module.exports = [
   {
@@ -7585,6 +7585,18 @@ module.exports = [
       "interceptor",
       "request",
       "response"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Decorator",
+    "description": "Decorator system for Fastify with metadata and annotations",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-decorator'), { });",
+    "tags": [
+      "fastify",
+      "decorator",
+      "metadata",
+      "annotations"
     ],
     "category": "Web Framework"
   }
