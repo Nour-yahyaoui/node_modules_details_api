@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 741
-// Last updated: 2026-09-02 20:04:29
+// Total modules: 742
+// Last updated: 2026-09-02 20:04:31
 
 module.exports = [
   {
@@ -8893,6 +8893,18 @@ module.exports = [
       "portfolio",
       "projects",
       "achievements"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Resume",
+    "description": "Resume plugin for Fastify with skills and experience",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-resume'), { });",
+    "tags": [
+      "fastify",
+      "resume",
+      "skills",
+      "experience"
     ],
     "category": "Utility"
   }
