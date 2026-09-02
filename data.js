@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 428
-// Last updated: 2026-09-02 15:24:49
+// Total modules: 429
+// Last updated: 2026-09-02 15:24:50
 
 module.exports = [
   {
@@ -5137,6 +5137,18 @@ module.exports = [
       "csv",
       "parse",
       "generate"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify JSON",
+    "description": "JSON utilities plugin for Fastify with streaming and optimization",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-json'), { fast: true });",
+    "tags": [
+      "fastify",
+      "json",
+      "streaming",
+      "optimization"
     ],
     "category": "Utility"
   }
