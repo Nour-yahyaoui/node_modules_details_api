@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 546
-// Last updated: 2026-09-02 20:00:27
+// Total modules: 547
+// Last updated: 2026-09-02 20:00:28
 
 module.exports = [
   {
@@ -6553,6 +6553,18 @@ module.exports = [
       "mapper",
       "data",
       "mapping"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Filter",
+    "description": "Data filtering plugin for Fastify with query filtering",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-filter'), { filters: ['eq', 'gt', 'lt'] });",
+    "tags": [
+      "fastify",
+      "filter",
+      "query",
+      "data"
     ],
     "category": "Utility"
   }
