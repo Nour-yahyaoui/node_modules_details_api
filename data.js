@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 757
-// Last updated: 2026-09-02 20:04:49
+// Total modules: 758
+// Last updated: 2026-09-02 20:04:50
 
 module.exports = [
   {
@@ -9087,5 +9087,17 @@ module.exports = [
       "tables"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Policy",
+    "description": "Policy management plugin for Fastify with rules and enforcement",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-policy'), { });",
+    "tags": [
+      "fastify",
+      "policy",
+      "rules",
+      "enforcement"
+    ],
+    "category": "Security"
   }
 ];
