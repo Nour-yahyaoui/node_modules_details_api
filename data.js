@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 612
-// Last updated: 2026-09-02 20:01:48
+// Total modules: 613
+// Last updated: 2026-09-02 20:01:50
 
 module.exports = [
   {
@@ -7345,6 +7345,18 @@ module.exports = [
       "microkernel",
       "plugins",
       "extensions"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Plugin System",
+    "description": "Plugin system for Fastify with dynamic loading and lifecycle",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-plugin-system'), { });",
+    "tags": [
+      "fastify",
+      "plugin",
+      "system",
+      "lifecycle"
     ],
     "category": "Web Framework"
   }
