@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 337
-// Last updated: 2026-09-02 15:22:55
+// Total modules: 338
+// Last updated: 2026-09-02 15:22:57
 
 module.exports = [
   {
@@ -4047,5 +4047,17 @@ module.exports = [
       "patch"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "JSON Schema",
+    "description": "JSON Schema validation with draft-07 support and custom keywords",
+    "usage": "const Ajv = require('ajv'); const ajv = new Ajv(); const validate = ajv.compile({ type: 'object', properties: { name: { type: 'string' } }, required: ['name'] }); const valid = validate({ name: 'John' });",
+    "tags": [
+      "json-schema",
+      "validation",
+      "schema",
+      "ajv"
+    ],
+    "category": "Validation"
   }
 ];
