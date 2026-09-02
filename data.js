@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 243
-// Last updated: 2026-09-02 15:20:58
+// Total modules: 244
+// Last updated: 2026-09-02 15:21:00
 
 module.exports = [
   {
@@ -2919,5 +2919,17 @@ module.exports = [
       "validation"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "NestJS Cache",
+    "description": "Cache module for NestJS with in-memory and Redis storage options",
+    "usage": "import { Module } from '@nestjs/common'; import { CacheModule } from '@nestjs/cache-manager'; @Module({ imports: [CacheModule.register({ ttl: 60 })] }) export class AppModule {}",
+    "tags": [
+      "nestjs",
+      "cache",
+      "redis",
+      "performance"
+    ],
+    "category": "Performance"
   }
 ];
