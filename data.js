@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 629
-// Last updated: 2026-09-02 20:02:09
+// Total modules: 630
+// Last updated: 2026-09-02 20:02:11
 
 module.exports = [
   {
@@ -7549,6 +7549,18 @@ module.exports = [
       "mixin",
       "inheritance",
       "multiple"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Trait",
+    "description": "Trait system for Fastify with reusable behavior",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-trait'), { traits: ['./traits'] });",
+    "tags": [
+      "fastify",
+      "trait",
+      "behavior",
+      "reusable"
     ],
     "category": "Utility"
   }
