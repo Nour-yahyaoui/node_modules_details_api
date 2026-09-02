@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 133
-// Last updated: 2026-09-02 19:51:56
+// Total modules: 134
+// Last updated: 2026-09-02 19:51:57
 
 module.exports = [
   {
@@ -1597,6 +1597,18 @@ module.exports = [
       "e2e",
       "playwright",
       "automation"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Cucumber",
+    "description": "BDD testing with Gherkin syntax, step definitions, and hooks for behavior-driven development",
+    "usage": "Feature: Login Scenario: User logs in Given I am on the login page When I enter credentials Then I see the dashboard",
+    "tags": [
+      "testing",
+      "bdd",
+      "gherkin",
+      "features"
     ],
     "category": "Testing/Tool"
   }
