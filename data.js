@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 755
-// Last updated: 2026-09-02 20:04:47
+// Total modules: 756
+// Last updated: 2026-09-02 20:04:48
 
 module.exports = [
   {
@@ -9061,6 +9061,18 @@ module.exports = [
       "workflow",
       "automation",
       "bpmn"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Automation",
+    "description": "Automation plugin for Fastify with rules and triggers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-automation'), { });",
+    "tags": [
+      "fastify",
+      "automation",
+      "rules",
+      "triggers"
     ],
     "category": "Utility"
   }
