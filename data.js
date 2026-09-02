@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 490
-// Last updated: 2026-09-02 15:26:06
+// Total modules: 491
+// Last updated: 2026-09-02 15:26:07
 
 module.exports = [
   {
@@ -5881,6 +5881,18 @@ module.exports = [
       "step-functions",
       "aws",
       "workflow"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify EventBridge",
+    "description": "AWS EventBridge plugin for Fastify with event publishing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-eventbridge'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "eventbridge",
+      "aws",
+      "events"
     ],
     "category": "Cloud"
   }
