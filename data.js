@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 732
-// Last updated: 2026-09-02 20:04:18
+// Total modules: 733
+// Last updated: 2026-09-02 20:04:20
 
 module.exports = [
   {
@@ -8785,6 +8785,18 @@ module.exports = [
       "review",
       "ratings",
       "comments"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Rating",
+    "description": "Rating plugin for Fastify with stars and scores",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rating'), { });",
+    "tags": [
+      "fastify",
+      "rating",
+      "stars",
+      "scores"
     ],
     "category": "Utility"
   }
