@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 617
-// Last updated: 2026-09-02 20:01:54
+// Total modules: 618
+// Last updated: 2026-09-02 20:01:56
 
 module.exports = [
   {
@@ -7407,5 +7407,17 @@ module.exports = [
       "system"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Widget",
+    "description": "Widget manager for Fastify with dashboard widgets",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-widget'), { widgets: ['./widgets'] });",
+    "tags": [
+      "fastify",
+      "widget",
+      "dashboard",
+      "manager"
+    ],
+    "category": "Utility"
   }
 ];
