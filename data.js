@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 36
-// Last updated: 2026-09-02 21:40:11
+// Total modules: 37
+// Last updated: 2026-09-02 21:40:13
 
 module.exports = [
   {
@@ -435,5 +435,17 @@ module.exports = [
       "migrations"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "MongoDB (Native Driver)",
+    "description": "Official MongoDB driver with connection pooling, change streams, and aggregation pipeline support",
+    "usage": "const { MongoClient } = require('mongodb'); const client = new MongoClient('mongodb://localhost:27017'); await client.connect();",
+    "tags": [
+      "mongodb",
+      "database",
+      "nosql",
+      "driver"
+    ],
+    "category": "Database"
   }
 ];
