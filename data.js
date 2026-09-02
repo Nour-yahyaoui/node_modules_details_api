@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 413
-// Last updated: 2026-09-02 19:57:42
+// Total modules: 414
+// Last updated: 2026-09-02 19:57:43
 
 module.exports = [
   {
@@ -4959,5 +4959,17 @@ module.exports = [
       "random"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify UUID",
+    "description": "UUID generation plugin for Fastify with v1, v4, and v5 support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-uuid'), { version: 'v4' });",
+    "tags": [
+      "fastify",
+      "uuid",
+      "generate",
+      "identifier"
+    ],
+    "category": "Utility"
   }
 ];
