@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 444
-// Last updated: 2026-09-02 15:25:09
+// Total modules: 445
+// Last updated: 2026-09-02 15:25:10
 
 module.exports = [
   {
@@ -5329,6 +5329,18 @@ module.exports = [
       "voice",
       "twilio",
       "vonage"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Video",
+    "description": "Video processing plugin for Fastify with FFmpeg integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-video'), { ffmpeg: '/usr/bin/ffmpeg' });",
+    "tags": [
+      "fastify",
+      "video",
+      "ffmpeg",
+      "processing"
     ],
     "category": "Utility"
   }
