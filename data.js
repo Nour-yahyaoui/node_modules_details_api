@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 373
-// Last updated: 2026-09-02 15:23:40
+// Total modules: 374
+// Last updated: 2026-09-02 15:23:41
 
 module.exports = [
   {
@@ -4477,6 +4477,18 @@ module.exports = [
       "cache",
       "etag",
       "performance"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Compress (Advanced)",
+    "description": "Advanced compression plugin with custom algorithms and thresholds",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/compress'), { threshold: 2048, customTypes: ['text/custom'] });",
+    "tags": [
+      "fastify",
+      "compression",
+      "gzip",
+      "brotli"
     ],
     "category": "Performance"
   }
