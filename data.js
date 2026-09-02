@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 442
-// Last updated: 2026-09-02 19:58:17
+// Total modules: 443
+// Last updated: 2026-09-02 19:58:18
 
 module.exports = [
   {
@@ -5305,6 +5305,18 @@ module.exports = [
       "notifications",
       "push",
       "webpush"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify SMS",
+    "description": "SMS sending plugin for Fastify with Twilio and Vonage integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sms'), { provider: 'twilio' });",
+    "tags": [
+      "fastify",
+      "sms",
+      "twilio",
+      "vonage"
     ],
     "category": "Utility"
   }
