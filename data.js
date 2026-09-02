@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 184
-// Last updated: 2026-09-02 19:52:59
+// Total modules: 185
+// Last updated: 2026-09-02 19:53:00
 
 module.exports = [
   {
@@ -2209,6 +2209,18 @@ module.exports = [
       "graphql",
       "admin",
       "headless"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Payload CMS",
+    "description": "Headless CMS with authentication, access control, and REST API built with Express and MongoDB",
+    "usage": "import { buildConfig } from 'payload/config'; export default buildConfig({ collections: [{ slug: 'users', fields: [] }] });",
+    "tags": [
+      "cms",
+      "headless",
+      "mongodb",
+      "rest-api"
     ],
     "category": "Web Framework"
   }
