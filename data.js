@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 527
-// Last updated: 2026-09-02 20:00:03
+// Total modules: 528
+// Last updated: 2026-09-02 20:00:05
 
 module.exports = [
   {
@@ -6325,6 +6325,18 @@ module.exports = [
       "lint",
       "eslint",
       "code-quality"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Format",
+    "description": "Code formatting plugin for Fastify with Prettier integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-format'), { });",
+    "tags": [
+      "fastify",
+      "format",
+      "prettier",
+      "code-style"
     ],
     "category": "Dev Tool"
   }
