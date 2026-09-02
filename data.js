@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 415
-// Last updated: 2026-09-02 19:57:44
+// Total modules: 416
+// Last updated: 2026-09-02 19:57:45
 
 module.exports = [
   {
@@ -4981,6 +4981,18 @@ module.exports = [
       "nanoid",
       "id",
       "generate"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Slug",
+    "description": "Slug generation plugin for Fastify with custom separators",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-slug'), { separator: '-' });",
+    "tags": [
+      "fastify",
+      "slug",
+      "generate",
+      "url"
     ],
     "category": "Utility"
   }
