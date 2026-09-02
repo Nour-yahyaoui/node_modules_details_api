@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 670
-// Last updated: 2026-09-02 20:03:00
+// Total modules: 671
+// Last updated: 2026-09-02 20:03:01
 
 module.exports = [
   {
@@ -8043,5 +8043,17 @@ module.exports = [
       "performances"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Museum",
+    "description": "Museum guide plugin for Fastify with exhibits and tours",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-museum'), { });",
+    "tags": [
+      "fastify",
+      "museum",
+      "exhibits",
+      "tours"
+    ],
+    "category": "Utility"
   }
 ];
