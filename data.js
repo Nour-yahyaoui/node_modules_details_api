@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 541
-// Last updated: 2026-09-02 20:00:21
+// Total modules: 542
+// Last updated: 2026-09-02 20:00:22
 
 module.exports = [
   {
@@ -6493,6 +6493,18 @@ module.exports = [
       "controller",
       "mvc",
       "pattern"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Service",
+    "description": "Service layer plugin for Fastify with dependency injection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-service'), { services: ['./services'] });",
+    "tags": [
+      "fastify",
+      "service",
+      "di",
+      "injection"
     ],
     "category": "Web Framework"
   }
