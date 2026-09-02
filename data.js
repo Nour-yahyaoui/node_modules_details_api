@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 489
-// Last updated: 2026-09-02 15:26:04
+// Total modules: 490
+// Last updated: 2026-09-02 15:26:06
 
 module.exports = [
   {
@@ -5869,6 +5869,18 @@ module.exports = [
       "cloudwatch",
       "aws",
       "monitoring"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Step Functions",
+    "description": "AWS Step Functions plugin for Fastify with state machine execution",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-step-functions'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "step-functions",
+      "aws",
+      "workflow"
     ],
     "category": "Cloud"
   }
