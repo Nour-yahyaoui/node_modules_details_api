@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 776
-// Last updated: 2026-09-02 20:05:13
+// Total modules: 777
+// Last updated: 2026-09-02 20:05:14
 
 module.exports = [
   {
@@ -9313,6 +9313,18 @@ module.exports = [
       "in-app",
       "messaging",
       "alerts"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Real-time",
+    "description": "Real-time communication plugin for Fastify with WebSockets",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-real-time'), { });",
+    "tags": [
+      "fastify",
+      "real-time",
+      "websocket",
+      "communication"
     ],
     "category": "Real-time"
   }
