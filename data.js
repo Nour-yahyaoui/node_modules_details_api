@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 532
-// Last updated: 2026-09-02 20:00:10
+// Total modules: 533
+// Last updated: 2026-09-02 20:00:11
 
 module.exports = [
   {
@@ -6385,6 +6385,18 @@ module.exports = [
       "esbuild",
       "bundler",
       "build"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Webpack",
+    "description": "Webpack plugin for Fastify with asset compilation and HMR",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-webpack'), { config: './webpack.config.js' });",
+    "tags": [
+      "fastify",
+      "webpack",
+      "bundler",
+      "hmr"
     ],
     "category": "Dev Tool"
   }
