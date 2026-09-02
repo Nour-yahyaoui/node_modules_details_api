@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 638
-// Last updated: 2026-09-02 20:02:20
+// Total modules: 639
+// Last updated: 2026-09-02 20:02:22
 
 module.exports = [
   {
@@ -7657,6 +7657,18 @@ module.exports = [
       "gateway",
       "api",
       "routing"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Router",
+    "description": "Advanced routing plugin for Fastify with wildcards and regex",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-router'), { routes: ['./routes'] });",
+    "tags": [
+      "fastify",
+      "router",
+      "wildcards",
+      "regex"
     ],
     "category": "Web Framework"
   }
