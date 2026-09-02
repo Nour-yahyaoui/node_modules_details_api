@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 389
-// Last updated: 2026-09-02 15:24:00
+// Total modules: 390
+// Last updated: 2026-09-02 15:24:01
 
 module.exports = [
   {
@@ -4671,5 +4671,17 @@ module.exports = [
       "database"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Auth0",
+    "description": "Auth0 authentication plugin for Fastify with JWT verification",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-auth0'), { domain: 'auth0.domain.com', audience: 'api' });",
+    "tags": [
+      "fastify",
+      "auth0",
+      "authentication",
+      "jwt"
+    ],
+    "category": "Security"
   }
 ];
