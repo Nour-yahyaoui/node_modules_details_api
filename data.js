@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 346
-// Last updated: 2026-09-02 19:56:20
+// Total modules: 347
+// Last updated: 2026-09-02 19:56:22
 
 module.exports = [
   {
@@ -4153,6 +4153,18 @@ module.exports = [
       "merge",
       "objects",
       "recursive"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Object Path",
+    "description": "Get, set, and delete nested object properties using path strings",
+    "usage": "const objectPath = require('object-path'); const obj = { user: { name: 'John' } }; objectPath.get(obj, 'user.name');",
+    "tags": [
+      "object",
+      "path",
+      "get",
+      "set"
     ],
     "category": "Utility"
   }
