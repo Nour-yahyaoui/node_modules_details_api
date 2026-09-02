@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 724
-// Last updated: 2026-09-02 20:04:08
+// Total modules: 725
+// Last updated: 2026-09-02 20:04:10
 
 module.exports = [
   {
@@ -8689,6 +8689,18 @@ module.exports = [
       "knowledge",
       "wikis",
       "articles"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Wiki",
+    "description": "Wiki plugin for Fastify with pages and revisions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-wiki'), { });",
+    "tags": [
+      "fastify",
+      "wiki",
+      "pages",
+      "revisions"
     ],
     "category": "Utility"
   }
