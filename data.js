@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 530
-// Last updated: 2026-09-02 20:00:07
+// Total modules: 531
+// Last updated: 2026-09-02 20:00:08
 
 module.exports = [
   {
@@ -6361,6 +6361,18 @@ module.exports = [
       "babel",
       "transpile",
       "es6"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify SWC",
+    "description": "SWC compiler plugin for Fastify with fast transpilation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-swc'), { });",
+    "tags": [
+      "fastify",
+      "swc",
+      "compiler",
+      "fast"
     ],
     "category": "Dev Tool"
   }
