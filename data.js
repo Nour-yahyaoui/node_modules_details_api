@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 580
-// Last updated: 2026-09-02 20:01:09
+// Total modules: 581
+// Last updated: 2026-09-02 20:01:10
 
 module.exports = [
   {
@@ -6963,5 +6963,17 @@ module.exports = [
       "memory"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Fastify Inspector",
+    "description": "Inspection plugin for Fastify with request/response inspection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-inspector'), { });",
+    "tags": [
+      "fastify",
+      "inspector",
+      "debug",
+      "inspect"
+    ],
+    "category": "Dev Tool"
   }
 ];
