@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 48
-// Last updated: 2026-09-02 21:40:26
+// Total modules: 49
+// Last updated: 2026-09-02 21:40:27
 
 module.exports = [
   {
@@ -577,6 +577,18 @@ module.exports = [
       "build",
       "assets",
       "loader"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "ESBuild",
+    "description": "Extremely fast JavaScript bundler that compiles TypeScript and JavaScript to ESM or CJS modules",
+    "usage": "require('esbuild').build({ entryPoints: ['app.js'], bundle: true, outfile: 'out.js' });",
+    "tags": [
+      "bundler",
+      "build",
+      "fast",
+      "typescript"
     ],
     "category": "Dev Tool"
   }
