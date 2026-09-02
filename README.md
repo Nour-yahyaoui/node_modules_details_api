@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 71 |
+| Total Libraries | 72 |
 | Categories | API, Background Processing, CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-02 |
 
@@ -40,6 +40,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
+| Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
 | EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
