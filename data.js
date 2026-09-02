@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 665
-// Last updated: 2026-09-02 20:02:54
+// Total modules: 666
+// Last updated: 2026-09-02 20:02:55
 
 module.exports = [
   {
@@ -7981,6 +7981,18 @@ module.exports = [
       "music",
       "midi",
       "notation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Podcast",
+    "description": "Podcast plugin for Fastify with RSS and episode management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-podcast'), { });",
+    "tags": [
+      "fastify",
+      "podcast",
+      "rss",
+      "episodes"
     ],
     "category": "Utility"
   }
