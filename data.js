@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 627
-// Last updated: 2026-09-05 17:20:12
+// Total modules: 628
+// Last updated: 2026-09-05 17:20:13
 
 module.exports = [
   {
@@ -7527,5 +7527,17 @@ module.exports = [
       "construction"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Prototype",
+    "description": "Prototype-based development plugin for Fastify with inheritance",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-prototype'), { });",
+    "tags": [
+      "fastify",
+      "prototype",
+      "inheritance",
+      "development"
+    ],
+    "category": "Dev Tool"
   }
 ];
