@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 369
-// Last updated: 2026-09-05 17:14:39
+// Total modules: 370
+// Last updated: 2026-09-05 17:14:41
 
 module.exports = [
   {
@@ -4429,6 +4429,18 @@ module.exports = [
       "circuit-breaker",
       "resilience",
       "failure"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Cache",
+    "description": "Cache plugin for Fastify with in-memory and Redis storage",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cache'), { storage: 'memory', ttl: 60 });",
+    "tags": [
+      "fastify",
+      "cache",
+      "performance",
+      "ttl"
     ],
     "category": "Performance"
   }
