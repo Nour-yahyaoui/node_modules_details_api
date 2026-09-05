@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 355
-// Last updated: 2026-09-05 17:14:22
+// Total modules: 356
+// Last updated: 2026-09-05 17:14:23
 
 module.exports = [
   {
@@ -4261,6 +4261,18 @@ module.exports = [
       "mongodb",
       "database",
       "nosql"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Postgres",
+    "description": "PostgreSQL plugin for Fastify with connection pooling and query support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/postgres'), { connectionString: 'postgres://user:pass@localhost/db' });",
+    "tags": [
+      "fastify",
+      "postgresql",
+      "database",
+      "sql"
     ],
     "category": "Database"
   }
