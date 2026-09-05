@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 675
-// Last updated: 2026-09-05 17:21:14
+// Total modules: 676
+// Last updated: 2026-09-05 17:21:15
 
 module.exports = [
   {
@@ -8101,6 +8101,18 @@ module.exports = [
       "garden",
       "planting",
       "harvesting"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Farm",
+    "description": "Farm management plugin for Fastify with crops and livestock",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-farm'), { });",
+    "tags": [
+      "fastify",
+      "farm",
+      "crops",
+      "livestock"
     ],
     "category": "Utility"
   }
