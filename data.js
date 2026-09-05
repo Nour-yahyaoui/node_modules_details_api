@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 482
-// Last updated: 2026-09-05 17:17:03
+// Total modules: 483
+// Last updated: 2026-09-05 17:17:04
 
 module.exports = [
   {
@@ -5787,5 +5787,17 @@ module.exports = [
       "amqp"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "Fastify SQS",
+    "description": "AWS SQS plugin for Fastify with queue management and message handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sqs'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "sqs",
+      "aws",
+      "queue"
+    ],
+    "category": "Cloud"
   }
 ];
