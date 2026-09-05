@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 57
-// Last updated: 2026-09-05 15:20:19
+// Total modules: 58
+// Last updated: 2026-09-05 15:20:20
 
 module.exports = [
   {
@@ -687,5 +687,17 @@ module.exports = [
       "fast"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Drizzle ORM",
+    "description": "Lightweight SQL ORM with zero dependencies and full TypeScript support for modern applications",
+    "usage": "import { drizzle } from 'drizzle-orm/better-sqlite3'; import Database from 'better-sqlite3'; const db = drizzle(new Database('sqlite.db'));",
+    "tags": [
+      "orm",
+      "database",
+      "typescript",
+      "lightweight"
+    ],
+    "category": "ORM/Database"
   }
 ];
