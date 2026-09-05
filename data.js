@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 281
-// Last updated: 2026-09-05 17:12:42
+// Total modules: 282
+// Last updated: 2026-09-05 17:12:44
 
 module.exports = [
   {
@@ -3373,6 +3373,18 @@ module.exports = [
       "prepared",
       "statements",
       "driver"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Redis Cluster",
+    "description": "Redis cluster client with sharding, failover, and command routing",
+    "usage": "const Redis = require('ioredis'); const cluster = new Redis.Cluster([{ host: 'localhost', port: 6379 }]); await cluster.set('key', 'value');",
+    "tags": [
+      "redis",
+      "cluster",
+      "sharding",
+      "failover"
     ],
     "category": "Database"
   }
