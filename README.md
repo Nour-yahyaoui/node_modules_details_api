@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 443 |
+| Total Libraries | 444 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -214,6 +214,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify UUID | Utility | UUID generation plugin for Fastify with v1, v4, and v5 suppo... |
 | Fastify Validator | Validation | Input validation plugin for Fastify with extensive validatio... |
 | Fastify View | Utility | Template engine plugin for Fastify with handlebars, ejs, and... |
+| Fastify Voice | Utility | Voice communication plugin for Fastify with Twilio and Vonag... |
 | Fastify WebSocket | Real-time | WebSocket plugin for Fastify with real-time bidirectional co... |
 | Fastify Winston | Logging | Winston logging plugin for Fastify with multiple transports |
 | Fastify Worker Threads | Performance | Worker thread pool plugin for Fastify with CPU-intensive tas... |
