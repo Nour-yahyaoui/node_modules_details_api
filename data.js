@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 591
-// Last updated: 2026-09-05 17:19:25
+// Total modules: 592
+// Last updated: 2026-09-05 17:19:26
 
 module.exports = [
   {
@@ -7093,6 +7093,18 @@ module.exports = [
       "nfs",
       "network",
       "filesystem"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify CIFS",
+    "description": "CIFS plugin for Fastify with SMB/CIFS protocol support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cifs'), { host: 'cifs.example.com' });",
+    "tags": [
+      "fastify",
+      "cifs",
+      "smb",
+      "protocol"
     ],
     "category": "Utility"
   }
