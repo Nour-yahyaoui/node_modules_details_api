@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 262
-// Last updated: 2026-09-05 17:06:00
+// Total modules: 263
+// Last updated: 2026-09-05 17:06:01
 
 module.exports = [
   {
@@ -3145,6 +3145,18 @@ module.exports = [
       "plugins",
       "hooks",
       "middleware"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Typegoose Advanced",
+    "description": "Advanced Typegoose with decorators, hooks, and virtual properties",
+    "usage": "import { prop, getModelForClass, pre } from '@typegoose/typegoose'; @pre<User>('save', function() { this.updatedAt = new Date(); }) class User { @prop() name: string; @prop() updatedAt: Date; } const UserModel = getModelForClass(User);",
+    "tags": [
+      "typegoose",
+      "typescript",
+      "mongodb",
+      "decorators"
     ],
     "category": "ORM/Database"
   }
