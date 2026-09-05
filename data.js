@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 550
-// Last updated: 2026-09-05 17:18:31
+// Total modules: 551
+// Last updated: 2026-09-05 17:18:32
 
 module.exports = [
   {
@@ -6601,6 +6601,18 @@ module.exports = [
       "search",
       "full-text",
       "fuzzy"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Aggregator",
+    "description": "Data aggregation plugin for Fastify with grouping and counting",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-aggregator'), { aggregations: ['count', 'sum', 'avg'] });",
+    "tags": [
+      "fastify",
+      "aggregator",
+      "group",
+      "count"
     ],
     "category": "Utility"
   }
