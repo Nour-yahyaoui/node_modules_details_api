@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 211
-// Last updated: 2026-09-05 17:04:49
+// Total modules: 212
+// Last updated: 2026-09-05 17:04:51
 
 module.exports = [
   {
@@ -2533,6 +2533,18 @@ module.exports = [
       "progress",
       "terminal",
       "bar"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Prompts",
+    "description": "Interactive CLI prompts with validation, cancellation, and state management",
+    "usage": "const prompts = require('prompts'); const response = await prompts({ type: 'text', name: 'name', message: 'What is your name?' });",
+    "tags": [
+      "cli",
+      "prompts",
+      "terminal",
+      "interactive"
     ],
     "category": "CLI/Tool"
   }
