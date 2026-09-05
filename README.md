@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 166 |
+| Total Libraries | 167 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -179,6 +179,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
 | Supertest | Testing/Tool | HTTP assertion library for testing Express/Node.js applicati... |
 | SWC | Dev Tool | Extremely fast Rust-based JavaScript/TypeScript compiler for... |
+| Terraform (CDKTF) | Dev Tool | Cloud Development Kit for Terraform with infrastructure as c... |
 | Testcontainers | Testing/Tool | Docker container management for tests with database, message... |
 | Typegoose | ORM/Database | TypeScript-first Mongoose wrapper providing type-safe models... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
