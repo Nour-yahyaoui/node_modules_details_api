@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 599
-// Last updated: 2026-09-05 17:19:35
+// Total modules: 600
+// Last updated: 2026-09-05 17:19:37
 
 module.exports = [
   {
@@ -7189,6 +7189,18 @@ module.exports = [
       "sharding",
       "distributed",
       "partition"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Partition",
+    "description": "Partitioning plugin for Fastify with table partitioning",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-partition'), { by: 'date' });",
+    "tags": [
+      "fastify",
+      "partition",
+      "table",
+      "date"
     ],
     "category": "Database"
   }
