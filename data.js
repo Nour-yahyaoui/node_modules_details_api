@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 619
-// Last updated: 2026-09-05 17:20:02
+// Total modules: 620
+// Last updated: 2026-09-05 17:20:03
 
 module.exports = [
   {
@@ -7429,6 +7429,18 @@ module.exports = [
       "theme",
       "ui",
       "customization"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Layout",
+    "description": "Layout management for Fastify with template inheritance",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-layout'), { layouts: './layouts' });",
+    "tags": [
+      "fastify",
+      "layout",
+      "template",
+      "inheritance"
     ],
     "category": "Utility"
   }
