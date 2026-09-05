@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 746
-// Last updated: 2026-09-05 17:57:15
+// Total modules: 747
+// Last updated: 2026-09-05 18:18:43
 
 module.exports = [
   {
@@ -8953,6 +8953,18 @@ module.exports = [
       "survey",
       "questions",
       "analytics"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Questionnaire",
+    "description": "Questionnaire plugin for Fastify with conditional logic",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-questionnaire'), { });",
+    "tags": [
+      "fastify",
+      "questionnaire",
+      "conditional",
+      "logic"
     ],
     "category": "Utility"
   }
