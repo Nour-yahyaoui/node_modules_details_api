@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 320
-// Last updated: 2026-09-05 17:13:36
+// Total modules: 321
+// Last updated: 2026-09-05 17:13:37
 
 module.exports = [
   {
@@ -3843,5 +3843,17 @@ module.exports = [
       "store"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Connect Redis",
+    "description": "Redis session store for Express with automatic session management",
+    "usage": "const RedisStore = require('connect-redis')(session); app.use(session({ store: new RedisStore({ host: 'localhost' }), secret: 'secret' }));",
+    "tags": [
+      "redis",
+      "session",
+      "store",
+      "express"
+    ],
+    "category": "Database"
   }
 ];
