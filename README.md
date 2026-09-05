@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 194 |
+| Total Libraries | 195 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -170,6 +170,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Playwright Test | Testing/Tool | Cross-browser E2E testing with auto-waiting, fixtures, and p... |
 | PM2 | Dev Tool | Production process manager for Node.js with built-in load ba... |
+| Postmark | Utility | Email delivery service with templating, open tracking, and b... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Prismic | Utility | Prismic headless CMS client with query builder, content mana... |
