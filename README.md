@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 174 |
+| Total Libraries | 175 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -94,6 +94,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
 | Hasura CLI | Dev Tool | CLI tool for Hasura GraphQL Engine with migrations, metadata... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
+| Heroku CLI | Dev Tool | CLI for Heroku platform with app management, add-ons, and dy... |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
 | Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
