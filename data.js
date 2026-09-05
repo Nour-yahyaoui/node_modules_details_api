@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 473
-// Last updated: 2026-09-05 17:16:51
+// Total modules: 474
+// Last updated: 2026-09-05 17:16:53
 
 module.exports = [
   {
@@ -5676,6 +5676,18 @@ module.exports = [
       "fastify",
       "cron",
       "schedule",
+      "jobs"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify Bull",
+    "description": "Bull queue integration plugin for Fastify with job processing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-bull'), { redis: { host: 'localhost' } });",
+    "tags": [
+      "fastify",
+      "bull",
+      "queue",
       "jobs"
     ],
     "category": "Background Processing"
