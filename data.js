@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 352
-// Last updated: 2026-09-05 17:14:18
+// Total modules: 353
+// Last updated: 2026-09-05 17:14:19
 
 module.exports = [
   {
@@ -4227,5 +4227,17 @@ module.exports = [
       "stringify"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Oauth2",
+    "description": "OAuth2 plugin for Fastify with support for multiple providers and token management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/oauth2'), { name: 'github', scope: ['user:email'] });",
+    "tags": [
+      "fastify",
+      "oauth2",
+      "authentication",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
