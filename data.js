@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 265
-// Last updated: 2026-09-05 17:06:03
+// Total modules: 266
+// Last updated: 2026-09-05 17:06:05
 
 module.exports = [
   {
@@ -3181,6 +3181,18 @@ module.exports = [
       "associations",
       "orm",
       "models"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize Validations",
+    "description": "Sequelize model validations with built-in and custom validators",
+    "usage": "const User = sequelize.define('User', { name: { type: DataTypes.STRING, validate: { len: [3, 20] } }, email: { type: DataTypes.STRING, validate: { isEmail: true } } });",
+    "tags": [
+      "sequelize",
+      "validations",
+      "models",
+      "database"
     ],
     "category": "ORM/Database"
   }
