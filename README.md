@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 253 |
+| Total Libraries | 254 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -80,6 +80,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Docker Compose | Dev Tool | Define and run multi-container Docker applications with serv... |
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
+| Drizzle Kit | Dev Tool | CLI tool for Drizzle ORM with migrations, introspection, and... |
 | Drizzle ORM | ORM/Database | Lightweight SQL ORM with zero dependencies and full TypeScri... |
 | Drizzle Studio | ORM/Database | Drizzle ORM with integrated database browser and query runne... |
 | EJS | Utility | Embedded JavaScript templating with simple syntax, includes,... |
