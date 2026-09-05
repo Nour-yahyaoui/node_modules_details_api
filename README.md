@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 1 |
-| Categories | HTTP Client |
+| Total Libraries | 2 |
+| Categories | HTTP Client, Security |
 | Last Updated | 2026-09-05 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -27,3 +27,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Library | Category | Description |
 |---------|----------|-------------|
 | Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
+| Bcrypt | Security | Password hashing library using the bcrypt algorithm with sal... |
