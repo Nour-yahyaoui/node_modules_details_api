@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 406
-// Last updated: 2026-09-05 17:15:27
+// Total modules: 407
+// Last updated: 2026-09-05 17:15:28
 
 module.exports = [
   {
@@ -4875,5 +4875,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Type Provider",
+    "description": "TypeScript type providers for Fastify with Zod, Yup, and Joi",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/type-provider-zod'), { schema: { body: z.object({ name: z.string() }) } });",
+    "tags": [
+      "fastify",
+      "typescript",
+      "zod",
+      "validation"
+    ],
+    "category": "Validation"
   }
 ];
