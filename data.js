@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 771
-// Last updated: 2026-09-05 18:19:14
+// Total modules: 772
+// Last updated: 2026-09-05 18:19:15
 
 module.exports = [
   {
@@ -9253,6 +9253,18 @@ module.exports = [
       "marketing",
       "campaigns",
       "automation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Campaign",
+    "description": "Campaign management plugin for Fastify with email and ads",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-campaign'), { });",
+    "tags": [
+      "fastify",
+      "campaign",
+      "email",
+      "ads"
     ],
     "category": "Utility"
   }
