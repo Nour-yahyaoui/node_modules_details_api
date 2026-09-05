@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 249 |
+| Total Libraries | 250 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -217,6 +217,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Pretty Bytes | Utility | Convert bytes to human-readable file size strings with SI an... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
+| Prisma Client | ORM/Database | Type-safe Prisma client with auto-generated queries and migr... |
 | Prismic | Utility | Prismic headless CMS client with query builder, content mana... |
 | Prompts | CLI/Tool | Interactive CLI prompts with validation, cancellation, and s... |
 | Pug | Utility | High-performance template engine with clean, whitespace-sens... |
