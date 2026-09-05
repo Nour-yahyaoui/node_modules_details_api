@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 141
-// Last updated: 2026-09-05 17:02:55
+// Total modules: 142
+// Last updated: 2026-09-05 17:02:56
 
 module.exports = [
   {
@@ -1693,6 +1693,18 @@ module.exports = [
       "json",
       "bunyan",
       "debug"
+    ],
+    "category": "Logging"
+  },
+  {
+    "title": "Log4js",
+    "description": "Logging framework with appenders, layouts, categories, and configuration-based logging",
+    "usage": "const log4js = require('log4js'); log4js.configure({ appenders: { out: { type: 'stdout' } }, categories: { default: { appenders: ['out'], level: 'info' } } }); const logger = log4js.getLogger(); logger.info('Hello');",
+    "tags": [
+      "logging",
+      "appenders",
+      "categories",
+      "configuration"
     ],
     "category": "Logging"
   }
