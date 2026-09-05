@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 501
-// Last updated: 2026-09-05 17:17:27
+// Total modules: 502
+// Last updated: 2026-09-05 17:17:28
 
 module.exports = [
   {
@@ -6013,6 +6013,18 @@ module.exports = [
       "aurora",
       "aws",
       "database"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Redshift",
+    "description": "AWS Redshift plugin for Fastify with data warehousing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-redshift'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "redshift",
+      "aws",
+      "data-warehouse"
     ],
     "category": "Cloud"
   }
