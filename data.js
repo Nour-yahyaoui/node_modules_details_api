@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 344
-// Last updated: 2026-09-05 17:14:08
+// Total modules: 345
+// Last updated: 2026-09-05 17:14:09
 
 module.exports = [
   {
@@ -4129,6 +4129,18 @@ module.exports = [
       "merge",
       "json",
       "conflict"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Deep Equal",
+    "description": "Deep equality checking for JavaScript objects and arrays",
+    "usage": "const deepEqual = require('deep-equal'); const equal = deepEqual({ a: 1 }, { a: 1 });",
+    "tags": [
+      "deep",
+      "equal",
+      "compare",
+      "assert"
     ],
     "category": "Utility"
   }
