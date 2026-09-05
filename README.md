@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 723 |
+| Total Libraries | 724 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -292,6 +292,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Kanban | Utility | Kanban board plugin for Fastify with columns and cards |
 | Fastify Keycloak | Security | Keycloak authentication plugin for Fastify with token valida... |
 | Fastify KMS | Cloud | AWS KMS plugin for Fastify with encryption and decryption |
+| Fastify Knowledge | Utility | Knowledge management plugin for Fastify with wikis and artic... |
 | Fastify Lambda | Cloud | AWS Lambda integration plugin for Fastify with function invo... |
 | Fastify Layout | Utility | Layout management for Fastify with template inheritance |
 | Fastify Learning | Utility | Learning management plugin for Fastify with courses and less... |
