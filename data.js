@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 708
-// Last updated: 2026-09-05 17:21:56
+// Total modules: 709
+// Last updated: 2026-09-05 17:21:58
 
 module.exports = [
   {
@@ -8497,6 +8497,18 @@ module.exports = [
       "hr",
       "employees",
       "departments"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Recruitment",
+    "description": "Recruitment plugin for Fastify with job postings and applicants",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-recruitment'), { });",
+    "tags": [
+      "fastify",
+      "recruitment",
+      "job-postings",
+      "applicants"
     ],
     "category": "Utility"
   }
