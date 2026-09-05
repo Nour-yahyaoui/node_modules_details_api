@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 596
-// Last updated: 2026-09-05 17:19:31
+// Total modules: 597
+// Last updated: 2026-09-05 17:19:33
 
 module.exports = [
   {
@@ -7155,5 +7155,17 @@ module.exports = [
       "rollback"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Sync",
+    "description": "Synchronization plugin for Fastify with real-time data sync",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sync'), { peers: ['ws://peer1:8080'] });",
+    "tags": [
+      "fastify",
+      "sync",
+      "realtime",
+      "data"
+    ],
+    "category": "Real-time"
   }
 ];
