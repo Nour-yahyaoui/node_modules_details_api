@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 486
-// Last updated: 2026-09-05 17:17:08
+// Total modules: 487
+// Last updated: 2026-09-05 17:17:09
 
 module.exports = [
   {
@@ -5833,6 +5833,18 @@ module.exports = [
       "dynamodb",
       "aws",
       "database"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify S3",
+    "description": "AWS S3 plugin for Fastify with bucket and object operations",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-s3'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "s3",
+      "aws",
+      "storage"
     ],
     "category": "Cloud"
   }
