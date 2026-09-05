@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 21
-// Last updated: 2026-09-05 15:19:33
+// Total modules: 22
+// Last updated: 2026-09-05 15:19:35
 
 module.exports = [
   {
@@ -255,5 +255,17 @@ module.exports = [
       "functional"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Mongoose",
+    "description": "MongoDB object modeling with schema validation, query building, and middleware support",
+    "usage": "const mongoose = require('mongoose'); await mongoose.connect('mongodb://localhost:27017/test');",
+    "tags": [
+      "mongodb",
+      "odm",
+      "schema",
+      "validation"
+    ],
+    "category": "ORM/Database"
   }
 ];
