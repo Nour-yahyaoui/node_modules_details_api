@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 329 |
+| Total Libraries | 330 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -282,6 +282,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Redis Cluster | Database | Redis cluster client with sharding, failover, and command ro... |
 | Redis Sentinel | Database | Redis sentinel client with automatic failover and master dis... |
 | Referrer Policy | Security | Referrer-Policy header middleware for controlling referrer i... |
+| Response Time | Performance | Response time header middleware for Express with timing metr... |
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
 | Roarr | Logging | JSON logger with built-in filtering, child loggers, and cont... |
 | Rollup | Dev Tool | Module bundler with tree-shaking, ESM support, and plugin ec... |
