@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 545 |
+| Total Libraries | 546 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -216,6 +216,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Lit | Utility | Lit HTML rendering plugin for Fastify with web components |
 | Fastify Logger (Pino) | Logging | Advanced logging plugin for Fastify with Pino and pretty pri... |
 | Fastify Mail | Utility | Email plugin for Fastify with Nodemailer integration and tem... |
+| Fastify Mapper | Utility | Data mapping plugin for Fastify with object mapping |
 | Fastify Markdown | Utility | Markdown rendering plugin for Fastify with custom plugins |
 | Fastify Markdown (Advanced) | Utility | Advanced Markdown plugin with plugins and custom rendering |
 | Fastify Material | Utility | Material Design integration plugin for Fastify with componen... |
