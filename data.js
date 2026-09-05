@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 570
-// Last updated: 2026-09-05 17:18:57
+// Total modules: 571
+// Last updated: 2026-09-05 17:18:58
 
 module.exports = [
   {
@@ -6841,6 +6841,18 @@ module.exports = [
       "document",
       "versioning",
       "sharing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Notes",
+    "description": "Note-taking plugin for Fastify with notebooks and tags",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-notes'), { });",
+    "tags": [
+      "fastify",
+      "notes",
+      "notebooks",
+      "tags"
     ],
     "category": "Utility"
   }
