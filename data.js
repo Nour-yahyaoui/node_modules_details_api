@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 590
-// Last updated: 2026-09-05 17:19:24
+// Total modules: 591
+// Last updated: 2026-09-05 17:19:25
 
 module.exports = [
   {
@@ -7081,6 +7081,18 @@ module.exports = [
       "smb",
       "windows",
       "sharing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify NFS",
+    "description": "NFS client plugin for Fastify with network file system access",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-nfs'), { mount: '/mnt/nfs' });",
+    "tags": [
+      "fastify",
+      "nfs",
+      "network",
+      "filesystem"
     ],
     "category": "Utility"
   }
