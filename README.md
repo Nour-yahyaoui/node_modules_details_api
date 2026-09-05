@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 59 |
+| Total Libraries | 60 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -63,6 +63,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
+| Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
 | PDFKit | Utility | PDF generation library with support for text, images, vector... |
