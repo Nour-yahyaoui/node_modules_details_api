@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 5 |
-| Categories | CLI/Tool, HTTP Client, Security, Utility |
+| Total Libraries | 6 |
+| Categories | CLI/Tool, HTTP Client, Performance, Security, Utility |
 | Last Updated | 2026-09-05 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -31,3 +31,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
 | Chalk | CLI/Tool | Terminal string styling with colors, RGB, and hex support fo... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
+| Compression | Performance | Response compression middleware using gzip or deflate to red... |
