@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 120
-// Last updated: 2026-09-05 15:17:36
+// Total modules: 121
+// Last updated: 2026-09-05 15:17:37
 
 module.exports = [
   {
@@ -1441,6 +1441,18 @@ module.exports = [
       "redis",
       "jobs",
       "simple"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Kue",
+    "description": "Redis-backed priority job queue with rich UI, job status, and event listeners",
+    "usage": "const kue = require('kue'); const queue = kue.createQueue(); queue.create('email', { to: 'user@example.com' }).save();",
+    "tags": [
+      "queue",
+      "redis",
+      "jobs",
+      "priority"
     ],
     "category": "Background Processing"
   }
