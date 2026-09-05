@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 46
-// Last updated: 2026-09-05 15:20:04
+// Total modules: 47
+// Last updated: 2026-09-05 15:20:06
 
 module.exports = [
   {
@@ -555,5 +555,17 @@ module.exports = [
       "stub"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Vite",
+    "description": "Fast build tool with instant server start and lightning-fast HMR for modern web projects",
+    "usage": "npm create vite@latest my-app -- --template react",
+    "tags": [
+      "bundler",
+      "build",
+      "dev-server",
+      "hmr"
+    ],
+    "category": "Dev Tool"
   }
 ];
