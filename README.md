@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 103 |
+| Total Libraries | 104 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -88,6 +88,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
+| NanoID | Utility | Secure, URL-friendly unique ID generator with customizable a... |
 | NeDB | Database | Pure JavaScript database with MongoDB-like API for embedded ... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Node-cache | Performance | Simple in-memory caching with TTL support, statistics, and k... |
