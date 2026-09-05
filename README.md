@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 127 |
+| Total Libraries | 128 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -26,6 +26,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Library | Category | Description |
 |---------|----------|-------------|
+| Ably | Real-time | Real-time messaging platform with WebSocket and REST APIs, p... |
 | AdonisJS | Web Framework | Full-stack MVC framework with ORM, authentication, and every... |
 | Agenda | Background Processing | MongoDB-backed job scheduling library for creating and manag... |
 | Ajv | Validation | Fast JSON schema validator with support for draft-04, draft-... |
