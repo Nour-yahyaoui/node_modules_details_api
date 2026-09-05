@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 151
-// Last updated: 2026-09-05 17:03:10
+// Total modules: 152
+// Last updated: 2026-09-05 17:03:11
 
 module.exports = [
   {
@@ -1813,6 +1813,18 @@ module.exports = [
       "copy",
       "recursive",
       "fs"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Archiver",
+    "description": "Create ZIP and TAR archives with compression, stream support, and file entry management",
+    "usage": "const archiver = require('archiver'); const archive = archiver('zip'); archive.directory('src', false); archive.pipe(fs.createWriteStream('output.zip')); await archive.finalize();",
+    "tags": [
+      "zip",
+      "archive",
+      "compression",
+      "tar"
     ],
     "category": "Utility"
   }
