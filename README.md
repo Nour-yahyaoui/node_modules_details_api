@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 151 |
+| Total Libraries | 152 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -32,6 +32,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Ajv | Validation | Fast JSON schema validator with support for draft-04, draft-... |
 | Amqplib | Background Processing | RabbitMQ client with connection management, channel handling... |
 | Apollo Server | API | GraphQL server for Express, Fastify, and other frameworks wi... |
+| Archiver | Utility | Create ZIP and TAR archives with compression, stream support... |
 | Argon2 | Security | Modern password hashing using Argon2 algorithm with configur... |
 | AWS SDK | Cloud | Official AWS SDK for Node.js with support for S3, DynamoDB, ... |
 | Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
