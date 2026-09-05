@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 386
-// Last updated: 2026-09-05 17:15:01
+// Total modules: 387
+// Last updated: 2026-09-05 17:15:03
 
 module.exports = [
   {
@@ -4633,6 +4633,18 @@ module.exports = [
       "banner",
       "version",
       "ascii"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Fastify CLI",
+    "description": "CLI tools for Fastify with project scaffolding and management",
+    "usage": "fastify generate my-app && cd my-app && npm install",
+    "tags": [
+      "fastify",
+      "cli",
+      "generate",
+      "scaffold"
     ],
     "category": "CLI/Tool"
   }
