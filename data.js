@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 371
-// Last updated: 2026-09-05 17:14:42
+// Total modules: 372
+// Last updated: 2026-09-05 17:14:43
 
 module.exports = [
   {
@@ -4455,5 +4455,17 @@ module.exports = [
       "snowflake"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Secure Session",
+    "description": "Secure session plugin for Fastify with encryption and signed cookies",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/secure-session'), { key: Buffer.from('secret') });",
+    "tags": [
+      "fastify",
+      "session",
+      "security",
+      "encryption"
+    ],
+    "category": "Security"
   }
 ];
