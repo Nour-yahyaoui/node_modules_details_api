@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 197 |
+| Total Libraries | 198 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -126,6 +126,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Lru-cache | Performance | Least Recently Used cache with configurable max size and TTL... |
 | Luxon | Utility | Powerful date and time library with immutable objects, durat... |
 | Mailgun | Utility | Email service with sending, receiving, and tracking features... |
+| Meilisearch | Database | Fast search engine with typo-tolerance, filtering, and insta... |
 | Memory-cache | Performance | Lightweight in-memory cache with simple put/get API and expi... |
 | Mercurius | API | GraphQL server and gateway for Fastify with schema stitching... |
 | MikroORM | ORM/Database | TypeScript ORM with unit of work, identity map, and support ... |
