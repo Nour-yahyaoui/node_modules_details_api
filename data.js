@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 216
-// Last updated: 2026-09-05 17:04:58
+// Total modules: 217
+// Last updated: 2026-09-05 17:04:59
 
 module.exports = [
   {
@@ -2593,6 +2593,18 @@ module.exports = [
       "fetch",
       "fast",
       "pooling"
+    ],
+    "category": "HTTP Client"
+  },
+  {
+    "title": "Node-fetch (Advanced)",
+    "description": "Enhanced node-fetch with redirect, compression, and agent support",
+    "usage": "const fetch = require('node-fetch'); const response = await fetch('https://api.example.com', { redirect: 'follow', compress: true });",
+    "tags": [
+      "http",
+      "fetch",
+      "redirect",
+      "compression"
     ],
     "category": "HTTP Client"
   }
