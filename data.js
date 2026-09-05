@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 516
-// Last updated: 2026-09-05 17:17:47
+// Total modules: 517
+// Last updated: 2026-09-05 17:17:48
 
 module.exports = [
   {
@@ -6195,5 +6195,17 @@ module.exports = [
       "forward"
     ],
     "category": "HTTP Client"
+  },
+  {
+    "title": "Fastify Rewind",
+    "description": "Request/response replay plugin for Fastify with recording and playback",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rewind'), { mode: 'record' });",
+    "tags": [
+      "fastify",
+      "replay",
+      "record",
+      "testing"
+    ],
+    "category": "Testing/Tool"
   }
 ];
