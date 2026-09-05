@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 742
-// Last updated: 2026-09-05 17:40:45
+// Total modules: 743
+// Last updated: 2026-09-05 17:57:11
 
 module.exports = [
   {
@@ -8905,6 +8905,18 @@ module.exports = [
       "resume",
       "skills",
       "experience"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify CV",
+    "description": "CV builder plugin for Fastify with templates and exports",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cv'), { });",
+    "tags": [
+      "fastify",
+      "cv",
+      "builder",
+      "templates"
     ],
     "category": "Utility"
   }
