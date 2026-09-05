@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 106
-// Last updated: 2026-09-05 15:17:17
+// Total modules: 107
+// Last updated: 2026-09-05 15:17:19
 
 module.exports = [
   {
@@ -1273,6 +1273,18 @@ module.exports = [
       "time",
       "datetime",
       "format"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Luxon",
+    "description": "Powerful date and time library with immutable objects, durations, and interval support",
+    "usage": "const { DateTime } = require('luxon'); const now = DateTime.now(); const formatted = now.toFormat('yyyy-MM-dd HH:mm:ss');",
+    "tags": [
+      "date",
+      "time",
+      "datetime",
+      "immutable"
     ],
     "category": "Utility"
   }
