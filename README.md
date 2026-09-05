@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 203 |
+| Total Libraries | 204 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -47,6 +47,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Bee-queue | Background Processing | Simple and secure Redis-based job queue with pause/resume an... |
 | Better-sqlite3 | Database | Fast and efficient SQLite3 library with synchronous API and ... |
 | BigCommerce API | Payment | BigCommerce API client with catalog, checkout, and order man... |
+| Bluebird | Utility | Full-featured Promise library with performance, utilities, a... |
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
 | Bookshelf.js | ORM/Database | ORM for PostgreSQL, MySQL, SQLite with model relations, eage... |
 | Bull | Background Processing | Redis-based job queue for handling background jobs, scheduli... |
