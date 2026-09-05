@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 519
-// Last updated: 2026-09-05 17:17:51
+// Total modules: 520
+// Last updated: 2026-09-05 17:17:52
 
 module.exports = [
   {
@@ -6229,6 +6229,18 @@ module.exports = [
       "mock",
       "testing",
       "stub"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Fixtures",
+    "description": "Test fixtures plugin for Fastify with data seeding and cleanup",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-fixtures'), { fixtures: { users: [{ name: 'John' }] } });",
+    "tags": [
+      "fastify",
+      "fixtures",
+      "testing",
+      "data"
     ],
     "category": "Testing/Tool"
   }
