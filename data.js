@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 236
-// Last updated: 2026-09-05 17:05:27
+// Total modules: 237
+// Last updated: 2026-09-05 17:05:29
 
 module.exports = [
   {
@@ -2835,5 +2835,17 @@ module.exports = [
       "security"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Hapi Boom",
+    "description": "HTTP-friendly error objects for Hapi with status codes and error messages",
+    "usage": "const Hapi = require('@hapi/hapi'); const Boom = require('@hapi/boom'); const server = Hapi.server({ port: 3000 }); server.route({ method: 'GET', path: '/', handler: () => { throw Boom.notFound('Not found'); } });",
+    "tags": [
+      "hapi",
+      "errors",
+      "http",
+      "boom"
+    ],
+    "category": "Utility"
   }
 ];
