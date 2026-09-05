@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 523
-// Last updated: 2026-09-05 18:38:01
+// Total modules: 524
+// Last updated: 2026-09-05 18:38:02
 
 module.exports = [
   {
@@ -6277,6 +6277,18 @@ module.exports = [
       "migrate",
       "database",
       "version"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Rollback",
+    "description": "Rollback plugin for Fastify with undo and redo support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rollback'), { });",
+    "tags": [
+      "fastify",
+      "rollback",
+      "undo",
+      "redo"
     ],
     "category": "Dev Tool"
   }
