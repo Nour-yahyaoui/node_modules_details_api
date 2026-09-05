@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 279
-// Last updated: 2026-09-05 17:06:40
+// Total modules: 280
+// Last updated: 2026-09-05 17:06:42
 
 module.exports = [
   {
@@ -3349,6 +3349,18 @@ module.exports = [
       "postgresql",
       "interceptors",
       "logging"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "PG Native",
+    "description": "Native PostgreSQL client with binary parsing and C-level performance",
+    "usage": "const { Client } = require('pg-native'); const client = new Client(); await client.connect(); const result = await client.query('SELECT * FROM users');",
+    "tags": [
+      "postgresql",
+      "native",
+      "driver",
+      "performance"
     ],
     "category": "Database"
   }
