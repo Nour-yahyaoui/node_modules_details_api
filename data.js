@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 768
-// Last updated: 2026-09-05 18:19:10
+// Total modules: 769
+// Last updated: 2026-09-05 18:19:11
 
 module.exports = [
   {
@@ -9217,6 +9217,18 @@ module.exports = [
       "targeting",
       "content",
       "delivery"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Optimization",
+    "description": "Optimization plugin for Fastify with A/B testing and analysis",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-optimization'), { });",
+    "tags": [
+      "fastify",
+      "optimization",
+      "ab-testing",
+      "analysis"
     ],
     "category": "Utility"
   }
