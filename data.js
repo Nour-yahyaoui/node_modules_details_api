@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 274
-// Last updated: 2026-09-05 17:06:16
+// Total modules: 275
+// Last updated: 2026-09-05 17:06:17
 
 module.exports = [
   {
@@ -3289,6 +3289,18 @@ module.exports = [
       "unit-of-work",
       "identity-map",
       "transaction"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "TypeORM Query Builder",
+    "description": "TypeORM query builder with complex conditions, joins, and subqueries",
+    "usage": "const users = await getRepository(User).createQueryBuilder('user') .leftJoinAndSelect('user.posts', 'post') .where('user.age > :age', { age: 18 }) .getMany();",
+    "tags": [
+      "typeorm",
+      "query",
+      "builder",
+      "sql"
     ],
     "category": "ORM/Database"
   }
