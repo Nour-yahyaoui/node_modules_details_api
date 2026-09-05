@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 521
-// Last updated: 2026-09-05 17:17:54
+// Total modules: 522
+// Last updated: 2026-09-05 17:17:55
 
 module.exports = [
   {
@@ -6253,6 +6253,18 @@ module.exports = [
       "factory",
       "testing",
       "generation"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Seeder",
+    "description": "Database seeding plugin for Fastify with data import",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-seeder'), { data: './seed-data.json' });",
+    "tags": [
+      "fastify",
+      "seeder",
+      "database",
+      "data"
     ],
     "category": "Testing/Tool"
   }
