@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 773 |
+| Total Libraries | 774 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -468,6 +468,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Slug | Utility | Slug generation plugin for Fastify with custom separators |
 | Fastify SMB | Utility | SMB client plugin for Fastify with Windows file sharing |
 | Fastify SMS | Utility | SMS sending plugin for Fastify with Twilio and Vonage integr... |
+| Fastify SMS (Advanced) | Utility | Advanced SMS plugin with bulk and scheduling |
 | Fastify Snapshot | Testing/Tool | Snapshot testing plugin for Fastify with JSON comparison |
 | Fastify Snapshot (Advanced) | Utility | Advanced snapshot plugin with versioning and rollback |
 | Fastify Snippet | Dev Tool | Code snippet management for Fastify with reusable code block... |
