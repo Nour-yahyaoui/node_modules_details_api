@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 52 |
+| Total Libraries | 53 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -69,6 +69,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
+| Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
