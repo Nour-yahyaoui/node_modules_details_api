@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 775
-// Last updated: 2026-09-05 18:19:19
+// Total modules: 776
+// Last updated: 2026-09-05 18:19:20
 
 module.exports = [
   {
@@ -9303,5 +9303,17 @@ module.exports = [
       "mobile"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify In-App",
+    "description": "In-app messaging plugin for Fastify with real-time alerts",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-in-app'), { });",
+    "tags": [
+      "fastify",
+      "in-app",
+      "messaging",
+      "alerts"
+    ],
+    "category": "Real-time"
   }
 ];
