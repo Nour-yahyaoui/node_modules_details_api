@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 54 |
+| Total Libraries | 55 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -40,6 +40,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
+| ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
