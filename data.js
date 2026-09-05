@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 492
-// Last updated: 2026-09-05 17:17:16
+// Total modules: 493
+// Last updated: 2026-09-05 17:17:17
 
 module.exports = [
   {
@@ -5905,6 +5905,18 @@ module.exports = [
       "appsync",
       "graphql",
       "aws"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify API Gateway",
+    "description": "AWS API Gateway plugin for Fastify with REST and WebSocket support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-api-gateway'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "api-gateway",
+      "aws",
+      "rest"
     ],
     "category": "Cloud"
   }
