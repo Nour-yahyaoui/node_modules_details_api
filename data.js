@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 429
-// Last updated: 2026-09-05 17:15:55
+// Total modules: 430
+// Last updated: 2026-09-05 17:15:56
 
 module.exports = [
   {
@@ -5149,6 +5149,18 @@ module.exports = [
       "json",
       "streaming",
       "optimization"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify XML",
+    "description": "XML parsing and generation plugin for Fastify with custom schemas",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-xml'), { });",
+    "tags": [
+      "fastify",
+      "xml",
+      "parse",
+      "generate"
     ],
     "category": "Utility"
   }
