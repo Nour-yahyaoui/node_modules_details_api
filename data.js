@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 540
-// Last updated: 2026-09-05 17:18:18
+// Total modules: 541
+// Last updated: 2026-09-05 17:18:20
 
 module.exports = [
   {
@@ -6481,6 +6481,18 @@ module.exports = [
       "resource",
       "rest",
       "routes"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Controller",
+    "description": "Controller plugin for Fastify with MVC pattern support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-controller'), { controllers: './controllers' });",
+    "tags": [
+      "fastify",
+      "controller",
+      "mvc",
+      "pattern"
     ],
     "category": "Web Framework"
   }
