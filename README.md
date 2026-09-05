@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 172 |
+| Total Libraries | 173 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -191,6 +191,7 @@ This repository contains a growing collection of **Node.js library documentation
 | TypeScript | Dev Tool | Typed superset of JavaScript that compiles to plain JavaScri... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
+| Vercel CLI | Dev Tool | CLI for Vercel platform with deployments, environment variab... |
 | Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
 | Waterline | ORM/Database | ORM supporting multiple database adapters with model definit... |
 | Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
