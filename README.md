@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 465 |
+| Total Libraries | 466 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -152,6 +152,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Crypto | Security | Crypto utilities plugin for Fastify with AES and random gene... |
 | Fastify CSS | Dev Tool | CSS processing plugin for Fastify with minification and comp... |
 | Fastify CSV | Utility | CSV parsing and generation plugin for Fastify with streaming |
+| Fastify DaisyUI | Utility | DaisyUI integration plugin for Fastify with Tailwind compone... |
 | Fastify Data Validation | Validation | Comprehensive data validation plugin with multiple schema su... |
 | Fastify Decorate | Utility | Fastify decoration utilities for extending core and request ... |
 | Fastify Dotenv | Utility | Dotenv plugin for Fastify with automatic .env loading |
