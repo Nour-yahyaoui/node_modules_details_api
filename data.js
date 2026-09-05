@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 744
-// Last updated: 2026-09-05 17:57:13
+// Total modules: 745
+// Last updated: 2026-09-05 17:57:14
 
 module.exports = [
   {
@@ -8929,6 +8929,18 @@ module.exports = [
       "application",
       "fields",
       "submissions"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Form",
+    "description": "Form builder plugin for Fastify with validation and submissions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-form'), { });",
+    "tags": [
+      "fastify",
+      "form",
+      "builder",
+      "validation"
     ],
     "category": "Utility"
   }
