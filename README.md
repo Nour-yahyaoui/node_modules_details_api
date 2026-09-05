@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 755 |
+| Total Libraries | 756 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -156,6 +156,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Auth0 | Security | Auth0 authentication plugin for Fastify with JWT verificatio... |
 | Fastify Autoload | Dev Tool | Auto-load Fastify plugins from directories with configuratio... |
 | Fastify Autoload (Advanced) | Dev Tool | Advanced plugin autoloader with hierarchical loading and opt... |
+| Fastify Automation | Utility | Automation plugin for Fastify with rules and triggers |
 | Fastify Babel | Dev Tool | Babel transpilation plugin for Fastify with ES6+ support |
 | Fastify Backup | Utility | Backup plugin for Fastify with scheduled backups and restora... |
 | Fastify Banking | Utility | Banking plugin for Fastify with accounts and transactions |
