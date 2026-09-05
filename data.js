@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 588
-// Last updated: 2026-09-05 21:29:31
+// Total modules: 589
+// Last updated: 2026-09-05 21:29:32
 
 module.exports = [
   {
@@ -7057,6 +7057,18 @@ module.exports = [
       "sftp",
       "secure",
       "transfer"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify WebDAV",
+    "description": "WebDAV plugin for Fastify with file management and sharing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-webdav'), { root: './files' });",
+    "tags": [
+      "fastify",
+      "webdav",
+      "files",
+      "sharing"
     ],
     "category": "Utility"
   }
