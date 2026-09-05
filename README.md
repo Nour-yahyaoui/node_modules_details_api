@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 278 |
+| Total Libraries | 279 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -266,6 +266,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Sinon | Testing/Tool | Test spy, stub, and mock library for testing components in i... |
 | Slack SDK | Utility | Slack API client with WebSocket, REST, and webhook support f... |
 | Slonik | Database | PostgreSQL client with type safety, connection pooling, and ... |
+| Slonik Interceptors | Database | Slonik query interceptors for logging, benchmarking, and err... |
 | Snowpack | Dev Tool | Build tool using native ESM with fast builds, Hot Module Rep... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | Socks | Utility | SOCKS proxy client for creating connections through proxy se... |
