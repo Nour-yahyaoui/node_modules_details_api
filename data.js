@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 438
-// Last updated: 2026-09-05 17:16:06
+// Total modules: 439
+// Last updated: 2026-09-05 17:16:08
 
 module.exports = [
   {
@@ -5257,6 +5257,18 @@ module.exports = [
       "feature-flags",
       "toggle",
       "rollout"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify AB Testing",
+    "description": "A/B testing plugin for Fastify with experiment allocation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ab-testing'), { experiments: { newUI: { ratio: 0.5 } } });",
+    "tags": [
+      "fastify",
+      "ab-testing",
+      "experiments",
+      "allocation"
     ],
     "category": "Utility"
   }
