@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 343 |
+| Total Libraries | 344 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -261,6 +261,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Ora | CLI/Tool | Elegant terminal spinner for CLI applications with customiza... |
 | Parcel | Dev Tool | Zero-configuration web application bundler with built-in sup... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
+| Patchwork | Utility | JSON patch and merge utilities with conflict resolution |
 | Payload CMS | Web Framework | Headless CMS with authentication, access control, and REST A... |
 | PayPal SDK | Payment | PayPal REST API SDK for processing payments, managing subscr... |
 | PDFKit | Utility | PDF generation library with support for text, images, vector... |
