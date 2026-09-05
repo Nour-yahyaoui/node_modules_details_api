@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 737
-// Last updated: 2026-09-05 17:22:35
+// Total modules: 738
+// Last updated: 2026-09-05 17:22:36
 
 module.exports = [
   {
@@ -8845,6 +8845,18 @@ module.exports = [
       "consensus",
       "agreement",
       "protocols"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Collaboration",
+    "description": "Collaboration plugin for Fastify with team workspaces",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-collaboration'), { });",
+    "tags": [
+      "fastify",
+      "collaboration",
+      "team",
+      "workspaces"
     ],
     "category": "Utility"
   }
