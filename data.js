@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 395
-// Last updated: 2026-09-05 17:15:13
+// Total modules: 396
+// Last updated: 2026-09-05 17:15:15
 
 module.exports = [
   {
@@ -4741,6 +4741,18 @@ module.exports = [
       "audit",
       "logging",
       "monitoring"
+    ],
+    "category": "Logging"
+  },
+  {
+    "title": "Fastify Logger (Pino)",
+    "description": "Advanced logging plugin for Fastify with Pino and pretty printing",
+    "usage": "const fastify = require('fastify')({ logger: { level: 'info', transport: { target: 'pino-pretty' } } });",
+    "tags": [
+      "fastify",
+      "logging",
+      "pino",
+      "pretty"
     ],
     "category": "Logging"
   }
