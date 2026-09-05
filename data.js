@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 554
-// Last updated: 2026-09-05 17:18:36
+// Total modules: 555
+// Last updated: 2026-09-05 17:18:38
 
 module.exports = [
   {
@@ -6649,6 +6649,18 @@ module.exports = [
       "admin",
       "crud",
       "interface"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify CMS",
+    "description": "Content management plugin for Fastify with content types",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cms'), { contentTypes: ['page', 'post'] });",
+    "tags": [
+      "fastify",
+      "cms",
+      "content",
+      "management"
     ],
     "category": "Web Framework"
   }
