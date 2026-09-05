@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 647
-// Last updated: 2026-09-05 17:20:37
+// Total modules: 648
+// Last updated: 2026-09-05 17:20:38
 
 module.exports = [
   {
@@ -7765,6 +7765,18 @@ module.exports = [
       "subscriber",
       "topics",
       "subscriptions"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Broadcaster",
+    "description": "Broadcasting plugin for Fastify with multi-channel support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-broadcaster'), { channels: ['global'] });",
+    "tags": [
+      "fastify",
+      "broadcaster",
+      "channels",
+      "multi"
     ],
     "category": "Real-time"
   }
