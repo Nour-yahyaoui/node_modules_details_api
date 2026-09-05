@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 261
-// Last updated: 2026-09-05 17:05:58
+// Total modules: 262
+// Last updated: 2026-09-05 17:06:00
 
 module.exports = [
   {
@@ -3133,6 +3133,18 @@ module.exports = [
       "population",
       "relations",
       "mongodb"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Mongoose Plugin",
+    "description": "Mongoose plugin system with timestamps, pagination, and custom hooks",
+    "usage": "const timestampPlugin = (schema) => { schema.add({ createdAt: Date, updatedAt: Date }); schema.pre('save', function(next) { this.updatedAt = Date.now(); next(); }); }; schema.plugin(timestampPlugin);",
+    "tags": [
+      "mongoose",
+      "plugins",
+      "hooks",
+      "middleware"
     ],
     "category": "ORM/Database"
   }
