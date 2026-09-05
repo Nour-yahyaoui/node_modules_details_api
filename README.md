@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 752 |
+| Total Libraries | 753 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -339,6 +339,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Mixin | Utility | Mixin plugin for Fastify with multiple inheritance |
 | Fastify ML | Utility | Machine learning plugin for Fastify with TensorFlow.js |
 | Fastify Mock | Testing/Tool | Mocking plugin for Fastify with dynamic response generation |
+| Fastify Moderation | Utility | Content moderation plugin for Fastify with approval and filt... |
 | Fastify Module | Dev Tool | Module loader for Fastify with dependency management |
 | Fastify Module Aliases | Dev Tool | Module aliases plugin for Fastify with path resolution |
 | Fastify MongoDB | Database | MongoDB plugin for Fastify with connection management and co... |
