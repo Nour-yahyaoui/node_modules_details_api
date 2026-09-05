@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 585
-// Last updated: 2026-09-05 17:19:17
+// Total modules: 586
+// Last updated: 2026-09-05 17:19:18
 
 module.exports = [
   {
@@ -7021,6 +7021,18 @@ module.exports = [
       "terminal",
       "web",
       "emulation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify SSH",
+    "description": "SSH client plugin for Fastify with remote command execution",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ssh'), { host: 'example.com' });",
+    "tags": [
+      "fastify",
+      "ssh",
+      "remote",
+      "execution"
     ],
     "category": "Utility"
   }
