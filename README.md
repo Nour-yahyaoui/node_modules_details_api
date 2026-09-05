@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 731 |
+| Total Libraries | 732 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -404,6 +404,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Response Validation | Validation | Response validation plugin for Fastify with schema checking |
 | Fastify Restore | Utility | Restore plugin for Fastify with point-in-time recovery |
 | Fastify Retail | Utility | Retail plugin for Fastify with POS and inventory |
+| Fastify Review | Utility | Review plugin for Fastify with ratings and comments |
 | Fastify Rewind | Testing/Tool | Request/response replay plugin for Fastify with recording an... |
 | Fastify Rollback | Dev Tool | Rollback plugin for Fastify with undo and redo support |
 | Fastify Rollup | Dev Tool | Rollup plugin for Fastify with tree-shaking and ESM support |
