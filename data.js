@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 577
-// Last updated: 2026-09-05 17:19:06
+// Total modules: 578
+// Last updated: 2026-09-05 17:19:07
 
 module.exports = [
   {
@@ -6927,5 +6927,17 @@ module.exports = [
       "processing"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "Fastify Worker",
+    "description": "Worker thread management plugin for Fastify with task delegation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-worker'), { poolSize: 4 });",
+    "tags": [
+      "fastify",
+      "worker",
+      "threads",
+      "delegation"
+    ],
+    "category": "Performance"
   }
 ];
