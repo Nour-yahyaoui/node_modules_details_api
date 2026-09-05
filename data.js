@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 257
-// Last updated: 2026-09-05 17:05:53
+// Total modules: 258
+// Last updated: 2026-09-05 17:05:55
 
 module.exports = [
   {
@@ -3085,6 +3085,18 @@ module.exports = [
       "orm",
       "relations",
       "eager-loading"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "MikroORM Migrations",
+    "description": "MikroORM migration system with schema generation and history tracking",
+    "usage": "npx mikro-orm migration:create && npx mikro-orm migration:up",
+    "tags": [
+      "mikroorm",
+      "migrations",
+      "database",
+      "schema"
     ],
     "category": "ORM/Database"
   }
