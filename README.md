@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 258 |
+| Total Libraries | 259 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -161,6 +161,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Mercurius | API | GraphQL server and gateway for Fastify with schema stitching... |
 | MikroORM | ORM/Database | TypeScript ORM with unit of work, identity map, and support ... |
 | MikroORM Migrations | ORM/Database | MikroORM migration system with schema generation and history... |
+| MikroORM Seeder | ORM/Database | MikroORM data seeding with factories and custom seed scripts |
 | Mocha | Testing/Tool | Feature-rich test framework for Node.js with async testing, ... |
 | Moleculer | Web Framework | Fast microservices framework with service discovery, load ba... |
 | Moment.js | Utility | Comprehensive date library for parsing, validating, manipula... |
