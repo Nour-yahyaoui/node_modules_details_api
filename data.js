@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 435
-// Last updated: 2026-09-05 17:16:02
+// Total modules: 436
+// Last updated: 2026-09-05 17:16:04
 
 module.exports = [
   {
@@ -5221,6 +5221,18 @@ module.exports = [
       "dotenv",
       "env",
       "configuration"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Config",
+    "description": "Configuration management plugin for Fastify with multiple sources",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-config'), { sources: ['config/default.json', 'config/production.json'] });",
+    "tags": [
+      "fastify",
+      "config",
+      "json",
+      "management"
     ],
     "category": "Utility"
   }
