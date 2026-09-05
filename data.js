@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 403
-// Last updated: 2026-09-05 17:15:23
+// Total modules: 404
+// Last updated: 2026-09-05 17:15:24
 
 module.exports = [
   {
@@ -4839,5 +4839,17 @@ module.exports = [
       "html"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Autoload (Advanced)",
+    "description": "Advanced plugin autoloader with hierarchical loading and options",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/autoload'), { dir: './plugins', options: { prefix: 'api' } });",
+    "tags": [
+      "fastify",
+      "autoload",
+      "plugins",
+      "configuration"
+    ],
+    "category": "Dev Tool"
   }
 ];
