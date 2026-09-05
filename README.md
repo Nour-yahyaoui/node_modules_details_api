@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 314 |
+| Total Libraries | 315 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -216,6 +216,7 @@ This repository contains a growing collection of **Node.js library documentation
 | NestJS/GraphQL | Web Framework | GraphQL module for NestJS with code-first and schema-first a... |
 | NestJS/Passport | Web Framework | Passport module for NestJS providing authentication strategi... |
 | Netlify CLI | Dev Tool | CLI for Netlify platform with site deployments, functions, a... |
+| No Cache | Security | HTTP cache-control middleware for preventing client-side cac... |
 | Nock | Testing/Tool | HTTP mocking library for testing with interception, recordin... |
 | Node-cache | Performance | Simple in-memory caching with TTL support, statistics, and k... |
 | Node-cache Manager | Performance | Cache manager with multi-store support and TTL management |
