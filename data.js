@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 496
-// Last updated: 2026-09-05 17:17:21
+// Total modules: 497
+// Last updated: 2026-09-05 17:17:22
 
 module.exports = [
   {
@@ -5953,6 +5953,18 @@ module.exports = [
       "secrets-manager",
       "aws",
       "security"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Parameter Store",
+    "description": "AWS SSM Parameter Store plugin for Fastify with config retrieval",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-parameter-store'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "parameter-store",
+      "aws",
+      "configuration"
     ],
     "category": "Cloud"
   }
