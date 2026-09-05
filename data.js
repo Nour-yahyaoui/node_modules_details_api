@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 448
-// Last updated: 2026-09-05 17:16:19
+// Total modules: 449
+// Last updated: 2026-09-05 17:16:20
 
 module.exports = [
   {
@@ -5377,6 +5377,18 @@ module.exports = [
       "barcode",
       "generate",
       "ean"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify ExcelJS",
+    "description": "Advanced Excel plugin with formatting and charts support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-exceljs'), { });",
+    "tags": [
+      "fastify",
+      "exceljs",
+      "excel",
+      "charts"
     ],
     "category": "Utility"
   }
