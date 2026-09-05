@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 398 |
+| Total Libraries | 399 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -173,6 +173,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Throttle | Security | Request throttling plugin for Fastify with token bucket algo... |
 | Fastify Trace | Dev Tool | Distributed tracing plugin for Fastify with OpenTelemetry su... |
 | Fastify Under Pressure | Performance | Load testing and performance monitoring plugin for Fastify |
+| Fastify View | Utility | Template engine plugin for Fastify with handlebars, ejs, and... |
 | Fastify WebSocket | Real-time | WebSocket plugin for Fastify with real-time bidirectional co... |
 | Fastify Winston | Logging | Winston logging plugin for Fastify with multiple transports |
 | Fastify Worker Threads | Performance | Worker thread pool plugin for Fastify with CPU-intensive tas... |
