@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 312 |
+| Total Libraries | 313 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -97,6 +97,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Elasticsearch | Database | Official Elasticsearch client with full-text search, aggrega... |
 | Enquirer | CLI/Tool | Stylish CLI prompts with forms, lists, and selectors for ter... |
 | ESBuild | Dev Tool | Extremely fast JavaScript bundler that compiles TypeScript a... |
+| Escape HTML | Security | HTML escaping and unescaping utilities for safe output |
 | ESLint | Dev Tool | Static code analysis tool for identifying and fixing problem... |
 | ExcelJS | Utility | Read, write, and manipulate Excel files with support for xls... |
 | Execa | Utility | Improved child_process with promises, buffer limits, and cro... |
