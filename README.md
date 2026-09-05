@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 737 |
+| Total Libraries | 738 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -187,6 +187,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify CloudWatch | Cloud | AWS CloudWatch plugin for Fastify with metrics and logs |
 | Fastify CMS | Web Framework | Content management plugin for Fastify with content types |
 | Fastify Cognito | Cloud | AWS Cognito plugin for Fastify with user pool and authentica... |
+| Fastify Collaboration | Utility | Collaboration plugin for Fastify with team workspaces |
 | Fastify Community | Web Framework | Community plugin for Fastify with groups and members |
 | Fastify Component | Web Framework | Component system for Fastify with reusable components |
 | Fastify Compress (Advanced) | Performance | Advanced compression plugin with custom algorithms and thres... |
