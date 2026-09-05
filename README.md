@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 280 |
+| Total Libraries | 281 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -179,6 +179,7 @@ This repository contains a growing collection of **Node.js library documentation
 | MQTT | Real-time | MQTT client for IoT and real-time messaging with publish-sub... |
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
+| MySQL2 Prepared Statements | Database | MySQL prepared statements with automatic escaping and query ... |
 | NanoID | Utility | Secure, URL-friendly unique ID generator with customizable a... |
 | Ncp | Utility | Copy files and directories recursively with options for over... |
 | NeDB | Database | Pure JavaScript database with MongoDB-like API for embedded ... |
