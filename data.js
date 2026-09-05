@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 605
-// Last updated: 2026-09-05 17:19:44
+// Total modules: 606
+// Last updated: 2026-09-05 17:19:45
 
 module.exports = [
   {
@@ -7263,5 +7263,17 @@ module.exports = [
       "realtime"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify Event Sourcing",
+    "description": "Event sourcing plugin for Fastify with event store and projections",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-event-sourcing'), { store: 'eventstore' });",
+    "tags": [
+      "fastify",
+      "event-sourcing",
+      "event-store",
+      "projections"
+    ],
+    "category": "Database"
   }
 ];
