@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 592
-// Last updated: 2026-09-05 17:19:26
+// Total modules: 593
+// Last updated: 2026-09-05 17:19:27
 
 module.exports = [
   {
@@ -7105,6 +7105,18 @@ module.exports = [
       "cifs",
       "smb",
       "protocol"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify iSCSI",
+    "description": "iSCSI plugin for Fastify with storage area network access",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-iscsi'), { target: 'iqn.1992-01.com.example' });",
+    "tags": [
+      "fastify",
+      "iscsi",
+      "storage",
+      "network"
     ],
     "category": "Utility"
   }
