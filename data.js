@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 693
-// Last updated: 2026-09-05 17:21:38
+// Total modules: 694
+// Last updated: 2026-09-05 17:21:39
 
 module.exports = [
   {
@@ -8317,6 +8317,18 @@ module.exports = [
       "dining",
       "reservations",
       "menus"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Food",
+    "description": "Food delivery plugin for Fastify with ordering and delivery",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-food'), { });",
+    "tags": [
+      "fastify",
+      "food",
+      "delivery",
+      "ordering"
     ],
     "category": "Utility"
   }
