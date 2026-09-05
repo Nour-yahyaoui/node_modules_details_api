@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 47 |
+| Total Libraries | 48 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -72,4 +72,5 @@ This repository contains a growing collection of **Node.js library documentation
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
 | Vite | Dev Tool | Fast build tool with instant server start and lightning-fast... |
+| Webpack | Dev Tool | Powerful module bundler that transforms JavaScript, assets, ... |
 | Winston | Logging | Versatile logging library supporting multiple transports, cu... |
