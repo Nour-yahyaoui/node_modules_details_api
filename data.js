@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 560
-// Last updated: 2026-09-05 17:18:44
+// Total modules: 561
+// Last updated: 2026-09-05 17:18:45
 
 module.exports = [
   {
@@ -6721,6 +6721,18 @@ module.exports = [
       "auction",
       "bidding",
       "time"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Booking",
+    "description": "Booking plugin for Fastify with reservations and availability",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-booking'), { });",
+    "tags": [
+      "fastify",
+      "booking",
+      "reservations",
+      "availability"
     ],
     "category": "Web Framework"
   }
