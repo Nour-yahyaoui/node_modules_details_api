@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 378 |
+| Total Libraries | 379 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -156,6 +156,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Swagger UI | Dev Tool | Swagger UI plugin for Fastify with interactive API documenta... |
 | Fastify Under Pressure | Performance | Load testing and performance monitoring plugin for Fastify |
 | Fastify WebSocket | Real-time | WebSocket plugin for Fastify with real-time bidirectional co... |
+| Fastify Worker Threads | Performance | Worker thread pool plugin for Fastify with CPU-intensive tas... |
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Firebase Admin | Cloud | Firebase Admin SDK with authentication, Firestore, Cloud Mes... |
 | Firebase Client | Cloud | Firebase client SDK with realtime database, Firestore, authe... |
