@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 669
-// Last updated: 2026-09-05 17:21:06
+// Total modules: 670
+// Last updated: 2026-09-05 17:21:08
 
 module.exports = [
   {
@@ -8029,6 +8029,18 @@ module.exports = [
       "cinema",
       "movie",
       "booking"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Theater",
+    "description": "Theater ticketing plugin for Fastify with performances",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-theater'), { });",
+    "tags": [
+      "fastify",
+      "theater",
+      "ticketing",
+      "performances"
     ],
     "category": "Web Framework"
   }
