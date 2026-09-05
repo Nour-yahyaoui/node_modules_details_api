@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 24 |
+| Total Libraries | 25 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -50,3 +50,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Mongoose | ORM/Database | MongoDB object modeling with schema validation, query buildi... |
 | Morgan | Logging | HTTP request logging middleware with customizable log format... |
 | Multer | Utility | File upload middleware for handling multipart/form-data with... |
+| Passport | Security | Authentication middleware supporting 500+ strategies includi... |
