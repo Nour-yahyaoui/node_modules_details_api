@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 705 |
+| Total Libraries | 706 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -123,6 +123,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fast LRU | Performance | Fast LRU cache implementation with Map-based storage and TTL |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fastify AB Testing | Utility | A/B testing plugin for Fastify with experiment allocation |
+| Fastify Accounting | Utility | Accounting plugin for Fastify with ledgers and journals |
 | Fastify ACL | Security | Access control list plugin for Fastify with fine-grained per... |
 | Fastify Addon | Dev Tool | Addon manager for Fastify with modular features |
 | Fastify Admin | Web Framework | Admin interface plugin for Fastify with CRUD operations |
