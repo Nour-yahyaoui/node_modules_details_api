@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 531 |
+| Total Libraries | 532 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -181,6 +181,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Emoji | Utility | Emoji support plugin for Fastify with Unicode and shortcode ... |
 | Fastify Environment | Utility | Environment variable plugin for Fastify with validation and ... |
 | Fastify Error Handler | Utility | Custom error handler plugin for Fastify with logging and for... |
+| Fastify ESBuild | Dev Tool | ESBuild plugin for Fastify with bundling and optimization |
 | Fastify Etag | Performance | ETag generation plugin for Fastify with cache validation |
 | Fastify EventBridge | Cloud | AWS EventBridge plugin for Fastify with event publishing |
 | Fastify Excel | Utility | Excel generation plugin for Fastify with xlsx and csv suppor... |
