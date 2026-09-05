@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 545
-// Last updated: 2026-09-05 17:18:25
+// Total modules: 546
+// Last updated: 2026-09-05 17:18:26
 
 module.exports = [
   {
@@ -6541,6 +6541,18 @@ module.exports = [
       "transformer",
       "serialization",
       "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Mapper",
+    "description": "Data mapping plugin for Fastify with object mapping",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-mapper'), { maps: { user: { name: 'fullName' } } });",
+    "tags": [
+      "fastify",
+      "mapper",
+      "data",
+      "mapping"
     ],
     "category": "Utility"
   }
