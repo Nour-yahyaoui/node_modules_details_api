@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 116 |
+| Total Libraries | 117 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -80,6 +80,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Kysely | ORM/Database | Type-safe SQL query builder for TypeScript with rich query b... |
 | LevelDB | Database | Fast key-value store with simple API and support for various... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
+| LoopBack | Web Framework | API framework for creating RESTful APIs with built-in models... |
 | Lowdb | Database | Small local database for Node.js using JSON files with lodas... |
 | Lru-cache | Performance | Least Recently Used cache with configurable max size and TTL... |
 | Luxon | Utility | Powerful date and time library with immutable objects, durat... |
