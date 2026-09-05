@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 450
-// Last updated: 2026-09-05 17:16:21
+// Total modules: 451
+// Last updated: 2026-09-05 17:16:22
 
 module.exports = [
   {
@@ -5401,6 +5401,18 @@ module.exports = [
       "word",
       "docx",
       "generate"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify PPT",
+    "description": "PowerPoint presentation generation plugin for Fastify",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ppt'), { });",
+    "tags": [
+      "fastify",
+      "ppt",
+      "powerpoint",
+      "presentation"
     ],
     "category": "Utility"
   }
