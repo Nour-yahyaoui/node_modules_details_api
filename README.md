@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 133 |
+| Total Libraries | 134 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -54,6 +54,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cors | Security | Cross-Origin Resource Sharing middleware with configurable o... |
 | Cross-env | Dev Tool | Cross-platform environment variable setting for npm scripts ... |
 | Crypto-js | Security | Pure JavaScript cryptographic library with AES, SHA, HMAC, a... |
+| Cucumber | Testing/Tool | BDD testing with Gherkin syntax, step definitions, and hooks... |
 | Cypress | Testing/Tool | Modern end-to-end testing framework with automatic waiting, ... |
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
 | Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
