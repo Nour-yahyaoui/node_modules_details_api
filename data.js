@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 426
-// Last updated: 2026-09-05 18:34:12
+// Total modules: 427
+// Last updated: 2026-09-05 18:34:13
 
 module.exports = [
   {
@@ -5113,6 +5113,18 @@ module.exports = [
       "excel",
       "xlsx",
       "csv"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify PDF",
+    "description": "PDF generation plugin for Fastify with PDFKit integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-pdf'), { });",
+    "tags": [
+      "fastify",
+      "pdf",
+      "generate",
+      "report"
     ],
     "category": "Utility"
   }
