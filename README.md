@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 730 |
+| Total Libraries | 731 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -250,6 +250,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Faq | Utility | FAQ plugin for Fastify with categories and questions |
 | Fastify Farm | Utility | Farm management plugin for Fastify with crops and livestock |
 | Fastify Feature Flags | Utility | Feature flag plugin for Fastify with toggle and rollout supp... |
+| Fastify Feedback | Utility | Feedback plugin for Fastify with surveys and ratings |
 | Fastify Filter | Utility | Data filtering plugin for Fastify with query filtering |
 | Fastify Finance | Utility | Finance plugin for Fastify with investments and portfolios |
 | Fastify Fixtures | Testing/Tool | Test fixtures plugin for Fastify with data seeding and clean... |
