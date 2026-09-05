@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 371 |
+| Total Libraries | 372 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -140,6 +140,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Redis | Database | Redis plugin for Fastify with connection pooling and command... |
 | Fastify Reply From | HTTP Client | HTTP proxy plugin for Fastify with request forwarding and re... |
 | Fastify Request Context | Utility | Request context plugin for Fastify with async storage and lo... |
+| Fastify Secure Session | Security | Secure session plugin for Fastify with encryption and signed... |
 | Fastify Sensible | Utility | Collection of useful Fastify plugins including defaults, ass... |
 | Fastify Sensible (Advanced) | Utility | Advanced utilities plugin for Fastify including http-errors ... |
 | Fastify Session | Security | Session management plugin for Fastify with in-memory and Red... |
