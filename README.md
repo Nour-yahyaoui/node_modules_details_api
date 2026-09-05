@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 211 |
+| Total Libraries | 212 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -187,6 +187,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Pretty Bytes | Utility | Convert bytes to human-readable file size strings with SI an... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Prismic | Utility | Prismic headless CMS client with query builder, content mana... |
+| Prompts | CLI/Tool | Interactive CLI prompts with validation, cancellation, and s... |
 | Pug | Utility | High-performance template engine with clean, whitespace-sens... |
 | Pulumi | Dev Tool | Modern infrastructure as code using TypeScript with support ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
