@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 109
-// Last updated: 2026-09-05 15:17:21
+// Total modules: 110
+// Last updated: 2026-09-05 15:17:23
 
 module.exports = [
   {
@@ -1309,6 +1309,18 @@ module.exports = [
       "typescript",
       "schema",
       "type-safe"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Yup",
+    "description": "Object schema validation with async support, conditional validation, and custom error messages",
+    "usage": "const yup = require('yup'); const schema = yup.object({ name: yup.string().required(), age: yup.number().positive() }); const valid = await schema.isValid({ name: 'John', age: 25 });",
+    "tags": [
+      "validation",
+      "schema",
+      "async",
+      "errors"
     ],
     "category": "Validation"
   }
