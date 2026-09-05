@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 547
-// Last updated: 2026-09-05 17:18:27
+// Total modules: 548
+// Last updated: 2026-09-05 17:18:29
 
 module.exports = [
   {
@@ -6564,6 +6564,18 @@ module.exports = [
       "fastify",
       "filter",
       "query",
+      "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Sort",
+    "description": "Data sorting plugin for Fastify with multiple sort fields",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sort'), { fields: ['name', 'age'] });",
+    "tags": [
+      "fastify",
+      "sort",
+      "order",
       "data"
     ],
     "category": "Utility"
