@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 434
-// Last updated: 2026-09-05 17:16:01
+// Total modules: 435
+// Last updated: 2026-09-05 17:16:02
 
 module.exports = [
   {
@@ -5209,6 +5209,18 @@ module.exports = [
       "env",
       "configuration",
       "validation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Dotenv",
+    "description": "Dotenv plugin for Fastify with automatic .env loading",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-dotenv'), { path: '.env' });",
+    "tags": [
+      "fastify",
+      "dotenv",
+      "env",
+      "configuration"
     ],
     "category": "Utility"
   }
