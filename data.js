@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 13
-// Last updated: 2026-09-05 15:15:13
+// Total modules: 14
+// Last updated: 2026-09-05 15:15:14
 
 module.exports = [
   {
@@ -156,6 +156,18 @@ module.exports = [
       "framework",
       "routing",
       "middleware"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify",
+    "description": "Fast and low-overhead web framework with built-in schema validation, logging, and plugin system",
+    "usage": "const fastify = require('fastify')({ logger: true }); fastify.get('/', async () => ({ hello: 'world' }));",
+    "tags": [
+      "web",
+      "framework",
+      "performance",
+      "fast"
     ],
     "category": "Web Framework"
   }
