@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 471
-// Last updated: 2026-09-05 17:16:49
+// Total modules: 472
+// Last updated: 2026-09-05 17:16:50
 
 module.exports = [
   {
@@ -5653,6 +5653,18 @@ module.exports = [
       "date",
       "format",
       "parse"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Time",
+    "description": "Time utilities plugin for Fastify with duration and timezone",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-time'), { timezone: 'UTC' });",
+    "tags": [
+      "fastify",
+      "time",
+      "duration",
+      "timezone"
     ],
     "category": "Utility"
   }
