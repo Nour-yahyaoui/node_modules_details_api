@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 644 |
+| Total Libraries | 645 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -310,6 +310,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Plugin System | Web Framework | Plugin system for Fastify with dynamic loading and lifecycle |
 | Fastify Postgres | Database | PostgreSQL plugin for Fastify with connection pooling and qu... |
 | Fastify PPT | Utility | PowerPoint presentation generation plugin for Fastify |
+| Fastify Producer | Real-time | Message producer for Fastify with event publishing |
 | Fastify Profiler | Performance | Profiling plugin for Fastify with CPU and memory profiling |
 | Fastify Prototype | Dev Tool | Prototype-based development plugin for Fastify with inherita... |
 | Fastify Provider | Web Framework | Service provider for Fastify with configuration and bootstra... |
