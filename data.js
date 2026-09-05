@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 655
-// Last updated: 2026-09-05 21:30:55
+// Total modules: 656
+// Last updated: 2026-09-05 21:30:56
 
 module.exports = [
   {
@@ -7861,6 +7861,18 @@ module.exports = [
       "stats",
       "statistics",
       "collection"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Analytics (Advanced)",
+    "description": "Advanced analytics with custom event tracking and dashboards",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-analytics'), { providers: ['google', 'mixpanel'] });",
+    "tags": [
+      "fastify",
+      "analytics",
+      "tracking",
+      "dashboard"
     ],
     "category": "Dev Tool"
   }
