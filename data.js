@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 503
-// Last updated: 2026-09-05 17:17:29
+// Total modules: 504
+// Last updated: 2026-09-05 17:17:31
 
 module.exports = [
   {
@@ -6037,6 +6037,18 @@ module.exports = [
       "opensearch",
       "search",
       "analytics"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Elasticsearch (Advanced)",
+    "description": "Advanced Elasticsearch plugin with aggregation and search features",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-elasticsearch'), { node: 'http://localhost:9200' });",
+    "tags": [
+      "fastify",
+      "elasticsearch",
+      "search",
+      "aggregation"
     ],
     "category": "Database"
   }
