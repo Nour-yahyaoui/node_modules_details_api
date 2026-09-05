@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 681 |
+| Total Libraries | 682 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -242,6 +242,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Filter | Utility | Data filtering plugin for Fastify with query filtering |
 | Fastify Fixtures | Testing/Tool | Test fixtures plugin for Fastify with data seeding and clean... |
 | Fastify Flake ID | Utility | Snowflake ID generator plugin for Fastify with distributed I... |
+| Fastify Fleet | Utility | Fleet management plugin for Fastify with vehicles and tracki... |
 | Fastify Font Awesome | Utility | Font Awesome integration plugin for Fastify with icons |
 | Fastify Format | Dev Tool | Code formatting plugin for Fastify with Prettier integration |
 | Fastify Formbody | Utility | URL-encoded form body parser plugin for Fastify with extende... |
