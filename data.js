@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 510
-// Last updated: 2026-09-05 17:17:38
+// Total modules: 511
+// Last updated: 2026-09-05 17:17:39
 
 module.exports = [
   {
@@ -6121,6 +6121,18 @@ module.exports = [
       "cache",
       "manager",
       "multi-store"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Response Cache",
+    "description": "HTTP response caching plugin for Fastify with cache-control",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-response-cache'), { ttl: 60 });",
+    "tags": [
+      "fastify",
+      "response",
+      "cache",
+      "http"
     ],
     "category": "Performance"
   }
