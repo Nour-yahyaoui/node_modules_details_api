@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 531
-// Last updated: 2026-09-05 17:18:07
+// Total modules: 532
+// Last updated: 2026-09-05 17:18:08
 
 module.exports = [
   {
@@ -6373,6 +6373,18 @@ module.exports = [
       "swc",
       "compiler",
       "fast"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify ESBuild",
+    "description": "ESBuild plugin for Fastify with bundling and optimization",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-esbuild'), { entryPoints: ['src/index.js'] });",
+    "tags": [
+      "fastify",
+      "esbuild",
+      "bundler",
+      "build"
     ],
     "category": "Dev Tool"
   }
