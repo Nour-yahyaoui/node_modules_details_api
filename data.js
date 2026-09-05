@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 457
-// Last updated: 2026-09-05 17:16:30
+// Total modules: 458
+// Last updated: 2026-09-05 17:16:31
 
 module.exports = [
   {
@@ -5484,6 +5484,18 @@ module.exports = [
       "fastify",
       "react",
       "hydrate",
+      "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Angular",
+    "description": "Angular rendering plugin for Fastify with Universal support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-angular'), { });",
+    "tags": [
+      "fastify",
+      "angular",
+      "ssr",
       "render"
     ],
     "category": "Utility"
