@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 116
-// Last updated: 2026-09-05 15:17:30
+// Total modules: 117
+// Last updated: 2026-09-05 15:17:32
 
 module.exports = [
   {
@@ -1393,6 +1393,18 @@ module.exports = [
       "framework",
       "mvc",
       "real-time"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "LoopBack",
+    "description": "API framework for creating RESTful APIs with built-in models, relations, and authentication",
+    "usage": "const { Application } = require('@loopback/core'); const app = new Application(); app.route('get', '/', async () => 'Hello World');",
+    "tags": [
+      "api",
+      "framework",
+      "rest",
+      "loopback"
     ],
     "category": "Web Framework"
   }
