@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 368
-// Last updated: 2026-09-05 17:14:38
+// Total modules: 369
+// Last updated: 2026-09-05 17:14:39
 
 module.exports = [
   {
@@ -4417,6 +4417,18 @@ module.exports = [
       "performance",
       "monitoring",
       "load"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Circuit Breaker",
+    "description": "Circuit breaker pattern implementation for Fastify with failure handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-circuit-breaker'), { timeout: 5000 });",
+    "tags": [
+      "fastify",
+      "circuit-breaker",
+      "resilience",
+      "failure"
     ],
     "category": "Performance"
   }
