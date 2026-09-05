@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 334 |
+| Total Libraries | 335 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -116,6 +116,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Extract-zip | Utility | Extract ZIP archives with progress reporting, file filtering... |
 | Factory-girl | Testing/Tool | Factory library for creating test objects with default attri... |
 | Faker | Testing/Tool | Generate massive amounts of fake data including names, email... |
+| Fast JSON Stringify | Performance | Fast JSON stringification with schema-based optimization |
 | Fast LRU | Performance | Fast LRU cache implementation with Map-based storage and TTL |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fastify Autoload | Dev Tool | Auto-load Fastify plugins from directories with configuratio... |
