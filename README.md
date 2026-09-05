@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 509 |
+| Total Libraries | 510 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -146,6 +146,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Bull | Background Processing | Bull queue integration plugin for Fastify with job processin... |
 | Fastify BullMQ | Background Processing | BullMQ queue integration for Fastify with advanced job featu... |
 | Fastify Cache | Performance | Cache plugin for Fastify with in-memory and Redis storage |
+| Fastify Cache Manager | Performance | Cache manager plugin for Fastify with multi-store support |
 | Fastify Caching | Performance | HTTP caching plugin for Fastify with ETag and cache-control ... |
 | Fastify Casbin | Security | Access control plugin for Fastify with Casbin authorization |
 | Fastify Censor | Utility | Profanity filter plugin for Fastify with custom word lists |
