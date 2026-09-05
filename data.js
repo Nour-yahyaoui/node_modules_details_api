@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 176
-// Last updated: 2026-09-05 17:03:51
+// Total modules: 177
+// Last updated: 2026-09-05 17:03:53
 
 module.exports = [
   {
@@ -2115,5 +2115,17 @@ module.exports = [
       "realtime"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Firebase Admin",
+    "description": "Firebase Admin SDK with authentication, Firestore, Cloud Messaging, and storage",
+    "usage": "const admin = require('firebase-admin'); admin.initializeApp(); const user = await admin.auth().getUser(uid);",
+    "tags": [
+      "firebase",
+      "authentication",
+      "database",
+      "cloud"
+    ],
+    "category": "Cloud"
   }
 ];
