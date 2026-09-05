@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 572
-// Last updated: 2026-09-05 19:11:19
+// Total modules: 573
+// Last updated: 2026-09-05 21:29:10
 
 module.exports = [
   {
@@ -6865,6 +6865,18 @@ module.exports = [
       "tasks",
       "projects",
       "deadlines"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Todo",
+    "description": "Todo list plugin for Fastify with priorities and categories",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-todo'), { });",
+    "tags": [
+      "fastify",
+      "todo",
+      "priorities",
+      "categories"
     ],
     "category": "Utility"
   }
