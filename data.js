@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 411
-// Last updated: 2026-09-05 17:15:33
+// Total modules: 412
+// Last updated: 2026-09-05 17:15:34
 
 module.exports = [
   {
@@ -4931,6 +4931,18 @@ module.exports = [
     "tags": [
       "fastify",
       "bcrypt",
+      "hash",
+      "security"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Argon2",
+    "description": "Argon2 hashing plugin for Fastify with memory and time parameters",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-argon2'), { memoryCost: 1024, timeCost: 2 });",
+    "tags": [
+      "fastify",
+      "argon2",
       "hash",
       "security"
     ],
