@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 301 |
+| Total Libraries | 302 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -258,6 +258,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
 | Puppeteer Extra | Testing/Tool | Enhanced Puppeteer with stealth plugin, ad blocker, and addi... |
 | Pusher | Real-time | Real-time messaging service with WebSockets, presence channe... |
+| Readable Stream | Utility | Custom readable stream implementation with data and end even... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Redis Cache Store | Performance | Redis cache store for cache-manager with clustering support |
 | Redis Cluster | Database | Redis cluster client with sharding, failover, and command ro... |
