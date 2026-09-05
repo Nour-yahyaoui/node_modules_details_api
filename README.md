@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 534 |
+| Total Libraries | 535 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -301,6 +301,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Validator | Validation | Input validation plugin for Fastify with extensive validatio... |
 | Fastify Video | Utility | Video processing plugin for Fastify with FFmpeg integration |
 | Fastify View | Utility | Template engine plugin for Fastify with handlebars, ejs, and... |
+| Fastify Vite | Dev Tool | Vite plugin for Fastify with fast development server and HMR |
 | Fastify Voice | Utility | Voice communication plugin for Fastify with Twilio and Vonag... |
 | Fastify Vue | Utility | Vue.js rendering plugin for Fastify with SSR support |
 | Fastify Webpack | Dev Tool | Webpack plugin for Fastify with asset compilation and HMR |
