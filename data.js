@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 360
-// Last updated: 2026-09-05 17:14:28
+// Total modules: 361
+// Last updated: 2026-09-05 17:14:30
 
 module.exports = [
   {
@@ -4323,5 +4323,17 @@ module.exports = [
       "schema"
     ],
     "category": "API"
+  },
+  {
+    "title": "Fastify Swagger UI",
+    "description": "Swagger UI plugin for Fastify with interactive API documentation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/swagger-ui'), { routePrefix: '/docs' });",
+    "tags": [
+      "fastify",
+      "swagger",
+      "documentation",
+      "ui"
+    ],
+    "category": "Dev Tool"
   }
 ];
