@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 565
-// Last updated: 2026-09-05 17:18:50
+// Total modules: 566
+// Last updated: 2026-09-05 17:18:52
 
 module.exports = [
   {
@@ -6781,6 +6781,18 @@ module.exports = [
       "chat",
       "realtime",
       "rooms"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Video Chat",
+    "description": "Video chat plugin for Fastify with WebRTC integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-video-chat'), { });",
+    "tags": [
+      "fastify",
+      "video",
+      "chat",
+      "webrtc"
     ],
     "category": "Real-time"
   }
