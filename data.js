@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 384
-// Last updated: 2026-09-05 17:14:59
+// Total modules: 385
+// Last updated: 2026-09-05 17:15:00
 
 module.exports = [
   {
@@ -4611,5 +4611,17 @@ module.exports = [
       "s3"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Throttle",
+    "description": "Request throttling plugin for Fastify with token bucket algorithm",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-throttle'), { windowMs: 60000, max: 100 });",
+    "tags": [
+      "fastify",
+      "throttle",
+      "rate-limit",
+      "security"
+    ],
+    "category": "Security"
   }
 ];
