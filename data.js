@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 575
-// Last updated: 2026-09-05 17:19:03
+// Total modules: 576
+// Last updated: 2026-09-05 17:19:05
 
 module.exports = [
   {
@@ -6903,5 +6903,17 @@ module.exports = [
       "reminders"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Scheduler (Advanced)",
+    "description": "Advanced scheduling plugin with recurring and one-time tasks",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-scheduler'), { jobs: [{ schedule: '0 0 * * *', task: () => {} }] });",
+    "tags": [
+      "fastify",
+      "scheduler",
+      "recurring",
+      "tasks"
+    ],
+    "category": "Background Processing"
   }
 ];
