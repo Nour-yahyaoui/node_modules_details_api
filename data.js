@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 583
-// Last updated: 2026-09-05 17:19:14
+// Total modules: 584
+// Last updated: 2026-09-05 17:19:16
 
 module.exports = [
   {
@@ -6999,5 +6999,17 @@ module.exports = [
       "commands"
     ],
     "category": "CLI/Tool"
+  },
+  {
+    "title": "Fastify Shell",
+    "description": "Shell command execution plugin for Fastify with output capture",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-shell'), { });",
+    "tags": [
+      "fastify",
+      "shell",
+      "commands",
+      "exec"
+    ],
+    "category": "Utility"
   }
 ];
