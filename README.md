@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 242 |
+| Total Libraries | 243 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -170,6 +170,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Ncp | Utility | Copy files and directories recursively with options for over... |
 | NeDB | Database | Pure JavaScript database with MongoDB-like API for embedded ... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
+| NestJS Config | Utility | Configuration module for NestJS with env files, validation, ... |
 | NestJS Mongoose | ORM/Database | Mongoose integration for NestJS with schema definitions and ... |
 | NestJS TypeORM | ORM/Database | TypeORM integration for NestJS with entities, repositories, ... |
 | NestJS/GraphQL | Web Framework | GraphQL module for NestJS with code-first and schema-first a... |
