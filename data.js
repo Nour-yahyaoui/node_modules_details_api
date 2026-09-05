@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 33
-// Last updated: 2026-09-05 15:15:38
+// Total modules: 34
+// Last updated: 2026-09-05 15:15:39
 
 module.exports = [
   {
@@ -397,6 +397,18 @@ module.exports = [
       "database",
       "typescript",
       "sql"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Prisma",
+    "description": "Next-generation ORM with type-safe queries, migrations, and automatic SQL generation for Node.js and TypeScript",
+    "usage": "const { PrismaClient } = require('@prisma/client'); const prisma = new PrismaClient(); const users = await prisma.user.findMany();",
+    "tags": [
+      "orm",
+      "database",
+      "typescript",
+      "prisma"
     ],
     "category": "ORM/Database"
   }
