@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 520
-// Last updated: 2026-09-05 17:17:52
+// Total modules: 521
+// Last updated: 2026-09-05 17:17:54
 
 module.exports = [
   {
@@ -6241,6 +6241,18 @@ module.exports = [
       "fixtures",
       "testing",
       "data"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Factory",
+    "description": "Test factory plugin for Fastify with model generation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-factory'), { models: { User: { name: 'John' } } });",
+    "tags": [
+      "fastify",
+      "factory",
+      "testing",
+      "generation"
     ],
     "category": "Testing/Tool"
   }
