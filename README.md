@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 544 |
+| Total Libraries | 545 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -301,6 +301,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Time | Utility | Time utilities plugin for Fastify with duration and timezone |
 | Fastify TOML | Utility | TOML parsing and generation plugin for Fastify |
 | Fastify Trace | Dev Tool | Distributed tracing plugin for Fastify with OpenTelemetry su... |
+| Fastify Transformer | Utility | Data transformation plugin for Fastify with serialization |
 | Fastify Type Provider | Validation | TypeScript type providers for Fastify with Zod, Yup, and Joi |
 | Fastify Typescript | Dev Tool | TypeScript plugin for Fastify with type definitions and vali... |
 | Fastify Typesense | Database | Typesense plugin for Fastify with full-text search and facet... |
