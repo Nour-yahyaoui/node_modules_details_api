@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 380
-// Last updated: 2026-09-05 17:14:53
+// Total modules: 381
+// Last updated: 2026-09-05 17:14:55
 
 module.exports = [
   {
@@ -4560,6 +4560,18 @@ module.exports = [
       "fastify",
       "metrics",
       "prometheus",
+      "monitoring"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Trace",
+    "description": "Distributed tracing plugin for Fastify with OpenTelemetry support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-trace'), { serviceName: 'my-service' });",
+    "tags": [
+      "fastify",
+      "trace",
+      "opentelemetry",
       "monitoring"
     ],
     "category": "Dev Tool"
