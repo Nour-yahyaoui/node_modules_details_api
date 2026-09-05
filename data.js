@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 561
-// Last updated: 2026-09-05 17:18:45
+// Total modules: 562
+// Last updated: 2026-09-05 17:18:47
 
 module.exports = [
   {
@@ -6733,6 +6733,18 @@ module.exports = [
       "booking",
       "reservations",
       "availability"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Event",
+    "description": "Event management plugin for Fastify with scheduling and ticketing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-event'), { });",
+    "tags": [
+      "fastify",
+      "event",
+      "scheduling",
+      "ticketing"
     ],
     "category": "Web Framework"
   }
