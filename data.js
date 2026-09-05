@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 372
-// Last updated: 2026-09-05 17:14:43
+// Total modules: 373
+// Last updated: 2026-09-05 17:14:44
 
 module.exports = [
   {
@@ -4467,5 +4467,17 @@ module.exports = [
       "encryption"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Caching",
+    "description": "HTTP caching plugin for Fastify with ETag and cache-control headers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/caching'), { privacy: 'public' });",
+    "tags": [
+      "fastify",
+      "cache",
+      "etag",
+      "performance"
+    ],
+    "category": "Performance"
   }
 ];
