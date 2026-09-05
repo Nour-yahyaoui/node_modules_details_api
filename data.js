@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 609
-// Last updated: 2026-09-05 17:19:49
+// Total modules: 610
+// Last updated: 2026-09-05 17:19:50
 
 module.exports = [
   {
@@ -7309,6 +7309,18 @@ module.exports = [
       "hexagonal",
       "ports",
       "adapters"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Clean Architecture",
+    "description": "Clean architecture plugin for Fastify with use cases and entities",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-clean-architecture'), { useCases: './use-cases' });",
+    "tags": [
+      "fastify",
+      "clean-architecture",
+      "use-cases",
+      "entities"
     ],
     "category": "Web Framework"
   }
