@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 399
-// Last updated: 2026-09-05 17:15:18
+// Total modules: 400
+// Last updated: 2026-09-05 17:15:20
 
 module.exports = [
   {
@@ -4789,6 +4789,18 @@ module.exports = [
       "template",
       "views",
       "handlebars"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Ejs",
+    "description": "EJS template engine plugin for Fastify with layouts and partials",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/ejs'), { root: './views' });",
+    "tags": [
+      "fastify",
+      "ejs",
+      "template",
+      "views"
     ],
     "category": "Utility"
   }
