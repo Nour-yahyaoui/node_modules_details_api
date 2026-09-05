@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 447
-// Last updated: 2026-09-05 17:16:18
+// Total modules: 448
+// Last updated: 2026-09-05 17:16:19
 
 module.exports = [
   {
@@ -5365,6 +5365,18 @@ module.exports = [
       "qr",
       "generate",
       "scan"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Barcode",
+    "description": "Barcode generation plugin for Fastify with multiple formats",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-barcode'), { format: 'ean13' });",
+    "tags": [
+      "fastify",
+      "barcode",
+      "generate",
+      "ean"
     ],
     "category": "Utility"
   }
