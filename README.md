@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 128 |
+| Total Libraries | 129 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -72,6 +72,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Google Cloud Client | Cloud | Official Google Cloud client for Node.js with support for St... |
 | Got | HTTP Client | Human-friendly and powerful HTTP request library with advanc... |
 | GraphQL | API | GraphQL reference implementation with schema construction, q... |
+| GraphQL-WS | API | GraphQL over WebSocket protocol implementation for real-time... |
 | Handlebars | Utility | Minimal templating engine with logic-less templates, partial... |
 | Hapi | Web Framework | Rich framework for building applications with configuration-... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
