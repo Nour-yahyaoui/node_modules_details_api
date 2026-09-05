@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 237
-// Last updated: 2026-09-05 17:05:29
+// Total modules: 238
+// Last updated: 2026-09-05 17:05:30
 
 module.exports = [
   {
@@ -2847,5 +2847,17 @@ module.exports = [
       "boom"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Hapi Good",
+    "description": "Logging and monitoring plugin for Hapi with multiple reporters and event types",
+    "usage": "const Hapi = require('@hapi/hapi'); const Good = require('@hapi/good'); const server = Hapi.server({ port: 3000 }); await server.register({ plugin: Good, options: { reporters: { console: [{ module: '@hapi/good-console' }, 'stdout'] } } });",
+    "tags": [
+      "hapi",
+      "logging",
+      "monitoring",
+      "reporter"
+    ],
+    "category": "Logging"
   }
 ];
