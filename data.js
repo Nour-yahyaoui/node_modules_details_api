@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 417
-// Last updated: 2026-09-05 17:15:40
+// Total modules: 418
+// Last updated: 2026-09-05 17:15:42
 
 module.exports = [
   {
@@ -5007,5 +5007,17 @@ module.exports = [
       "unicode"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Sanitize",
+    "description": "Input sanitization plugin for Fastify with XSS and SQL injection protection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sanitize'), { escapeHtml: true });",
+    "tags": [
+      "fastify",
+      "sanitize",
+      "security",
+      "xss"
+    ],
+    "category": "Security"
   }
 ];
