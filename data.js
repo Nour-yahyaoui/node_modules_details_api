@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 691
-// Last updated: 2026-09-05 17:21:35
+// Total modules: 692
+// Last updated: 2026-09-05 17:21:36
 
 module.exports = [
   {
@@ -8293,6 +8293,18 @@ module.exports = [
       "tourism",
       "attractions",
       "tours"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Hospitality",
+    "description": "Hospitality plugin for Fastify with hotels and restaurants",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-hospitality'), { });",
+    "tags": [
+      "fastify",
+      "hospitality",
+      "hotels",
+      "restaurants"
     ],
     "category": "Utility"
   }
