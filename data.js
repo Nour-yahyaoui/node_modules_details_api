@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 569
-// Last updated: 2026-09-05 17:18:56
+// Total modules: 570
+// Last updated: 2026-09-05 17:18:57
 
 module.exports = [
   {
@@ -6831,5 +6831,17 @@ module.exports = [
       "drawing"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify Document",
+    "description": "Document management plugin for Fastify with versioning and sharing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-document'), { });",
+    "tags": [
+      "fastify",
+      "document",
+      "versioning",
+      "sharing"
+    ],
+    "category": "Utility"
   }
 ];
