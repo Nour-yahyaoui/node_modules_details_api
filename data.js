@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 392
-// Last updated: 2026-09-05 17:15:09
+// Total modules: 393
+// Last updated: 2026-09-05 17:15:10
 
 module.exports = [
   {
@@ -4705,6 +4705,18 @@ module.exports = [
       "casbin",
       "authorization",
       "security"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Rbac",
+    "description": "Role-based access control plugin for Fastify with roles and permissions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rbac'), { roles: ['admin', 'user'] });",
+    "tags": [
+      "fastify",
+      "rbac",
+      "roles",
+      "permissions"
     ],
     "category": "Security"
   }
