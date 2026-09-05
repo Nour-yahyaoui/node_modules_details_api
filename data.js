@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 89
-// Last updated: 2026-09-05 15:16:53
+// Total modules: 90
+// Last updated: 2026-09-05 15:16:55
 
 module.exports = [
   {
@@ -1069,6 +1069,18 @@ module.exports = [
       "query",
       "typescript",
       "builder"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Objection.js",
+    "description": "SQL ORM with intuitive model definitions, relation management, and query building for Node.js",
+    "usage": "const { Model } = require('objection'); class User extends Model { static get tableName() { return 'users'; } } const users = await User.query().where('age', '>', 18);",
+    "tags": [
+      "orm",
+      "sql",
+      "models",
+      "relations"
     ],
     "category": "ORM/Database"
   }
