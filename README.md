@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 123 |
+| Total Libraries | 124 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -130,6 +130,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
 | Sails.js | Web Framework | MVC framework for building custom, enterprise-grade Node.js ... |
 | SendGrid | Utility | Email delivery service client with support for transactional... |
+| Seneca | Web Framework | Microservices toolkit with pattern matching, transport plugi... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
 | Shortid | Utility | Short, non-sequential, URL-friendly unique ID generator with... |
