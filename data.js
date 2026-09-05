@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 10
-// Last updated: 2026-09-05 15:19:20
+// Total modules: 11
+// Last updated: 2026-09-05 15:19:22
 
 module.exports = [
   {
@@ -122,5 +122,17 @@ module.exports = [
       "variables"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Dotenv",
+    "description": "Load environment variables from .env files into process.env for secure configuration management",
+    "usage": "require('dotenv').config(); const dbPassword = process.env.DB_PASSWORD;",
+    "tags": [
+      "env",
+      "configuration",
+      "secrets",
+      "variables"
+    ],
+    "category": "Utility"
   }
 ];
