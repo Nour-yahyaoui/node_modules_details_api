@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 269
-// Last updated: 2026-09-05 17:06:08
+// Total modules: 270
+// Last updated: 2026-09-05 17:06:10
 
 module.exports = [
   {
@@ -3229,6 +3229,18 @@ module.exports = [
       "migrations",
       "database",
       "schema"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Sequelize Seeders",
+    "description": "Sequelize data seeding with bulk insert and transaction support",
+    "usage": "module.exports = { up: async (queryInterface) => { await queryInterface.bulkInsert('Users', [{ name: 'John' }]); }, down: async (queryInterface) => { await queryInterface.bulkDelete('Users', null, {}); } };",
+    "tags": [
+      "sequelize",
+      "seeders",
+      "data",
+      "database"
     ],
     "category": "ORM/Database"
   }
