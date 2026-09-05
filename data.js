@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 581
-// Last updated: 2026-09-05 17:19:12
+// Total modules: 582
+// Last updated: 2026-09-05 17:19:13
 
 module.exports = [
   {
@@ -6973,6 +6973,18 @@ module.exports = [
       "inspector",
       "debug",
       "inspect"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Debug",
+    "description": "Debugging plugin for Fastify with verbose logging and tracing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-debug'), { level: 'debug' });",
+    "tags": [
+      "fastify",
+      "debug",
+      "logging",
+      "tracing"
     ],
     "category": "Dev Tool"
   }
