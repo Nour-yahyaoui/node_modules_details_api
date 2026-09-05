@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 715
-// Last updated: 2026-09-05 17:22:05
+// Total modules: 716
+// Last updated: 2026-09-05 17:22:07
 
 module.exports = [
   {
@@ -8581,6 +8581,18 @@ module.exports = [
       "library",
       "catalogs",
       "circulation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Archive",
+    "description": "Archive plugin for Fastify with document storage and retrieval",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-archive'), { });",
+    "tags": [
+      "fastify",
+      "archive",
+      "storage",
+      "retrieval"
     ],
     "category": "Utility"
   }
