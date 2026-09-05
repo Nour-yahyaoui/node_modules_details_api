@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 42 |
+| Total Libraries | 43 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -57,6 +57,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
 | PG (PostgreSQL) | Database | PostgreSQL client with connection pooling, prepared statemen... |
+| Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Prisma | ORM/Database | Next-generation ORM with type-safe queries, migrations, and ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
