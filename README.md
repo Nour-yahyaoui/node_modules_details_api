@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 518 |
+| Total Libraries | 519 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -215,6 +215,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Memory Cache | Performance | In-memory cache plugin for Fastify with LRU and TTL support |
 | Fastify Metrics | Dev Tool | Metrics collection plugin for Fastify with Prometheus integr... |
 | Fastify Middleware | Web Framework | Connect/Express middleware compatibility plugin for Fastify |
+| Fastify Mock | Testing/Tool | Mocking plugin for Fastify with dynamic response generation |
 | Fastify MongoDB | Database | MongoDB plugin for Fastify with connection management and co... |
 | Fastify MQTT | Real-time | MQTT plugin for Fastify with publish-subscribe messaging |
 | Fastify Multipart | Utility | Multipart form data parsing plugin for Fastify with file upl... |
