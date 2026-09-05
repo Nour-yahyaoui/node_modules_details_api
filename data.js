@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 400
-// Last updated: 2026-09-05 17:15:20
+// Total modules: 401
+// Last updated: 2026-09-05 17:15:21
 
 module.exports = [
   {
@@ -4799,6 +4799,18 @@ module.exports = [
     "tags": [
       "fastify",
       "ejs",
+      "template",
+      "views"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Pug",
+    "description": "Pug template engine plugin for Fastify with compile and runtime support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/pug'), { root: './views' });",
+    "tags": [
+      "fastify",
+      "pug",
       "template",
       "views"
     ],
