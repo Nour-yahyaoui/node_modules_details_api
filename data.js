@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 108
-// Last updated: 2026-09-05 15:21:23
+// Total modules: 109
+// Last updated: 2026-09-05 15:21:24
 
 module.exports = [
   {
@@ -1299,5 +1299,17 @@ module.exports = [
       "lightweight"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Zod",
+    "description": "TypeScript-first schema validation with static type inference, custom validators, and error formatting",
+    "usage": "const z = require('zod'); const schema = z.object({ name: z.string().min(3), age: z.number().positive() }); const parsed = schema.parse({ name: 'John', age: 25 });",
+    "tags": [
+      "validation",
+      "typescript",
+      "schema",
+      "type-safe"
+    ],
+    "category": "Validation"
   }
 ];
