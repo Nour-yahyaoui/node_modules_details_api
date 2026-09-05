@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 19
-// Last updated: 2026-09-05 15:19:31
+// Total modules: 20
+// Last updated: 2026-09-05 15:19:32
 
 module.exports = [
   {
@@ -231,5 +231,17 @@ module.exports = [
       "tokens"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Koa",
+    "description": "Modern web framework designed by the Express team with async/await support and no callback hell",
+    "usage": "const Koa = require('koa'); const app = new Koa(); app.use(async ctx => { ctx.body = 'Hello World'; });",
+    "tags": [
+      "web",
+      "framework",
+      "async",
+      "modern"
+    ],
+    "category": "Web Framework"
   }
 ];
