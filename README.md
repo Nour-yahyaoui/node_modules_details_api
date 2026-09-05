@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 219 |
+| Total Libraries | 220 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -167,6 +167,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Node-pty | Utility | Pseudo terminal (PTY) for Node.js with support for command e... |
 | Node-resque | Background Processing | Job queue system using Redis with multiple queues, delayed j... |
 | Node-schedule | Background Processing | Flexible job scheduling library with cron-like syntax, date-... |
+| Node-telegram-bot-api | Utility | Telegram Bot API client with message, callback, and inline q... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemailer (Advanced) | Utility | Advanced email sending with attachments, HTML, and multiple ... |
