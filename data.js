@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 446
-// Last updated: 2026-09-05 17:16:16
+// Total modules: 447
+// Last updated: 2026-09-05 17:16:18
 
 module.exports = [
   {
@@ -5353,6 +5353,18 @@ module.exports = [
       "image",
       "sharp",
       "processing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify QR",
+    "description": "QR code generation and scanning plugin for Fastify",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-qr'), { });",
+    "tags": [
+      "fastify",
+      "qr",
+      "generate",
+      "scan"
     ],
     "category": "Utility"
   }
