@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 201 |
+| Total Libraries | 202 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -187,6 +187,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
 | Roarr | Logging | JSON logger with built-in filtering, child loggers, and cont... |
 | Rollup | Dev Tool | Module bundler with tree-shaking, ESM support, and plugin ec... |
+| RxJS | Utility | Reactive extensions library for async programming with obser... |
 | Sails.js | Web Framework | MVC framework for building custom, enterprise-grade Node.js ... |
 | Salesforce API | Cloud | Salesforce REST API client with CRUD operations, queries, an... |
 | SendGrid | Utility | Email delivery service client with support for transactional... |
