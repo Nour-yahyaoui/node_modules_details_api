@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 528
-// Last updated: 2026-09-05 17:18:03
+// Total modules: 529
+// Last updated: 2026-09-05 17:18:04
 
 module.exports = [
   {
@@ -6337,6 +6337,18 @@ module.exports = [
       "format",
       "prettier",
       "code-style"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Typescript",
+    "description": "TypeScript plugin for Fastify with type definitions and validation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-typescript'), { tsconfig: './tsconfig.json' });",
+    "tags": [
+      "fastify",
+      "typescript",
+      "types",
+      "validation"
     ],
     "category": "Dev Tool"
   }
