@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 286 |
+| Total Libraries | 287 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -155,6 +155,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Log4js | Logging | Logging framework with appenders, layouts, categories, and c... |
 | LoopBack | Web Framework | API framework for creating RESTful APIs with built-in models... |
 | Lowdb | Database | Small local database for Node.js using JSON files with lodas... |
+| LowDB Plugins | Database | LowDB plugins for encryption, compression, and custom adapte... |
 | Lru-cache | Performance | Least Recently Used cache with configurable max size and TTL... |
 | Luxon | Utility | Powerful date and time library with immutable objects, durat... |
 | Mailgun | Utility | Email service with sending, receiving, and tracking features... |
