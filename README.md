@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 610 |
+| Total Libraries | 611 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -275,6 +275,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Notes | Utility | Note-taking plugin for Fastify with notebooks and tags |
 | Fastify Notifications | Utility | Push notification plugin for Fastify with WebPush and Fireba... |
 | Fastify Oauth2 | Security | OAuth2 plugin for Fastify with support for multiple provider... |
+| Fastify Onion | Web Framework | Onion architecture plugin for Fastify with layers and depend... |
 | Fastify OpenAPI | Dev Tool | OpenAPI document generation for Fastify with full spec suppo... |
 | Fastify OpenSearch | Database | OpenSearch plugin for Fastify with search and analytics |
 | Fastify OTP | Security | One-time password plugin for Fastify with TOTP and HOTP supp... |
