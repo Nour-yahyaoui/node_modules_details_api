@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 432 |
+| Total Libraries | 433 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -157,6 +157,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Handlebars | Utility | Handlebars template engine plugin for Fastify with helpers |
 | Fastify Health Check | Dev Tool | Health check plugin for Fastify with status endpoints and mo... |
 | Fastify Hooks | Utility | Lifecycle hooks for Fastify with beforeHandler, preParsing, ... |
+| Fastify INI (Advanced) | Utility | Advanced INI configuration plugin with sections and inherita... |
 | Fastify Joi | Validation | Joi validation plugin for Fastify with descriptive errors |
 | Fastify JSON | Utility | JSON utilities plugin for Fastify with streaming and optimiz... |
 | Fastify JWT (Advanced) | Security | Advanced JWT plugin with refresh tokens and blacklisting |
