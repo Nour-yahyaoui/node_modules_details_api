@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 470
-// Last updated: 2026-09-05 17:16:47
+// Total modules: 471
+// Last updated: 2026-09-05 17:16:49
 
 module.exports = [
   {
@@ -5641,6 +5641,18 @@ module.exports = [
       "emoji",
       "unicode",
       "shortcode"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Date",
+    "description": "Date utilities plugin for Fastify with formatting and parsing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-date'), { locale: 'en-US' });",
+    "tags": [
+      "fastify",
+      "date",
+      "format",
+      "parse"
     ],
     "category": "Utility"
   }
