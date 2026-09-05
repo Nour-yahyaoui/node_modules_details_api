@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 366
-// Last updated: 2026-09-05 17:14:36
+// Total modules: 367
+// Last updated: 2026-09-05 17:14:37
 
 module.exports = [
   {
@@ -4395,5 +4395,17 @@ module.exports = [
       "urlencoded"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Reply From",
+    "description": "HTTP proxy plugin for Fastify with request forwarding and response manipulation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/reply-from'), { base: 'https://api.example.com' });",
+    "tags": [
+      "fastify",
+      "proxy",
+      "reply-from",
+      "forward"
+    ],
+    "category": "HTTP Client"
   }
 ];
