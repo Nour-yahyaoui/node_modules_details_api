@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 706 |
+| Total Libraries | 707 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -347,6 +347,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Parcel | Dev Tool | Parcel plugin for Fastify with zero-config bundling |
 | Fastify Partition | Database | Partitioning plugin for Fastify with table partitioning |
 | Fastify Path Aliases | Dev Tool | Path alias plugin for Fastify with import mapping |
+| Fastify Payroll | Utility | Payroll plugin for Fastify with salaries and deductions |
 | Fastify PDF | Utility | PDF generation plugin for Fastify with PDFKit integration |
 | Fastify Plugin System | Web Framework | Plugin system for Fastify with dynamic loading and lifecycle |
 | Fastify Podcast | Utility | Podcast plugin for Fastify with RSS and episode management |
