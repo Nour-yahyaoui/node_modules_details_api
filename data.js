@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 4
-// Last updated: 2026-09-05 15:15:02
+// Total modules: 5
+// Last updated: 2026-09-05 15:15:03
 
 module.exports = [
   {
@@ -48,6 +48,18 @@ module.exports = [
       "colors",
       "console",
       "styling"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Commander",
+    "description": "Complete command-line interface solution with argument parsing, automatic help generation, and command definitions",
+    "usage": "const { program } = require('commander'); program.version('1.0.0').option('-p, --port <number>').parse();",
+    "tags": [
+      "cli",
+      "command",
+      "arguments",
+      "parsing"
     ],
     "category": "CLI/Tool"
   }
