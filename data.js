@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 582
-// Last updated: 2026-09-05 17:19:13
+// Total modules: 583
+// Last updated: 2026-09-05 17:19:14
 
 module.exports = [
   {
@@ -6987,5 +6987,17 @@ module.exports = [
       "tracing"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Console",
+    "description": "Console plugin for Fastify with REPL and interactive commands",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-console'), { });",
+    "tags": [
+      "fastify",
+      "console",
+      "repl",
+      "commands"
+    ],
+    "category": "CLI/Tool"
   }
 ];
