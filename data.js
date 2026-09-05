@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 680
-// Last updated: 2026-09-05 17:21:21
+// Total modules: 681
+// Last updated: 2026-09-05 17:21:22
 
 module.exports = [
   {
@@ -8161,6 +8161,18 @@ module.exports = [
       "location",
       "geocoding",
       "routing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Navigation",
+    "description": "Navigation plugin for Fastify with turn-by-turn directions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-navigation'), { });",
+    "tags": [
+      "fastify",
+      "navigation",
+      "directions",
+      "turn-by-turn"
     ],
     "category": "Utility"
   }
