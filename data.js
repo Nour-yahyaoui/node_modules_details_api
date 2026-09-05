@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 41
-// Last updated: 2026-09-05 15:19:58
+// Total modules: 42
+// Last updated: 2026-09-05 15:19:59
 
 module.exports = [
   {
@@ -495,5 +495,17 @@ module.exports = [
       "driver"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Puppeteer",
+    "description": "Headless Chrome automation library for controlling Chrome/Chromium programmatically for testing and scraping",
+    "usage": "const puppeteer = require('puppeteer'); const browser = await puppeteer.launch(); const page = await browser.newPage();",
+    "tags": [
+      "automation",
+      "browser",
+      "headless",
+      "testing"
+    ],
+    "category": "Testing/Tool"
   }
 ];
