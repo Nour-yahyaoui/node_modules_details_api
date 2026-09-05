@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 382
-// Last updated: 2026-09-05 17:14:56
+// Total modules: 383
+// Last updated: 2026-09-05 17:14:57
 
 module.exports = [
   {
@@ -4587,5 +4587,17 @@ module.exports = [
       "distributed"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Mail",
+    "description": "Email plugin for Fastify with Nodemailer integration and templates",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-mail'), { transport: 'smtps://user:pass@smtp.example.com' });",
+    "tags": [
+      "fastify",
+      "email",
+      "nodemailer",
+      "templates"
+    ],
+    "category": "Utility"
   }
 ];
