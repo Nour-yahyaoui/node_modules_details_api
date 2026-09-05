@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 301
-// Last updated: 2026-09-05 17:13:10
+// Total modules: 302
+// Last updated: 2026-09-05 17:13:11
 
 module.exports = [
   {
@@ -3613,6 +3613,18 @@ module.exports = [
       "pipeline",
       "async",
       "promises"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Readable Stream",
+    "description": "Custom readable stream implementation with data and end events",
+    "usage": "const { Readable } = require('stream'); const stream = new Readable({ read(size) { this.push('Hello'); this.push(null); } });",
+    "tags": [
+      "stream",
+      "readable",
+      "async-iterators",
+      "data"
     ],
     "category": "Utility"
   }
