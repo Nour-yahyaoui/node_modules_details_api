@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 449
-// Last updated: 2026-09-05 17:16:20
+// Total modules: 450
+// Last updated: 2026-09-05 17:16:21
 
 module.exports = [
   {
@@ -5389,6 +5389,18 @@ module.exports = [
       "exceljs",
       "excel",
       "charts"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Word",
+    "description": "Word document generation plugin with DOCX support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-word'), { });",
+    "tags": [
+      "fastify",
+      "word",
+      "docx",
+      "generate"
     ],
     "category": "Utility"
   }
