@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 296 |
+| Total Libraries | 297 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -63,6 +63,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Class-validator | Validation | Validation using decorators for TypeScript classes with supp... |
 | Cli-progress | CLI/Tool | Terminal progress bars with customizable styles and multiple... |
 | Cli-spinners | CLI/Tool | Collection of terminal spinners for CLI applications with cu... |
+| Cluster | Performance | Node.js cluster module for load balancing across CPU cores |
 | Colors | CLI/Tool | Terminal color styling with support for color codes, themes,... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Commerce.js | Payment | Commerce.js SDK for Chec API with cart, checkout, and produc... |
