@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 142 |
+| Total Libraries | 143 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -144,6 +144,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Pusher | Real-time | Real-time messaging service with WebSockets, presence channe... |
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Rimraf | Utility | Deep deletion module providing rm -rf functionality for dire... |
+| Roarr | Logging | JSON logger with built-in filtering, child loggers, and cont... |
 | Sails.js | Web Framework | MVC framework for building custom, enterprise-grade Node.js ... |
 | SendGrid | Utility | Email delivery service client with support for transactional... |
 | Seneca | Web Framework | Microservices toolkit with pattern matching, transport plugi... |
