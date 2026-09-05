@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 297 |
+| Total Libraries | 298 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -68,6 +68,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
 | Commerce.js | Payment | Commerce.js SDK for Chec API with cart, checkout, and produc... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
+| Compression Webpack | Dev Tool | Webpack plugin for gzip and brotli compression during build |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
 | Contentful | Utility | Contentful content management client with entry management, ... |
 | Cookie-parser | Utility | Cookie parsing middleware that populates req.cookies with si... |
