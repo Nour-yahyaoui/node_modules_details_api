@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 574
-// Last updated: 2026-09-05 17:19:02
+// Total modules: 575
+// Last updated: 2026-09-05 17:19:03
 
 module.exports = [
   {
@@ -6889,6 +6889,18 @@ module.exports = [
       "kanban",
       "board",
       "cards"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Calendar",
+    "description": "Calendar plugin for Fastify with events and reminders",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-calendar'), { });",
+    "tags": [
+      "fastify",
+      "calendar",
+      "events",
+      "reminders"
     ],
     "category": "Utility"
   }
