@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 748
-// Last updated: 2026-09-05 18:18:45
+// Total modules: 749
+// Last updated: 2026-09-05 18:18:46
 
 module.exports = [
   {
@@ -8977,6 +8977,18 @@ module.exports = [
       "quiz",
       "questions",
       "scoring"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Exam",
+    "description": "Exam plugin for Fastify with timers and grading",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-exam'), { });",
+    "tags": [
+      "fastify",
+      "exam",
+      "timers",
+      "grading"
     ],
     "category": "Utility"
   }
