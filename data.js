@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 390
-// Last updated: 2026-09-05 17:15:07
+// Total modules: 391
+// Last updated: 2026-09-05 17:15:08
 
 module.exports = [
   {
@@ -4681,6 +4681,18 @@ module.exports = [
       "auth0",
       "authentication",
       "jwt"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Keycloak",
+    "description": "Keycloak authentication plugin for Fastify with token validation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-keycloak'), { realm: 'master', 'auth-server-url': 'http://localhost:8080' });",
+    "tags": [
+      "fastify",
+      "keycloak",
+      "authentication",
+      "security"
     ],
     "category": "Security"
   }
