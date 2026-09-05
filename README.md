@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 332 |
+| Total Libraries | 333 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -109,6 +109,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Execa | Utility | Improved child_process with promises, buffer limits, and cro... |
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Express GraphQL | API | Simple GraphQL middleware for Express with optional GraphiQL... |
+| Express Query | Utility | Query string parsing middleware for Express with custom opti... |
 | Express Rate Limit | Security | Rate limiting middleware for Express with configurable limit... |
 | Express Session | Utility | Session middleware for Express with cookie and store options |
 | Express Timeout | Performance | Request timeout middleware for Express with callback |
