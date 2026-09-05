@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 655 |
+| Total Libraries | 656 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -134,6 +134,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Alpine | Utility | Alpine.js integration plugin for Fastify with dynamic UI |
 | Fastify AMQP | Background Processing | AMQP/RabbitMQ plugin for Fastify with message publishing and... |
 | Fastify Analytics | Utility | Analytics plugin for Fastify with event tracking and aggrega... |
+| Fastify Analytics (Advanced) | Dev Tool | Advanced analytics with custom event tracking and dashboards |
 | Fastify Angular | Utility | Angular rendering plugin for Fastify with Universal support |
 | Fastify Annotation | Dev Tool | Annotation processing for Fastify with custom annotations |
 | Fastify API Gateway | Cloud | AWS API Gateway plugin for Fastify with REST and WebSocket s... |
