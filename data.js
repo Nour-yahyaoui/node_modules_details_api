@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 699
-// Last updated: 2026-09-05 17:21:45
+// Total modules: 700
+// Last updated: 2026-09-05 17:21:46
 
 module.exports = [
   {
@@ -8389,6 +8389,18 @@ module.exports = [
       "market",
       "listings",
       "transactions"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Exchange",
+    "description": "Exchange plugin for Fastify with currency and rates",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-exchange'), { });",
+    "tags": [
+      "fastify",
+      "exchange",
+      "currency",
+      "rates"
     ],
     "category": "Utility"
   }
