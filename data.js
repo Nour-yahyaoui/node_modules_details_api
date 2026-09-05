@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 766
-// Last updated: 2026-09-05 18:19:07
+// Total modules: 767
+// Last updated: 2026-09-05 18:19:08
 
 module.exports = [
   {
@@ -9193,6 +9193,18 @@ module.exports = [
       "personalization",
       "preferences",
       "user"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Segmentation",
+    "description": "User segmentation plugin for Fastify with audience grouping",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-segmentation'), { });",
+    "tags": [
+      "fastify",
+      "segmentation",
+      "audience",
+      "grouping"
     ],
     "category": "Utility"
   }
