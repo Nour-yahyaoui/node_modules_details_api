@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 450 |
+| Total Libraries | 451 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -186,6 +186,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify OTP | Security | One-time password plugin for Fastify with TOTP and HOTP supp... |
 | Fastify PDF | Utility | PDF generation plugin for Fastify with PDFKit integration |
 | Fastify Postgres | Database | PostgreSQL plugin for Fastify with connection pooling and qu... |
+| Fastify PPT | Utility | PowerPoint presentation generation plugin for Fastify |
 | Fastify Pug | Utility | Pug template engine plugin for Fastify with compile and runt... |
 | Fastify QR | Utility | QR code generation and scanning plugin for Fastify |
 | Fastify QR Code | Utility | QR code generation plugin for Fastify with PNG and SVG outpu... |
