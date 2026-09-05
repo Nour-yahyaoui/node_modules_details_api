@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 778
-// Last updated: 2026-09-05 18:19:22
+// Total modules: 779
+// Last updated: 2026-09-05 18:19:23
 
 module.exports = [
   {
@@ -9337,6 +9337,18 @@ module.exports = [
       "live",
       "streaming",
       "hls"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Broadcast (Advanced)",
+    "description": "Advanced broadcasting with load balancing and failover",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-broadcast'), { balancing: true, failover: true });",
+    "tags": [
+      "fastify",
+      "broadcast",
+      "balancing",
+      "failover"
     ],
     "category": "Real-time"
   }
