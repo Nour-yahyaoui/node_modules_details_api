@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 420
-// Last updated: 2026-09-05 17:15:44
+// Total modules: 421
+// Last updated: 2026-09-05 17:15:45
 
 module.exports = [
   {
@@ -5041,6 +5041,18 @@ module.exports = [
       "validator",
       "validation",
       "rules"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Fastify Zod",
+    "description": "Zod validation plugin for Fastify with type inference and errors",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-zod'), { schema: { body: z.object({ name: z.string() }) } });",
+    "tags": [
+      "fastify",
+      "zod",
+      "validation",
+      "typescript"
     ],
     "category": "Validation"
   }
