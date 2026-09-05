@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 404
-// Last updated: 2026-09-05 17:15:24
+// Total modules: 405
+// Last updated: 2026-09-05 17:15:26
 
 module.exports = [
   {
@@ -4851,5 +4851,17 @@ module.exports = [
       "configuration"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Decorate",
+    "description": "Fastify decoration utilities for extending core and request objects",
+    "usage": "const fastify = require('fastify')(); fastify.decorate('utility', { greet: () => 'Hello' });",
+    "tags": [
+      "fastify",
+      "decorate",
+      "extend",
+      "utility"
+    ],
+    "category": "Utility"
   }
 ];
