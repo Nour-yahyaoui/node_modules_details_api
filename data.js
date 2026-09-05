@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 498
-// Last updated: 2026-09-05 17:17:23
+// Total modules: 499
+// Last updated: 2026-09-05 17:17:24
 
 module.exports = [
   {
@@ -5977,6 +5977,18 @@ module.exports = [
       "ecs",
       "aws",
       "containers"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify ECR",
+    "description": "AWS ECR plugin for Fastify with container registry management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ecr'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "ecr",
+      "aws",
+      "registry"
     ],
     "category": "Cloud"
   }
