@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 288 |
+| Total Libraries | 289 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -151,6 +151,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Kysely Migrations | ORM/Database | Kysely migration system with schema generation and version m... |
 | Kysely Relations | ORM/Database | Kysely relation query builder with joins, subqueries, and CT... |
 | LevelDB | Database | Fast key-value store with simple API and support for various... |
+| LevelDB Sublevel | Database | LevelDB sublevel for namespaced key-value stores with prefix... |
 | Listr | CLI/Tool | Task runner for CLI with interactive progress, subtasks, and... |
 | Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
 | Log4js | Logging | Logging framework with appenders, layouts, categories, and c... |
