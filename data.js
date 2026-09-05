@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 640
-// Last updated: 2026-09-05 17:20:28
+// Total modules: 641
+// Last updated: 2026-09-05 17:20:29
 
 module.exports = [
   {
@@ -7681,6 +7681,18 @@ module.exports = [
       "dispatcher",
       "request",
       "middleware"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Matcher",
+    "description": "Route matcher for Fastify with priority and grouping",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-matcher'), { });",
+    "tags": [
+      "fastify",
+      "matcher",
+      "route",
+      "priority"
     ],
     "category": "Web Framework"
   }
