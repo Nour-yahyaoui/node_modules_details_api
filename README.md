@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 753 |
+| Total Libraries | 754 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -141,6 +141,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Annotation | Dev Tool | Annotation processing for Fastify with custom annotations |
 | Fastify API Gateway | Cloud | AWS API Gateway plugin for Fastify with REST and WebSocket s... |
 | Fastify Application | Utility | Application form plugin for Fastify with fields and submissi... |
+| Fastify Approval | Utility | Approval workflow plugin for Fastify with stages and notific... |
 | Fastify AppSync | Cloud | AWS AppSync plugin for Fastify with GraphQL subscriptions |
 | Fastify Aquarium | Utility | Aquarium management plugin for Fastify with fish and tanks |
 | Fastify Archive | Utility | Archive plugin for Fastify with document storage and retriev... |
