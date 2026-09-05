@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 704
-// Last updated: 2026-09-05 17:21:51
+// Total modules: 705
+// Last updated: 2026-09-05 17:21:53
 
 module.exports = [
   {
@@ -8449,6 +8449,18 @@ module.exports = [
       "legal",
       "contracts",
       "compliance"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Tax",
+    "description": "Tax plugin for Fastify with calculations and filings",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-tax'), { });",
+    "tags": [
+      "fastify",
+      "tax",
+      "calculations",
+      "filings"
     ],
     "category": "Utility"
   }
