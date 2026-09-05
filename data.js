@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 62
-// Last updated: 2026-09-05 15:16:16
+// Total modules: 63
+// Last updated: 2026-09-05 15:16:18
 
 module.exports = [
   {
@@ -747,5 +747,17 @@ module.exports = [
       "mongodb"
     ],
     "category": "Background Processing"
+  },
+  {
+    "title": "PM2",
+    "description": "Production process manager for Node.js with built-in load balancer, logging, and application monitoring",
+    "usage": "pm2 start app.js --name my-app --watch",
+    "tags": [
+      "process",
+      "production",
+      "manager",
+      "monitoring"
+    ],
+    "category": "Dev Tool"
   }
 ];
