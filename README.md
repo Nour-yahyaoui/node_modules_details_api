@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 190 |
+| Total Libraries | 191 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -56,6 +56,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Chokidar | Utility | File watching library with cross-platform support, event han... |
 | Class-validator | Validation | Validation using decorators for TypeScript classes with supp... |
 | Commander | CLI/Tool | Complete command-line interface solution with argument parsi... |
+| Commerce.js | Payment | Commerce.js SDK for Chec API with cart, checkout, and produc... |
 | Compression | Performance | Response compression middleware using gzip or deflate to red... |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
 | Contentful | Utility | Contentful content management client with entry management, ... |
