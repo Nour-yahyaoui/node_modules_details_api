@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 720
-// Last updated: 2026-09-05 17:22:12
+// Total modules: 721
+// Last updated: 2026-09-05 17:22:14
 
 module.exports = [
   {
@@ -8641,6 +8641,18 @@ module.exports = [
       "directory",
       "listings",
       "search"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Index",
+    "description": "Indexing plugin for Fastify with searchable indexes",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-index'), { });",
+    "tags": [
+      "fastify",
+      "index",
+      "searchable",
+      "indexes"
     ],
     "category": "Utility"
   }
