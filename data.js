@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 401
-// Last updated: 2026-09-05 17:15:21
+// Total modules: 402
+// Last updated: 2026-09-05 17:15:22
 
 module.exports = [
   {
@@ -4811,6 +4811,18 @@ module.exports = [
     "tags": [
       "fastify",
       "pug",
+      "template",
+      "views"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Handlebars",
+    "description": "Handlebars template engine plugin for Fastify with helpers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/handlebars'), { root: './views' });",
+    "tags": [
+      "fastify",
+      "handlebars",
       "template",
       "views"
     ],
