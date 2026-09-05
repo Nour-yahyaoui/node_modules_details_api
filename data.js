@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 564
-// Last updated: 2026-09-05 17:18:49
+// Total modules: 565
+// Last updated: 2026-09-05 17:18:50
 
 module.exports = [
   {
@@ -6771,5 +6771,17 @@ module.exports = [
       "follows"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Chat",
+    "description": "Chat plugin for Fastify with real-time messaging and rooms",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-chat'), { });",
+    "tags": [
+      "fastify",
+      "chat",
+      "realtime",
+      "rooms"
+    ],
+    "category": "Real-time"
   }
 ];
