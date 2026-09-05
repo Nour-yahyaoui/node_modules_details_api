@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 246 |
+| Total Libraries | 247 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -173,6 +173,7 @@ This repository contains a growing collection of **Node.js library documentation
 | NestJS Bull | Background Processing | Bull queue integration for NestJS with job processing and sc... |
 | NestJS Cache | Performance | Cache module for NestJS with in-memory and Redis storage opt... |
 | NestJS Config | Utility | Configuration module for NestJS with env files, validation, ... |
+| NestJS Microservices | Web Framework | Microservices module for NestJS with TCP, Redis, and MQTT tr... |
 | NestJS Mongoose | ORM/Database | Mongoose integration for NestJS with schema definitions and ... |
 | NestJS TypeORM | ORM/Database | TypeORM integration for NestJS with entities, repositories, ... |
 | NestJS Websockets | Real-time | WebSocket gateway module for NestJS with real-time event han... |
