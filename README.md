@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 136 |
+| Total Libraries | 137 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -152,6 +152,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
 | Supertest | Testing/Tool | HTTP assertion library for testing Express/Node.js applicati... |
+| Testcontainers | Testing/Tool | Docker container management for tests with database, message... |
 | Typegoose | ORM/Database | TypeScript-first Mongoose wrapper providing type-safe models... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
