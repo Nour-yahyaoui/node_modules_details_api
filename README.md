@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 290 |
+| Total Libraries | 291 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -205,6 +205,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Netlify CLI | Dev Tool | CLI for Netlify platform with site deployments, functions, a... |
 | Nock | Testing/Tool | HTTP mocking library for testing with interception, recordin... |
 | Node-cache | Performance | Simple in-memory caching with TTL support, statistics, and k... |
+| Node-cache Manager | Performance | Cache manager with multi-store support and TTL management |
 | Node-cron | Background Processing | Lightweight cron job scheduler for Node.js using standard cr... |
 | Node-emoji | Utility | Emoji support with conversion between emoji names, character... |
 | Node-fetch | HTTP Client | Lightweight HTTP client that brings window.fetch to Node.js ... |
