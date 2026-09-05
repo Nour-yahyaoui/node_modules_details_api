@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 185 |
+| Total Libraries | 186 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -87,6 +87,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Firebase Client | Cloud | Firebase client SDK with realtime database, Firestore, authe... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Ghost Admin API | Utility | Ghost CMS admin API client for managing posts, users, and se... |
 | Glob | Utility | Pattern matching for files using glob syntax with sync and a... |
 | Google Cloud Client | Cloud | Official Google Cloud client for Node.js with support for St... |
 | Google Cloud Functions | Cloud | Google Cloud Functions runtime with HTTP triggers, backgroun... |
