@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 40 |
+| Total Libraries | 41 |
 | Categories | CLI/Tool, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -62,6 +62,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Redis (ioredis) | Database | Complete Redis client with clustering, Lua scripting, and su... |
 | Sequelize | ORM/Database | Promise-based ORM supporting PostgreSQL, MySQL, MariaDB, SQL... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
+| SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
