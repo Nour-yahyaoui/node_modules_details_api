@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 192
-// Last updated: 2026-09-05 17:04:18
+// Total modules: 193
+// Last updated: 2026-09-05 17:04:20
 
 module.exports = [
   {
@@ -2305,6 +2305,18 @@ module.exports = [
       "crm",
       "api",
       "cloud"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "HubSpot API",
+    "description": "HubSpot API client with contacts, companies, deals, and marketing automation features",
+    "usage": "const hubspot = require('@hubspot/api-client'); const client = new hubspot.Client({ accessToken: 'token' }); const contacts = await client.crm.contacts.getAll();",
+    "tags": [
+      "hubspot",
+      "crm",
+      "marketing",
+      "automation"
     ],
     "category": "Cloud"
   }
