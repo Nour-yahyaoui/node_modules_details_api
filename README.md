@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 32 |
+| Total Libraries | 33 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Logging, ORM/Database, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -55,6 +55,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Passport | Security | Authentication middleware supporting 500+ strategies includi... |
 | Prettier | Dev Tool | Opinionated code formatter supporting JavaScript, TypeScript... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
+| TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
 | UUID | Utility | Simple and fast RFC-compliant UUID generation with support f... |
 | Validator | Validation | String validators and sanitizers for checking email, URL, an... |
 | Winston | Logging | Versatile logging library supporting multiple transports, cu... |
