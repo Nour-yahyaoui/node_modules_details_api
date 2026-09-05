@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 699 |
+| Total Libraries | 700 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -236,6 +236,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify EventBridge | Cloud | AWS EventBridge plugin for Fastify with event publishing |
 | Fastify Excel | Utility | Excel generation plugin for Fastify with xlsx and csv suppor... |
 | Fastify ExcelJS | Utility | Advanced Excel plugin with formatting and charts support |
+| Fastify Exchange | Utility | Exchange plugin for Fastify with currency and rates |
 | Fastify Extension | Dev Tool | Extension manager for Fastify with versioned extensions |
 | Fastify Factory | Testing/Tool | Test factory plugin for Fastify with model generation |
 | Fastify Factory (Advanced) | Web Framework | Advanced factory pattern with dependency injection |
