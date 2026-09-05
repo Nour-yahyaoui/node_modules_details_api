@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 20 |
+| Total Libraries | 21 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -46,3 +46,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Joi | Validation | Powerful schema validation library with descriptive error me... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
 | Koa | Web Framework | Modern web framework designed by the Express team with async... |
+| Lodash | Utility | Modern JavaScript utility library delivering modularity, per... |
