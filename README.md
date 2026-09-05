@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 759 |
+| Total Libraries | 760 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -152,6 +152,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Audio | Utility | Audio processing plugin for Fastify with mixing and effects |
 | Fastify Audio Chat | Real-time | Audio chat plugin for Fastify with WebRTC and streaming |
 | Fastify Audit | Logging | Audit logging plugin for Fastify with request and response t... |
+| Fastify Audit (Advanced) | Security | Advanced auditing with trails and forensics |
 | Fastify Aurora | Cloud | AWS Aurora plugin for Fastify with MySQL and PostgreSQL comp... |
 | Fastify Auth0 | Security | Auth0 authentication plugin for Fastify with JWT verificatio... |
 | Fastify Autoload | Dev Tool | Auto-load Fastify plugins from directories with configuratio... |
