@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 180 |
+| Total Libraries | 181 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -186,6 +186,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Snowpack | Dev Tool | Build tool using native ESM with fast builds, Hot Module Rep... |
 | Socket.io | Real-time | Real-time bidirectional event-based communication between we... |
 | SQLite3 | Database | Powerful SQLite3 driver providing a low-level interface to S... |
+| Strapi SDK | Utility | Client for Strapi headless CMS with REST and GraphQL support... |
 | Stripe | Payment | Official Stripe API client with support for payments, subscr... |
 | Supabase JS | Database | Supabase client with authentication, realtime subscriptions,... |
 | Superagent | HTTP Client | Progressive HTTP client with flexible API, plugins, and supp... |
