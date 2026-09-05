@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 337 |
+| Total Libraries | 338 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -163,6 +163,7 @@ This repository contains a growing collection of **Node.js library documentation
 | JSON Diff | Utility | JSON diff calculation and patching with deep comparison |
 | JSON GraphQL Server | API | Zero-config GraphQL server that automatically generates CRUD... |
 | JSON Patch | Utility | JSON Patch implementation for applying patches to JSON objec... |
+| JSON Schema | Validation | JSON Schema validation with draft-07 support and custom keyw... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
 | Keygrip | Security | Key rotation and signing for HMAC and cookie signatures |
 | KeystoneJS | Web Framework | Headless CMS and GraphQL API framework with authentication, ... |
