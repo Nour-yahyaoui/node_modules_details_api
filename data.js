@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 721
-// Last updated: 2026-09-05 17:22:14
+// Total modules: 722
+// Last updated: 2026-09-05 17:22:15
 
 module.exports = [
   {
@@ -8653,6 +8653,18 @@ module.exports = [
       "index",
       "searchable",
       "indexes"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Taxonomy",
+    "description": "Taxonomy plugin for Fastify with classification and hierarchy",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-taxonomy'), { });",
+    "tags": [
+      "fastify",
+      "taxonomy",
+      "classification",
+      "hierarchy"
     ],
     "category": "Utility"
   }
