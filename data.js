@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 67
-// Last updated: 2026-09-05 15:20:32
+// Total modules: 68
+// Last updated: 2026-09-05 15:20:33
 
 module.exports = [
   {
@@ -807,5 +807,17 @@ module.exports = [
       "syntax"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "GraphQL",
+    "description": "GraphQL reference implementation with schema construction, query parsing, validation, and execution",
+    "usage": "const { graphql, buildSchema } = require('graphql'); const schema = buildSchema('type Query { hello: String }'); const result = await graphql(schema, '{ hello }', { hello: () => 'World' });",
+    "tags": [
+      "graphql",
+      "api",
+      "query",
+      "schema"
+    ],
+    "category": "API"
   }
 ];
