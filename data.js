@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 700
-// Last updated: 2026-09-05 17:21:46
+// Total modules: 701
+// Last updated: 2026-09-05 17:21:47
 
 module.exports = [
   {
@@ -8401,6 +8401,18 @@ module.exports = [
       "exchange",
       "currency",
       "rates"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Banking",
+    "description": "Banking plugin for Fastify with accounts and transactions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-banking'), { });",
+    "tags": [
+      "fastify",
+      "banking",
+      "accounts",
+      "transactions"
     ],
     "category": "Utility"
   }
