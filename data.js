@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 362
-// Last updated: 2026-09-05 17:14:31
+// Total modules: 363
+// Last updated: 2026-09-05 17:14:32
 
 module.exports = [
   {
@@ -4347,5 +4347,17 @@ module.exports = [
       "headers"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Health Check",
+    "description": "Health check plugin for Fastify with status endpoints and monitoring",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/healthcheck'), { healthcheckUrl: '/health' });",
+    "tags": [
+      "fastify",
+      "health",
+      "monitoring",
+      "status"
+    ],
+    "category": "Dev Tool"
   }
 ];
