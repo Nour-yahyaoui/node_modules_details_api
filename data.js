@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 398
-// Last updated: 2026-09-05 17:15:17
+// Total modules: 399
+// Last updated: 2026-09-05 17:15:18
 
 module.exports = [
   {
@@ -4779,5 +4779,17 @@ module.exports = [
       "express"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify View",
+    "description": "Template engine plugin for Fastify with handlebars, ejs, and pug",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/view'), { engine: { handlebars: require('handlebars') } });",
+    "tags": [
+      "fastify",
+      "template",
+      "views",
+      "handlebars"
+    ],
+    "category": "Utility"
   }
 ];
