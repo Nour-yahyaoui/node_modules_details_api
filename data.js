@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 504
-// Last updated: 2026-09-05 17:17:31
+// Total modules: 505
+// Last updated: 2026-09-05 17:17:32
 
 module.exports = [
   {
@@ -6049,6 +6049,18 @@ module.exports = [
       "elasticsearch",
       "search",
       "aggregation"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Meilisearch",
+    "description": "Meilisearch plugin for Fastify with instant search and typo-tolerance",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-meilisearch'), { host: 'http://localhost:7700' });",
+    "tags": [
+      "fastify",
+      "meilisearch",
+      "search",
+      "typo-tolerance"
     ],
     "category": "Database"
   }
