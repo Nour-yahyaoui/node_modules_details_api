@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 86 |
+| Total Libraries | 87 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -32,6 +32,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Axios | HTTP Client | Promise-based HTTP client for Node.js and browsers with auto... |
 | Azure SDK | Cloud | Microsoft Azure SDK with support for Blob Storage, Queue, Se... |
 | Bcrypt | Security | Password hashing library using the bcrypt algorithm with sal... |
+| Better-sqlite3 | Database | Fast and efficient SQLite3 library with synchronous API and ... |
 | Body-parser | Utility | Request body parsing middleware that populates req.body with... |
 | Bull | Background Processing | Redis-based job queue for handling background jobs, scheduli... |
 | Chai | Testing/Tool | BDD assertion library with expect, should, and assert interf... |
