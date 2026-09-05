@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 753
-// Last updated: 2026-09-05 18:18:51
+// Total modules: 754
+// Last updated: 2026-09-05 18:18:53
 
 module.exports = [
   {
@@ -9037,6 +9037,18 @@ module.exports = [
       "moderation",
       "approval",
       "filtering"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Approval",
+    "description": "Approval workflow plugin for Fastify with stages and notifications",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-approval'), { });",
+    "tags": [
+      "fastify",
+      "approval",
+      "workflow",
+      "stages"
     ],
     "category": "Utility"
   }
