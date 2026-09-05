@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 391
-// Last updated: 2026-09-05 17:15:08
+// Total modules: 392
+// Last updated: 2026-09-05 17:15:09
 
 module.exports = [
   {
@@ -4692,6 +4692,18 @@ module.exports = [
       "fastify",
       "keycloak",
       "authentication",
+      "security"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify Casbin",
+    "description": "Access control plugin for Fastify with Casbin authorization",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-casbin'), { model: 'model.conf', policy: 'policy.csv' });",
+    "tags": [
+      "fastify",
+      "casbin",
+      "authorization",
       "security"
     ],
     "category": "Security"
