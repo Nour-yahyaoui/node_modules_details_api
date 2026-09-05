@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 551
-// Last updated: 2026-09-05 17:18:32
+// Total modules: 552
+// Last updated: 2026-09-05 17:18:34
 
 module.exports = [
   {
@@ -6613,6 +6613,18 @@ module.exports = [
       "aggregator",
       "group",
       "count"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Chart",
+    "description": "Chart generation plugin for Fastify with Chart.js integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-chart'), { });",
+    "tags": [
+      "fastify",
+      "chart",
+      "visualization",
+      "chartjs"
     ],
     "category": "Utility"
   }
