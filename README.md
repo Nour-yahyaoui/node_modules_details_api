@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 630 |
+| Total Libraries | 631 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -137,6 +137,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify API Gateway | Cloud | AWS API Gateway plugin for Fastify with REST and WebSocket s... |
 | Fastify AppSync | Cloud | AWS AppSync plugin for Fastify with GraphQL subscriptions |
 | Fastify Argon2 | Security | Argon2 hashing plugin for Fastify with memory and time param... |
+| Fastify Aspect | Web Framework | Aspect-oriented programming for Fastify with aspect weaving |
 | Fastify Auction | Web Framework | Auction plugin for Fastify with bidding and time management |
 | Fastify Audio Chat | Real-time | Audio chat plugin for Fastify with WebRTC and streaming |
 | Fastify Audit | Logging | Audit logging plugin for Fastify with request and response t... |
