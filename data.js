@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 130
-// Last updated: 2026-09-05 15:21:51
+// Total modules: 131
+// Last updated: 2026-09-05 15:21:52
 
 module.exports = [
   {
@@ -1563,5 +1563,17 @@ module.exports = [
       "mock"
     ],
     "category": "API"
+  },
+  {
+    "title": "Hasura CLI",
+    "description": "CLI tool for Hasura GraphQL Engine with migrations, metadata management, and seed data",
+    "usage": "hasura init --endpoint https://myapp.hasura.app --admin-secret secret",
+    "tags": [
+      "graphql",
+      "hasura",
+      "cli",
+      "database"
+    ],
+    "category": "Dev Tool"
   }
 ];
