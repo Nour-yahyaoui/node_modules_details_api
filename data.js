@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 9
-// Last updated: 2026-09-05 15:15:08
+// Total modules: 10
+// Last updated: 2026-09-05 15:15:09
 
 module.exports = [
   {
@@ -110,5 +110,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Cross-env",
+    "description": "Cross-platform environment variable setting for npm scripts on Windows, Linux, and macOS",
+    "usage": "cross-env NODE_ENV=production npm start",
+    "tags": [
+      "env",
+      "cross-platform",
+      "scripts",
+      "variables"
+    ],
+    "category": "Dev Tool"
   }
 ];
