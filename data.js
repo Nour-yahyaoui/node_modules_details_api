@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 326
-// Last updated: 2026-09-05 17:13:45
+// Total modules: 327
+// Last updated: 2026-09-05 17:13:46
 
 module.exports = [
   {
@@ -3911,6 +3911,18 @@ module.exports = [
     "tags": [
       "vhost",
       "virtual-host",
+      "express",
+      "middleware"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Connect Multiparty",
+    "description": "Multipart form data parsing middleware for Express",
+    "usage": "const multiparty = require('connect-multiparty'); app.use(multiparty({ uploadDir: './uploads' }));",
+    "tags": [
+      "multipart",
+      "upload",
       "express",
       "middleware"
     ],
