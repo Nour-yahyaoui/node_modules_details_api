@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 307
-// Last updated: 2026-09-05 17:13:18
+// Total modules: 308
+// Last updated: 2026-09-05 17:13:20
 
 module.exports = [
   {
@@ -3687,5 +3687,17 @@ module.exports = [
       "data"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Crypto",
+    "description": "Node.js crypto module for hashing, encryption, and random generation",
+    "usage": "const crypto = require('crypto'); const hash = crypto.createHash('sha256').update('Hello').digest('hex');",
+    "tags": [
+      "crypto",
+      "hash",
+      "encryption",
+      "random"
+    ],
+    "category": "Security"
   }
 ];
