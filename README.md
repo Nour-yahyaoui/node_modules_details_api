@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 179 |
+| Total Libraries | 180 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -65,6 +65,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Cypress | Testing/Tool | Modern end-to-end testing framework with automatic waiting, ... |
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
 | Day.js | Utility | Fast 2KB immutable date library alternative to Moment.js wit... |
+| Directus | Utility | Headless CMS with REST and GraphQL APIs, authentication, and... |
 | Docker Compose | Dev Tool | Define and run multi-container Docker applications with serv... |
 | Dockerode | Dev Tool | Complete Docker Remote API client for managing containers, i... |
 | Dotenv | Utility | Load environment variables from .env files into process.env ... |
