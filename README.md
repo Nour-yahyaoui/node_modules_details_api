@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 719 |
+| Total Libraries | 720 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -217,6 +217,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Decorator | Web Framework | Decorator system for Fastify with metadata and annotations |
 | Fastify Dependency | Web Framework | Dependency injection plugin for Fastify with containers |
 | Fastify Dining | Utility | Dining plugin for Fastify with reservations and menus |
+| Fastify Directory | Utility | Directory plugin for Fastify with listings and search |
 | Fastify Dispatcher | Web Framework | Request dispatcher for Fastify with middleware support |
 | Fastify Distribution | Utility | Distribution plugin for Fastify with routes and schedules |
 | Fastify Document | Utility | Document management plugin for Fastify with versioning and s... |
