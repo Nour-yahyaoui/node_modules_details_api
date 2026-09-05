@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 650
-// Last updated: 2026-09-05 17:20:41
+// Total modules: 651
+// Last updated: 2026-09-05 17:20:42
 
 module.exports = [
   {
@@ -7801,6 +7801,18 @@ module.exports = [
       "observer",
       "pattern",
       "notifications"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Notifier",
+    "description": "Notification plugin for Fastify with email, SMS, and push",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-notifier'), { channels: ['email', 'sms'] });",
+    "tags": [
+      "fastify",
+      "notifier",
+      "notification",
+      "channels"
     ],
     "category": "Utility"
   }
