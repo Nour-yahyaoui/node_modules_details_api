@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 15 |
+| Total Libraries | 16 |
 | Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Utility, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -41,3 +41,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Express | Web Framework | Minimalist web framework for Node.js with routing, middlewar... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
+| Helmet | Security | Security middleware that sets various HTTP headers to protec... |
