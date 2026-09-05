@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 654
-// Last updated: 2026-09-05 17:20:46
+// Total modules: 655
+// Last updated: 2026-09-05 17:20:47
 
 module.exports = [
   {
@@ -7849,6 +7849,18 @@ module.exports = [
       "metrics",
       "prometheus",
       "grafana"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Stats",
+    "description": "Statistics plugin for Fastify with real-time stats collection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-stats'), { });",
+    "tags": [
+      "fastify",
+      "stats",
+      "statistics",
+      "collection"
     ],
     "category": "Dev Tool"
   }
