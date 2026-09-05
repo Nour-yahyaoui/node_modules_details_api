@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 729
-// Last updated: 2026-09-05 17:22:24
+// Total modules: 730
+// Last updated: 2026-09-05 17:22:25
 
 module.exports = [
   {
@@ -8749,6 +8749,18 @@ module.exports = [
       "faq",
       "questions",
       "answers"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Support",
+    "description": "Support ticket plugin for Fastify with queues and agents",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-support'), { });",
+    "tags": [
+      "fastify",
+      "support",
+      "tickets",
+      "agents"
     ],
     "category": "Utility"
   }
