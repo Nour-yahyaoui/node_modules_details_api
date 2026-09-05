@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 533
-// Last updated: 2026-09-05 17:18:09
+// Total modules: 534
+// Last updated: 2026-09-05 17:18:11
 
 module.exports = [
   {
@@ -6397,6 +6397,18 @@ module.exports = [
       "webpack",
       "bundler",
       "hmr"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Rollup",
+    "description": "Rollup plugin for Fastify with tree-shaking and ESM support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rollup'), { input: 'src/index.js' });",
+    "tags": [
+      "fastify",
+      "rollup",
+      "bundler",
+      "tree-shaking"
     ],
     "category": "Dev Tool"
   }
