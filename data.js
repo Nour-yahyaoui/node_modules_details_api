@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 484
-// Last updated: 2026-09-05 17:17:05
+// Total modules: 485
+// Last updated: 2026-09-05 17:17:06
 
 module.exports = [
   {
@@ -5809,6 +5809,18 @@ module.exports = [
       "sns",
       "aws",
       "pubsub"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Lambda",
+    "description": "AWS Lambda integration plugin for Fastify with function invocation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-lambda'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "lambda",
+      "aws",
+      "serverless"
     ],
     "category": "Cloud"
   }
