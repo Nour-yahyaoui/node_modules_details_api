@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 424
-// Last updated: 2026-09-05 17:15:49
+// Total modules: 425
+// Last updated: 2026-09-05 17:15:50
 
 module.exports = [
   {
@@ -5089,6 +5089,18 @@ module.exports = [
       "ajv",
       "validation",
       "json-schema"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Fastify Data Validation",
+    "description": "Comprehensive data validation plugin with multiple schema support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-data-validation'), { schemas: { user: { type: 'object' } } });",
+    "tags": [
+      "fastify",
+      "validation",
+      "data",
+      "schema"
     ],
     "category": "Validation"
   }
