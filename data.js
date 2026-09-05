@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 579
-// Last updated: 2026-09-05 21:29:19
+// Total modules: 580
+// Last updated: 2026-09-05 21:29:20
 
 module.exports = [
   {
@@ -6949,6 +6949,18 @@ module.exports = [
       "benchmark",
       "performance",
       "metrics"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify Profiler",
+    "description": "Profiling plugin for Fastify with CPU and memory profiling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-profiler'), { });",
+    "tags": [
+      "fastify",
+      "profiler",
+      "cpu",
+      "memory"
     ],
     "category": "Performance"
   }
