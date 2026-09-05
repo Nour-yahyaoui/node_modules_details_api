@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 714
-// Last updated: 2026-09-05 17:22:04
+// Total modules: 715
+// Last updated: 2026-09-05 17:22:05
 
 module.exports = [
   {
@@ -8569,6 +8569,18 @@ module.exports = [
       "university",
       "departments",
       "faculties"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Library (Advanced)",
+    "description": "Advanced library management with catalogs and circulation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-library'), { catalogs: './catalogs' });",
+    "tags": [
+      "fastify",
+      "library",
+      "catalogs",
+      "circulation"
     ],
     "category": "Utility"
   }
