@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 465
-// Last updated: 2026-09-05 17:16:40
+// Total modules: 466
+// Last updated: 2026-09-05 17:16:41
 
 module.exports = [
   {
@@ -5580,6 +5580,18 @@ module.exports = [
       "fastify",
       "bootstrap",
       "css",
+      "components"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify DaisyUI",
+    "description": "DaisyUI integration plugin for Fastify with Tailwind components",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-daisyui'), { });",
+    "tags": [
+      "fastify",
+      "daisyui",
+      "tailwind",
       "components"
     ],
     "category": "Utility"
