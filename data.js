@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 405
-// Last updated: 2026-09-05 17:15:26
+// Total modules: 406
+// Last updated: 2026-09-05 17:15:27
 
 module.exports = [
   {
@@ -4861,6 +4861,18 @@ module.exports = [
       "decorate",
       "extend",
       "utility"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Hooks",
+    "description": "Lifecycle hooks for Fastify with beforeHandler, preParsing, and onSend",
+    "usage": "const fastify = require('fastify')(); fastify.addHook('preHandler', (req, reply, done) => { req.user = 'john'; done(); });",
+    "tags": [
+      "fastify",
+      "hooks",
+      "lifecycle",
+      "middleware"
     ],
     "category": "Utility"
   }
