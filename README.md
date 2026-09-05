@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 82 |
+| Total Libraries | 83 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -78,6 +78,7 @@ This repository contains a growing collection of **Node.js library documentation
 | MySQL2 | Database | Fast MySQL client with prepared statements, connection pooli... |
 | NestJS | Web Framework | Progressive TypeScript framework for building efficient, rel... |
 | Node-cron | Background Processing | Lightweight cron job scheduler for Node.js using standard cr... |
+| Node-schedule | Background Processing | Flexible job scheduling library with cron-like syntax, date-... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
 | Nodemon | Dev Tool | Development tool that automatically restarts Node.js applica... |
