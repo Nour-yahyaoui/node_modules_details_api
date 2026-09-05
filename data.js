@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 662
-// Last updated: 2026-09-05 17:20:57
+// Total modules: 663
+// Last updated: 2026-09-05 17:20:58
 
 module.exports = [
   {
@@ -7945,6 +7945,18 @@ module.exports = [
       "vision",
       "computer",
       "image"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Speech",
+    "description": "Speech processing plugin for Fastify with text-to-speech and STT",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-speech'), { });",
+    "tags": [
+      "fastify",
+      "speech",
+      "tts",
+      "stt"
     ],
     "category": "Utility"
   }
