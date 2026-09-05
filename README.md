@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 439 |
+| Total Libraries | 440 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -125,6 +125,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify AB Testing | Utility | A/B testing plugin for Fastify with experiment allocation |
 | Fastify ACL | Security | Access control list plugin for Fastify with fine-grained per... |
 | Fastify Ajv | Validation | AJV validation plugin for Fastify with JSON Schema support |
+| Fastify Analytics | Utility | Analytics plugin for Fastify with event tracking and aggrega... |
 | Fastify Argon2 | Security | Argon2 hashing plugin for Fastify with memory and time param... |
 | Fastify Audit | Logging | Audit logging plugin for Fastify with request and response t... |
 | Fastify Auth0 | Security | Auth0 authentication plugin for Fastify with JWT verificatio... |
