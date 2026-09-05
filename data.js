@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 777
-// Last updated: 2026-09-05 18:19:21
+// Total modules: 778
+// Last updated: 2026-09-05 18:19:22
 
 module.exports = [
   {
@@ -9325,6 +9325,18 @@ module.exports = [
       "real-time",
       "websocket",
       "communication"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Live",
+    "description": "Live streaming plugin for Fastify with HLS and WebRTC",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-live'), { });",
+    "tags": [
+      "fastify",
+      "live",
+      "streaming",
+      "hls"
     ],
     "category": "Real-time"
   }
