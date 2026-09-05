@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 600
-// Last updated: 2026-09-05 17:19:37
+// Total modules: 601
+// Last updated: 2026-09-05 17:19:38
 
 module.exports = [
   {
@@ -7201,6 +7201,18 @@ module.exports = [
       "partition",
       "table",
       "date"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Data Warehouse",
+    "description": "Data warehouse plugin for Fastify with ETL and analytics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-data-warehouse'), { });",
+    "tags": [
+      "fastify",
+      "data-warehouse",
+      "etl",
+      "analytics"
     ],
     "category": "Database"
   }
