@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 323 |
+| Total Libraries | 324 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -293,6 +293,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Sequelize Seeders | ORM/Database | Sequelize data seeding with bulk insert and transaction supp... |
 | Sequelize Validations | ORM/Database | Sequelize model validations with built-in and custom validat... |
 | Serve Favicon | Utility | Favicon serving middleware for Express with caching |
+| Serve Index | Utility | Directory index serving middleware for Express with file lis... |
 | Serverless | Dev Tool | Framework for building serverless applications with AWS Lamb... |
 | SES (AWS) | Cloud | AWS Simple Email Service client with sending, receiving, and... |
 | Sharp | Utility | High-performance image processing with resizing, cropping, f... |
