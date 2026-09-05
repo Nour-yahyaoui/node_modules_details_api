@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 571 |
+| Total Libraries | 572 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -319,6 +319,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Swagger UI | Dev Tool | Swagger UI plugin for Fastify with interactive API documenta... |
 | Fastify SWC | Dev Tool | SWC compiler plugin for Fastify with fast transpilation |
 | Fastify Tailwind | Dev Tool | Tailwind CSS integration plugin for Fastify with build-time ... |
+| Fastify Tasks | Utility | Task management plugin for Fastify with projects and deadlin... |
 | Fastify Telemetry | Dev Tool | Telemetry collection plugin for Fastify with metrics and tra... |
 | Fastify Test | Testing/Tool | Testing utilities for Fastify with supertest integration |
 | Fastify Throttle | Security | Request throttling plugin for Fastify with token bucket algo... |
