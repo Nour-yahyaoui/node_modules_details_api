@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 365 |
+| Total Libraries | 366 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -126,6 +126,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Cookie | Utility | Cookie parsing and serialization plugin for Fastify with sig... |
 | Fastify CORS | Security | CORS plugin for Fastify with configurable origins, methods, ... |
 | Fastify Cors (Advanced) | Security | Advanced CORS plugin for Fastify with dynamic origin validat... |
+| Fastify Formbody | Utility | URL-encoded form body parser plugin for Fastify with extende... |
 | Fastify Graceful Shutdown | Dev Tool | Graceful shutdown plugin for Fastify with health checks and ... |
 | Fastify GraphQL | API | GraphQL plugin for Fastify with schema stitching and resolve... |
 | Fastify Health Check | Dev Tool | Health check plugin for Fastify with status endpoints and mo... |
