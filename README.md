@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 689 |
+| Total Libraries | 690 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -436,6 +436,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Trait | Utility | Trait system for Fastify with reusable behavior |
 | Fastify Transformer | Utility | Data transformation plugin for Fastify with serialization |
 | Fastify Transportation | Utility | Transportation plugin for Fastify with modes and routes |
+| Fastify Travel | Utility | Travel booking plugin for Fastify with flights and hotels |
 | Fastify TV | Utility | TV guide plugin for Fastify with channels and schedules |
 | Fastify Type Provider | Validation | TypeScript type providers for Fastify with Zod, Yup, and Joi |
 | Fastify Typescript | Dev Tool | TypeScript plugin for Fastify with type definitions and vali... |
