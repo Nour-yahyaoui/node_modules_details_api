@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 177 |
+| Total Libraries | 178 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -81,6 +81,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Firebase Admin | Cloud | Firebase Admin SDK with authentication, Firestore, Cloud Mes... |
+| Firebase Client | Cloud | Firebase client SDK with realtime database, Firestore, authe... |
 | Forever | Dev Tool | Simple daemon for keeping Node.js processes running continuo... |
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
 | Glob | Utility | Pattern matching for files using glob syntax with sync and a... |
