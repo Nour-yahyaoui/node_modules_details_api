@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 205
-// Last updated: 2026-09-05 17:04:40
+// Total modules: 206
+// Last updated: 2026-09-05 17:04:41
 
 module.exports = [
   {
@@ -2459,6 +2459,18 @@ module.exports = [
     "tags": [
       "time",
       "duration",
+      "format",
+      "human-readable"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Pretty Bytes",
+    "description": "Convert bytes to human-readable file size strings with SI and binary units",
+    "usage": "const prettyBytes = require('pretty-bytes'); console.log(prettyBytes(1024)); // '1.02 kB'",
+    "tags": [
+      "bytes",
+      "size",
       "format",
       "human-readable"
     ],
