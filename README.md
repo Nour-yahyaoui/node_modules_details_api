@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 328 |
+| Total Libraries | 329 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -74,6 +74,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Compression Webpack | Dev Tool | Webpack plugin for gzip and brotli compression during build |
 | Concurrently | Dev Tool | Run multiple commands concurrently, useful for starting both... |
 | Connect Busboy | Utility | Busboy middleware for streaming multipart file uploads |
+| Connect Flash | Utility | Flash message middleware for Express with session integratio... |
 | Connect Mongo | Database | MongoDB session store for Express with TTL and auto-connect |
 | Connect Multiparty | Utility | Multipart form data parsing middleware for Express |
 | Connect Redis | Database | Redis session store for Express with automatic session manag... |
