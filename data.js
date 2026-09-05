@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 535
-// Last updated: 2026-09-05 17:18:12
+// Total modules: 536
+// Last updated: 2026-09-05 17:18:13
 
 module.exports = [
   {
@@ -6421,6 +6421,18 @@ module.exports = [
       "vite",
       "dev-server",
       "hmr"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Parcel",
+    "description": "Parcel plugin for Fastify with zero-config bundling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-parcel'), { entry: 'index.html' });",
+    "tags": [
+      "fastify",
+      "parcel",
+      "bundler",
+      "zero-config"
     ],
     "category": "Dev Tool"
   }
