@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 228 |
+| Total Libraries | 229 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -95,6 +95,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Faker | Testing/Tool | Generate massive amounts of fake data including names, email... |
 | Fastify | Web Framework | Fast and low-overhead web framework with built-in schema val... |
 | Fastify CORS | Security | CORS plugin for Fastify with configurable origins, methods, ... |
+| Fastify Sensible | Utility | Collection of useful Fastify plugins including defaults, ass... |
 | Fastify Swagger | Dev Tool | OpenAPI documentation generator for Fastify with interactive... |
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Firebase Admin | Cloud | Firebase Admin SDK with authentication, Firestore, Cloud Mes... |
