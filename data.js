@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 321
-// Last updated: 2026-09-05 17:13:37
+// Total modules: 322
+// Last updated: 2026-09-05 17:13:39
 
 module.exports = [
   {
@@ -3850,6 +3850,18 @@ module.exports = [
     "usage": "const RedisStore = require('connect-redis')(session); app.use(session({ store: new RedisStore({ host: 'localhost' }), secret: 'secret' }));",
     "tags": [
       "redis",
+      "session",
+      "store",
+      "express"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Connect Mongo",
+    "description": "MongoDB session store for Express with TTL and auto-connect",
+    "usage": "const MongoStore = require('connect-mongo'); app.use(session({ store: MongoStore.create({ mongoUrl: 'mongodb://localhost/test' }), secret: 'secret' }));",
+    "tags": [
+      "mongodb",
       "session",
       "store",
       "express"
