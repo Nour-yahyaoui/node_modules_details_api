@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 294 |
+| Total Libraries | 295 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -236,6 +236,7 @@ This repository contains a growing collection of **Node.js library documentation
 | PG Native | Database | Native PostgreSQL client with binary parsing and C-level per... |
 | Pino | Logging | Fast and low-overhead JSON logging with log rotation and nat... |
 | Pino-pretty | Logging | Pretty logger for Pino with colorized output, human-readable... |
+| Piscina | Performance | Worker thread pool for Node.js with async tasks and concurre... |
 | Plaid | Payment | Plaid API client for banking, financial data, and payment pr... |
 | Playwright | Testing/Tool | Browser automation supporting Chromium, Firefox, and WebKit ... |
 | Playwright Test | Testing/Tool | Cross-browser E2E testing with auto-waiting, fixtures, and p... |
