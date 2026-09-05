@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 422
-// Last updated: 2026-09-05 17:15:47
+// Total modules: 423
+// Last updated: 2026-09-05 17:15:48
 
 module.exports = [
   {
@@ -5065,6 +5065,18 @@ module.exports = [
       "yup",
       "validation",
       "async"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Fastify Joi",
+    "description": "Joi validation plugin for Fastify with descriptive errors",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-joi'), { schema: { body: Joi.object({ name: Joi.string().required() }) } });",
+    "tags": [
+      "fastify",
+      "joi",
+      "validation",
+      "schema"
     ],
     "category": "Validation"
   }
