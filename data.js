@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 421
-// Last updated: 2026-09-05 18:34:06
+// Total modules: 422
+// Last updated: 2026-09-05 18:34:07
 
 module.exports = [
   {
@@ -5053,6 +5053,18 @@ module.exports = [
       "zod",
       "validation",
       "typescript"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Fastify Yup",
+    "description": "Yup validation plugin for Fastify with async validation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-yup'), { schema: { body: yup.object({ name: yup.string().required() }) } });",
+    "tags": [
+      "fastify",
+      "yup",
+      "validation",
+      "async"
     ],
     "category": "Validation"
   }
