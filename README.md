@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 270 |
+| Total Libraries | 271 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -278,6 +278,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Typegoose | ORM/Database | TypeScript-first Mongoose wrapper providing type-safe models... |
 | Typegoose Advanced | ORM/Database | Advanced Typegoose with decorators, hooks, and virtual prope... |
 | TypeORM | ORM/Database | ORM supporting Active Record and Data Mapper patterns with f... |
+| TypeORM Relations | ORM/Database | TypeORM entity relations with one-to-one, one-to-many, and m... |
 | TypeScript | Dev Tool | Typed superset of JavaScript that compiles to plain JavaScri... |
 | Typesense | Database | Fast search engine with typo tolerance, faceting, and geoloc... |
 | Undici | HTTP Client | Fast, efficient HTTP/1.1 and HTTP/2 client with connection p... |
