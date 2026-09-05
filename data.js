@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 443
-// Last updated: 2026-09-05 17:16:13
+// Total modules: 444
+// Last updated: 2026-09-05 17:16:14
 
 module.exports = [
   {
@@ -5315,6 +5315,18 @@ module.exports = [
     "tags": [
       "fastify",
       "sms",
+      "twilio",
+      "vonage"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Voice",
+    "description": "Voice communication plugin for Fastify with Twilio and Vonage",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-voice'), { provider: 'twilio' });",
+    "tags": [
+      "fastify",
+      "voice",
       "twilio",
       "vonage"
     ],
