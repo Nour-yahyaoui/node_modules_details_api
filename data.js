@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 539
-// Last updated: 2026-09-05 17:18:17
+// Total modules: 540
+// Last updated: 2026-09-05 17:18:18
 
 module.exports = [
   {
@@ -6471,5 +6471,17 @@ module.exports = [
       "import"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Resource",
+    "description": "Resource management plugin for Fastify with RESTful routes",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-resource'), { resource: 'users', handler: UserController });",
+    "tags": [
+      "fastify",
+      "resource",
+      "rest",
+      "routes"
+    ],
+    "category": "Web Framework"
   }
 ];
