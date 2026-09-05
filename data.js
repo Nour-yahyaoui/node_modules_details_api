@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 364
-// Last updated: 2026-09-05 17:14:33
+// Total modules: 365
+// Last updated: 2026-09-05 17:14:34
 
 module.exports = [
   {
@@ -4369,6 +4369,18 @@ module.exports = [
       "context",
       "async",
       "logging"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Sensible (Advanced)",
+    "description": "Advanced utilities plugin for Fastify including http-errors and assert",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/sensible')); fastify.get('/', (req, reply) => { reply.httpErrors.notFound(); });",
+    "tags": [
+      "fastify",
+      "utilities",
+      "http-errors",
+      "assert"
     ],
     "category": "Utility"
   }
