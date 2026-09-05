@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 499
-// Last updated: 2026-09-05 17:17:24
+// Total modules: 500
+// Last updated: 2026-09-05 17:17:26
 
 module.exports = [
   {
@@ -5989,6 +5989,18 @@ module.exports = [
       "ecr",
       "aws",
       "registry"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify RDS",
+    "description": "AWS RDS plugin for Fastify with database connection management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rds'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "rds",
+      "aws",
+      "database"
     ],
     "category": "Cloud"
   }
