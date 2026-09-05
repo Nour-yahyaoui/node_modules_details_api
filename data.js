@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 537
-// Last updated: 2026-09-05 17:18:14
+// Total modules: 538
+// Last updated: 2026-09-05 17:18:16
 
 module.exports = [
   {
@@ -6445,6 +6445,18 @@ module.exports = [
       "snowpack",
       "esm",
       "dev"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Module Aliases",
+    "description": "Module aliases plugin for Fastify with path resolution",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-module-aliases'), { aliases: { '@': './src' } });",
+    "tags": [
+      "fastify",
+      "aliases",
+      "module",
+      "resolution"
     ],
     "category": "Dev Tool"
   }
