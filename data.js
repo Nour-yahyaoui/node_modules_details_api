@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 514
-// Last updated: 2026-09-05 17:17:44
+// Total modules: 515
+// Last updated: 2026-09-05 17:17:45
 
 module.exports = [
   {
@@ -6169,6 +6169,18 @@ module.exports = [
       "multipart",
       "upload",
       "form"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Static (Advanced)",
+    "description": "Advanced static file serving with caching, compression, and ETag support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/static'), { root: './public', cacheControl: 'public, max-age=3600' });",
+    "tags": [
+      "fastify",
+      "static",
+      "cache",
+      "serve"
     ],
     "category": "Utility"
   }
