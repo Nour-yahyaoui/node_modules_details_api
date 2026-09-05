@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 608
-// Last updated: 2026-09-05 17:19:48
+// Total modules: 609
+// Last updated: 2026-09-05 17:19:49
 
 module.exports = [
   {
@@ -7297,6 +7297,18 @@ module.exports = [
       "ddd",
       "aggregates",
       "repositories"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Hexagonal",
+    "description": "Hexagonal architecture plugin for Fastify with ports and adapters",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-hexagonal'), { ports: './ports', adapters: './adapters' });",
+    "tags": [
+      "fastify",
+      "hexagonal",
+      "ports",
+      "adapters"
     ],
     "category": "Web Framework"
   }
