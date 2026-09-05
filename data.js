@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 593
-// Last updated: 2026-09-05 17:19:27
+// Total modules: 594
+// Last updated: 2026-09-05 17:19:29
 
 module.exports = [
   {
@@ -7117,6 +7117,18 @@ module.exports = [
       "iscsi",
       "storage",
       "network"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Backup",
+    "description": "Backup plugin for Fastify with scheduled backups and restoration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-backup'), { schedule: '0 2 * * *' });",
+    "tags": [
+      "fastify",
+      "backup",
+      "restore",
+      "schedule"
     ],
     "category": "Utility"
   }
