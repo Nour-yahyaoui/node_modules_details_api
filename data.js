@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 562
-// Last updated: 2026-09-05 17:18:47
+// Total modules: 563
+// Last updated: 2026-09-05 17:18:48
 
 module.exports = [
   {
@@ -6745,6 +6745,18 @@ module.exports = [
       "event",
       "scheduling",
       "ticketing"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Community",
+    "description": "Community plugin for Fastify with groups and members",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-community'), { });",
+    "tags": [
+      "fastify",
+      "community",
+      "groups",
+      "members"
     ],
     "category": "Web Framework"
   }
