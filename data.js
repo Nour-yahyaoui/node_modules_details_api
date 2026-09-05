@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 613
-// Last updated: 2026-09-05 17:19:54
+// Total modules: 614
+// Last updated: 2026-09-05 17:19:55
 
 module.exports = [
   {
@@ -7359,5 +7359,17 @@ module.exports = [
       "lifecycle"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Extension",
+    "description": "Extension manager for Fastify with versioned extensions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-extension'), { extensions: ['./extensions'] });",
+    "tags": [
+      "fastify",
+      "extension",
+      "versioned",
+      "manager"
+    ],
+    "category": "Dev Tool"
   }
 ];
