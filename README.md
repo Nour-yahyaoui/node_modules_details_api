@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 671 |
+| Total Libraries | 672 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -449,6 +449,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify YAML (Advanced) | Utility | Advanced YAML plugin with custom schemas and validation |
 | Fastify Yup | Validation | Yup validation plugin for Fastify with async validation |
 | Fastify Zod | Validation | Zod validation plugin for Fastify with type inference and er... |
+| Fastify Zoo | Utility | Zoo management plugin for Fastify with animals and enclosure... |
 | FeathersJS | Web Framework | Real-time API framework with service architecture, hooks, an... |
 | Firebase Admin | Cloud | Firebase Admin SDK with authentication, Firestore, Cloud Mes... |
 | Firebase Client | Cloud | Firebase client SDK with realtime database, Firestore, authe... |
