@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 756
-// Last updated: 2026-09-05 18:18:55
+// Total modules: 757
+// Last updated: 2026-09-05 18:18:57
 
 module.exports = [
   {
@@ -9073,6 +9073,18 @@ module.exports = [
       "automation",
       "rules",
       "triggers"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Rule Engine",
+    "description": "Rule engine plugin for Fastify with decision tables",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-rule-engine'), { });",
+    "tags": [
+      "fastify",
+      "rule-engine",
+      "decision",
+      "tables"
     ],
     "category": "Utility"
   }
