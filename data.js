@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 529
-// Last updated: 2026-09-05 17:18:04
+// Total modules: 530
+// Last updated: 2026-09-05 17:18:05
 
 module.exports = [
   {
@@ -6349,6 +6349,18 @@ module.exports = [
       "typescript",
       "types",
       "validation"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Babel",
+    "description": "Babel transpilation plugin for Fastify with ES6+ support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-babel'), { presets: ['@babel/preset-env'] });",
+    "tags": [
+      "fastify",
+      "babel",
+      "transpile",
+      "es6"
     ],
     "category": "Dev Tool"
   }
