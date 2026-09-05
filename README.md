@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 310 |
+| Total Libraries | 311 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -80,6 +80,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Crypto | Security | Node.js crypto module for hashing, encryption, and random ge... |
 | Crypto Random | Security | Cryptographically secure random number generation |
 | Crypto-js | Security | Pure JavaScript cryptographic library with AES, SHA, HMAC, a... |
+| Csrf | Security | CSRF token generation and verification for Express applicati... |
 | Cucumber | Testing/Tool | BDD testing with Gherkin syntax, step definitions, and hooks... |
 | Cypress | Testing/Tool | Modern end-to-end testing framework with automatic waiting, ... |
 | Date-fns | Utility | Modern date utility library with modular functions for parsi... |
