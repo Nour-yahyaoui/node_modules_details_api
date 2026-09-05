@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 381
-// Last updated: 2026-09-05 17:14:55
+// Total modules: 382
+// Last updated: 2026-09-05 17:14:56
 
 module.exports = [
   {
@@ -4575,5 +4575,17 @@ module.exports = [
       "monitoring"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Rate Limit (Redis)",
+    "description": "Redis-backed rate limiting for Fastify with distributed throttling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/rate-limit'), { max: 100, timeWindow: '1m', redis: { host: 'localhost' } });",
+    "tags": [
+      "fastify",
+      "rate-limit",
+      "redis",
+      "distributed"
+    ],
+    "category": "Security"
   }
 ];
