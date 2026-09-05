@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 598
-// Last updated: 2026-09-05 17:19:34
+// Total modules: 599
+// Last updated: 2026-09-05 17:19:35
 
 module.exports = [
   {
@@ -7177,6 +7177,18 @@ module.exports = [
       "replication",
       "master-slave",
       "data"
+    ],
+    "category": "Database"
+  },
+  {
+    "title": "Fastify Sharding",
+    "description": "Sharding plugin for Fastify with distributed data partitioning",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sharding'), { shards: ['shard1', 'shard2'] });",
+    "tags": [
+      "fastify",
+      "sharding",
+      "distributed",
+      "partition"
     ],
     "category": "Database"
   }
