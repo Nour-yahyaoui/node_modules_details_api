@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 11
-// Last updated: 2026-09-05 15:15:11
+// Total modules: 12
+// Last updated: 2026-09-05 15:15:12
 
 module.exports = [
   {
@@ -134,5 +134,17 @@ module.exports = [
       "variables"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "ESLint",
+    "description": "Static code analysis tool for identifying and fixing problems in JavaScript and TypeScript code",
+    "usage": "npx eslint --fix .",
+    "tags": [
+      "lint",
+      "code-quality",
+      "static-analysis",
+      "typescript"
+    ],
+    "category": "Dev Tool"
   }
 ];
