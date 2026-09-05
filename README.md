@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 547 |
+| Total Libraries | 548 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -287,6 +287,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify SNS | Cloud | AWS SNS plugin for Fastify with topic management and publish... |
 | Fastify Socket.io | Real-time | Socket.io plugin for Fastify with event handling and room ma... |
 | Fastify Solid | Utility | Solid.js rendering plugin for Fastify with SSR support |
+| Fastify Sort | Utility | Data sorting plugin for Fastify with multiple sort fields |
 | Fastify SQS | Cloud | AWS SQS plugin for Fastify with queue management and message... |
 | Fastify Static | Utility | Static file serving plugin for Fastify with caching and path... |
 | Fastify Static (Advanced) | Utility | Advanced static file serving with caching, compression, and ... |
