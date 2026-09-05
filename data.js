@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 589
-// Last updated: 2026-09-05 17:19:22
+// Total modules: 590
+// Last updated: 2026-09-05 17:19:24
 
 module.exports = [
   {
@@ -7068,6 +7068,18 @@ module.exports = [
       "fastify",
       "webdav",
       "files",
+      "sharing"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify SMB",
+    "description": "SMB client plugin for Fastify with Windows file sharing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-smb'), { host: 'smb.example.com' });",
+    "tags": [
+      "fastify",
+      "smb",
+      "windows",
       "sharing"
     ],
     "category": "Utility"
