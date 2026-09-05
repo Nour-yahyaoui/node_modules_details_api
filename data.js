@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 160
-// Last updated: 2026-09-05 17:03:22
+// Total modules: 161
+// Last updated: 2026-09-05 17:03:23
 
 module.exports = [
   {
@@ -1921,6 +1921,18 @@ module.exports = [
       "typing",
       "compiler",
       "language"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "SWC",
+    "description": "Extremely fast Rust-based JavaScript/TypeScript compiler for building and bundling",
+    "usage": "npx swc src -d dist",
+    "tags": [
+      "compiler",
+      "fast",
+      "rust",
+      "typescript"
     ],
     "category": "Dev Tool"
   }
