@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 594
-// Last updated: 2026-09-05 21:29:38
+// Total modules: 595
+// Last updated: 2026-09-05 21:29:40
 
 module.exports = [
   {
@@ -7129,6 +7129,18 @@ module.exports = [
       "backup",
       "restore",
       "schedule"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Restore",
+    "description": "Restore plugin for Fastify with point-in-time recovery",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-restore'), { });",
+    "tags": [
+      "fastify",
+      "restore",
+      "recovery",
+      "point-in-time"
     ],
     "category": "Utility"
   }
