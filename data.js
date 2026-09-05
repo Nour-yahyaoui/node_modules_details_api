@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 453
-// Last updated: 2026-09-05 17:16:25
+// Total modules: 454
+// Last updated: 2026-09-05 17:16:26
 
 module.exports = [
   {
@@ -5439,5 +5439,17 @@ module.exports = [
       "plugins"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify CSS",
+    "description": "CSS processing plugin for Fastify with minification and compilation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-css'), { minify: true });",
+    "tags": [
+      "fastify",
+      "css",
+      "minify",
+      "compilation"
+    ],
+    "category": "Dev Tool"
   }
 ];
