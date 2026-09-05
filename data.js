@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 559
-// Last updated: 2026-09-05 17:18:43
+// Total modules: 560
+// Last updated: 2026-09-05 17:18:44
 
 module.exports = [
   {
@@ -6709,6 +6709,18 @@ module.exports = [
       "marketplace",
       "vendors",
       "listings"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Auction",
+    "description": "Auction plugin for Fastify with bidding and time management",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-auction'), { });",
+    "tags": [
+      "fastify",
+      "auction",
+      "bidding",
+      "time"
     ],
     "category": "Web Framework"
   }
