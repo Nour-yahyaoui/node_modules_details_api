@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 347 |
+| Total Libraries | 348 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -286,6 +286,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Prisma Pulse | Real-time | Real-time database change stream for Prisma with WebSocket a... |
 | Prismic | Utility | Prismic headless CMS client with query builder, content mana... |
 | Prompts | CLI/Tool | Interactive CLI prompts with validation, cancellation, and s... |
+| Property Getter | Utility | Safe nested property access with default values |
 | Pug | Utility | High-performance template engine with clean, whitespace-sens... |
 | Pulumi | Dev Tool | Modern infrastructure as code using TypeScript with support ... |
 | Puppeteer | Testing/Tool | Headless Chrome automation library for controlling Chrome/Ch... |
