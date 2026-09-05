@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 526
-// Last updated: 2026-09-05 17:18:00
+// Total modules: 527
+// Last updated: 2026-09-05 17:18:01
 
 module.exports = [
   {
@@ -6315,5 +6315,17 @@ module.exports = [
       "istanbul"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Lint",
+    "description": "Code linting plugin for Fastify with ESLint integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-lint'), { config: '.eslintrc' });",
+    "tags": [
+      "fastify",
+      "lint",
+      "eslint",
+      "code-quality"
+    ],
+    "category": "Dev Tool"
   }
 ];
