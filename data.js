@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 517
-// Last updated: 2026-09-05 17:17:48
+// Total modules: 518
+// Last updated: 2026-09-05 17:17:50
 
 module.exports = [
   {
@@ -6205,6 +6205,18 @@ module.exports = [
       "replay",
       "record",
       "testing"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Test",
+    "description": "Testing utilities for Fastify with supertest integration",
+    "usage": "const fastify = require('fastify')(); const test = require('fastify-test'); test(fastify, '/', (res) => { expect(res.statusCode).toBe(200); });",
+    "tags": [
+      "fastify",
+      "testing",
+      "supertest",
+      "assert"
     ],
     "category": "Testing/Tool"
   }
