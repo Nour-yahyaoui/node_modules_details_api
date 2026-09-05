@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 472
-// Last updated: 2026-09-05 17:16:50
+// Total modules: 473
+// Last updated: 2026-09-05 17:16:51
 
 module.exports = [
   {
@@ -5667,5 +5667,17 @@ module.exports = [
       "timezone"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Cron",
+    "description": "Cron job scheduling plugin for Fastify with timezone support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cron'), { jobs: [{ cron: '0 0 * * *', handler: () => console.log('Cron job') }] });",
+    "tags": [
+      "fastify",
+      "cron",
+      "schedule",
+      "jobs"
+    ],
+    "category": "Background Processing"
   }
 ];
