@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 153 |
+| Total Libraries | 154 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -128,6 +128,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Node-cache | Performance | Simple in-memory caching with TTL support, statistics, and k... |
 | Node-cron | Background Processing | Lightweight cron job scheduler for Node.js using standard cr... |
 | Node-fetch | HTTP Client | Lightweight HTTP client that brings window.fetch to Node.js ... |
+| Node-pty | Utility | Pseudo terminal (PTY) for Node.js with support for command e... |
 | Node-resque | Background Processing | Job queue system using Redis with multiple queues, delayed j... |
 | Node-schedule | Background Processing | Flexible job scheduling library with cron-like syntax, date-... |
 | Nodemailer | Utility | Email sending module with support for SMTP, attachments, HTM... |
