@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 325
-// Last updated: 2026-09-05 17:13:44
+// Total modules: 326
+// Last updated: 2026-09-05 17:13:45
 
 module.exports = [
   {
@@ -3899,6 +3899,18 @@ module.exports = [
     "tags": [
       "method",
       "override",
+      "express",
+      "middleware"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Vhost",
+    "description": "Virtual host middleware for Express with domain-based routing",
+    "usage": "const vhost = require('vhost'); app.use(vhost('api.example.com', apiApp));",
+    "tags": [
+      "vhost",
+      "virtual-host",
       "express",
       "middleware"
     ],
