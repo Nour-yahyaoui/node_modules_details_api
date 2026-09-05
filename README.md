@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 336 |
+| Total Libraries | 337 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -160,6 +160,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
 | Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
 | Joi | Validation | Powerful schema validation library with descriptive error me... |
+| JSON Diff | Utility | JSON diff calculation and patching with deep comparison |
 | JSON GraphQL Server | API | Zero-config GraphQL server that automatically generates CRUD... |
 | JSON Patch | Utility | JSON Patch implementation for applying patches to JSON objec... |
 | Jsonwebtoken | Security | Implementation of JSON Web Tokens for creating and verifying... |
