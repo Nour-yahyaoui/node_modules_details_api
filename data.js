@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 522
-// Last updated: 2026-09-05 17:17:55
+// Total modules: 523
+// Last updated: 2026-09-05 17:17:56
 
 module.exports = [
   {
@@ -6267,5 +6267,17 @@ module.exports = [
       "data"
     ],
     "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Migrate",
+    "description": "Database migration plugin for Fastify with version control",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-migrate'), { migrations: './migrations' });",
+    "tags": [
+      "fastify",
+      "migrate",
+      "database",
+      "version"
+    ],
+    "category": "Dev Tool"
   }
 ];
