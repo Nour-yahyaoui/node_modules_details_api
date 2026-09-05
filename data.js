@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 71
-// Last updated: 2026-09-05 15:20:37
+// Total modules: 72
+// Last updated: 2026-09-05 15:20:38
 
 module.exports = [
   {
@@ -855,5 +855,17 @@ module.exports = [
       "gateway"
     ],
     "category": "API"
+  },
+  {
+    "title": "Dockerode",
+    "description": "Complete Docker Remote API client for managing containers, images, volumes, and networks programmatically",
+    "usage": "const Docker = require('dockerode'); const docker = new Docker(); const container = await docker.createContainer({ Image: 'node' });",
+    "tags": [
+      "docker",
+      "containers",
+      "api",
+      "orchestration"
+    ],
+    "category": "Dev Tool"
   }
 ];
