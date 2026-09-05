@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 736
-// Last updated: 2026-09-05 17:22:34
+// Total modules: 737
+// Last updated: 2026-09-05 17:22:35
 
 module.exports = [
   {
@@ -8833,6 +8833,18 @@ module.exports = [
       "election",
       "candidates",
       "ballots"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Consensus",
+    "description": "Consensus plugin for Fastify with agreement protocols",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-consensus'), { });",
+    "tags": [
+      "fastify",
+      "consensus",
+      "agreement",
+      "protocols"
     ],
     "category": "Utility"
   }
