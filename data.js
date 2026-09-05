@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 534
-// Last updated: 2026-09-05 17:18:11
+// Total modules: 535
+// Last updated: 2026-09-05 17:18:12
 
 module.exports = [
   {
@@ -6409,6 +6409,18 @@ module.exports = [
       "rollup",
       "bundler",
       "tree-shaking"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Vite",
+    "description": "Vite plugin for Fastify with fast development server and HMR",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-vite'), { root: './client' });",
+    "tags": [
+      "fastify",
+      "vite",
+      "dev-server",
+      "hmr"
     ],
     "category": "Dev Tool"
   }
