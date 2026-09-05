@@ -15,8 +15,8 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 17 |
-| Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Testing/Tool, Utility, Web Framework |
+| Total Libraries | 18 |
+| Categories | CLI/Tool, Dev Tool, HTTP Client, Performance, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
 ⭐ **Star this repo** if you find it useful!
@@ -43,3 +43,4 @@ This repository contains a growing collection of **Node.js library documentation
 | Fs-extra | Utility | Extended file system module with promise support and additio... |
 | Helmet | Security | Security middleware that sets various HTTP headers to protec... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
+| Joi | Validation | Powerful schema validation library with descriptive error me... |
