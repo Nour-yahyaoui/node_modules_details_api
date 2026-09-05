@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 341 |
+| Total Libraries | 342 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -156,6 +156,7 @@ This repository contains a growing collection of **Node.js library documentation
 | HSTS | Security | HTTP Strict Transport Security middleware for Express |
 | HubSpot API | Cloud | HubSpot API client with contacts, companies, deals, and mark... |
 | Humanize Duration | Utility | Convert milliseconds to human-readable duration strings with... |
+| INI | Utility | INI configuration parser with sections and comments support |
 | Inquirer | CLI/Tool | Collection of interactive CLI prompts for input, selection, ... |
 | Jest | Testing/Tool | Delightful JavaScript testing framework with built-in assert... |
 | Jimp | Utility | Pure JavaScript image processing with resizing, cropping, fi... |
