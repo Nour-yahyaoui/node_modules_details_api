@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 576
-// Last updated: 2026-09-05 17:19:05
+// Total modules: 577
+// Last updated: 2026-09-05 17:19:06
 
 module.exports = [
   {
@@ -6913,6 +6913,18 @@ module.exports = [
       "scheduler",
       "recurring",
       "tasks"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify Queue",
+    "description": "Queue management plugin for Fastify with job processing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-queue'), { });",
+    "tags": [
+      "fastify",
+      "queue",
+      "jobs",
+      "processing"
     ],
     "category": "Background Processing"
   }
