@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 525
-// Last updated: 2026-09-05 17:17:59
+// Total modules: 526
+// Last updated: 2026-09-05 17:18:00
 
 module.exports = [
   {
@@ -6301,6 +6301,18 @@ module.exports = [
       "snapshot",
       "testing",
       "comparison"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Coverage",
+    "description": "Code coverage plugin for Fastify with Istanbul integration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-coverage'), { });",
+    "tags": [
+      "fastify",
+      "coverage",
+      "testing",
+      "istanbul"
     ],
     "category": "Testing/Tool"
   }
