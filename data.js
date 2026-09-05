@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 402
-// Last updated: 2026-09-05 17:15:22
+// Total modules: 403
+// Last updated: 2026-09-05 17:15:23
 
 module.exports = [
   {
@@ -4825,6 +4825,18 @@ module.exports = [
       "handlebars",
       "template",
       "views"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Markdown",
+    "description": "Markdown rendering plugin for Fastify with custom plugins",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-markdown'), { });",
+    "tags": [
+      "fastify",
+      "markdown",
+      "render",
+      "html"
     ],
     "category": "Utility"
   }
