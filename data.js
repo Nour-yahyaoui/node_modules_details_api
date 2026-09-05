@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 111
-// Last updated: 2026-09-05 15:17:24
+// Total modules: 112
+// Last updated: 2026-09-05 15:17:25
 
 module.exports = [
   {
@@ -1333,6 +1333,18 @@ module.exports = [
       "json-schema",
       "fast",
       "schema"
+    ],
+    "category": "Validation"
+  },
+  {
+    "title": "Class-validator",
+    "description": "Validation using decorators for TypeScript classes with support for nested validation and groups",
+    "usage": "import { IsString, MinLength, IsNumber } from 'class-validator'; class User { @IsString() @MinLength(3) name: string; @IsNumber() age: number; }",
+    "tags": [
+      "validation",
+      "typescript",
+      "decorators",
+      "classes"
     ],
     "category": "Validation"
   }
