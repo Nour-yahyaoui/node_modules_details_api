@@ -15,7 +15,7 @@ This repository contains a growing collection of **Node.js library documentation
 
 | Metric | Value |
 |--------|-------|
-| Total Libraries | 618 |
+| Total Libraries | 619 |
 | Categories | API, Background Processing, CLI/Tool, Cloud, Database, Dev Tool, HTTP Client, Logging, ORM/Database, Payment, Performance, Real-time, Security, Testing/Tool, Utility, Validation, Web Framework |
 | Last Updated | 2026-09-05 |
 
@@ -364,6 +364,7 @@ This repository contains a growing collection of **Node.js library documentation
 | Fastify Telemetry | Dev Tool | Telemetry collection plugin for Fastify with metrics and tra... |
 | Fastify Terminal | Utility | Terminal emulation plugin for Fastify with web-based termina... |
 | Fastify Test | Testing/Tool | Testing utilities for Fastify with supertest integration |
+| Fastify Theme | Utility | Theme system for Fastify with customizable UI themes |
 | Fastify Throttle | Security | Request throttling plugin for Fastify with token bucket algo... |
 | Fastify Time | Utility | Time utilities plugin for Fastify with duration and timezone |
 | Fastify Todo | Utility | Todo list plugin for Fastify with priorities and categories |
