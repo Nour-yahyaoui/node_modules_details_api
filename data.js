@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 511
-// Last updated: 2026-09-05 17:17:39
+// Total modules: 512
+// Last updated: 2026-09-05 17:17:41
 
 module.exports = [
   {
@@ -6133,6 +6133,18 @@ module.exports = [
       "response",
       "cache",
       "http"
+    ],
+    "category": "Performance"
+  },
+  {
+    "title": "Fastify CDN",
+    "description": "CDN integration plugin for Fastify with asset serving and optimization",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cdn'), { provider: 'cloudflare' });",
+    "tags": [
+      "fastify",
+      "cdn",
+      "assets",
+      "optimization"
     ],
     "category": "Performance"
   }
