@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 162
-// Last updated: 2026-09-05 17:03:25
+// Total modules: 163
+// Last updated: 2026-09-05 17:03:26
 
 module.exports = [
   {
@@ -1945,6 +1945,18 @@ module.exports = [
       "build",
       "zero-config",
       "assets"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Rollup",
+    "description": "Module bundler with tree-shaking, ESM support, and plugin ecosystem for library development",
+    "usage": "rollup --config rollup.config.js",
+    "tags": [
+      "bundler",
+      "tree-shaking",
+      "esm",
+      "library"
     ],
     "category": "Dev Tool"
   }
