@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 353
-// Last updated: 2026-09-05 17:14:19
+// Total modules: 354
+// Last updated: 2026-09-05 17:14:20
 
 module.exports = [
   {
@@ -4239,5 +4239,17 @@ module.exports = [
       "security"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Redis",
+    "description": "Redis plugin for Fastify with connection pooling and command support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/redis'), { host: 'localhost', port: 6379 });",
+    "tags": [
+      "fastify",
+      "redis",
+      "cache",
+      "database"
+    ],
+    "category": "Database"
   }
 ];
