@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 639
-// Last updated: 2026-09-05 17:20:27
+// Total modules: 640
+// Last updated: 2026-09-05 17:20:28
 
 module.exports = [
   {
@@ -7669,6 +7669,18 @@ module.exports = [
       "router",
       "wildcards",
       "regex"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Dispatcher",
+    "description": "Request dispatcher for Fastify with middleware support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-dispatcher'), { middleware: ['./middleware'] });",
+    "tags": [
+      "fastify",
+      "dispatcher",
+      "request",
+      "middleware"
     ],
     "category": "Web Framework"
   }
