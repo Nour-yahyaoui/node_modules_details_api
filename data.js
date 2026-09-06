@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 616
-// Last updated: 2026-09-06 20:26:29
+// Total modules: 617
+// Last updated: 2026-09-06 20:26:30
 
 module.exports = [
   {
@@ -7395,5 +7395,17 @@ module.exports = [
       "dependency"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Component",
+    "description": "Component system for Fastify with reusable components",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-component'), { components: ['./components'] });",
+    "tags": [
+      "fastify",
+      "component",
+      "reusable",
+      "system"
+    ],
+    "category": "Web Framework"
   }
 ];
