@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 595
-// Last updated: 2026-09-06 20:26:02
+// Total modules: 596
+// Last updated: 2026-09-06 20:26:03
 
 module.exports = [
   {
@@ -7141,6 +7141,18 @@ module.exports = [
       "restore",
       "recovery",
       "point-in-time"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Snapshot (Advanced)",
+    "description": "Advanced snapshot plugin with versioning and rollback",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-snapshot'), { versions: 5 });",
+    "tags": [
+      "fastify",
+      "snapshot",
+      "versioning",
+      "rollback"
     ],
     "category": "Utility"
   }
