@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 688
-// Last updated: 2026-09-06 20:28:03
+// Total modules: 689
+// Last updated: 2026-09-06 20:28:05
 
 module.exports = [
   {
@@ -8257,6 +8257,18 @@ module.exports = [
       "distribution",
       "routes",
       "schedules"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Transportation",
+    "description": "Transportation plugin for Fastify with modes and routes",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-transportation'), { });",
+    "tags": [
+      "fastify",
+      "transportation",
+      "modes",
+      "routes"
     ],
     "category": "Utility"
   }
