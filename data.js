@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 646
-// Last updated: 2026-09-06 20:27:09
+// Total modules: 647
+// Last updated: 2026-09-06 20:27:10
 
 module.exports = [
   {
@@ -7753,6 +7753,18 @@ module.exports = [
       "publisher",
       "subscriber",
       "topics"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Subscriber",
+    "description": "Subscriber plugin for Fastify with topic subscriptions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-subscriber'), { topics: ['events'] });",
+    "tags": [
+      "fastify",
+      "subscriber",
+      "topics",
+      "subscriptions"
     ],
     "category": "Real-time"
   }
