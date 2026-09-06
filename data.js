@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 683
-// Last updated: 2026-09-06 20:27:57
+// Total modules: 684
+// Last updated: 2026-09-06 20:27:58
 
 module.exports = [
   {
@@ -8197,6 +8197,18 @@ module.exports = [
       "logistics",
       "shipping",
       "delivery"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Supply Chain",
+    "description": "Supply chain plugin for Fastify with inventory and orders",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-supply-chain'), { });",
+    "tags": [
+      "fastify",
+      "supply-chain",
+      "inventory",
+      "orders"
     ],
     "category": "Utility"
   }
