@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 548
-// Last updated: 2026-09-06 20:25:03
+// Total modules: 549
+// Last updated: 2026-09-06 20:25:05
 
 module.exports = [
   {
@@ -6577,6 +6577,18 @@ module.exports = [
       "sort",
       "order",
       "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Paginate",
+    "description": "Pagination plugin for Fastify with limit and offset support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-paginate'), { defaultLimit: 10 });",
+    "tags": [
+      "fastify",
+      "paginate",
+      "limit",
+      "offset"
     ],
     "category": "Utility"
   }
