@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 544
-// Last updated: 2026-09-06 20:24:58
+// Total modules: 545
+// Last updated: 2026-09-06 20:25:00
 
 module.exports = [
   {
@@ -6531,5 +6531,17 @@ module.exports = [
       "rules"
     ],
     "category": "Validation"
+  },
+  {
+    "title": "Fastify Transformer",
+    "description": "Data transformation plugin for Fastify with serialization",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-transformer'), { transformers: { user: (data) => ({ ...data, fullName: data.name }) } });",
+    "tags": [
+      "fastify",
+      "transformer",
+      "serialization",
+      "data"
+    ],
+    "category": "Utility"
   }
 ];
