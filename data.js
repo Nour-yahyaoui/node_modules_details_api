@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 618
-// Last updated: 2026-09-06 20:26:32
+// Total modules: 619
+// Last updated: 2026-09-06 20:26:33
 
 module.exports = [
   {
@@ -7417,6 +7417,18 @@ module.exports = [
       "widget",
       "dashboard",
       "manager"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Theme",
+    "description": "Theme system for Fastify with customizable UI themes",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-theme'), { themes: ['./themes'] });",
+    "tags": [
+      "fastify",
+      "theme",
+      "ui",
+      "customization"
     ],
     "category": "Utility"
   }
