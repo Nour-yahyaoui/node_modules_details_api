@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 607
-// Last updated: 2026-09-06 20:26:18
+// Total modules: 608
+// Last updated: 2026-09-06 20:26:19
 
 module.exports = [
   {
@@ -7285,6 +7285,18 @@ module.exports = [
       "cqrs",
       "commands",
       "queries"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify DDD",
+    "description": "Domain-driven design plugin for Fastify with aggregates and repositories",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ddd'), { domains: './domains' });",
+    "tags": [
+      "fastify",
+      "ddd",
+      "aggregates",
+      "repositories"
     ],
     "category": "Web Framework"
   }
