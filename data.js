@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 752
-// Last updated: 2026-09-06 20:29:27
+// Total modules: 753
+// Last updated: 2026-09-06 20:29:29
 
 module.exports = [
   {
@@ -9025,6 +9025,18 @@ module.exports = [
       "review",
       "moderation",
       "scoring"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Moderation",
+    "description": "Content moderation plugin for Fastify with approval and filtering",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-moderation'), { });",
+    "tags": [
+      "fastify",
+      "moderation",
+      "approval",
+      "filtering"
     ],
     "category": "Utility"
   }
