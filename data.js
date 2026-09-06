@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 396
-// Last updated: 2026-09-06 20:01:26
+// Total modules: 397
+// Last updated: 2026-09-06 20:01:28
 
 module.exports = [
   {
@@ -4753,6 +4753,18 @@ module.exports = [
       "logging",
       "pino",
       "pretty"
+    ],
+    "category": "Logging"
+  },
+  {
+    "title": "Fastify Winston",
+    "description": "Winston logging plugin for Fastify with multiple transports",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-winston'), { transports: [new winston.transports.Console()] });",
+    "tags": [
+      "fastify",
+      "winston",
+      "logging",
+      "transports"
     ],
     "category": "Logging"
   }
