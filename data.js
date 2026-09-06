@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 750
-// Last updated: 2026-09-06 20:29:24
+// Total modules: 751
+// Last updated: 2026-09-06 20:29:26
 
 module.exports = [
   {
@@ -9001,6 +9001,18 @@ module.exports = [
       "assessment",
       "evaluations",
       "feedback"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Evaluation",
+    "description": "Evaluation plugin for Fastify with performance reviews",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-evaluation'), { });",
+    "tags": [
+      "fastify",
+      "evaluation",
+      "performance",
+      "reviews"
     ],
     "category": "Utility"
   }
