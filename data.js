@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 686
-// Last updated: 2026-09-06 20:28:01
+// Total modules: 687
+// Last updated: 2026-09-06 20:28:02
 
 module.exports = [
   {
@@ -8233,6 +8233,18 @@ module.exports = [
       "inventory",
       "stock",
       "warehouses"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Warehouse",
+    "description": "Warehouse management plugin for Fastify with storage and picking",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-warehouse'), { });",
+    "tags": [
+      "fastify",
+      "warehouse",
+      "storage",
+      "picking"
     ],
     "category": "Utility"
   }
