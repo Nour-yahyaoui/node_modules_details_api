@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 628
-// Last updated: 2026-09-07 16:30:31
+// Total modules: 629
+// Last updated: 2026-09-07 16:30:33
 
 module.exports = [
   {
@@ -7539,5 +7539,17 @@ module.exports = [
       "development"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Mixin",
+    "description": "Mixin plugin for Fastify with multiple inheritance",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-mixin'), { mixins: ['./mixins'] });",
+    "tags": [
+      "fastify",
+      "mixin",
+      "inheritance",
+      "multiple"
+    ],
+    "category": "Utility"
   }
 ];
