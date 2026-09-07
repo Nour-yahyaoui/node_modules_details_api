@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 552
-// Last updated: 2026-09-07 16:28:52
+// Total modules: 553
+// Last updated: 2026-09-07 16:28:53
 
 module.exports = [
   {
@@ -6627,5 +6627,17 @@ module.exports = [
       "chartjs"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Dashboard",
+    "description": "Dashboard plugin for Fastify with real-time metrics and monitoring",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-dashboard'), { port: 3001 });",
+    "tags": [
+      "fastify",
+      "dashboard",
+      "monitoring",
+      "metrics"
+    ],
+    "category": "Dev Tool"
   }
 ];
