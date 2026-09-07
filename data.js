@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 770
-// Last updated: 2026-09-07 16:33:58
+// Total modules: 771
+// Last updated: 2026-09-07 16:34:00
 
 module.exports = [
   {
@@ -9243,5 +9243,17 @@ module.exports = [
       "metrics"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Marketing",
+    "description": "Marketing automation plugin for Fastify with campaigns",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-marketing'), { });",
+    "tags": [
+      "fastify",
+      "marketing",
+      "campaigns",
+      "automation"
+    ],
+    "category": "Utility"
   }
 ];
