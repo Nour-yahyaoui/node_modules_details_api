@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 315
-// Last updated: 2026-09-07 16:23:48
+// Total modules: 316
+// Last updated: 2026-09-07 16:23:49
 
 module.exports = [
   {
@@ -3781,6 +3781,18 @@ module.exports = [
       "nosniff",
       "security",
       "express"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Referrer Policy",
+    "description": "Referrer-Policy header middleware for controlling referrer information",
+    "usage": "const referrerPolicy = require('referrer-policy'); app.use(referrerPolicy({ policy: 'no-referrer' }));",
+    "tags": [
+      "referrer",
+      "security",
+      "headers",
+      "privacy"
     ],
     "category": "Security"
   }
