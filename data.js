@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 518
-// Last updated: 2026-09-07 16:28:07
+// Total modules: 519
+// Last updated: 2026-09-07 16:28:08
 
 module.exports = [
   {
@@ -6217,6 +6217,18 @@ module.exports = [
       "testing",
       "supertest",
       "assert"
+    ],
+    "category": "Testing/Tool"
+  },
+  {
+    "title": "Fastify Mock",
+    "description": "Mocking plugin for Fastify with dynamic response generation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-mock'), { routes: [{ path: '/api/users', response: { users: [] } }] });",
+    "tags": [
+      "fastify",
+      "mock",
+      "testing",
+      "stub"
     ],
     "category": "Testing/Tool"
   }
