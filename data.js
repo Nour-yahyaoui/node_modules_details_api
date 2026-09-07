@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 623
-// Last updated: 2026-09-07 16:30:25
+// Total modules: 624
+// Last updated: 2026-09-07 16:30:26
 
 module.exports = [
   {
@@ -7479,5 +7479,17 @@ module.exports = [
       "manager"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Dependency",
+    "description": "Dependency injection plugin for Fastify with containers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-dependency'), { });",
+    "tags": [
+      "fastify",
+      "dependency",
+      "injection",
+      "container"
+    ],
+    "category": "Web Framework"
   }
 ];
