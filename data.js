@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 563
-// Last updated: 2026-09-07 16:29:06
+// Total modules: 564
+// Last updated: 2026-09-07 16:29:07
 
 module.exports = [
   {
@@ -6757,6 +6757,18 @@ module.exports = [
       "community",
       "groups",
       "members"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Social",
+    "description": "Social network plugin for Fastify with posts and follows",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-social'), { });",
+    "tags": [
+      "fastify",
+      "social",
+      "posts",
+      "follows"
     ],
     "category": "Web Framework"
   }
