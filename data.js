@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 667
-// Last updated: 2026-09-07 16:31:30
+// Total modules: 668
+// Last updated: 2026-09-07 16:31:31
 
 module.exports = [
   {
@@ -8007,5 +8007,17 @@ module.exports = [
       "playlists"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify TV",
+    "description": "TV guide plugin for Fastify with channels and schedules",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-tv'), { });",
+    "tags": [
+      "fastify",
+      "tv",
+      "channels",
+      "schedules"
+    ],
+    "category": "Utility"
   }
 ];
