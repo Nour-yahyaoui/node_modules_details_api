@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 20
-// Last updated: 2026-09-07 16:17:39
+// Total modules: 21
+// Last updated: 2026-09-07 16:17:40
 
 module.exports = [
   {
@@ -243,5 +243,17 @@ module.exports = [
       "modern"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Lodash",
+    "description": "Modern JavaScript utility library delivering modularity, performance, and extras for array and object manipulation",
+    "usage": "const _ = require('lodash'); const unique = _.uniq([1, 2, 2, 3]); const grouped = _.groupBy(users, 'age');",
+    "tags": [
+      "utility",
+      "array",
+      "object",
+      "functional"
+    ],
+    "category": "Utility"
   }
 ];
