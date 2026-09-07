@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 319
-// Last updated: 2026-09-07 16:23:53
+// Total modules: 320
+// Last updated: 2026-09-07 16:23:54
 
 module.exports = [
   {
@@ -3831,5 +3831,17 @@ module.exports = [
       "security"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Express Session",
+    "description": "Session middleware for Express with cookie and store options",
+    "usage": "const session = require('express-session'); app.use(session({ secret: 'secret', resave: false, saveUninitialized: true }));",
+    "tags": [
+      "session",
+      "express",
+      "cookie",
+      "store"
+    ],
+    "category": "Utility"
   }
 ];
