@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 455
-// Last updated: 2026-09-07 16:26:46
+// Total modules: 456
+// Last updated: 2026-09-07 16:26:47
 
 module.exports = [
   {
@@ -5460,6 +5460,18 @@ module.exports = [
       "fastify",
       "jsx",
       "react",
+      "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Vue",
+    "description": "Vue.js rendering plugin for Fastify with SSR support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-vue'), { ssr: true });",
+    "tags": [
+      "fastify",
+      "vue",
+      "ssr",
       "render"
     ],
     "category": "Utility"
