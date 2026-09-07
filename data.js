@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 543
-// Last updated: 2026-09-07 16:28:40
+// Total modules: 544
+// Last updated: 2026-09-07 16:28:42
 
 module.exports = [
   {
@@ -6519,5 +6519,17 @@ module.exports = [
       "access"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Validator (Advanced)",
+    "description": "Advanced validation plugin with custom rules and messages",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-validator'), { custom: { password: (val) => val.length > 6 } });",
+    "tags": [
+      "fastify",
+      "validator",
+      "custom",
+      "rules"
+    ],
+    "category": "Validation"
   }
 ];
