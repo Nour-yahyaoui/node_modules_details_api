@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 335
-// Last updated: 2026-09-07 16:24:13
+// Total modules: 336
+// Last updated: 2026-09-07 16:24:14
 
 module.exports = [
   {
@@ -4023,5 +4023,17 @@ module.exports = [
       "optimization"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "JSON Patch",
+    "description": "JSON Patch implementation for applying patches to JSON objects",
+    "usage": "const jsonpatch = require('jsonpatch'); const patched = jsonpatch.apply_patch({ name: 'John' }, [{ op: 'replace', path: '/name', value: 'Jane' }]);",
+    "tags": [
+      "json",
+      "patch",
+      "apply",
+      "modify"
+    ],
+    "category": "Utility"
   }
 ];
