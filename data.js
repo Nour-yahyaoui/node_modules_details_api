@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 290
-// Last updated: 2026-09-07 16:23:17
+// Total modules: 291
+// Last updated: 2026-09-07 16:23:18
 
 module.exports = [
   {
@@ -3483,5 +3483,17 @@ module.exports = [
       "database"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Node-cache Manager",
+    "description": "Cache manager with multi-store support and TTL management",
+    "usage": "const cacheManager = require('cache-manager'); const memoryCache = cacheManager.caching({ store: 'memory', ttl: 60 }); await memoryCache.set('key', 'value');",
+    "tags": [
+      "cache",
+      "memory",
+      "ttl",
+      "multi-store"
+    ],
+    "category": "Performance"
   }
 ];
