@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 432
-// Last updated: 2026-09-08 20:49:47
+// Total modules: 433
+// Last updated: 2026-09-08 20:49:48
 
 module.exports = [
   {
@@ -5185,6 +5185,18 @@ module.exports = [
       "toml",
       "parse",
       "generate"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify INI (Advanced)",
+    "description": "Advanced INI configuration plugin with sections and inheritance",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ini'), { });",
+    "tags": [
+      "fastify",
+      "ini",
+      "configuration",
+      "parse"
     ],
     "category": "Utility"
   }
