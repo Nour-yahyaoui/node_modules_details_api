@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 437
-// Last updated: 2026-09-08 20:49:54
+// Total modules: 438
+// Last updated: 2026-09-08 20:49:55
 
 module.exports = [
   {
@@ -5247,5 +5247,17 @@ module.exports = [
       "security"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Feature Flags",
+    "description": "Feature flag plugin for Fastify with toggle and rollout support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-feature-flags'), { flags: { newFeature: true } });",
+    "tags": [
+      "fastify",
+      "feature-flags",
+      "toggle",
+      "rollout"
+    ],
+    "category": "Utility"
   }
 ];
