@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 657
-// Last updated: 2026-09-08 20:54:43
+// Total modules: 658
+// Last updated: 2026-09-08 20:54:44
 
 module.exports = [
   {
@@ -7887,5 +7887,17 @@ module.exports = [
       "reports"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Intelligence",
+    "description": "AI and machine learning integration for Fastify with models",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-intelligence'), { model: 'gpt-3' });",
+    "tags": [
+      "fastify",
+      "intelligence",
+      "ai",
+      "ml"
+    ],
+    "category": "Utility"
   }
 ];
