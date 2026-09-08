@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 189
-// Last updated: 2026-09-08 20:44:32
+// Total modules: 190
+// Last updated: 2026-09-08 20:44:33
 
 module.exports = [
   {
@@ -2269,6 +2269,18 @@ module.exports = [
       "ecommerce",
       "api",
       "wordpress"
+    ],
+    "category": "Payment"
+  },
+  {
+    "title": "BigCommerce API",
+    "description": "BigCommerce API client with catalog, checkout, and order management for ecommerce platforms",
+    "usage": "const BigCommerce = require('node-bigcommerce'); const api = new BigCommerce({ clientId: 'id', accessToken: 'token' }); const products = await api.get('/v3/catalog/products');",
+    "tags": [
+      "bigcommerce",
+      "ecommerce",
+      "api",
+      "catalog"
     ],
     "category": "Payment"
   }
