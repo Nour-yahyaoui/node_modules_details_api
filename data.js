@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 383
-// Last updated: 2026-09-08 20:48:41
+// Total modules: 384
+// Last updated: 2026-09-08 20:48:42
 
 module.exports = [
   {
@@ -4597,6 +4597,18 @@ module.exports = [
       "email",
       "nodemailer",
       "templates"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Storage",
+    "description": "File storage plugin for Fastify with local and S3 providers",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-storage'), { provider: 'local', path: './uploads' });",
+    "tags": [
+      "fastify",
+      "storage",
+      "upload",
+      "s3"
     ],
     "category": "Utility"
   }
