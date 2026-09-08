@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 761
-// Last updated: 2026-09-08 20:56:59
+// Total modules: 762
+// Last updated: 2026-09-08 20:57:01
 
 module.exports = [
   {
@@ -9135,5 +9135,17 @@ module.exports = [
       "investigation"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Incident",
+    "description": "Incident management plugin for Fastify with reporting and resolution",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-incident'), { });",
+    "tags": [
+      "fastify",
+      "incident",
+      "reporting",
+      "resolution"
+    ],
+    "category": "Dev Tool"
   }
 ];
