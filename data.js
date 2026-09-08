@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 604
-// Last updated: 2026-09-08 20:53:35
+// Total modules: 605
+// Last updated: 2026-09-08 20:53:36
 
 module.exports = [
   {
@@ -7251,5 +7251,17 @@ module.exports = [
       "streaming"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Stream Processor",
+    "description": "Stream processing plugin for Fastify with real-time data streams",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-stream-processor'), { });",
+    "tags": [
+      "fastify",
+      "stream",
+      "processor",
+      "realtime"
+    ],
+    "category": "Real-time"
   }
 ];
