@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 433
-// Last updated: 2026-09-08 20:49:48
+// Total modules: 434
+// Last updated: 2026-09-08 20:49:50
 
 module.exports = [
   {
@@ -5197,6 +5197,18 @@ module.exports = [
       "ini",
       "configuration",
       "parse"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Environment",
+    "description": "Environment variable plugin for Fastify with validation and defaults",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-env'), { schema: { PORT: { type: 'number', default: 3000 } } });",
+    "tags": [
+      "fastify",
+      "env",
+      "configuration",
+      "validation"
     ],
     "category": "Utility"
   }
