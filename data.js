@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 475
-// Last updated: 2026-09-08 20:50:47
+// Total modules: 476
+// Last updated: 2026-09-08 20:50:48
 
 module.exports = [
   {
@@ -5701,6 +5701,18 @@ module.exports = [
       "bullmq",
       "queue",
       "jobs"
+    ],
+    "category": "Background Processing"
+  },
+  {
+    "title": "Fastify Agenda",
+    "description": "Agenda job scheduler plugin for Fastify with MongoDB storage",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-agenda'), { db: { address: 'mongodb://localhost/agenda' } });",
+    "tags": [
+      "fastify",
+      "agenda",
+      "jobs",
+      "schedule"
     ],
     "category": "Background Processing"
   }
