@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 460
-// Last updated: 2026-09-08 20:50:26
+// Total modules: 461
+// Last updated: 2026-09-08 20:50:27
 
 module.exports = [
   {
@@ -5520,6 +5520,18 @@ module.exports = [
       "fastify",
       "solid",
       "ssr",
+      "render"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Lit",
+    "description": "Lit HTML rendering plugin for Fastify with web components",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-lit'), { });",
+    "tags": [
+      "fastify",
+      "lit",
+      "web-components",
       "render"
     ],
     "category": "Utility"
