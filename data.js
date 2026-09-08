@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 661
-// Last updated: 2026-09-08 20:54:48
+// Total modules: 662
+// Last updated: 2026-09-08 20:54:50
 
 module.exports = [
   {
@@ -7933,6 +7933,18 @@ module.exports = [
       "nlp",
       "text",
       "analysis"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Vision",
+    "description": "Computer vision plugin for Fastify with image recognition",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-vision'), { });",
+    "tags": [
+      "fastify",
+      "vision",
+      "computer",
+      "image"
     ],
     "category": "Utility"
   }
