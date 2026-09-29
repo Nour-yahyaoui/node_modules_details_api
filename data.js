@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 313
-// Last updated: 2026-09-29 18:10:11
+// Total modules: 314
+// Last updated: 2026-09-29 18:10:12
 
 module.exports = [
   {
@@ -3757,6 +3757,18 @@ module.exports = [
       "html",
       "sanitization",
       "output"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "HPP",
+    "description": "HTTP Parameter Pollution protection middleware for Express",
+    "usage": "const hpp = require('hpp'); app.use(hpp());",
+    "tags": [
+      "hpp",
+      "security",
+      "parameters",
+      "express"
     ],
     "category": "Security"
   }
