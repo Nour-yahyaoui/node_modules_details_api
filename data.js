@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 763
-// Last updated: 2026-09-29 18:19:31
+// Total modules: 764
+// Last updated: 2026-09-29 18:19:32
 
 module.exports = [
   {
@@ -9159,5 +9159,17 @@ module.exports = [
       "routing"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Notification (Advanced)",
+    "description": "Advanced notification system with personalization and analytics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-notification'), { personalization: true, analytics: true });",
+    "tags": [
+      "fastify",
+      "notification",
+      "personalization",
+      "analytics"
+    ],
+    "category": "Utility"
   }
 ];
