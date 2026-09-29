@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 677
-// Last updated: 2026-09-29 18:17:42
+// Total modules: 678
+// Last updated: 2026-09-29 18:17:43
 
 module.exports = [
   {
@@ -8125,6 +8125,18 @@ module.exports = [
       "weather",
       "forecasts",
       "alerts"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Climate",
+    "description": "Climate data plugin for Fastify with historical and projections",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-climate'), { });",
+    "tags": [
+      "fastify",
+      "climate",
+      "historical",
+      "projections"
     ],
     "category": "Utility"
   }
