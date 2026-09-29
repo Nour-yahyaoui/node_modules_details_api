@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 636
-// Last updated: 2026-09-29 18:16:51
+// Total modules: 637
+// Last updated: 2026-09-29 18:16:53
 
 module.exports = [
   {
@@ -7635,5 +7635,17 @@ module.exports = [
       "types"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Proxy (Advanced)",
+    "description": "Advanced proxy with authentication and caching",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-proxy'), { upstream: 'https://api.example.com', auth: 'basic' });",
+    "tags": [
+      "fastify",
+      "proxy",
+      "auth",
+      "cache"
+    ],
+    "category": "HTTP Client"
   }
 ];
