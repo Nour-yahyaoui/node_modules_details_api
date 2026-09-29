@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 649
-// Last updated: 2026-09-29 18:17:07
+// Total modules: 650
+// Last updated: 2026-09-29 18:17:09
 
 module.exports = [
   {
@@ -7789,6 +7789,18 @@ module.exports = [
       "listener",
       "event",
       "handling"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Observer",
+    "description": "Observer pattern plugin for Fastify with state change notifications",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-observer'), { subjects: ['./subjects'] });",
+    "tags": [
+      "fastify",
+      "observer",
+      "pattern",
+      "notifications"
     ],
     "category": "Utility"
   }
