@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 651
-// Last updated: 2026-09-29 18:17:10
+// Total modules: 652
+// Last updated: 2026-09-29 18:17:11
 
 module.exports = [
   {
@@ -7815,5 +7815,17 @@ module.exports = [
       "channels"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Alert",
+    "description": "Alerting plugin for Fastify with thresholds and escalations",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-alert'), { rules: ['./rules'] });",
+    "tags": [
+      "fastify",
+      "alert",
+      "thresholds",
+      "escalation"
+    ],
+    "category": "Dev Tool"
   }
 ];
