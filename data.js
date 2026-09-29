@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 375
-// Last updated: 2026-09-29 18:11:27
+// Total modules: 376
+// Last updated: 2026-09-29 18:11:28
 
 module.exports = [
   {
@@ -4503,5 +4503,17 @@ module.exports = [
       "validation"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Fastify Response Validation",
+    "description": "Response validation plugin for Fastify with schema checking",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-response-validation'));",
+    "tags": [
+      "fastify",
+      "validation",
+      "response",
+      "schema"
+    ],
+    "category": "Validation"
   }
 ];
