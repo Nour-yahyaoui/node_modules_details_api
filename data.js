@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 620
-// Last updated: 2026-09-29 18:16:31
+// Total modules: 621
+// Last updated: 2026-09-29 18:16:33
 
 module.exports = [
   {
@@ -7443,5 +7443,17 @@ module.exports = [
       "inheritance"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Snippet",
+    "description": "Code snippet management for Fastify with reusable code blocks",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-snippet'), { snippets: './snippets' });",
+    "tags": [
+      "fastify",
+      "snippet",
+      "code",
+      "reusable"
+    ],
+    "category": "Dev Tool"
   }
 ];
