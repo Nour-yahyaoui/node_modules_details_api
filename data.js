@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 440
-// Last updated: 2026-09-29 18:12:47
+// Total modules: 441
+// Last updated: 2026-09-29 18:12:48
 
 module.exports = [
   {
@@ -5283,5 +5283,17 @@ module.exports = [
       "metrics"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Telemetry",
+    "description": "Telemetry collection plugin for Fastify with metrics and tracing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-telemetry'), { exporter: 'console' });",
+    "tags": [
+      "fastify",
+      "telemetry",
+      "metrics",
+      "tracing"
+    ],
+    "category": "Dev Tool"
   }
 ];
