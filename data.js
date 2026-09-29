@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 568
-// Last updated: 2026-09-29 18:15:25
+// Total modules: 569
+// Last updated: 2026-09-29 18:15:26
 
 module.exports = [
   {
@@ -6817,6 +6817,18 @@ module.exports = [
       "screen",
       "share",
       "webrtc"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Whiteboard",
+    "description": "Whiteboard plugin for Fastify with real-time drawing and collaboration",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-whiteboard'), { });",
+    "tags": [
+      "fastify",
+      "whiteboard",
+      "collaboration",
+      "drawing"
     ],
     "category": "Real-time"
   }
