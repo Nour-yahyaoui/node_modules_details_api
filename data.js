@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 664
-// Last updated: 2026-09-29 18:17:26
+// Total modules: 665
+// Last updated: 2026-09-29 18:17:27
 
 module.exports = [
   {
@@ -7969,6 +7969,18 @@ module.exports = [
       "audio",
       "processing",
       "effects"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Music",
+    "description": "Music generation plugin for Fastify with MIDI and notation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-music'), { });",
+    "tags": [
+      "fastify",
+      "music",
+      "midi",
+      "notation"
     ],
     "category": "Utility"
   }
