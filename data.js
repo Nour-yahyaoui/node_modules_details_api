@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 702
-// Last updated: 2026-09-29 18:18:13
+// Total modules: 703
+// Last updated: 2026-09-29 18:18:15
 
 module.exports = [
   {
@@ -8425,6 +8425,18 @@ module.exports = [
       "finance",
       "investments",
       "portfolios"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Insurance",
+    "description": "Insurance plugin for Fastify with policies and claims",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-insurance'), { });",
+    "tags": [
+      "fastify",
+      "insurance",
+      "policies",
+      "claims"
     ],
     "category": "Utility"
   }
