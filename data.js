@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 495
-// Last updated: 2026-09-29 18:13:54
+// Total modules: 496
+// Last updated: 2026-09-29 18:13:55
 
 module.exports = [
   {
@@ -5941,6 +5941,18 @@ module.exports = [
       "kms",
       "aws",
       "encryption"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify Secrets Manager",
+    "description": "AWS Secrets Manager plugin for Fastify with secret retrieval",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-secrets-manager'), { region: 'us-east-1' });",
+    "tags": [
+      "fastify",
+      "secrets-manager",
+      "aws",
+      "security"
     ],
     "category": "Cloud"
   }
