@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 553
-// Last updated: 2026-09-29 18:15:07
+// Total modules: 554
+// Last updated: 2026-09-29 18:15:08
 
 module.exports = [
   {
@@ -6639,5 +6639,17 @@ module.exports = [
       "metrics"
     ],
     "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Admin",
+    "description": "Admin interface plugin for Fastify with CRUD operations",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-admin'), { models: [User, Post] });",
+    "tags": [
+      "fastify",
+      "admin",
+      "crud",
+      "interface"
+    ],
+    "category": "Web Framework"
   }
 ];
