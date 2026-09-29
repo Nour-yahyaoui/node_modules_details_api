@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 671
-// Last updated: 2026-09-29 18:17:34
+// Total modules: 672
+// Last updated: 2026-09-29 18:17:35
 
 module.exports = [
   {
@@ -8053,6 +8053,18 @@ module.exports = [
       "museum",
       "exhibits",
       "tours"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Zoo",
+    "description": "Zoo management plugin for Fastify with animals and enclosures",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-zoo'), { });",
+    "tags": [
+      "fastify",
+      "zoo",
+      "animals",
+      "enclosures"
     ],
     "category": "Utility"
   }
