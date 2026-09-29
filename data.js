@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 641
-// Last updated: 2026-09-29 18:16:58
+// Total modules: 642
+// Last updated: 2026-09-29 18:16:59
 
 module.exports = [
   {
@@ -7693,6 +7693,18 @@ module.exports = [
       "matcher",
       "route",
       "priority"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Resolver",
+    "description": "Dependency resolver for Fastify with automatic resolution",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-resolver'), { });",
+    "tags": [
+      "fastify",
+      "resolver",
+      "dependency",
+      "resolution"
     ],
     "category": "Web Framework"
   }
