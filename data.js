@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 631
-// Last updated: 2026-09-29 18:16:45
+// Total modules: 632
+// Last updated: 2026-09-29 18:16:46
 
 module.exports = [
   {
@@ -7573,6 +7573,18 @@ module.exports = [
       "aspect",
       "aop",
       "weaving"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Interceptor",
+    "description": "Interceptors for Fastify with request/response interception",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-interceptor'), { interceptors: ['./interceptors'] });",
+    "tags": [
+      "fastify",
+      "interceptor",
+      "request",
+      "response"
     ],
     "category": "Web Framework"
   }
