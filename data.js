@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 643
-// Last updated: 2026-09-29 18:17:00
+// Total modules: 644
+// Last updated: 2026-09-29 18:17:01
 
 module.exports = [
   {
@@ -7719,5 +7719,17 @@ module.exports = [
       "bootstrap"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Consumer",
+    "description": "Message consumer for Fastify with event processing",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-consumer'), { topics: ['events'] });",
+    "tags": [
+      "fastify",
+      "consumer",
+      "message",
+      "event"
+    ],
+    "category": "Real-time"
   }
 ];
