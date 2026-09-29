@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 774
-// Last updated: 2026-09-29 18:19:44
+// Total modules: 775
+// Last updated: 2026-09-29 18:19:46
 
 module.exports = [
   {
@@ -9289,6 +9289,18 @@ module.exports = [
       "sms",
       "bulk",
       "scheduling"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Push",
+    "description": "Push notification plugin for Fastify with WebPush and mobile",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-push'), { });",
+    "tags": [
+      "fastify",
+      "push",
+      "notification",
+      "mobile"
     ],
     "category": "Utility"
   }
