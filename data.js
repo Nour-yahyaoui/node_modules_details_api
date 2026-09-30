@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 573
-// Last updated: 2026-09-30 14:44:38
+// Total modules: 574
+// Last updated: 2026-09-30 14:44:39
 
 module.exports = [
   {
@@ -6877,6 +6877,18 @@ module.exports = [
       "todo",
       "priorities",
       "categories"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Kanban",
+    "description": "Kanban board plugin for Fastify with columns and cards",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-kanban'), { });",
+    "tags": [
+      "fastify",
+      "kanban",
+      "board",
+      "cards"
     ],
     "category": "Utility"
   }
