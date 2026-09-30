@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 678
-// Last updated: 2026-09-30 14:46:54
+// Total modules: 679
+// Last updated: 2026-09-30 14:46:55
 
 module.exports = [
   {
@@ -8137,6 +8137,18 @@ module.exports = [
       "climate",
       "historical",
       "projections"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Geography",
+    "description": "Geographic data plugin for Fastify with maps and coordinates",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-geography'), { });",
+    "tags": [
+      "fastify",
+      "geography",
+      "maps",
+      "coordinates"
     ],
     "category": "Utility"
   }
