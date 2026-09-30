@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 397
-// Last updated: 2026-09-30 13:06:14
+// Total modules: 398
+// Last updated: 2026-09-30 13:06:15
 
 module.exports = [
   {
@@ -4767,5 +4767,17 @@ module.exports = [
       "transports"
     ],
     "category": "Logging"
+  },
+  {
+    "title": "Fastify Middleware",
+    "description": "Connect/Express middleware compatibility plugin for Fastify",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/middleware')); fastify.use(require('cors')());",
+    "tags": [
+      "fastify",
+      "middleware",
+      "compatibility",
+      "express"
+    ],
+    "category": "Web Framework"
   }
 ];
