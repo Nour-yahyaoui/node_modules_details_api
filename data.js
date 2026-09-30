@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 538
-// Last updated: 2026-09-30 14:43:53
+// Total modules: 539
+// Last updated: 2026-09-30 14:43:54
 
 module.exports = [
   {
@@ -6457,6 +6457,18 @@ module.exports = [
       "aliases",
       "module",
       "resolution"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Path Aliases",
+    "description": "Path alias plugin for Fastify with import mapping",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-path-aliases'), { paths: { '~': './src' } });",
+    "tags": [
+      "fastify",
+      "path",
+      "aliases",
+      "import"
     ],
     "category": "Dev Tool"
   }
