@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 587
-// Last updated: 2026-09-30 14:44:56
+// Total modules: 588
+// Last updated: 2026-09-30 14:44:57
 
 module.exports = [
   {
@@ -7045,6 +7045,18 @@ module.exports = [
       "ftp",
       "upload",
       "download"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify SFTP",
+    "description": "SFTP client plugin for Fastify with secure file transfer",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-sftp'), { host: 'sftp.example.com' });",
+    "tags": [
+      "fastify",
+      "sftp",
+      "secure",
+      "transfer"
     ],
     "category": "Utility"
   }
