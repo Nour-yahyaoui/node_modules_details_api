@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 606
-// Last updated: 2026-09-30 14:45:20
+// Total modules: 607
+// Last updated: 2026-09-30 14:45:21
 
 module.exports = [
   {
@@ -7275,5 +7275,17 @@ module.exports = [
       "projections"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Fastify CQRS",
+    "description": "CQRS plugin for Fastify with command and query separation",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-cqrs'), { commands: './commands', queries: './queries' });",
+    "tags": [
+      "fastify",
+      "cqrs",
+      "commands",
+      "queries"
+    ],
+    "category": "Web Framework"
   }
 ];
