@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 6
-// Last updated: 2026-09-30 12:58:04
+// Total modules: 7
+// Last updated: 2026-09-30 12:58:06
 
 module.exports = [
   {
@@ -74,5 +74,17 @@ module.exports = [
       "middleware"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Concurrently",
+    "description": "Run multiple commands concurrently, useful for starting both backend and frontend servers simultaneously",
+    "usage": "concurrently \"npm run server\" \"npm run client\"",
+    "tags": [
+      "concurrent",
+      "parallel",
+      "scripts",
+      "npm"
+    ],
+    "category": "Dev Tool"
   }
 ];
