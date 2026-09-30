@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 723
-// Last updated: 2026-09-30 13:12:59
+// Total modules: 724
+// Last updated: 2026-09-30 13:13:00
 
 module.exports = [
   {
@@ -8677,6 +8677,18 @@ module.exports = [
       "ontology",
       "semantic",
       "relationships"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Knowledge",
+    "description": "Knowledge management plugin for Fastify with wikis and articles",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-knowledge'), { });",
+    "tags": [
+      "fastify",
+      "knowledge",
+      "wikis",
+      "articles"
     ],
     "category": "Utility"
   }
