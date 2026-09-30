@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 567
-// Last updated: 2026-09-30 14:44:30
+// Total modules: 568
+// Last updated: 2026-09-30 14:44:31
 
 module.exports = [
   {
@@ -6804,6 +6804,18 @@ module.exports = [
       "fastify",
       "audio",
       "chat",
+      "webrtc"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Screen Share",
+    "description": "Screen sharing plugin for Fastify with WebRTC support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-screen-share'), { });",
+    "tags": [
+      "fastify",
+      "screen",
+      "share",
       "webrtc"
     ],
     "category": "Real-time"
