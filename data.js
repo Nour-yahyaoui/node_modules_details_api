@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 418
-// Last updated: 2026-09-30 13:06:40
+// Total modules: 419
+// Last updated: 2026-09-30 13:06:41
 
 module.exports = [
   {
@@ -5019,5 +5019,17 @@ module.exports = [
       "xss"
     ],
     "category": "Security"
+  },
+  {
+    "title": "Fastify Censor",
+    "description": "Profanity filter plugin for Fastify with custom word lists",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-censor'), { words: ['badword'] });",
+    "tags": [
+      "fastify",
+      "censor",
+      "profanity",
+      "filter"
+    ],
+    "category": "Utility"
   }
 ];
