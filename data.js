@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 275
-// Last updated: 2026-09-30 14:38:16
+// Total modules: 276
+// Last updated: 2026-09-30 14:38:17
 
 module.exports = [
   {
@@ -3301,6 +3301,18 @@ module.exports = [
       "query",
       "builder",
       "sql"
+    ],
+    "category": "ORM/Database"
+  },
+  {
+    "title": "Objection Query Builder",
+    "description": "Objection.js fluent query builder with Eager loading and raw SQL support",
+    "usage": "const users = await User.query() .where('age', '>', 18) .select('name', 'email') .orderBy('name');",
+    "tags": [
+      "objection",
+      "query",
+      "builder",
+      "eager-loading"
     ],
     "category": "ORM/Database"
   }
