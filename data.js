@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 754
-// Last updated: 2026-09-30 13:13:38
+// Total modules: 755
+// Last updated: 2026-09-30 13:13:39
 
 module.exports = [
   {
@@ -9049,6 +9049,18 @@ module.exports = [
       "approval",
       "workflow",
       "stages"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Workflow",
+    "description": "Workflow automation plugin for Fastify with BPMN support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-workflow'), { });",
+    "tags": [
+      "fastify",
+      "workflow",
+      "automation",
+      "bpmn"
     ],
     "category": "Utility"
   }
