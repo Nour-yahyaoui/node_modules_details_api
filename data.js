@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 491
-// Last updated: 2026-09-30 14:42:52
+// Total modules: 492
+// Last updated: 2026-09-30 14:42:53
 
 module.exports = [
   {
@@ -5893,6 +5893,18 @@ module.exports = [
       "eventbridge",
       "aws",
       "events"
+    ],
+    "category": "Cloud"
+  },
+  {
+    "title": "Fastify AppSync",
+    "description": "AWS AppSync plugin for Fastify with GraphQL subscriptions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-appsync'), { url: 'https://api.example.com/graphql' });",
+    "tags": [
+      "fastify",
+      "appsync",
+      "graphql",
+      "aws"
     ],
     "category": "Cloud"
   }
