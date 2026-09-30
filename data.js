@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 769
-// Last updated: 2026-09-30 14:48:51
+// Total modules: 770
+// Last updated: 2026-09-30 14:48:53
 
 module.exports = [
   {
@@ -9231,5 +9231,17 @@ module.exports = [
       "analysis"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Growth",
+    "description": "Growth hacking plugin for Fastify with experiments and metrics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-growth'), { });",
+    "tags": [
+      "fastify",
+      "growth",
+      "experiments",
+      "metrics"
+    ],
+    "category": "Dev Tool"
   }
 ];
