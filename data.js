@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 221
-// Last updated: 2026-10-06 15:31:16
+// Total modules: 222
+// Last updated: 2026-10-06 15:31:17
 
 module.exports = [
   {
@@ -2653,6 +2653,18 @@ module.exports = [
       "bot",
       "api",
       "gaming"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Slack SDK",
+    "description": "Slack API client with WebSocket, REST, and webhook support for messaging and collaboration",
+    "usage": "const { WebClient } = require('@slack/web-api'); const client = new WebClient('token'); const result = await client.chat.postMessage({ channel: 'general', text: 'Hello' });",
+    "tags": [
+      "slack",
+      "messaging",
+      "api",
+      "collaboration"
     ],
     "category": "Utility"
   }
