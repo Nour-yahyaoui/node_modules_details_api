@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 173
-// Last updated: 2026-10-06 15:30:16
+// Total modules: 174
+// Last updated: 2026-10-06 15:30:17
 
 module.exports = [
   {
@@ -2074,6 +2074,18 @@ module.exports = [
     "usage": "vercel --prod",
     "tags": [
       "vercel",
+      "deployment",
+      "hosting",
+      "cli"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Netlify CLI",
+    "description": "CLI for Netlify platform with site deployments, functions, and environment management",
+    "usage": "netlify deploy --prod",
+    "tags": [
+      "netlify",
       "deployment",
       "hosting",
       "cli"
