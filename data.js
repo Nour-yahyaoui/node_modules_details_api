@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 278
-// Last updated: 2026-10-06 15:32:25
+// Total modules: 279
+// Last updated: 2026-10-06 15:32:27
 
 module.exports = [
   {
@@ -3339,5 +3339,17 @@ module.exports = [
       "typescript"
     ],
     "category": "ORM/Database"
+  },
+  {
+    "title": "Slonik Interceptors",
+    "description": "Slonik query interceptors for logging, benchmarking, and error handling",
+    "usage": "const { createPool } = require('slonik'); const pool = createPool('postgres://localhost/db', { interceptors: [ { beforeQuery: (execution) => { console.log('Query:', execution.query); } } ] });",
+    "tags": [
+      "slonik",
+      "postgresql",
+      "interceptors",
+      "logging"
+    ],
+    "category": "Database"
   }
 ];
