@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 734
-// Last updated: 2026-10-06 15:41:57
+// Total modules: 735
+// Last updated: 2026-10-06 15:41:58
 
 module.exports = [
   {
@@ -8809,6 +8809,18 @@ module.exports = [
       "poll",
       "questions",
       "votes"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Vote",
+    "description": "Voting plugin for Fastify with options and results",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-vote'), { });",
+    "tags": [
+      "fastify",
+      "vote",
+      "options",
+      "results"
     ],
     "category": "Utility"
   }
