@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 706
-// Last updated: 2026-10-06 15:41:22
+// Total modules: 707
+// Last updated: 2026-10-06 15:41:23
 
 module.exports = [
   {
@@ -8473,6 +8473,18 @@ module.exports = [
       "accounting",
       "ledgers",
       "journals"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Payroll",
+    "description": "Payroll plugin for Fastify with salaries and deductions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-payroll'), { });",
+    "tags": [
+      "fastify",
+      "payroll",
+      "salaries",
+      "deductions"
     ],
     "category": "Utility"
   }
