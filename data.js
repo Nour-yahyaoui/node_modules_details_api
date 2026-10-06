@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 625
-// Last updated: 2026-10-06 15:39:40
+// Total modules: 626
+// Last updated: 2026-10-06 15:39:41
 
 module.exports = [
   {
@@ -7501,6 +7501,18 @@ module.exports = [
       "container",
       "ioc",
       "services"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Factory (Advanced)",
+    "description": "Advanced factory pattern with dependency injection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-factory'), { factories: ['./factories'] });",
+    "tags": [
+      "fastify",
+      "factory",
+      "dependency",
+      "injection"
     ],
     "category": "Web Framework"
   }
