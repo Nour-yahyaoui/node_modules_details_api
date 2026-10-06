@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 713
-// Last updated: 2026-10-06 15:41:30
+// Total modules: 714
+// Last updated: 2026-10-06 15:41:31
 
 module.exports = [
   {
@@ -8557,6 +8557,18 @@ module.exports = [
       "school",
       "classes",
       "schedules"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify University",
+    "description": "University plugin for Fastify with departments and faculties",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-university'), { });",
+    "tags": [
+      "fastify",
+      "university",
+      "departments",
+      "faculties"
     ],
     "category": "Utility"
   }
