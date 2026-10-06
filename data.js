@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 772
-// Last updated: 2026-10-06 15:42:45
+// Total modules: 773
+// Last updated: 2026-10-06 15:42:46
 
 module.exports = [
   {
@@ -9265,6 +9265,18 @@ module.exports = [
       "campaign",
       "email",
       "ads"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Email (Advanced)",
+    "description": "Advanced email plugin with templates and tracking",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-email'), { templates: './templates', tracking: true });",
+    "tags": [
+      "fastify",
+      "email",
+      "templates",
+      "tracking"
     ],
     "category": "Utility"
   }
