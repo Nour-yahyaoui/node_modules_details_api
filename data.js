@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 633
-// Last updated: 2026-10-06 15:39:50
+// Total modules: 634
+// Last updated: 2026-10-06 15:39:51
 
 module.exports = [
   {
@@ -7599,5 +7599,17 @@ module.exports = [
       "annotations"
     ],
     "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Annotation",
+    "description": "Annotation processing for Fastify with custom annotations",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-annotation'), { annotations: ['./annotations'] });",
+    "tags": [
+      "fastify",
+      "annotation",
+      "processing",
+      "custom"
+    ],
+    "category": "Dev Tool"
   }
 ];
