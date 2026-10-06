@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 555
-// Last updated: 2026-10-06 15:38:13
+// Total modules: 556
+// Last updated: 2026-10-06 15:38:14
 
 module.exports = [
   {
@@ -6661,6 +6661,18 @@ module.exports = [
       "cms",
       "content",
       "management"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Blog",
+    "description": "Blog plugin for Fastify with posts, categories, and tags",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-blog'), { });",
+    "tags": [
+      "fastify",
+      "blog",
+      "posts",
+      "categories"
     ],
     "category": "Web Framework"
   }
