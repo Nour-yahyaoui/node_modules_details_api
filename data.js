@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 722
-// Last updated: 2026-10-06 15:41:42
+// Total modules: 723
+// Last updated: 2026-10-06 15:41:43
 
 module.exports = [
   {
@@ -8665,6 +8665,18 @@ module.exports = [
       "taxonomy",
       "classification",
       "hierarchy"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Ontology",
+    "description": "Ontology plugin for Fastify with semantic relationships",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-ontology'), { });",
+    "tags": [
+      "fastify",
+      "ontology",
+      "semantic",
+      "relationships"
     ],
     "category": "Utility"
   }
