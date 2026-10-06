@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 743
-// Last updated: 2026-10-06 15:42:08
+// Total modules: 744
+// Last updated: 2026-10-06 15:42:10
 
 module.exports = [
   {
@@ -8917,6 +8917,18 @@ module.exports = [
       "cv",
       "builder",
       "templates"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Application",
+    "description": "Application form plugin for Fastify with fields and submissions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-application'), { });",
+    "tags": [
+      "fastify",
+      "application",
+      "fields",
+      "submissions"
     ],
     "category": "Utility"
   }
