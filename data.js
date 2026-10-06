@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 393
-// Last updated: 2026-10-06 15:34:48
+// Total modules: 394
+// Last updated: 2026-10-06 15:34:50
 
 module.exports = [
   {
@@ -4717,6 +4717,18 @@ module.exports = [
       "rbac",
       "roles",
       "permissions"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Fastify ACL",
+    "description": "Access control list plugin for Fastify with fine-grained permissions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-acl'), { allow: ['admin', 'user'] });",
+    "tags": [
+      "fastify",
+      "acl",
+      "access-control",
+      "security"
     ],
     "category": "Security"
   }
