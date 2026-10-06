@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 745
-// Last updated: 2026-10-06 15:42:11
+// Total modules: 746
+// Last updated: 2026-10-06 15:42:12
 
 module.exports = [
   {
@@ -8941,6 +8941,18 @@ module.exports = [
       "form",
       "builder",
       "validation"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Survey",
+    "description": "Survey plugin for Fastify with questions and analytics",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-survey'), { });",
+    "tags": [
+      "fastify",
+      "survey",
+      "questions",
+      "analytics"
     ],
     "category": "Utility"
   }
