@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 367
-// Last updated: 2026-10-06 15:34:15
+// Total modules: 368
+// Last updated: 2026-10-06 15:34:17
 
 module.exports = [
   {
@@ -4407,5 +4407,17 @@ module.exports = [
       "forward"
     ],
     "category": "HTTP Client"
+  },
+  {
+    "title": "Fastify Under Pressure",
+    "description": "Load testing and performance monitoring plugin for Fastify",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/under-pressure'), { maxEventLoopDelay: 1000 });",
+    "tags": [
+      "fastify",
+      "performance",
+      "monitoring",
+      "load"
+    ],
+    "category": "Performance"
   }
 ];
