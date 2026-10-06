@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 630
-// Last updated: 2026-10-06 15:39:46
+// Total modules: 631
+// Last updated: 2026-10-06 15:39:48
 
 module.exports = [
   {
@@ -7563,5 +7563,17 @@ module.exports = [
       "reusable"
     ],
     "category": "Utility"
+  },
+  {
+    "title": "Fastify Aspect",
+    "description": "Aspect-oriented programming for Fastify with aspect weaving",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-aspect'), { aspects: ['./aspects'] });",
+    "tags": [
+      "fastify",
+      "aspect",
+      "aop",
+      "weaving"
+    ],
+    "category": "Web Framework"
   }
 ];
