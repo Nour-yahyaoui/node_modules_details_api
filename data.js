@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 513
-// Last updated: 2026-10-06 15:37:19
+// Total modules: 514
+// Last updated: 2026-10-06 15:37:21
 
 module.exports = [
   {
@@ -6159,5 +6159,17 @@ module.exports = [
       "cloudflare"
     ],
     "category": "Performance"
+  },
+  {
+    "title": "Fastify Multipart",
+    "description": "Multipart form data parsing plugin for Fastify with file upload support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/multipart'), { limits: { fileSize: 1024 * 1024 } });",
+    "tags": [
+      "fastify",
+      "multipart",
+      "upload",
+      "form"
+    ],
+    "category": "Utility"
   }
 ];
