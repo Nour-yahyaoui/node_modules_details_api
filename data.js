@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 719
-// Last updated: 2026-10-06 15:41:38
+// Total modules: 720
+// Last updated: 2026-10-06 15:41:39
 
 module.exports = [
   {
@@ -8629,6 +8629,18 @@ module.exports = [
       "catalog",
       "products",
       "categories"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Directory",
+    "description": "Directory plugin for Fastify with listings and search",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-directory'), { });",
+    "tags": [
+      "fastify",
+      "directory",
+      "listings",
+      "search"
     ],
     "category": "Utility"
   }
