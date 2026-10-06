@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 427
-// Last updated: 2026-10-06 15:35:30
+// Total modules: 428
+// Last updated: 2026-10-06 15:35:32
 
 module.exports = [
   {
@@ -5125,6 +5125,18 @@ module.exports = [
       "pdf",
       "generate",
       "report"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify CSV",
+    "description": "CSV parsing and generation plugin for Fastify with streaming",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-csv'), { });",
+    "tags": [
+      "fastify",
+      "csv",
+      "parse",
+      "generate"
     ],
     "category": "Utility"
   }
