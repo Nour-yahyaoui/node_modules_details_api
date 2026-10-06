@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 302
-// Last updated: 2026-10-06 15:32:55
+// Total modules: 303
+// Last updated: 2026-10-06 15:32:57
 
 module.exports = [
   {
@@ -3624,6 +3624,18 @@ module.exports = [
       "stream",
       "readable",
       "async-iterators",
+      "data"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Writable Stream",
+    "description": "Custom writable stream with write and final methods",
+    "usage": "const { Writable } = require('stream'); const stream = new Writable({ write(chunk, encoding, callback) { console.log(chunk.toString()); callback(); } });",
+    "tags": [
+      "stream",
+      "writable",
+      "write",
       "data"
     ],
     "category": "Utility"
