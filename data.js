@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 656
-// Last updated: 2026-10-12 21:12:52
+// Total modules: 657
+// Last updated: 2026-10-12 21:12:53
 
 module.exports = [
   {
@@ -7873,6 +7873,18 @@ module.exports = [
       "analytics",
       "tracking",
       "dashboard"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Insights",
+    "description": "Business intelligence plugin for Fastify with insights and reports",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-insights'), { });",
+    "tags": [
+      "fastify",
+      "insights",
+      "bi",
+      "reports"
     ],
     "category": "Dev Tool"
   }
