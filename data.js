@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 740
-// Last updated: 2026-10-12 20:29:59
+// Total modules: 741
+// Last updated: 2026-10-12 20:30:01
 
 module.exports = [
   {
@@ -8881,6 +8881,18 @@ module.exports = [
       "project",
       "milestones",
       "tasks"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Fastify Portfolio",
+    "description": "Portfolio plugin for Fastify with projects and achievements",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-portfolio'), { });",
+    "tags": [
+      "fastify",
+      "portfolio",
+      "projects",
+      "achievements"
     ],
     "category": "Utility"
   }
