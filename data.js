@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 536
-// Last updated: 2026-10-12 20:17:42
+// Total modules: 537
+// Last updated: 2026-10-12 20:17:43
 
 module.exports = [
   {
@@ -6433,6 +6433,18 @@ module.exports = [
       "parcel",
       "bundler",
       "zero-config"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Snowpack",
+    "description": "Snowpack plugin for Fastify with native ESM development",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-snowpack'), { });",
+    "tags": [
+      "fastify",
+      "snowpack",
+      "esm",
+      "dev"
     ],
     "category": "Dev Tool"
   }
