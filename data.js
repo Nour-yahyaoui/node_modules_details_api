@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 611
-// Last updated: 2026-10-12 21:11:56
+// Total modules: 612
+// Last updated: 2026-10-12 21:11:57
 
 module.exports = [
   {
@@ -7333,6 +7333,18 @@ module.exports = [
       "onion",
       "architecture",
       "layers"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Microkernel",
+    "description": "Microkernel architecture plugin for Fastify with plugins and extensions",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-microkernel'), { plugins: ['./plugins'] });",
+    "tags": [
+      "fastify",
+      "microkernel",
+      "plugins",
+      "extensions"
     ],
     "category": "Web Framework"
   }
