@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 648
-// Last updated: 2026-10-12 21:12:42
+// Total modules: 649
+// Last updated: 2026-10-12 21:12:43
 
 module.exports = [
   {
@@ -7779,5 +7779,17 @@ module.exports = [
       "multi"
     ],
     "category": "Real-time"
+  },
+  {
+    "title": "Fastify Listener",
+    "description": "Event listener plugin for Fastify with event handling",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-listener'), { events: ['event'] });",
+    "tags": [
+      "fastify",
+      "listener",
+      "event",
+      "handling"
+    ],
+    "category": "Utility"
   }
 ];
