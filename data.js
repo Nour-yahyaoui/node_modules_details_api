@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 182
-// Last updated: 2026-10-12 20:11:00
+// Total modules: 183
+// Last updated: 2026-10-12 20:11:01
 
 module.exports = [
   {
@@ -2185,6 +2185,18 @@ module.exports = [
       "contentful",
       "content",
       "api"
+    ],
+    "category": "Utility"
+  },
+  {
+    "title": "Prismic",
+    "description": "Prismic headless CMS client with query builder, content management, and slicing",
+    "usage": "const prismic = require('@prismicio/client'); const client = prismic.createClient('repository'); const documents = await client.getAllByType('page');",
+    "tags": [
+      "cms",
+      "prismic",
+      "content",
+      "headless"
     ],
     "category": "Utility"
   }
