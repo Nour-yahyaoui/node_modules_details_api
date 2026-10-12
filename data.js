@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 312
-// Last updated: 2026-10-12 21:05:51
+// Total modules: 313
+// Last updated: 2026-10-12 21:05:52
 
 module.exports = [
   {
@@ -3745,6 +3745,18 @@ module.exports = [
       "sanitization",
       "security",
       "html"
+    ],
+    "category": "Security"
+  },
+  {
+    "title": "Escape HTML",
+    "description": "HTML escaping and unescaping utilities for safe output",
+    "usage": "const escape = require('escape-html'); const escaped = escape('<div>Hello</div>');",
+    "tags": [
+      "escape",
+      "html",
+      "sanitization",
+      "output"
     ],
     "category": "Security"
   }
