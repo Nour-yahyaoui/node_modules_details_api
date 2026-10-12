@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 357
-// Last updated: 2026-10-12 21:06:45
+// Total modules: 358
+// Last updated: 2026-10-12 21:06:46
 
 module.exports = [
   {
@@ -4287,5 +4287,17 @@ module.exports = [
       "sql"
     ],
     "category": "Database"
+  },
+  {
+    "title": "Fastify WebSocket",
+    "description": "WebSocket plugin for Fastify with real-time bidirectional communication",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('@fastify/websocket'));",
+    "tags": [
+      "fastify",
+      "websocket",
+      "realtime",
+      "communication"
+    ],
+    "category": "Real-time"
   }
 ];
