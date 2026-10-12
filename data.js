@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 635
-// Last updated: 2026-10-12 21:12:26
+// Total modules: 636
+// Last updated: 2026-10-12 21:12:27
 
 module.exports = [
   {
@@ -7621,6 +7621,18 @@ module.exports = [
       "metadata",
       "reflection",
       "introspection"
+    ],
+    "category": "Dev Tool"
+  },
+  {
+    "title": "Fastify Reflection",
+    "description": "Reflection utilities for Fastify with runtime type inspection",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-reflection'), { });",
+    "tags": [
+      "fastify",
+      "reflection",
+      "runtime",
+      "types"
     ],
     "category": "Dev Tool"
   }
