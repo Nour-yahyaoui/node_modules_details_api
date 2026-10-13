@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 209
-// Last updated: 2026-10-13 18:09:30
+// Total modules: 210
+// Last updated: 2026-10-13 18:09:31
 
 module.exports = [
   {
@@ -2509,6 +2509,18 @@ module.exports = [
       "colors",
       "styling",
       "ansi"
+    ],
+    "category": "CLI/Tool"
+  },
+  {
+    "title": "Cli-spinners",
+    "description": "Collection of terminal spinners for CLI applications with customizable styles",
+    "usage": "const cliSpinners = require('cli-spinners'); console.log(cliSpinners.dots);",
+    "tags": [
+      "cli",
+      "spinner",
+      "terminal",
+      "animation"
     ],
     "category": "CLI/Tool"
   }
