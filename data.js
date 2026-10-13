@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 642
-// Last updated: 2026-10-13 18:18:36
+// Total modules: 643
+// Last updated: 2026-10-13 18:18:38
 
 module.exports = [
   {
@@ -7705,6 +7705,18 @@ module.exports = [
       "resolver",
       "dependency",
       "resolution"
+    ],
+    "category": "Web Framework"
+  },
+  {
+    "title": "Fastify Provider",
+    "description": "Service provider for Fastify with configuration and bootstrapping",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-provider'), { providers: ['./providers'] });",
+    "tags": [
+      "fastify",
+      "provider",
+      "service",
+      "bootstrap"
     ],
     "category": "Web Framework"
   }
