@@ -1,6 +1,6 @@
 // Node.js Library Documentation
-// Total modules: 479
-// Last updated: 2026-10-13 18:15:02
+// Total modules: 480
+// Last updated: 2026-10-13 18:15:05
 
 module.exports = [
   {
@@ -5749,6 +5749,18 @@ module.exports = [
       "mqtt",
       "iot",
       "messaging"
+    ],
+    "category": "Real-time"
+  },
+  {
+    "title": "Fastify Kafka",
+    "description": "Kafka plugin for Fastify with producer and consumer support",
+    "usage": "const fastify = require('fastify')(); fastify.register(require('fastify-kafka'), { brokers: ['localhost:9092'] });",
+    "tags": [
+      "fastify",
+      "kafka",
+      "streaming",
+      "events"
     ],
     "category": "Real-time"
   }
