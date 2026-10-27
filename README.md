@@ -2,20 +2,21 @@
 
 > **779 Node.js libraries — descriptions, usage examples, tags & categories — served by one free, CORS-enabled REST API** with a built-in searchable documentation UI.
 
-[![Node.js CI](https://github.com/Nour-yahyaoui/node_modules_details_api/actions/workflows/node.js.yml/badge.svg)](https://github.com/Nour-yahyaoui/node_modules_details_api/actions/workflows/node.js.yml)
+[![Rust CI](https://github.com/Nour-yahyaoui/node_modules_details_api/actions/workflows/rust.yml/badge.svg)](https://github.com/Nour-yahyaoui/node_modules_details_api/actions/workflows/rust.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node](https://img.shields.io/badge/node-%3E%3D18-green.svg)](package.json)
+[![Rust](https://img.shields.io/badge/Rust-Actix%20Web-orange?logo=rust)](Cargo.toml)
 
 ## 🧭 What this is
 
-This repo used to be a static dump of library notes. Now it's a real thing:
+This repo used to be a static dump of library notes, then a Node/Express API — now it's **rewritten in Rust with Actix Web** (same API contract, same dataset):
 
 - 🚀 **REST API** (`/api/...`) over a curated dataset of **779 Node.js libraries** — 17 categories, 1,200 tags
 - 🔍 **Full-text search** with relevance ranking across titles, tags and descriptions
-- 🖥️ **Browsable docs UI** at `/` — search, filter, paginate, no setup needed
+- 🖥️ **Browsable docs UI** at `/` — embedded into the binary, no static hosting needed
 - 📚 **OpenAPI 3.0 spec** served live at `/api/openapi.json`
-- 🧪 **30 tests** using Node's built-in test runner — zero dev dependencies
-- 🐳 **Dockerfile** included, deploys anywhere Node ≥ 18 runs
+- 🧪 **30 tests** using the `actix-web` test framework
+- 🦀 **Single ~300 KB dataset embedded at compile time** — one binary, zero runtime files
+- 🐳 **Dockerfile** included (multi-stage Rust build → slim runtime image)
 
 Every entry contains a plain-English **description**, a working **usage example**, **tags**, and a **category** — perfect for building dev-tools, autocomplete datasets, or just learning what's out there in the Node ecosystem.
 
@@ -24,8 +25,7 @@ Every entry contains a plain-English **description**, a working **usage example*
 ```bash
 git clone https://github.com/Nour-yahyaoui/node_modules_details_api.git
 cd node_modules_details_api
-npm install
-npm start          # → http://localhost:3000
+cargo run           # → http://localhost:3000
 ```
 
 Then open **http://localhost:3000** for the UI, or hit the API directly:
@@ -34,11 +34,10 @@ Then open **http://localhost:3000** for the UI, or hit the API directly:
 curl http://localhost:3000/api/libraries?limit=3
 ```
 
-Dev mode with auto-reload, and tests:
+Run the test suite:
 
 ```bash
-npm run dev        # node --watch
-npm test           # node --test
+cargo test
 ```
 
 ## 🔌 API Reference
@@ -133,24 +132,24 @@ docker run -p 3000:3000 node-modules-details-api
 ## 📁 Project structure
 
 ```
-├── data.js               # The dataset — 779 library entries (title, description, usage, tags, category)
+├── data.json             # The dataset — 779 library entries (title, description, usage, tags, category)
 ├── src/
-│   ├── server.js         # Entry point (PORT / HOST env vars)
-│   ├── app.js            # Express app factory (CORS, static UI, JSON errors)
-│   ├── routes/api.js     # All /api routes
-│   └── lib/
-│       ├── store.js      # Search, filtering, pagination, slugs, stats
-│       └── openapi.js    # OpenAPI 3.0 spec served at /api/openapi.json
-├── public/index.html     # Searchable docs UI (vanilla JS, no build step)
-├── test/api.test.js      # 30 tests, node:test + fetch
-└── Dockerfile
+│   ├── main.rs           # Entry point (PORT / HOST env vars)
+│   ├── lib.rs            # Route + dependency configuration
+│   ├── handlers.rs       # HTTP handlers + response helpers
+│   ├── store.rs          # Search, filtering, pagination, slugs, stats
+│   ├── error.rs          # Unified JSON error envelope (ResponseError)
+│   └── openapi.rs        # OpenAPI 3.0 spec served at /api/openapi.json
+├── public/index.html     # Searchable docs UI (embedded into the binary)
+├── tests/api_test.rs     # 30 integration tests (actix-web test framework)
+└── Dockerfile            # Multi-stage Rust build → slim runtime image
 ```
 
 ## 🤝 Adding a library
 
-The whole dataset lives in **`data.js`** — just append an entry and open a PR:
+The whole dataset lives in **`data.json`** — just append an entry and open a PR:
 
-```js
+```json
 {
   "title": "Your Library",
   "description": "What it does, in plain English",
@@ -160,7 +159,7 @@ The whole dataset lives in **`data.js`** — just append an entry and open a PR:
 }
 ```
 
-Restart the server (or `npm run dev`) and it's instantly searchable — slugs, ids, categories, tags and stats are all derived automatically.
+Rebuild (`cargo run`) and it's instantly searchable — slugs, ids, categories, tags and stats are all derived automatically.
 
 ## 📊 Current stats
 
