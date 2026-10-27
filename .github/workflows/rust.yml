@@ -9,17 +9,43 @@ on:
 env:
   CARGO_TERM_COLOR: always
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Install Rust toolchain
       uses: dtolnay/rust-toolchain@stable
     - name: Cache cargo build
       uses: Swatinem/rust-cache@v2
     - name: Build
-      run: cargo build --verbose
+      run: |
+        set -o pipefail
+        cargo build --verbose 2>&1 | tee build.log
     - name: Run tests
-      run: cargo test --verbose
+      run: |
+        set -o pipefail
+        cargo test --verbose 2>&1 | tee test.log
+    # The maintainer's review environment can only reach api.github.com, not
+    # the log-download endpoint, so surface failure output as a PR comment.
+    - name: Report failure output on the PR
+      if: failure()
+      env:
+        GH_TOKEN: ${{ github.token }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+      run: |
+        {
+          echo '### ❌ CI failure output'
+          echo '```'
+          tail -c 24000 build.log 2>/dev/null
+          tail -c 24000 test.log 2>/dev/null
+          echo '```'
+        } > comment.md
+        if [ -n "$PR_NUMBER" ]; then
+          gh pr comment "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file comment.md || true
+        fi
