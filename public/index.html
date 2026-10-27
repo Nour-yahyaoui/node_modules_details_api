@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Node Modules Details API — 779 Node.js libraries, one API</title>
+<meta name="description" content="Searchable documentation for 779 Node.js libraries: descriptions, usage examples, tags and categories — served by a free REST API." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>" />
+<style>
+  :root {
+    --bg: #0b1020;
+    --bg-soft: #11172b;
+    --card: #141b31;
+    --card-hover: #18213c;
+    --border: #232d4d;
+    --text: #e6ebff;
+    --muted: #93a0c4;
+    --accent: #6c8cff;
+    --accent-2: #22d3a7;
+    --chip: #1c2647;
+    --code-bg: #0a0f1f;
+    font-size: 16px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(1100px 500px at 80% -10%, rgba(108, 140, 255, .16), transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, rgba(34, 211, 167, .10), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+  }
+  code, pre, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header { padding: 3rem 1.5rem 1.5rem; text-align: center; }
+  .logo { font-size: 2.6rem; }
+  h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); margin-top: .4rem; letter-spacing: -.02em; }
+  h1 .grad {
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .tagline { color: var(--muted); margin-top: .5rem; font-size: 1.05rem; }
+  .stats-row { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; margin-top: 1.2rem; }
+  .stat {
+    background: var(--card); border: 1px solid var(--border); border-radius: 999px;
+    padding: .45rem 1rem; font-size: .9rem; color: var(--muted);
+  }
+  .stat b { color: var(--text); font-weight: 600; }
+
+  .controls { max-width: 1100px; margin: 1.8rem auto 0; padding: 0 1.5rem; display: flex; gap: .7rem; flex-wrap: wrap; }
+  .search-wrap { flex: 1 1 340px; position: relative; }
+  .search-wrap span { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+  input[type=search], select {
+    background: var(--bg-soft); color: var(--text); border: 1px solid var(--border);
+    border-radius: 12px; padding: .75rem 1rem; font-size: 1rem; outline: none;
+    transition: border-color .15s;
+  }
+  input[type=search] { width: 100%; padding-left: 2.4rem; }
+  input[type=search]:focus, select:focus { border-color: var(--accent); }
+  select { cursor: pointer; max-width: 220px; }
+  .btn {
+    background: linear-gradient(90deg, var(--accent), #4f6ef2); color: #fff; border: 0;
+    border-radius: 12px; padding: .75rem 1.2rem; font-size: 1rem; cursor: pointer; font-weight: 600;
+  }
+  .btn:hover { filter: brightness(1.1); }
+  .btn.ghost { background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); font-weight: 500; }
+
+  main { max-width: 1100px; margin: 1.4rem auto 3rem; padding: 0 1.5rem; }
+  .result-info { color: var(--muted); font-size: .92rem; margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.1rem 1.2rem; display: flex; flex-direction: column; gap: .6rem;
+    transition: transform .12s, border-color .12s, background .12s;
+  }
+  .card:hover { transform: translateY(-2px); border-color: #33417a; background: var(--card-hover); }
+  .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: .6rem; }
+  .card h3 { font-size: 1.08rem; letter-spacing: -.01em; }
+  .card h3 a { color: var(--text); }
+  .card h3 a:hover { color: var(--accent); text-decoration: none; }
+  .cat-chip {
+    flex-shrink: 0; background: var(--chip); border: 1px solid var(--border); color: var(--accent);
+    border-radius: 999px; padding: .18rem .65rem; font-size: .72rem; white-space: nowrap; font-weight: 600;
+  }
+  .desc { color: var(--muted); font-size: .9rem; line-height: 1.45; flex-grow: 1; }
+  pre {
+    background: var(--code-bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: .7rem .8rem; font-size: .78rem; line-height: 1.5; overflow-x: auto;
+    color: #c9d4f5; white-space: pre;
+  }
+  .tags { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .tag {
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+    border-radius: 6px; padding: .1rem .45rem; font-size: .72rem; cursor: pointer;
+  }
+  .tag:hover { color: var(--accent-2); border-color: var(--accent-2); }
+
+  .pager { display: flex; justify-content: center; align-items: center; gap: .8rem; margin-top: 2rem; flex-wrap: wrap; }
+  .page-num { color: var(--muted); font-size: .95rem; }
+
+  .empty { text-align: center; color: var(--muted); padding: 4rem 1rem; }
+  .empty .big { font-size: 2.4rem; margin-bottom: .6rem; }
+
+  section.api-docs { max-width: 1100px; margin: 0 auto 4rem; padding: 0 1.5rem; }
+  section.api-docs h2 { font-size: 1.3rem; margin-bottom: .9rem; }
+  .ep-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: .7rem; }
+  .ep {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: .8rem .95rem; font-size: .85rem;
+  }
+  .ep .m { color: var(--accent-2); font-weight: 700; font-size: .72rem; letter-spacing: .05em; }
+  .ep .p { color: var(--text); font-weight: 600; margin-left: .35rem; }
+  .ep .d { color: var(--muted); margin-top: .25rem; display: block; }
+
+  footer { border-top: 1px solid var(--border); padding: 1.6rem; text-align: center; color: var(--muted); font-size: .88rem; }
+  .spinner { display: inline-block; width: 22px; height: 22px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; margin: 3rem auto; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (max-width: 560px) { .controls select { max-width: none; flex: 1 1 45%; } }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">📦</div>
+    <h1>Node Modules <span class="grad">Details API</span></h1>
+    <p class="tagline">779 Node.js libraries — descriptions, usage examples, tags &amp; categories, one free REST API.</p>
+    <div class="stats-row" id="stats"></div>
+  </header>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <span>🔍</span>
+      <input id="q" type="search" placeholder="Search libraries… (e.g. express, websocket, orm)" autocomplete="off" />
+    </div>
+    <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+    <select id="sort" aria-label="Sort results">
+      <option value="">Best match / A→Z</option>
+      <option value="title">Title A→Z</option>
+      <option value="-title">Title Z→A</option>
+      <option value="category">Category</option>
+    </select>
+    <button class="btn ghost" id="random" title="Show a random library">🎲 Random</button>
+  </div>
+
+  <main>
+    <div class="result-info">
+      <span id="result-count"></span>
+      <span class="mono" style="font-size:.78rem" id="endpoint-shown"></span>
+    </div>
+    <div id="status" class="spinner" hidden></div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden><div class="big">🕳️</div><p>No libraries match your filters.</p></div>
+    <div class="pager" id="pager"></div>
+  </main>
+
+  <section class="api-docs">
+    <h2>🔌 REST API — free &amp; CORS-enabled</h2>
+    <div class="ep-grid" id="endpoints"></div>
+  </section>
+
+  <footer>
+    Built with Node.js + Express · data served from <a href="/api/openapi.json">this OpenAPI spec</a> ·
+    <a href="https://github.com/Nour-yahyaoui/node_modules_details_api">GitHub</a>
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  const state = { q: '', category: '', sort: '', page: 1, limit: 24 };
+  const $ = (id) => document.getElementById(id);
+
+  const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function card(lib) {
+    const tags = (lib.tags || []).map((t) =>
+      `<button class="tag" onclick="searchTag('${escapeHtml(t)}')">${escapeHtml(t)}</button>`).join('');
+    return `
+      <article class="card">
+        <div class="card-head">
+          <h3><a href="/api/libraries/${encodeURIComponent(lib.slug)}" target="_blank" rel="noopener">${escapeHtml(lib.title)}</a></h3>
+          <span class="cat-chip">${escapeHtml(lib.category)}</span>
+        </div>
+        <p class="desc">${escapeHtml(lib.description)}</p>
+        <pre>${escapeHtml(lib.usage)}</pre>
+        <div class="tags">${tags}</div>
+      </article>`;
+  }
+
+  function renderPage(payload, endpointLabel) {
+    const { data, meta } = payload;
+    $('status').hidden = true;
+    $('grid').innerHTML = data.map(card).join('');
+    $('empty').hidden = data.length > 0;
+    $('endpoint-shown').textContent = endpointLabel || '';
+    $('result-count').textContent = meta
+      ? `${meta.total.toLocaleString()} librar${meta.total === 1 ? 'y' : 'ies'} · page ${meta.page} of ${meta.pages}${meta.query ? ` · “${meta.query}”` : ''}`
+      : `${data.length} random pick${data.length === 1 ? '' : 's'}`;
+
+    const pager = $('pager');
+    pager.innerHTML = '';
+    if (!meta || meta.pages <= 1) return;
+    const mk = (label, target, disabled) => {
+      const b = document.createElement('button');
+      b.className = 'btn ghost'; b.textContent = label; b.disabled = disabled;
+      if (!disabled) b.onclick = () => { state.page = target; load(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+      pager.appendChild(b);
+    };
+    mk('← Prev', meta.page - 1, !meta.hasPrev);
+    const n = document.createElement('span');
+    n.className = 'page-num'; n.textContent = `${meta.page} / ${meta.pages}`;
+    pager.appendChild(n);
+    mk('Next →', meta.page + 1, !meta.hasNext);
+  }
+
+  function endpointLabel(params) {
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => { if (v) qs.set(k, v); });
+    const query = qs.toString();
+    return 'GET /api/libraries' + (query ? '?' + query : '');
+  }
+
+  async function load() {
+    $('status').hidden = false;
+    $('grid').innerHTML = '';
+    $('empty').hidden = true;
+    $('pager').innerHTML = '';
+    const params = { q: state.q, category: state.category, sort: state.sort, page: state.page, limit: state.limit };
+    try {
+      const res = await fetch('/api/libraries?' + new URLSearchParams(params), { headers: { Accept: 'application/json' } });
+      const payload = await res.json();
+      if (!res.ok || !payload.success) throw new Error(payload.error?.message || res.statusText);
+      renderPage(payload, endpointLabel({ q: state.q, category: state.category, sort: state.sort, page: state.page, limit: state.limit }));
+    } catch (err) {
+      $('status').hidden = true;
+      $('grid').innerHTML = '';
+      $('empty').hidden = false;
+      $('empty').innerHTML = `<div class="big">⚠️</div><p>${escapeHtml(err.message)}</p>`;
+    }
+  }
+
+  window.searchTag = function (tag) {
+    $('q').value = tag;
+    state.q = tag; state.page = 1;
+    load();
+  };
+
+  let debounce;
+  $('q').addEventListener('input', (e) => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => { state.q = e.target.value.trim(); state.page = 1; load(); }, 250);
+  });
+  $('category').addEventListener('change', (e) => { state.category = e.target.value; state.page = 1; load(); });
+  $('sort').addEventListener('change', (e) => { state.sort = e.target.value; state.page = 1; load(); });
+  $('random').addEventListener('click', async () => {
+    $('status').hidden = false;
+    try {
+      const res = await fetch('/api/random?count=3');
+      const payload = await res.json();
+      renderPage({ data: payload.data }, 'GET /api/random?count=3');
+    } catch { $('status').hidden = true; }
+  });
+
+  async function init() {
+    try {
+      const [statsRes, apiRes] = await Promise.all([fetch('/api/stats'), fetch('/api')]);
+      const stats = (await statsRes.json()).data;
+      const api = (await apiRes.json()).data;
+
+      $('stats').innerHTML = `
+        <span class="stat"><b>${stats.totalLibraries.toLocaleString()}</b> libraries</span>
+        <span class="stat"><b>${stats.totalCategories}</b> categories</span>
+        <span class="stat"><b>${stats.totalTags.toLocaleString()}</b> tags</span>
+        <span class="stat">100% free · no auth · CORS</span>`;
+
+      $('category').innerHTML = '<option value="">All categories</option>' +
+        stats.categories.map((c) => `<option value="${escapeHtml(c.name)}">${escapeHtml(c.name)} (${c.count})</option>`).join('');
+
+      $('endpoints').innerHTML = api.endpoints.map((ep) => `
+        <div class="ep">
+          <span class="m">${ep.method}</span><span class="p mono">${ep.path}</span>
+          <span class="d">${ep.description}</span>
+        </div>`).join('');
+    } catch { /* header stats are decorative */ }
+    load();
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
