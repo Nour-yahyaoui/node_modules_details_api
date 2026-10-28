@@ -85,6 +85,14 @@ impl ApiError {
     }
 }
 
+impl std::fmt::Display for ApiError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", self.message)
+    }
+}
+
+impl std::error::Error for ApiError {}
+
 impl ResponseError for ApiError {
     fn status_code(&self) -> StatusCode {
         self.status

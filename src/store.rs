@@ -288,7 +288,7 @@ impl Store {
 
         let requested_sort = args.sort.and_then(SortKey::parse);
 
-        let applied_sort: &'static str;
+        let mut applied_sort: &'static str;
         if !tokens.is_empty() {
             let mut scored: Vec<(&Library, u64)> = items
                 .into_iter()
