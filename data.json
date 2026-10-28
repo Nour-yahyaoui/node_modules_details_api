@@ -1,8 +1,4 @@
-// Node.js Library Documentation
-// Total modules: 779
-// Last updated: 2026-10-13 18:21:34
-
-module.exports = [
+[
   {
     "title": "Axios",
     "description": "Promise-based HTTP client for Node.js and browsers with automatic JSON transformation and request/response interception",
@@ -9352,4 +9348,4 @@ module.exports = [
     ],
     "category": "Real-time"
   }
-];
+]

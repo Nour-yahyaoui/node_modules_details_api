@@ -161,7 +161,7 @@
   </section>
 
   <footer>
-    Built with Node.js + Express · data served from <a href="/api/openapi.json">this OpenAPI spec</a> ·
+    Built with Rust + Actix Web · data served from <a href="/api/openapi.json">this OpenAPI spec</a> ·
     <a href="https://github.com/Nour-yahyaoui/node_modules_details_api">GitHub</a>
   </footer>
 
@@ -229,8 +229,10 @@
     $('empty').hidden = true;
     $('pager').innerHTML = '';
     const params = { q: state.q, category: state.category, sort: state.sort, page: state.page, limit: state.limit };
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => { if (v !== '' && v != null) qs.set(k, v); });
     try {
-      const res = await fetch('/api/libraries?' + new URLSearchParams(params), { headers: { Accept: 'application/json' } });
+      const res = await fetch('/api/libraries?' + qs.toString(), { headers: { Accept: 'application/json' } });
       const payload = await res.json();
       if (!res.ok || !payload.success) throw new Error(payload.error?.message || res.statusText);
       renderPage(payload, endpointLabel({ q: state.q, category: state.category, sort: state.sort, page: state.page, limit: state.limit }));

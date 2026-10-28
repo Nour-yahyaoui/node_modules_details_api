@@ -1,9 +1,9 @@
-node_modules
-npm-debug.log
+target
 .git
 .github
 test
-coverage
+tests
 Dockerfile
 .dockerignore
 .env
+*.md

@@ -1,19 +1,18 @@
-# Dependencies
-node_modules/
-
-# Logs
-logs/
-*.log
-npm-debug.log*
+# Rust build artifacts
+/target
 
 # Environment
 .env
 .env.*
 
+# Logs
+logs/
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
 
-# Coverage / test artifacts
-coverage/
-.nyc_output/
+# IDE
+.idea/
+.vscode/
