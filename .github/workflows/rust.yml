@@ -42,10 +42,11 @@ jobs:
         {
           echo '### ❌ CI failure output'
           echo '```'
-          tail -c 24000 build.log 2>/dev/null
-          tail -c 24000 test.log 2>/dev/null
+          for f in build.log test.log; do
+            if [ -f "$f" ]; then tail -c 24000 "$f" || true; fi
+          done
           echo '```'
         } > comment.md
-        if [ -n "$PR_NUMBER" ]; then
+        if [ -n "${PR_NUMBER:-}" ]; then
           gh pr comment "$PR_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file comment.md || true
         fi
